@@ -21,3 +21,7 @@ const menuLanguages = {
     'ar': 'Arabic - العربية'
 }
 ```
+
+_NOTE: Translations should also be provided for the 
+[DCVR-API](https://github.com/DOH-HTS-ADS/DigitalCovid19VaccineRecord-API) repo to ensure proper SMS and email
+translations. See that repository for more details._
