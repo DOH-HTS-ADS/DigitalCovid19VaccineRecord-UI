@@ -137,3 +137,7 @@ Success!
 
 # Software dependencies
 -	Node.js, ReactJS, git
+
+# Adding Additional Translations
+
+See (TRANSLATIONS.md)[TRANSLATIONS.md] for more information.
