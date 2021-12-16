@@ -140,4 +140,4 @@ Success!
 
 # Adding Additional Translations
 
-See [TRANSLATIONS.md](TRANSLATION.md) for more information.
+See [TRANSLATION.md](TRANSLATION.md) for more information.
