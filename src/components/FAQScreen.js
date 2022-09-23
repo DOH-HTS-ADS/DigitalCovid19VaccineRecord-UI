@@ -27,8 +27,31 @@ const FAQScreen = () => {
           WA Verify FAQ
         </Trans>
       </h1>
+      <div class="col-sm-12">
+          <h2 id="NeedMoreHelp">
+            <Trans i18nKey="faqpage.needhelptitle">
+              Need more help?
+            </Trans>
+          </h2>
+          <Trans i18nKey="faqpage.needhelpcontent01">
+            For questions and other assistance, contact:
+          </Trans>
+          <ul>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent02">1-800-525-0127, press #</Trans></li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Monday 6AM-10PM</Trans></li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Tuesday-Sunday 6AM-6PM</Trans></li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent05">Closed state holidays</Trans></li>
+          </ul>
+          <p style={{ paddingTop: 40 }}>
+            <Trans i18nKey="faqpage.needhelpcontent06">
+              <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
+              
+              <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Click here if your COVID-19 vaccination record is missing or incorrect</a>
+            </Trans>
+          </p>
+        </div>
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-12">
           <dl class="faq" style={{ width: "90%", paddingLeft: 10 }}>
             <dt>
               <button aria-expanded="false" aria-controls="faq01_desc">
@@ -80,15 +103,15 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq03_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq03_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.03answer">
-                  You can save your Digital verification record to the Apple Health app with the iOS 15
-                  operating system. You will need to use your Safari web browser to complete the process.
-                  Alternatively, you can take a screenshot of your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and
-                  save it to your photos.
+                  <p>You can save your Digital verification record to the Apple Health app with the iOS 15
+                  operating system. You will need to use your Safari web browser to complete the process.</p>
+                  <p>Alternatively, you can take a screenshot of your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and
+                  save it to your photos.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
             <dt>
               <button aria-expanded="false" aria-controls="faq04_desc">
@@ -98,15 +121,15 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq04_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq04_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.04answer">
-                  Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
-                  Android version 5 and Google Play Services version 21.18 or above.
-                  You can also screenshot your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and save it to your
-                  photos.
+                  <p>Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
+                  Android version 5 and Google Play Services version 21.18 or above.</p>
+                  <p>You can also screenshot your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and save it to your
+                  photos.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
 
             <dt>
@@ -117,14 +140,14 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq05_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq05_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.05answer">
-                  No. If you receive an additional dose or booster dose, it will not automatically reflect on
-                  your digital verification record. You will need to start over in the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system to retrieve a new QR code.
-                  We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
+                  <p>No. If you receive an additional dose or booster dose, it will not automatically reflect on
+                  your digital verification record. You will need to start over in the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system to retrieve a new QR code.</p>
+                  <p>We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
 
             <dt>
@@ -153,27 +176,26 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq07_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq07_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.07answer">
-                  Your vaccine provider submits your vaccination record to the Immunization Registry, but they
+                  <p>Your vaccine provider submits your vaccination record to the Immunization Registry, but they
                   may have provided information that's incomplete. So, it's likely we have your record, but
-                  not your correct information. For instance:
-                  
-                  ° Mobile phone number or email address was not included or does not match
-                  ° Name is spelled differently
-                  ° Date of birth does not match
-
-                  To find your record, try re-entering your information with a different email or mobile number.
-                  If your record still isn’t found, contact your provider to update your vaccination record or
+                  not your correct information. For instance:</p>
+                  <ul>
+                  <li>Mobile phone number or email address was not included or does not match</li>
+                  <li>Name is spelled differently</li>
+                  <li>Date of birth does not match</li>
+                  </ul>
+                  <p>To find your record, try re-entering your information with a different email or mobile number.
+                  If your record still isn't found, contact your provider to update your vaccination record or
                   <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a> to request a review of your record. You'll be notified of our findings and
-                  remediation actions within 2-3 weeks.
-
-                  If you received your vaccination from a federal agency (like the Department of Defense, Indian
+                  remediation actions within 2-3 weeks.</p>
+                  <p>If you received your vaccination from a federal agency (like the Department of Defense, Indian
                   Health Services or Veterans Affairs), you will need to contact those agencies for assistance
-                  with your vaccination.
+                  with your vaccination.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
 
             <dt>
@@ -224,18 +246,18 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq10_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq10_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.10answer">
-                  Yes. Filling out the form on the system does not provide instant access to your verification
+                  <p>Yes. Filling out the form on the system does not provide instant access to your verification
                   record. The link to the verification record requires a PIN that you create and is sent only
-                  to the mobile phone or email that is associated with your immunization record.
+                  to the mobile phone or email that is associated with your immunization record.</p>
 
-                  The QR code is a SMART Health Card, a secure copy of your verification record. More
+                  <p>The QR code is a SMART Health Card, a secure copy of your verification record. More
                   information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }} >https://smarthealth.cards</a>. To protect your privacy, the QR code
-                  can only be scanned and read by a SMART Health Card-compliant device.
+                  can only be scanned and read by a SMART Health Card-compliant device.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
 
             <dt>
@@ -345,29 +367,7 @@ const FAQScreen = () => {
             </dd>
           </dl>
         </div>
-        <div class="col-sm-4">
-          <h2 id="NeedMoreHelp">
-            <Trans i18nKey="faqpage.needhelptitle">
-              Need more help?
-            </Trans>
-          </h2>
-          <Trans i18nKey="faqpage.needhelpcontent01">
-            For questions and other assistance, contact:
-          </Trans>
-          <ul>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent02">1-800-525-0127, press #</Trans></li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Monday 6AM-10PM</Trans></li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Tuesday-Sunday 6AM-6PM</Trans></li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent05">Closed state holidays</Trans></li>
-          </ul>
-          <p style={{ paddingTop: 40 }}>
-            <Trans i18nKey="faqpage.needhelpcontent06">
-              <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
-              
-              <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Click here if your COVID-19 vaccination record is missing or incorrect</a>
-            </Trans>
-          </p>
-        </div>
+        
       </div>
     </div>
   );
