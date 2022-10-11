@@ -193,9 +193,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             {user.dob}
           </p>
           <hr />
-
+          <ol>
           {user.doses.map((dose, idx) => (
-            <div key={`dose${idx}`}>
+            <li key={`dose${idx}`}>
               <p className="qrDataItem">
                 <bdi>
                   {i18n.language != "en" ? (
@@ -236,9 +236,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 {dose.lotNumber}
               </p>
               <hr />
-            </div>
+            </li>
           ))}
-
+          </ol>
           {/* <h2
             style={{
               color: "#22489c",
