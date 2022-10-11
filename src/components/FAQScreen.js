@@ -107,8 +107,7 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.03answer">
                   <p>You can save your Digital verification record to the Apple Health app with the iOS 15
                   operating system. You will need to use your Safari web browser to complete the process.</p>
-                  <p>Alternatively, you can take a screenshot of your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and
-                  save it to your photos.</p>
+                  
                 </Trans>
                 <hr/>
               </div>
@@ -125,8 +124,7 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.04answer">
                   <p>Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
                   Android version 5 and Google Play Services version 21.18 or above.</p>
-                  <p>You can also screenshot your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and save it to your
-                  photos.</p>
+                  
                 </Trans>
                 <hr/>
               </div>
