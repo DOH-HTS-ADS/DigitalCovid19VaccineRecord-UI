@@ -135,5 +135,19 @@
     "needhelpcontent05": "Imefungwa sikukuu",
     "needhelpcontent06": "<0>KUMBUKA:</0> Hatuwezi kusasisha Rekodi yako ya Kidijitali ya Uthibitishaji wa COVID-19 kwenye simu.",
     "vaccineVerificationLink": "https://doh.wa.gov/sw/mwongozo-wa-uthibitisho-rasmi-wa-chanjo-ya-covid-19-katika-jimbo-la-washington"
+  },
+  "month": {
+    "january": "Januari",
+    "february": "Februari",
+    "march": "Machi",
+    "april": "Aprili",
+    "may": "Mei",
+    "june": "Juni",
+    "july": "Julai",
+    "august": "Agosti",
+    "september": "Septemba",
+    "october": "Oktoba",
+    "november": "Novemba",
+    "december": "Desemba"
   }
 }

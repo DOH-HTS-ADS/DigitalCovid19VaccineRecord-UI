@@ -138,5 +138,19 @@
     "needhelpcontent05": "Cerrado los días festivos estatales",
     "needhelpcontent06": "<0>NOTA</0>: No podemos actualizar su Registro digital de verificación de COVID-19 por teléfono",
     "vaccineVerificationLink": "https://doh.wa.gov/es/emergencies-covid-19-vaccine-information/certificado-de-vacunacion"
+  },
+  "month": {
+    "january": "enero",
+    "february": "febrero",
+    "march": "marzo",
+    "april": "abril",
+    "may": "mayo",
+    "june": "junio",
+    "july": "julio",
+    "august": "agosto",
+    "september": "septiembre",
+    "october": "octubre",
+    "november": "noviembre",
+    "december": "diciembre"
   }
 }

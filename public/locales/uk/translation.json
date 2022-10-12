@@ -135,5 +135,19 @@
     "needhelpcontent05": "У святкові дні дзвінки не приймаються",
     "needhelpcontent06": "<0>ПРИМІТКА.</0> Ми не можемо оновити ваш електронний запис про підтвердження вакцинації від COVID-19 через телефон.",
     "vaccineVerificationLink": "https://doh.wa.gov/uk/ilyustrovanyy-posibnyk-dlya-shtatu-vashynhton-pidtverdzhennya-vaktsynatsiyi-vid-covid-19"
+  },
+  "month": {
+    "january": "січень",
+    "february": "лютий",
+    "march": "березень",
+    "april": "квітень",
+    "may": "травень",
+    "june": "червень",
+    "july": "липень",
+    "august": "серпень",
+    "september": "вересень",
+    "october": "жовтень",
+    "november": "листопад",
+    "december": "грудень"
   }
 }

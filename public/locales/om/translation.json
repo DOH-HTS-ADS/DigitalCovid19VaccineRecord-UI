@@ -135,5 +135,19 @@
     "needhelpcontent05": "Guyyaa ayyaana waggaa naannoo kan cufaa ta’an",
     "needhelpcontent06": "<0>YAADACHIISA:</0> Mirkaneessa Ragaa Dijitaalaa COVID-19 keessan bilbilaan haaressuu hin dandeenye.",
     "vaccineVerificationLink": "https://doh.wa.gov/om/qajeelcha-fakkii-visual-guide-naannoo-washington-seera-qabeessa-taetti-geessu-ragaa-talaallii-covid"
+  },
+  "month": {
+    "january": "Amajjii",
+    "february": "Guraandhala",
+    "march": "Bitootessa",
+    "april": "Ebla",
+    "may": "Caamsaa",
+    "june": "Waxabajjii",
+    "july": "Adoolessa",
+    "august": "Hagayya",
+    "september": "Fulbaana/Birraa",
+    "october": "Onkololeessa",
+    "november": "Sadaasa",
+    "december": "Mudde"
   }
 }

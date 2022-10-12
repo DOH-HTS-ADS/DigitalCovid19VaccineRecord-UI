@@ -135,5 +135,19 @@
         "needhelpcontent05": "அரசு விடுமுறை நாட்கள்",
         "needhelpcontent06": "<0>குறிப்பு: </0> உங்கள் மின்னணு கொவிட்-19 சரிபார்ப்புப் பதிவு ஐ ஃபோன் மூலம் எங்களால் புதுப்பிக்க இயலவில்லை.",
         "vaccineVerificationLink": "https://doh.wa.gov/ta/ataikaarapapaurava-vaasainatana-maanailatatairakaana-kaatacai-valaikaatatai-kaovaita-19"
+    },
+    "month": {
+      "january": "ஜனவரி",
+      "february": "பிப்ரவரி",
+      "march": "மார்ச்",
+      "april": "ஏப்ரல்",
+      "may": "மே",
+      "june": "ஜூன்",
+      "july": "ஜூலை",
+      "august": "ஆகஸ்ட்",
+      "september": "செப்டம்பர்",
+      "october": "அக்டோபர்",
+      "november": "நவம்பர்",
+      "december": "டிசம்பர்"
     }
 }

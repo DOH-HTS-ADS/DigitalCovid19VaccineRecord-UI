@@ -135,5 +135,19 @@
     "needhelpcontent05": "Nda kivi ja nduu satiñu",
     "needhelpcontent06": "<0>NOTA:</0> Ma kuu ja nasa’a jáá sa Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19 jín in yokaa.",
     "vaccineVerificationLink": "https://doh.wa.gov/xtu/tutu-ja-ni-tava-nuu-washinton-siki-nasa-iyo-vacuna-covid-19-nda-nayivi"
+  },
+  "month": {
+    "january": "Enero ",
+    "february": "Febrero",
+    "march": "Marzo",
+    "april": "Abril",
+    "may": "Mayo",
+    "june": "Junio",
+    "july": "Julio",
+    "august": "Agosto",
+    "september": "Septiembre",
+    "october": "Octubre",
+    "november": "Noviembre",
+    "december": "Diciembre"
   }
 }

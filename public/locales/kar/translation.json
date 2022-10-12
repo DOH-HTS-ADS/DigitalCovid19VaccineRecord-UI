@@ -135,5 +135,19 @@
         "needhelpcontent05": "ကးတံာ်ဖဲကီၢ်စဲၣ်နံၤသဘျ့တဖၣ်",
         "needhelpcontent06": "<0>တိၢ်နီၣ်:</0> ပမၤသီထီၣ် န ဒံးကၠံၣ်တၢၣ်(လ) COVID-19 တၢ်အုၣ်သးတၢ်မၤနီၣ်မၤဃါ ခီဖျိလီတဲစိတသ့ဘၣ်.",
         "vaccineVerificationLink": "https://doh.wa.gov/kar/ttnaikailtthliiaiilathnaiaphiikhi-chuu-washington-kiicai-phisaic-ttchai-covid-19-ksndiisd-ttaus"
+    },
+    "month": {
+      "january": "လါယနူၤအါရံၣ်",
+      "february": "လါဖ့ၣ်ဘြူၤအါရံၣ်",
+      "march": "လါမာ်ၡး",
+      "april": "လါအ့ဖြ့ၣ်",
+      "may": "လါမ့ၤ",
+      "june": "လါယူၤ",
+      "july": "လါယူၤလံ",
+      "august": "လါအီကူာ်",
+      "september": "လါစဲးပတ့ဘၢၣ်",
+      "october": "လါအီးကထိဘၢၣ်",
+      "november": "လါနိၣ်ဝ့ဘၢၣ်",
+      "december": "လါဒံၣ်စဲဘၢၣ်"
     }
 }

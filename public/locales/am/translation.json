@@ -135,5 +135,19 @@
     "needhelpcontent05": "ዝግ የግዛት በዓላት",
     "needhelpcontent06": "<0>ማስታወሻ፡</0>- የእርስዎን ዲጂታል የ COVID-19 ማረጋገጫ መዝገብ በስልክ ማዘመን አልቻልንም።",
     "vaccineVerificationLink": "https://doh.wa.gov/am/yayefaawi-ya-washington-gezaate-yaeyetaa-mamariyaa-ya-covid-19-ketebaate-maaragaagachaa"
+  },
+  "month": {
+    "january": "ጃንዋሪ",
+    "february": "ፌብሩዋሪ",
+    "march": "ማርች",
+    "april": "ኤፕሪል",
+    "may": "ሜይ",
+    "june": "ጁን",
+    "july": "ጁላይ",
+    "august": "ኦገስት",
+    "september": "ሴፕቴምበር",
+    "october": "ኦክቶበር",
+    "november": "ኖቬምበር",
+    "december": "ዲሴምበር"
   }
 }

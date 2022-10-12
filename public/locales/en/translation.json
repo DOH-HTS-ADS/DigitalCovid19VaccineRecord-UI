@@ -141,5 +141,19 @@
     "needhelpcontent05": "Closed state holidays",
     "needhelpcontent06": "<0>NOTE</0>: We're unable to update your Digital COVID-19 Verification Record over the phone.",
     "vaccineVerificationLink": "https://doh.wa.gov/emergencies/covid-19/vaccine-information/vaccination-verification"
+  },
+  "month": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
   }
 }

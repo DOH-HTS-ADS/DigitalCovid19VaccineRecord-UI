@@ -135,5 +135,19 @@
     "needhelpcontent05": "Eyalet tatillerinde kapalıdır", 
     "needhelpcontent06": "<0>NOT:</0> Dijital COVID-19 Doğrulama Kaydı’nızı telefon üzerinden güncelleyemiyoruz ",
     "vaccineVerificationLink": "https://doh.wa.gov/tr/washington-eyaleti-resmi-covid-19-asi-kaniti-gorsel-kilavuzu"
+  },
+  "month": {
+    "january": "Ocak",
+    "february": "Şubat",
+    "march": "Mart",
+    "april": "Nisan",
+    "may": "Mayıs",
+    "june": "Haziran",
+    "july": "Temmuz",
+    "august": "Ağustos",
+    "september": "Eylül",
+    "october": "Ekim",
+    "november": "Kasım",
+    "december": "Aralık"
   }
 }

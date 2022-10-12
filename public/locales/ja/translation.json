@@ -131,5 +131,19 @@
       "needhelpcontent05": "州の祭日は休業日となります", 
       "needhelpcontent06": "<0>注意：</0>お電話でのコロナワクチン接種電子記録の更新手続きは受け付けておりません",
       "vaccineVerificationLink": "https://doh.wa.gov/ja/washintonzhougongshicovid-19-wakuchinjiezhongzhengmingniguansuruhishiyuarukaito"
+  },
+  "month": {
+    "january": "1月",
+    "february": "2月",
+    "march": "3月",
+    "april": "4月",
+    "may": "5月",
+    "june": "6月",
+    "july": "7月",
+    "august": "8月",
+    "september": "9月",
+    "october": "10月",
+    "november": "11月",
+    "december": "12月"
   }
 }

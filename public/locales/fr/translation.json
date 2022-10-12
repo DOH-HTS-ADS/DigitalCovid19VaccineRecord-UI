@@ -136,5 +136,19 @@
     "needhelpcontent05": "Fermé les jours fériés", 
     "needhelpcontent06": "<0>REMARQUE:</0> Nous ne sommes pas en mesure de mettre à jour votre Attestation numérique de vaccination COVID-19 par téléphone",
     "vaccineVerificationLink": "https://doh.wa.gov/fr/guide-visuel-des-justificatifs-de-vaccination-covid-19-officiels-de-letat-de-washington"
+  },
+  "month": {
+    "january": "janvier",
+    "february": "février",
+    "march": "mars",
+    "april": "avril",
+    "may": "mai",
+    "june": "juin",
+    "july": "juillet",
+    "august": "août",
+    "september": "septembre",
+    "october": "octobre",
+    "november": "novembre",
+    "december": "décembre"
   }
 }

@@ -135,5 +135,19 @@
         "needhelpcontent05": "ปิดให้บริการวันหยุดนักขัตฤกษ์", 
         "needhelpcontent06": "<0>หมายเหตุ:</0> เราไม่สามารถอัปเดตบันทึกการยืนยันเกี่ยวกับโควิด-19 แบบดิจิทัลของคุณทางโทรศัพท์ได้",
         "vaccineVerificationLink": "https://doh.wa.gov/th/khuumuuexphaphkhxngrathwxchingtanxyangepnthangkar-hlakthankarchiidwakhsiinokhwid-19"
+    },
+    "month": {
+      "january": "มกราคม",
+      "february": "กุมภาพันธ์",
+      "march": "มีนาคม",
+      "april": "เมษายน",
+      "may": "พฤษภาคม",
+      "june": "มิถุนายน",
+      "july": "กรกฎาคม",
+      "august": "สิงหาคม",
+      "september": "กันยายน",
+      "october": "ตุลาคม",
+      "november": "พฤศจิกายน",
+      "december": "ธันวาคม"
     }
 }

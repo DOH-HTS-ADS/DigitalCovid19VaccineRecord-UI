@@ -135,5 +135,19 @@
     "needhelpcontent05": "په دولتي رخصتیو تړل شوی وي",
     "needhelpcontent06": "<0>یادونه:</0> موږ نشو کولی ستاسو د ډیجیټل COVID-19 تائید ثبت په تلیفون باندې تازه کړو.",
     "vaccineVerificationLink": "https://doh.wa.gov/ps/pashto-6"
+  },
+  "month": {
+    "january": "جنوري",
+    "february": "فروري",
+    "march": "مارچ",
+    "april": "آپرېل",
+    "may": "مي",
+    "june": "جون",
+    "july": "جولاي",
+    "august": "آګست",
+    "september": "سپتمبر",
+    "october": "آکتوبر",
+    "november": "نومبر",
+    "december": "دسمبر"
   }
 }

@@ -135,5 +135,19 @@
     "needhelpcontent05": "Kesip atun state holiday",
     "needhelpcontent06": "<0>MI AUCHEA:</0> Sise tongeni ach sipwe siwini noum Digital COVID-19 Afatan Record on fon.",
     "vaccineVerificationLink": "https://doh.wa.gov/chk/awenewen-kopwe-kuna-ren-ofes-napen-washington-state-pwaratan-apposun-covid-19"
+  },
+  "month": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
   }
 }

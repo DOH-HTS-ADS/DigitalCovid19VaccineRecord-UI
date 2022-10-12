@@ -135,5 +135,19 @@
     "needhelpcontent05": "ਸਰਕਾਰੀ ਛੁੱਟੀਆਂ 'ਤੇ ਬੰਦ ਰਹਿੰਦਾ ਹੈ",
     "needhelpcontent06": "<0>ਨੋਟ: </0>ਅਸੀਂ ਤੁਹਾਡੇ ਡਿਜ਼ੀਟਲ ਕੋਵਿਡ-19 ਵੈਰੀਫਿਕੇਸ਼ਨ ਰਿਕਾਰਡ ਨੂੰ ਫ਼ੋਨ 'ਤੇ ਅਪਡੇਟ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਹਾਂ।",
     "vaccineVerificationLink": "https://doh.wa.gov/pa/adhaikaarata-vaasaingatana-sataeeta-lai-vaijauuala-gaaida-covid-19-taikaakarana-daa-paramaana"
+  },
+  "month": {
+    "january": "ਜਨਵਰੀ",
+    "february": "ਫਰਵਰੀ",
+    "march": "ਮਾਰਚ",
+    "april": "ਅਪ੍ਰੈਲ",
+    "may": "ਮਈ",
+    "june": "ਜੂਨ",
+    "july": "ਜੁਲਾਈ",
+    "august": "ਅਗਸਤ",
+    "september": "ਸਤੰਬਰ",
+    "october": "ਅਕਤੂਬਰ",
+    "november": "ਨਵੰਬਰ",
+    "december": "ਦਸੰਬਰ"
   }
 }

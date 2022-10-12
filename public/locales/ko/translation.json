@@ -135,5 +135,19 @@
     "needhelpcontent05": "주정부 국경일 휴무 ",
     "needhelpcontent06": "<0>참고</0>: 전화로는 귀하의 디지털 COVID-19 인증 기록을 업데이트할 수 없습니다.",
     "vaccineVerificationLink": "https://doh.wa.gov/ko/gongsig-wosingteonju-sigagjeog-annaejalyo-covid-19-baegsin-jeobjong-jeungmyeong"
+  },
+  "month": {
+    "january": "1월",
+    "february": "2월",
+    "march": "3월",
+    "april": "4월",
+    "may": "5월",
+    "june": "6월",
+    "july": "7월",
+    "august": "8월",
+    "september": "9월",
+    "october": "10월",
+    "november": "11월",
+    "december": "12월"
   }
 }

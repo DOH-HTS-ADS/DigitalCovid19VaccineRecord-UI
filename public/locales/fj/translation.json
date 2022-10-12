@@ -135,5 +135,19 @@
     "needhelpcontent05": "Sogo ena olodei ni matanitu",
     "needhelpcontent06": "<0>NANUMA:</0> Keitou sega ni rawa ni veisautaka na kemu iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19 ena talevoni.",
     "vaccineVerificationLink": "https://doh.wa.gov/fj/emergencies-covid-19/icula-ni-covid-19"
+  },
+  "month": {
+    "january": "Janueri",
+    "february": "Feperueri",
+    "march": "Maji",
+    "april": "Epereli",
+    "may": "Me",
+    "june": "June",
+    "july": "Julai",
+    "august": "Okosita",
+    "september": "Seviteba",
+    "october": "Okotova",
+    "november": "Noveba",
+    "december": "Tiseba"
   }
 }

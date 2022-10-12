@@ -138,5 +138,19 @@
     "needhelpcontent05": "法定假日關閉 ",
     "needhelpcontent06": "<0>注</0>: 我們無法透過電話方式更新您的數位 COVID-19 驗證記錄。",
     "vaccineVerificationLink": "https://doh.wa.gov/zh-hant/huashengdunzhouguanfang-covid-19-yimiaojiezhongzhengming-shijuezhinan"
+  },
+  "month": {
+    "january": "一月",
+    "february": "二月",
+    "march": "三月",
+    "april": "四月",
+    "may": "五月",
+    "june": "六月",
+    "july": "七月",
+    "august": "八月",
+    "september": "九月",
+    "october": "十月",
+    "november": "十一月",
+    "december": "十二月"
   }
 }

@@ -135,5 +135,19 @@
     "needhelpcontent05": "ریاستی تعطیلات پر بند رہے گا",
     "needhelpcontent06": "<0>نوٹ:</0> ہم فون پر آپ کے ڈیجیٹل کووڈ-19 تصدیقی ریکارڈ میں ترمیم کرنے سے قاصر ہیں۔",
     "vaccineVerificationLink": "https://doh.wa.gov/ur/urdu-7"
+  },
+  "month": {
+    "january": "جنوری",
+    "february": "فروری",
+    "march": "مارچ",
+    "april": "اپریل",
+    "may": "مئی",
+    "june": "جون",
+    "july": "جولائی",
+    "august": "اگست",
+    "september": "ستمبر",
+    "october": "اکتوبر",
+    "november": "نومبر",
+    "december": "دسمبر"
   }
 }

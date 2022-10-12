@@ -135,5 +135,19 @@
     "needhelpcontent05": "राज्य बिदाहरूमा बन्द हुन्छ",
     "needhelpcontent06": "<0>नोट:</0> हामी फोनबाट तपाईंको डिजिटल कोभिड-19 प्रमाणीकरण रेकर्डबारे असमर्थ छौं।",
     "vaccineVerificationLink": "https://doh.wa.gov/ne/adhaikaaraika-vaasainagatana-raajayakaa-laagai-darsayaatamaka-maaragadarasaka-kaobhaida-19-khaopakao"
+  },
+  "month": {
+    "january": "जनवरी",
+    "february": "फेब्रुअरी",
+    "march": "मार्च",
+    "april": "अप्रिल",
+    "may": "मे",
+    "june": "जुन",
+    "july": "जुलाई",
+    "august": "अगस्ट",
+    "september": "सेप्टेम्बर",
+    "october": "अक्टोबर",
+    "november": "नोभेम्बर",
+    "december": "डिसेम्बर"
   }
 }

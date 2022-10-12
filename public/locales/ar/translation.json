@@ -135,5 +135,19 @@
     "needhelpcontent05": "مغلق في أيام العطلات بالولاية",
     "needhelpcontent06": "<0>ملاحظة:</0> لا نستطيع تحديث سجل التحقق الرقمي من فيروس كوفيد-19 الخاص بك عبر الهاتف.",
     "vaccineVerificationLink": "https://doh.wa.gov/ar/arabic-8"
+  },
+  "month": {
+    "january": "يناير",
+    "february": "فبراير",
+    "march": "مارس",
+    "april": "أبريل",
+    "may": "مايو",
+    "june": "يونيو",
+    "july": "يوليو",
+    "august": "أغسطس",
+    "september": "سبتمبر",
+    "october": "أكتوبر",
+    "november": "نوفمبر",
+    "december": "ديسمبر"
   }
 }

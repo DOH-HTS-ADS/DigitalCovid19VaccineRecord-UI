@@ -135,5 +135,19 @@
         "needhelpcontent05": "បិទផ្អាកដំណើរការនៅថ្ងៃ​ឈប់សម្រាក​របស់រដ្ឋ​​", 
         "needhelpcontent06": "<0>សម្គាល់៖</0> យើង​មិនអាច​ធ្វើបច្ចុប្បន្នភាព​កំណត់ត្រា​ផ្ទៀងផ្ទាត់​ជំងឹ​ COVID-19 ជាទម្រង់​ឌីជីថលនៅលើទូរសព្ទបានទេ​។​",
         "vaccineVerificationLink": "https://doh.wa.gov/km/ruupbhaabpnghaanykaarnnaenaamdaukaanbhstutaangphluuvkaar-naikaarcaakvaaksaamngjmngyy-covid-19"
+    },
+    "month": {
+      "january": "មករា",
+      "february": "កុម្ភៈ",
+      "march": "មីនា",
+      "april": "មេសា",
+      "may": "ឧសភា",
+      "june": "មិថុនា",
+      "july": "កក្កដា",
+      "august": "សីហា",
+      "september": "កញ្ញា",
+      "october": "តុលា",
+      "november": "វិច្ឆិកា",
+      "december": "ធ្នូ"
     }
 }

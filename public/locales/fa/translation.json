@@ -135,5 +135,19 @@
     "needhelpcontent05": "در‌طول تعطیلات ایالتی بسته است",
     "needhelpcontent06": "<0>توجه:</0> ما نمیتوانیم «نسخه دیجیتال گواهی واکسیناسیون COVID-19» شما را ازطریق تلفن بهروزرسانی کنیم.",
     "vaccineVerificationLink": "https://doh.wa.gov/fa/farsi-7"
+  },
+  "month": {
+    "january": "ژانویه",
+    "february": "فوریه",
+    "march": "مارس",
+    "april": "آوریل",
+    "may": "مه",
+    "june": "ژوئن",
+    "july": "ژوئیه",
+    "august": "اوت",
+    "september": "سپتامبر",
+    "october": "اکتبر",
+    "november": "نوامبر",
+    "december": "دسامبر"
   }
 }

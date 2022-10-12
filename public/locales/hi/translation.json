@@ -135,5 +135,19 @@
     "needhelpcontent05": "बंद राजकीय अवकाश",
     "needhelpcontent06": "<0>ध्यान दें:</0> हम फ़ोन पर आपके डिजिटल COVID-19 वेरिफिकेशन रिकॉर्ड को अपडेट करने में असमर्थ हैं।",
     "vaccineVerificationLink": "https://doh.wa.gov/hi/adhaikaaraika-vaasaingatana-raajaya-kae-laie-vaijauala-gaaida-covid-19-taikaakarana-kaa-paramaana"
+  },
+  "month": {
+    "january": "जनवरी",
+    "february": "फ़रवरी",
+    "march": "मार्च",
+    "april": "अप्रैल",
+    "may": "मई",
+    "june": "जून",
+    "july": "जुलाई",
+    "august": "अगस्त",
+    "september": "सितंबर",
+    "october": "अक्टूबर",
+    "november": "नवंबर",
+    "december": "दिसंबर"
   }
 }

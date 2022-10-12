@@ -135,5 +135,19 @@
     "needhelpcontent05": "В дни государственных праздников звонки не принимаются",
     "needhelpcontent06": "<0>ПРИМЕЧАНИЕ.</0> Мы не можем обновить вашу цифровую запись о вакцинации от COVID-19 по телефону.",
     "vaccineVerificationLink": "https://doh.wa.gov/ru/illyustrirovannoe-rukovodstvo-dlya-shtata-vashington-podtverzhdenie-vakcinacii-ot-covid-19"
+  },
+  "month": {
+    "january": "январь",
+    "february": "февраль",
+    "march": "март",
+    "april": "апрель",
+    "may": "май",
+    "june": "июнь",
+    "july": "июль",
+    "august": "август",
+    "september": "сентябрь",
+    "october": "октябрь",
+    "november": "ноябрь",
+    "december": "декабрь"
   }
 }

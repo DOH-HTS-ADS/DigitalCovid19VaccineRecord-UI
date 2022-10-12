@@ -135,5 +135,19 @@
     "needhelpcontent05": "Ngày lễ tiểu bang đóng cửa ",
     "needhelpcontent06": "<0>LƯU Ý</0>: Chúng tôi không thể cập nhật Hồ sơ Xác nhận COVID-19 kỹ thuật số của bạn qua điện thoại.",
     "vaccineVerificationLink": "https://doh.wa.gov/vi/huong-dan-truc-quan-ve-bang-chung-tiem-vac-xin-covid-19-chinh-thuc-cua-tieu-bang-washington"
+  },
+  "month": {
+    "january": "Tháng Một",
+    "february": "Tháng Hai",
+    "march": "Tháng Ba",
+    "april": "Tháng Tư",
+    "may": "Tháng Năm",
+    "june": "Tháng Sáu",
+    "july": "Tháng Bảy",
+    "august": "Tháng Tám",
+    "september": "Tháng Chín",
+    "october": "Tháng Mười",
+    "november": "Tháng Mười Một",
+    "december": "Tháng Mười Hai"
   }
 }

@@ -135,5 +135,19 @@
     "needhelpcontent05": "Tapunia i aso malolo o le settee",
     "needhelpcontent06": "<0>FAASILASILAGA:</0> O le a le mafai ona faafouina ou Faamatalaga Faamaonia o le KOVITI-19 i luga o le telefoni.",
     "vaccineVerificationLink": "https://doh.wa.gov/sm/taiala-vaaia-aloaia-le-setete-o-uosigitone-i-le-faamaonia-o-tui-puipui-o-le-koviti-19"
+  },
+  "month": {
+    "january": "Ianuari",
+    "february": "Fepuari",
+    "march": "Mati",
+    "april": "Aperila",
+    "may": "Me",
+    "june": "Iuni",
+    "july": "Iulai",
+    "august": "'Aokuso",
+    "september": "Setema",
+    "october": "'Oketopa",
+    "november": "Novema",
+    "december": "Tesema"
   }
 }

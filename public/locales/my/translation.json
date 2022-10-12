@@ -135,5 +135,19 @@
         "needhelpcontent05": "ပြည်နယ်ရုံးပိတ်ရက်များတွင် ပိတ်ပါသည်",
         "needhelpcontent06": "<0>မှတ်ချက်</0> - သင့် ဒီဂျစ်တယ်လ် ကိုဗစ်-19 အတည်ပြုချက် မှတ်တမ်းကို ဖုန်းပေါ်တွင် မွမ်းမံလို့မရပါ။",
         "vaccineVerificationLink": "https://doh.wa.gov/my/ttraawng-wrngttnpnnynysiu-anliungmlmnnyn-kiubc-19-kaakychethiupiikeaang-skse"
+    },
+    "month": {
+      "january": "ဇန်န၀ါရီလ",
+      "february": "ဖေဖော်ဝါရီလ",
+      "march": "မတ်လ",
+      "april": "ဧပြီလ",
+      "may": "မေလ",
+      "june": "ဂျွန်လ",
+      "july": "ဇူလိုင်လ",
+      "august": "သြဂုတ်လ",
+      "september": "စက်တင်ဘာလ",
+      "october": "အောက်တိုဘာလ",
+      "november": "နို၀င်ဘာလ",
+      "december": "ဒီဇင်ဘာလ"
     }
 }

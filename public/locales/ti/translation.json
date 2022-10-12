@@ -135,5 +135,19 @@
     "needhelpcontent05": "በዓላት መዕጸዊ መንግስቲ",
     "needhelpcontent06": "<0>መዘኻኸሪ፥</0> ንሕና ብቴለፎን ናትኩም ዲጂታላዊ ናይ ኮቪድ-19 መረጋገጺ መዝገብ ከነማሓይሾ ኣይከኣልናን።",
     "vaccineVerificationLink": "https://doh.wa.gov/ti/beaayeni-zerea-mamerehhi-newageaawi-gezeaate-waashenegetane-maragaagatsi-ketaabate-kovide-19"
+  },
+  "month": {
+    "january": "ጥሪ",
+    "february": "ለካቲት",
+    "march": "መጋቢት",
+    "april": "ሚያዝያ",
+    "may": "ግንቦት",
+    "june": "ሰነ",
+    "july": "ሓምለ",
+    "august": "ነሓሰ",
+    "september": "መስከረም",
+    "october": "ጥቅምቲ",
+    "november": "ሕዳር",
+    "december": "ታሕሳስ"
   }
 }

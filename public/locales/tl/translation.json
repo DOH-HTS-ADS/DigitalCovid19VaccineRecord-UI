@@ -136,5 +136,19 @@
     "needhelpcontent05": "Sarado sa mga piyesta-opisyal ng estado",
     "needhelpcontent06": "<0>TANDAAN:</0> Hindi namin maa-update sa pamamagitan ng telepono ang iyong Digital na Talaan ng Pagberipika para sa COVID-19",
     "vaccineVerificationLink": "https://doh.wa.gov/tl/biswal-na-gabay-sa-opisyal-na-katibayan-ng-pagpapabakuna-sa-covid-19-sa-estado-ng-washington"
+  },
+  "month": {
+    "january": "Enero",
+    "february": "Pebrero",
+    "march": "Marso",
+    "april": "Abril",
+    "may": "Mayo",
+    "june": "Hunyo",
+    "july": "Hulyo",
+    "august": "Agosto",
+    "september": "Setyembre",
+    "october": "Oktubre",
+    "november": "Nobyembre",
+    "december": "Disyembre"
   }
 }

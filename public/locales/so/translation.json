@@ -135,5 +135,19 @@
     "needhelpcontent05": "Xiran xilliyada fasaxyada/ciidaha gobolka",
     "needhelpcontent06": "<0>OGSOONOOW:</0> Ma awoodno inaan taleefanka ku cusbooneysiino Diiwaankaada Xaqiijinta Tallaalka COVID-19 Dhijitaalka Ah.",
     "vaccineVerificationLink": "https://doh.wa.gov/so/tusmada-muuqata-ee-saraakiisha-gobalka-washington-caddaynta-talaalka-covid-19"
+  },
+  "month": {
+    "january": "Janaayo",
+    "february": "Feebaraayo",
+    "march": "Maarso",
+    "april": "Abriil",
+    "may": "Maayo",
+    "june": "Juun",
+    "july": "Luuliyo",
+    "august": "Agoosto",
+    "september": "Sibteembar",
+    "october": "Oktoobar",
+    "november": "Nufeembar",
+    "december": "Diseembar"
   }
 }

@@ -135,5 +135,19 @@
     "needhelpcontent05": "Închis în zilele de sărbători legale.",
     "needhelpcontent06": "<0>NOTĂ:</0> nu putem actualiza niciun Certificat digital COVID-19 la telefon.",
     "vaccineVerificationLink": "https://doh.wa.gov/ro/ghid-vizual-privind-dovada-oficiala-de-vaccinare-anti-covid-19-statul-washington"
+  },
+  "month": {
+    "january": "ianuarie",
+    "february": "februarie",
+    "march": "martie",
+    "april": "aprilie",
+    "may": "mai",
+    "june": "iunie",
+    "july": "iulie",
+    "august": "august",
+    "september": "septembrie",
+    "october": "octombrie",
+    "november": "noiembrie",
+    "december": "decembrie"
   }
 }
