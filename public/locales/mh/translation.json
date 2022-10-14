@@ -102,9 +102,9 @@
     "02question": "Ewi wāwein aer bōktok rekoot in wā eo ao?",
     "02answer": "N̄e rekar bukōt rekoot in kamool eo am, kwōnaj bōk juon link ilo email ak telebon nōmba eo ikijen rekoot in kamool eo. Elikin am likit 4-digit PIN nōmba eo am, kwōnij loe melele in kein kamool COVID-19 ko am āinwōt et eo etam, raan in lōtak, raan ko kwar wā, im etan wā ko. Kwōnaj bar bōk juon QR code bwe en kamool rekoot in kein kamool eo am. ",
     "03question": "Imāron̄ ke kakwon rekoot in kein kamool ao online ilo juon telebon in iPhone?",
-    "03answer": "<0>Kwōmāron̄ kakwon rekoot in kein kamool eo am ilo online n̄an app in Apple Health ippen system in iOS 15. Kwōnij aikuij kōjerbal Safari n̄an am kadedelọk jerbal in. </0><1>Bōtab, kwōmāron̄ bōk pija in screen eo am me ej kwalok <1>Rekoot in Kein Kamool COVID-19 eo am ilo online</1> im kakwone ibben pija ko ilo telebon eo am.</0>",
+    "03answer": "<0>Kwōmāron̄ kakwon rekoot in kein kamool eo am ilo online n̄an app in Apple Health ippen system in iOS 15. Kwōnij aikuij kōjerbal Safari n̄an am kadedelọk jerbal in. </0>",
     "04question": "Imāron̄ ke kakwon Rekoot in Kein Kamool eo ao ilo juon telebon in Android?",
-    "04answer": "<0>Aet. Kwōmāron̄ kakwone <1>Rekoot in Kein Kamool COVID-19 eo am ilo online</1> n̄an Google Play ewōr am Android version 5 im Google Play Services version 21.18 ak lōn̄lak.</0><1>Kwōmāron̄ bar bōk pija in screen eo am me ej kwalok <1> Rekoot in Kein Kamool COVID-19 eo am ilo online</1> im kakwone ibben pija ko ilo telebon eo am.</1>",
+    "04answer": "<0>Aet. Kwōmāron̄ kakwone <1>Rekoot in Kein Kamool COVID-19 eo am ilo online</1> n̄an Google Play ewōr am Android version 5 im Google Play Services version 21.18 ak lōn̄lak.</0>",
     "05question": "N̄e iar bar bōk wā ko jet, renij ke walok ilo rekoot in kein kamool eo ao?",
     "05answer": "<0>Jab. N̄e kwar bōk bar juon wā ak wā in kakjur eo, eban walok ilo rekoot in kein kamool eo am ilo online. Kwōnij aikuij bar jino jen jinoin ilo system eo n̄an <1>Rekoot in Kein Kamool COVID-19 eo am ilo online</1> bwe kwōn bar bōk juon QR code ekāāl.</0><1>Jej rōjan̄ bwe kwōn kōttar 3-7 raan n̄an an walok wā eo am ekāāl ilo Immunization Registry. </1>",
     "06question": "N̄aat enij walok wā eo ao ilo rekoot in kein kamool eo ao ilo online?",
@@ -118,9 +118,9 @@
     "10question": "Melele ko ao renij ke ittino?",
     "10answer": "<0>Aet. Ilo am kanne peba eo ilo system in ejjab kamōkaj an pellọk rekoot in kein kamool eo am. Link eo n̄an rekoot in kein kamool eo ej aikuij juon PIN me kwar kōmmane im jilkinlak wōt QR code eo n̄an SMART Health Card, copy in rekoot in kein kamool eo am ej lab aer kejbaroke.</0><1>Melele ko relaplak ej bed ilo <1>https://smarthealth.cards</1>. N̄an kejbarok melele ko am, QR code eo emāron̄ wōt scan im jerbal wōt kōn juon kein jerbal an SMART Health Card.</1>",
     "11question": "Imāron̄ ke jeniji PIN eo ao?",
-    "11answer": "Aet. Enij wōr 24 awa jen ien eo kwar bōk link eo n̄an am kōmmane juon 4-digit PIN im kapellọke <1>Rekoot in Kein Kamool COVID-19 eo am ilo online</1>. N̄e kwōjjab, link eo n̄an rekoot eo am ilo online enij ban jerbal, ak kwōmāron̄ bar jino jen jinoin im jeniji PIN eo am ilo am kōjerbale system eo n̄an <3>Rekoot in Kein Kamool COVID-19 ilo online</3>.<br />N̄e kwōjjab māron̄ in kememej PIN eo am, kwōmāron̄ bar anōk lajraak ko ilōn̄ im kōmmane juon PIN ekāāl elikin 24 awa.<br /><5>KŌJELLĀ: Eban jako QR code eo am elikin am kar kakwone im kapellọk rekoot eo am ilo online.</5>",
+    "11answer": "<0>Aet. Enij wōr 24 awa jen ien eo kwar bōk link eo n̄an am kōmmane juon 4-digit PIN im kapellọke <1>Rekoot in Kein Kamool COVID-19 eo am ilo online</1>. N̄e kwōjjab, link eo n̄an rekoot eo am ilo online enij ban jerbal, ak kwōmāron̄ bar jino jen jinoin im jeniji PIN eo am ilo am kōjerbale system eo n̄an <3>Rekoot in Kein Kamool COVID-19 ilo online</3>.<0><1>N̄e kwōjjab māron̄ in kememej PIN eo am, kwōmāron̄ bar anōk lajraak ko ilōn̄ im kōmmane juon PIN ekāāl elikin 24 awa.</1><2><0>KŌJELLĀ: Eban jako QR code eo am elikin am kar kakwone im kapellọk rekoot eo am ilo online.</0></2>",
     "12question": "Men in enij ke kamool ke iar bōk wā ko?",
-    "12answer": "Aet. Men in ej juon ilo <1>jet ian wāwein ko</1> n̄an am kwalok <3>Rekoot in Kein Kamool COVID-19 eo am ilo online</3>  im emāron̄ print ak kwalok online. Kwōmāron̄ bar kwalok CDC COVID-19 card eo am ak rekoot in wā eo am. <br />Kwōjjab aikuij in bōk <5>Rekoot in Kein Kamool COVID-19 ilo online</5>. Ej juon ian wāwein ko n̄an am bōk melele ko n̄an kamool COVID-19 im ej wāwein am loe rekoot in kamool eo am ilo online. Kien eban kōmman juon system n̄an an aolep kwalok aer wā.",
+    "12answer": "<0>Aet. Men in ej juon ilo <1>jet ian wāwein ko</1> n̄an am kwalok <3>Rekoot in Kein Kamool COVID-19 eo am ilo online</3>  im emāron̄ print ak kwalok online. Kwōmāron̄ bar kwalok CDC COVID-19 card eo am ak rekoot in wā eo am.</0><1>Kwōjjab aikuij in bōk <1>Rekoot in Kein Kamool COVID-19 ilo online</1>. Ej juon ian wāwein ko n̄an am bōk melele ko n̄an kamool COVID-19 im ej wāwein am loe rekoot in kamool eo am ilo online. Kien eban kōmman juon system n̄an an aolep kwalok aer wā.</1>",
     "13question": "N̄e ij aikuij kakāāl card in wā eo ao?",
     "13answer": "System in ej kwalok copy in rekoot in kein kamool eo am ilo online. N̄e ejako peba in rekoot in kein kamool eo am, kwōmāron̄ print rekoot eo am ilo online im kōjerbale. N̄e ejako <1>Rekoot in Kein Kamool COVID-19 eo am ilo online </1>, kwōj bar aikuij jino jen jinoin ilo system eo. ",
     "14question": "Ta enij walok n̄an melele ko ao elikin ao ajelọk?",
@@ -135,5 +135,19 @@
     "needhelpcontent05": "Kilōk ilo raan in kakije ko an kien",
     "needhelpcontent06": "<0>KŌJELLĀ:</0> Jejjab māron̄ in kakāāl Rekoot in Kein Kamool COVID-19 eo am ilo online ilo telebon.",
     "vaccineVerificationLink": "https://doh.wa.gov/mh/juon-kein-kajinet-nan-am-loe-emoj-kamool-state-eo-washington-kein-kammol-kin-wa-eo-covid-19"
+  },
+  "month": {
+    "january": "Jānwōde ",
+    "february": "Pāpode",
+    "march": "Ṃaaj",
+    "april": "Eprōḷ",
+    "may": "Mei",
+    "june": "Juun",
+    "july": "Julae",
+    "august": "Ọkoj",
+    "september": "Jepteṃba",
+    "october": "Oktoba",
+    "november": "Nobeṃba",
+    "december": "Tiijōṃba"
   }
 }
