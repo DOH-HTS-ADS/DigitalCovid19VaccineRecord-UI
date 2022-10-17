@@ -102,9 +102,9 @@
     "02question": "Auf welchem Wege erhalte ich mein Impfzertifikat?",
     "02answer": "Wenn Ihr Impfzertifikat gefunden wird, erhalten Sie einen Link an die E-Mail-Adresse oder Handynummer, die mit dem Impfpass verknüpft ist. Nachdem Sie Ihre vierstellige PIN eingegeben haben, sehen Sie die Daten Ihres COVID-19-Zertifikats, einschließlich Ihres Namens, Geburtsdatums, Datums der Impfung(en) und des Impfstoffherstellers. Außerdem erhalten Sie einen scanbaren QR-Code, der bestätigt, dass Ihr Impfzertifikat echt ist.",
     "03question": "Kann ich mein Digitalzertifikat auf einem iPhone speichern?",
-    "03answer": "<0>Sie können Ihr Digitalzertifikat in der Apple Health-App mit dem Betriebssystem iOS 15 speichern. Für diesen Vorgang müssen Sie Ihren Safari-Webbrowser verwenden. </0> ",
+    "03answer": "<0>Sie können Ihr Digitalzertifikat in der Apple Health-App mit dem Betriebssystem iOS 15 speichern. Für diesen Vorgang müssen Sie Ihren Safari-Webbrowser verwenden. </0><1>Sie können aber auch einen Screenshot Ihres <1>COVID-19-Digitalzertifikats</1> in Ihren Fotos speichern.</1> ",
     "04question": "Kann ich mein Digitalzertifikat auf einem Android-Gerät speichern?",
-    "04answer": "<0>Ja, Sie können Ihr <1>COVID-19-Digitalzertifikat</1> in Google Play speichern, wenn Sie Android Version 5 und Google Play Services Version 21.18 oder höher verwenden. </0>",
+    "04answer": "<0>Ja, Sie können Ihr <1>COVID-19-Digitalzertifikat</1> in Google Play speichern, wenn Sie Android Version 5 und Google Play Services Version 21.18 oder höher verwenden. </0><1>Sie können aber ebenso einen Screenshot Ihres <1>COVID-19-Digitalzertifikats</1> in Ihren Fotos speichern.</1>",
     "05question": "Wenn ich zusätzliche Dosen erhalte, werden diese in meinem Digitalzertifikat angezeigt?",
     "05answer": "<0>Nein. Wenn Sie eine zusätzliche Dosis oder Auffrischungsdosis erhalten, wird diese nicht automatisch in Ihrem Digitalzertifikat angezeigt. Sie müssen dann im <1>COVID-19-Digitalzertifikat</1> System erneut einen QR-Code abzurufen.</0><1>Wir empfehlen Ihnen, 3-7 Tage zu warten, bis Ihre neue Dosis im Impfregister angezeigt wird.</1>",
     "06question": "Wann wird meine Impfstoffdosis in meinem Digitalzertifikat verfügbar sein?",
@@ -118,9 +118,9 @@
     "10question": "Bleibt die Vertraulichkeit meiner Daten gewahrt?",
     "10answer": "<0>Ja, das Ausfüllen des Formulars im System bietet keinen sofortigen Zugriff auf Ihr Impfzertifikat. Der Link zum Impfzertifikat erfordert eine von Ihnen erstellte PIN, die nur an die Handynummer oder die E-Mail-Adresse gesendet wird, die mit Ihrem Impfpass verknüpft ist. </0><1>Der QR-Code ist eine SMART Health Card (SMART-Gesundheitspass), eine sichere Kopie Ihres Impfzertifikats. Weitere Informationen finden Sie unter <1>https://smarthealth.cards</1>. Zum Schutz Ihrer Privatsphäre kann der QR-Code nur von einem mit der SMART Health Card kompatiblen Gerät gescannt und ausgelesen werden. </1>",
     "11question": "Kann ich meine PIN zurücksetzen?",
-    "11answer": "<0>Ja, Ab Erhalt des Links haben Sie 24 Stunden Zeit, um Ihre vierstellige PIN einzugeben und auf Ihr <1>COVID-19-Digitalzertifikat</1>  zuzugreifen. Wenn Sie dies nicht tun, verfällt der Link zu Ihrem Digitalzertifikat, aber Sie können noch einmal von vorn beginnen und Ihre PIN mithilfe des <3>COVID-19-Digitalzertifikat</3>-Systems  zurücksetzen.</0><1>Wenn Sie sich nicht an Ihre PIN erinnern können, können Sie nach 24 Stunden den gleichen Vorgang erneut durchführen und eine neue PIN erstellen. </1><2><0>HINWEIS: Nachdem Sie dann auf Ihr Digitalzertifikat zugegriffen und Ihren QR-Code gespeichert haben, verfällt er nicht mehr.</0></2>",
+    "11answer": "Ja, Ab Erhalt des Links haben Sie 24 Stunden Zeit, um Ihre vierstellige PIN einzugeben und auf Ihr <1>COVID-19-Digitalzertifikat</1>  zuzugreifen. Wenn Sie dies nicht tun, verfällt der Link zu Ihrem Digitalzertifikat, aber Sie können noch einmal von vorn beginnen und Ihre PIN mithilfe des <3>COVID-19-Digitalzertifikat</3>-Systems  zurücksetzen. <br />Wenn Sie sich nicht an Ihre PIN erinnern können, können Sie nach 24 Stunden den gleichen Vorgang erneut durchführen und eine neue PIN erstellen. <br /><5>HINWEIS: Nachdem Sie dann auf Ihr Digitalzertifikat zugegriffen und Ihren QR-Code gespeichert haben, verfällt er nicht mehr.</5> ",
     "12question": "Kann ich damit meinen Impfstatus nachweisen?",
-    "12answer": "<0>Ja, dies ist eine von <1>mehreren Möglichkeiten</1>, wie Sie Ihr <3>COVID-19-Digitalzertifikat</3> vorzeigen können, und es kann ausgedruckt oder digital angezeigt werden. Sie können aber auch Ihren COVID-19-Impfausweis vom Centers for Disease Control and Prevention (CDC, Zentrum für Seuchenkontrolle und -prävention) oder den von Ihrem Bundesstaat ausgestellten Impfpass vorzeigen.</0><1>Sie müssen sich nicht unbedingt ein <1>COVID-19-Digitalzertifikat</1> ausstellen lassen. Es ist ein optionaler Weg, um Ihr COVID-19-Zertifikat zu erhalten, und es ist die digitale Version Ihres Impfnachweises auf Papier. Es ist eine der Möglichkeiten, einen Impfnachweis vorzuzeigen. Der Bundesstaat wird kein obligatorisches Pass-System einführen.</1>",
+    "12answer": "Ja, dies ist eine von <1>mehreren Möglichkeiten</1>, wie Sie Ihr <3>COVID-19-Digitalzertifikat</3> vorzeigen können, und es kann ausgedruckt oder digital angezeigt werden. Sie können aber auch Ihren COVID-19-Impfausweis vom Centers for Disease Control and Prevention (CDC, Zentrum für Seuchenkontrolle und -prävention) oder den von Ihrem Bundesstaat ausgestellten Impfpass vorzeigen. <br />Sie müssen sich nicht unbedingt ein <5>COVID-19-Digitalzertifikat</5> ausstellen lassen. Es ist ein optionaler Weg, um Ihr COVID-19-Zertifikat zu erhalten, und es ist die digitale Version Ihres Impfnachweises auf Papier. Es ist eine der Möglichkeiten, einen Impfnachweis vorzuzeigen. Der Bundesstaat wird kein obligatorisches Pass-System einführen. ",
     "13question": "Was ist, wenn ich meinen Impfausweis ersetzen muss?",
     "13answer": "Vom System wird eine digitale Kopie des Impfzertifikats ausgegeben. Wenn Sie Ihr Impfzertifikat in Papierform verloren haben, können Sie Ihr Digitalzertifikat ausdrucken und dieses verwenden. Wenn Sie Ihr <1>COVID-19-Digitalzertifikat</1> verlieren, können Sie den Vorgang im System erneut beginnen. ",
     "14question": "Was geschieht mit meinen Daten, nachdem ich diese weitergegeben habe?",
@@ -135,19 +135,5 @@
     "needhelpcontent05": "An bundesstaatlichen Feiertagen geschlossen",
     "needhelpcontent06": "<0>HINWEIS:</0> Wir können Ihr COVID-19-Digitalzertifikat nicht telefonisch aktualisieren.",
     "vaccineVerificationLink": "https://doh.wa.gov/de/visueller-leitfaden-zum-offiziellen-nachweis-der-covid-19-impfung-des-staates-washington"
-  },
-  "month": {
-    "january": "Januar",
-    "february": "Februar",
-    "march": "März",
-    "april": "April",
-    "may": "Mai",
-    "june": "Juni",
-    "july": "Juli",
-    "august": "August",
-    "september": "September",
-    "october": "Oktober",
-    "november": "November",
-    "december": "Dezember"
   }
 }

@@ -107,7 +107,8 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.03answer">
                   <p>You can save your Digital verification record to the Apple Health app with the iOS 15
                   operating system. You will need to use your Safari web browser to complete the process.</p>
-                  
+                  <p>Alternatively, you can take a screenshot of your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and
+                  save it to your photos.</p>
                 </Trans>
                 <hr/>
               </div>
@@ -124,7 +125,8 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.04answer">
                   <p>Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
                   Android version 5 and Google Play Services version 21.18 or above.</p>
-                  
+                  <p>You can also screenshot your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and save it to your
+                  photos.</p>
                 </Trans>
                 <hr/>
               </div>
@@ -266,20 +268,20 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <div id="faq11_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <p id="faq11_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.11answer">
-                  <p>Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and
+                  Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and
                   access your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. If you don't, the link to your digital
                   record will expire, but you can start over and reset your PIN using the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19
-                  Verification Record</a> system.</p>
+                  Verification Record</a> system.
 
-                  <p>If you can't remember your PIN, after 24 hours you can use the same process and create a new
-                  PIN.</p>
-                  <p><i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
-                    expire.</i></p>
+                  If you can't remember your PIN, after 24 hours you can use the same process and create a new
+                  PIN.
+                  <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
+                    expire.</i>
                 </Trans>
                 <hr/>
-              </div>
+              </p>
             </dd>
             <dt>
               <button aria-expanded="false" aria-controls="faq12_desc">
@@ -289,23 +291,23 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <div id="faq12_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <p id="faq12_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.12answer">
-                  <p>Yes. It is one of
+                  Yes. It is one of
                   <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={t("faqpage.vaccineVerificationLink")} target="CoronaVirus" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>
                     several options
                   </ReactGA.OutboundLink>
                   for providing your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>
                   and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
-                  your state immunization record.</p>
+                  your state immunization record.
 
-                  <p>You are not required to obtain a <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. It is an optional
+                  You are not required to obtain a <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. It is an optional
                   means to obtain your COVID-19 verification information, and is the digital version of your
                   paper verification record. It is one of the options to show proof of vaccination. The state
-                  will not be implementing a mandatory passport system.</p>
+                  will not be implementing a mandatory passport system.
                 </Trans>
                 <hr/>
-              </div>
+              </p>
             </dd>
 
             <dt>

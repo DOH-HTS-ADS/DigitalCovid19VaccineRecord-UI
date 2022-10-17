@@ -193,9 +193,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             {user.dob}
           </p>
           <hr />
-          <ol>
+
           {user.doses.map((dose, idx) => (
-            <li key={`dose${idx}`}>
+            <div key={`dose${idx}`}>
               <p className="qrDataItem">
                 <bdi>
                   {i18n.language != "en" ? (
@@ -236,9 +236,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 {dose.lotNumber}
               </p>
               <hr />
-            </li>
+            </div>
           ))}
-          </ol>
+
           {/* <h2
             style={{
               color: "#22489c",
@@ -249,7 +249,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             className={'mobile-save'}>
             <Trans i18nKey="qrpage.howtosave">To Save</Trans>
           </h2> */}
-          <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}><Trans i18nKey="qrpage.howtosave">To Save</Trans></p>
+          <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}><Trans i18nKey="qrpage.howtosave">To Save</Trans><br /><Trans i18nKey="qrpage.takeascreenshot">Take a screenshot</Trans><br /><Trans i18nKey="qrpage.or">Or</Trans></p>
           <div className="save-buttons" data-html2canvas-ignore="true">
             <Button id={'print-button'} variant="contained" startIcon={<PrintIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
             <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={i18n.dir(i18n.language) == "rtl" ? classes.buttonRight : classes.buttonLeft}  onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
