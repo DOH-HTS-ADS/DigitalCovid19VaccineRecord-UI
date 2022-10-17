@@ -103,9 +103,9 @@
     "02question": "Paano ipapadala ang aking talaan sa pagberipika?",
     "02answer": "Kapag nahanap na ang iyong talaan ng pagberipika, makakatanggap ka ng link na ipapadala sa email o numero ng mobile na telepono na nauugnay sa talaan ng pagpapabakuna. Matapos ilagay ang iyong PIN na may apat na digit, makikita mo ang iyong impormasyon sa pagberipika para sa COVID-19 kung saan kasama ang iyong pangalan, petsa ng kapanganakan, (mga) petsa ng pagpapabakuna, at manufacturer ng bakuna. Makakatanggap ka rin ng QR code na maaaring i-scan, na magpapatunay sa iyong talaan ng pagberipika.",
     "03question": "Maaari ko bang i-save ang aking digital na talaan ng pagberipika sa iPhone?",
-    "03answer": "<0>Maaari mong i-save ang iyong Digital na talaan ng pagberipika sa Apple Health app na may iOS 15 operating system. Kakailanganin mong gamitin ang iyong Safari web browser para tapusin ang proseso. </0><1>Maaari mo ring i-screenshot ang iyong <1>Digital na Talaan ng Pagberipika para sa COVID-19</1> at i-save ito sa iyong mga larawan.</1>",
+    "03answer": "<0>Maaari mong i-save ang iyong Digital na talaan ng pagberipika sa Apple Health app na may iOS 15 operating system. Kakailanganin mong gamitin ang iyong Safari web browser para tapusin ang proseso. </0>",
     "04question": "Maaari ko bang i-save ang aking Digital na talaan ng pagberipika sa Android device?",
-    "04answer": "<0>Oo. Maaari mong i-save ang iyong <1>Digital na Talaan ng Pagberipika para sa COVID-19</1> sa Google Play kung mayroon kang Android na bersyon 5 at Google Play Services na bersyon 21.18 pataas.</0><1> Maaari mo ring i-screenschot ang iyong <1>Digital na Talaan ng Pagberipika para sa COVID-19</1> at i-save ito sa iyong mga larawan.</1>",
+    "04answer": "<0>Oo. Maaari mong i-save ang iyong <1>Digital na Talaan ng Pagberipika para sa COVID-19</1> sa Google Play kung mayroon kang Android na bersyon 5 at Google Play Services na bersyon 21.18 pataas.</0>",
     "05question": "Kung tatanggap ako ng mga karagdagang dosis, makikita ba ang mga ito sa aking digital na talaan ng pagberipika?",
     "05answer": "<0>Hindi. Kung nakatanggap ka ng karagdagang dosis o booster na dosis, hindi ito awtomatikong makikita sa iyong digital na talaan ng pagberipika. Kakailanganin mong magsimula ulit sa system ng <1>Digital na Talaan ng Pagberipika para sa COVID-19</1> para makakuha ng bagong QR code. </0><1>Inirerekomenda naming maghintay nang 3-7 araw para lumabas ang iyong bagong dosis sa Rehistro ng Pagpapabakuna.</1>",
     "06question": "Kailan lalabas ang dosis ng bakuna ko sa aking digital na talaan ng pagberipika?",
@@ -119,9 +119,9 @@
     "10question": "Mananatili bang pribado ang aking impormasyon?",
     "10answer": "<0>Oo. Kapag sinagutan ang form sa system, hindi ibig sabihin ay magbibigay ng instant na access sa iyong talaan ng pagberipika. Kailangan ang gagawin mong PIN para sa link papunta sa talaan ng pagberipika at ipapadala lang ito sa mobile na telepono o email na nauugnay sa iyong talaan ng pagpapabakuna.</0><1> Ang QR code ay isang SMART Health Card (SMART na Card sa Kalusugan), na secure na kopya ng iyong talaan ng pagberipika. Marami pang impormasyon sa <1>https://smarthealth.cards</1>. Para protektahan ang iyong privacy, maaari lang i-scan at basahin ang QR code sa isang device na tugma sa SMART Health Card.</1>",
     "11question": "Maaari ko bang i-reset ang aking PIN?",
-    "11answer": "Oo. Mayroon kang 24 na oras mula sa oras na natanggap mo ang link para ilagay ang PIN mo na may apat na digit at i-access ang iyong <1>Digital na Talaan ng Pagberipika para sa COVID-19</1>. Kung hindi mo ito magagawa, mawawalan na ng bisa ang link papunta sa iyong digital na talaan, pero maaari kang magsimula ulit at mag-reset ng PIN gamit ang system ng <3>Digital na Talaan ng Pagberipika para sa COVID-19</3>.<br /> Kung hindi mo maalala ang iyong PIN, maaari mo ring gamitin ang prosesong ito para gumawa ng bagong PIN pagkalipas ng 24 na oras.<br /> <5>TANDAAN: Kapag na-access mo na ang iyong digital na talaan at na-save mo na ang QR code mo, hindi ito mawawalan ng bisa.</5>",
+    "11answer": "<0>Oo. Mayroon kang 24 na oras mula sa oras na natanggap mo ang link para ilagay ang PIN mo na may apat na digit at i-access ang iyong <1>Digital na Talaan ng Pagberipika para sa COVID-19</1>. Kung hindi mo ito magagawa, mawawalan na ng bisa ang link papunta sa iyong digital na talaan, pero maaari kang magsimula ulit at mag-reset ng PIN gamit ang system ng <3>Digital na Talaan ng Pagberipika para sa COVID-19</3>.</0><1> Kung hindi mo maalala ang iyong PIN, maaari mo ring gamitin ang prosesong ito para gumawa ng bagong PIN pagkalipas ng 24 na oras.</1><2> <0>TANDAAN: Kapag na-access mo na ang iyong digital na talaan at na-save mo na ang QR code mo, hindi ito mawawalan ng bisa.</0></2>",
     "12question": "Magsisilbi ba ito bilang katibayan ng aking katayuan sa pagpapabakuna?",
-    "12answer": "Oo. Isa ito sa <1>maraming opsiyon</1> para sa pagbibigay ng iyong <3>Digital na Talaan ng Pagberipika para sa COVID-19</3> at puwede itong i-print o ipakita sa digital na paraan. Maaari mo ring ipakita ang COVID-19 card mo mula sa Centers for Disease Control and Prevention (CDC, o Mga Sentro sa Pagkontrol at Pag-iwas sa Sakit) o ang iyong talaan ng pagpapabakuna ng estado.<br /> Hindi mo kailangang kumuha ng <5>Digital na Talaan ng Pagberipika para sa COVID-19</5>. Isa itong opsiyonal na paraan para makuha ang iyong impormasyon sa pagberipika para sa COVID-19 at digital na bersyon ng iyong papel na talaan ng pagberipika. Ito ay isa sa mga opsiyon para magpakita ng katibayan ng pagpapabakuna. Hindi magpapatupad ang estado ng mandatoryong sistema para sa pasaporte.",
+    "12answer": "<0>Oo. Isa ito sa <1>maraming opsiyon</1> para sa pagbibigay ng iyong <3>Digital na Talaan ng Pagberipika para sa COVID-19</3> at puwede itong i-print o ipakita sa digital na paraan. Maaari mo ring ipakita ang COVID-19 card mo mula sa Centers for Disease Control and Prevention (CDC, o Mga Sentro sa Pagkontrol at Pag-iwas sa Sakit) o ang iyong talaan ng pagpapabakuna ng estado.</0><1> Hindi mo kailangang kumuha ng <1>Digital na Talaan ng Pagberipika para sa COVID-19</1>. Isa itong opsiyonal na paraan para makuha ang iyong impormasyon sa pagberipika para sa COVID-19 at digital na bersyon ng iyong papel na talaan ng pagberipika. Ito ay isa sa mga opsiyon para magpakita ng katibayan ng pagpapabakuna. Hindi magpapatupad ang estado ng mandatoryong sistema para sa pasaporte.</1>",
     "13question": "Paano kung kailangan kong palitan ang aking card ng pagpapabakuna?",
     "13answer": "Nagbibigay ang system ito ng digital na kopya ng iyong talaan ng pagberipika. Kung nawala mo ang iyong papel na card ng pagberipika, maaari mong i-print ang iyong digital na talaan at gamitin ito. Kung nawala mo ang iyong <1>Digital na Talaan ng Pagberipika para sa COVID-19</1>, puwede mong simulan ulit ang proseso sa system.",
     "14question": "Ano ang mangyayari sa aking impormasyon matapos ko itong ibahagi?",
@@ -136,5 +136,19 @@
     "needhelpcontent05": "Sarado sa mga piyesta-opisyal ng estado",
     "needhelpcontent06": "<0>TANDAAN:</0> Hindi namin maa-update sa pamamagitan ng telepono ang iyong Digital na Talaan ng Pagberipika para sa COVID-19",
     "vaccineVerificationLink": "https://doh.wa.gov/tl/biswal-na-gabay-sa-opisyal-na-katibayan-ng-pagpapabakuna-sa-covid-19-sa-estado-ng-washington"
+  },
+  "month": {
+    "january": "Enero",
+    "february": "Pebrero",
+    "march": "Marso",
+    "april": "Abril",
+    "may": "Mayo",
+    "june": "Hunyo",
+    "july": "Hulyo",
+    "august": "Agosto",
+    "september": "Setyembre",
+    "october": "Oktubre",
+    "november": "Nobyembre",
+    "december": "Disyembre"
   }
 }

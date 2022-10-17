@@ -102,9 +102,9 @@
     "02question": "‘E ma’u fakafēfē ‘eku lēkooti fakamo’oni huhu malu’i?", 
     "02answer": "Ko e ma’u pe ho’o lēkooti fakamo’oni huhu malu’í, te ke ma’u leva ha link ki ho’o ‘imeili pe fika telefoni to’oto’o ‘oku tauhi’aki ho’o lēkooti huhu malu’i. Hili ho’o fakahū ho’o mata’ifika ‘e fā-fakapulipuli PIN, te ke lava leva ‘o vakai ki ho’o fakamatala fakamo’oni huhu malu’i COVID-19 ‘o kau ai ho hingoa, ‘aho fa’ele’i, (‘ū) ’aho huhu malu’i, mo e kautaha ngaohi ‘a e huhu malu’í. Te ke ma’u foki mo e QR code ke fakapapau’i’aki ho’o lēkooti fakamo’oni huhu malu’í.", 
     "03question": "Teu lava ‘o tauhi ‘eku lēkooti fakamo’oni huhu malu’i ‘i he’eku iPhone?", 
-    "03answer": "<0>Te ke lava ‘o tauhi ho’o lēkooti fakamo’oni ki ho’o app ‘i he Apple Health ‘aki ‘a e fa’unga iOS 15. Te ke ngaue’aki ‘a e Safari ke fakakakato’aki ‘a e ngaué ni.</0><1>Ko e founga ‘e taha, te ke lava ‘o faitā ho’o <1>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</1> ‘o tauhi ki ho’o ‘ū taá.</1>", 
+    "03answer": "<0>Te ke lava ‘o tauhi ho’o lēkooti fakamo’oni ki ho’o app ‘i he Apple Health ‘aki ‘a e fa’unga iOS 15. Te ke ngaue’aki ‘a e Safari ke fakakakato’aki ‘a e ngaué ni.</0>", 
     "04question": "Teu lava ‘o tauhi ‘eku lēkooti fakamo’oni huhu malu’i ‘i he’eku Android?", 
-    "04answer": "<0>‘Io. Te ke lava ‘o tauhi ho’o <1>Lēkooti fakamo’oni huhu malu'I COVID-19</1> ki he Google Play kapau ‘oku ke ma’u ‘a e version 5 ‘o e Android mo e Sēvesi Google Play ‘i he kalesi 21.18 pe ma’olunga ange.</0><1>Te ke lava foki ‘o faitā ho’o <1>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</1> ‘o tauhi ki ho’o ‘ū taá.</1>", 
+    "04answer": "<0>‘Io. Te ke lava ‘o tauhi ho’o <1>Lēkooti fakamo’oni huhu malu'I COVID-19</1> ki he Google Play kapau ‘oku ke ma’u ‘a e version 5 ‘o e Android mo e Sēvesi Google Play ‘i he kalesi 21.18 pe ma’olunga ange.</0>", 
     "05question": "Kapau teu toe ma’u ha ngaahi huhu fakalahi, ‘e ‘asi eni ‘i he’eku lēkooti fakamo’oni?", 
     "05answer": "<0>‘Ikai. Kapau te ke toe ma’u ha ngaahi huhu malu’i fakalahi pe huhu tānaki, he’ikai ke ‘asi atu ai pē ‘i ho’o lēkooti fakamo’oni. ‘E pau ke ke kamata fo’ou ‘i he fa’unga <1>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</1> ke toe ma’u ha QR code.</0><1>‘Oku mau fokotu’u atu ke ke tali ha ‘aho ‘e 3-7 ki ho’o huhu fo’ou ke ‘asi ‘i he Lēsisita Huhu Malu’í.</1>", 
     "06question": "‘E ‘asi fakakū ‘huhu malu’i fakalahi ‘i he’eku lēkooti fakamo’oni huhu malu’i?", 
@@ -118,9 +118,9 @@
     "10question": "‘E malu pe ‘eku ngaahi fakamatalá?", 
     "10answer": "<0>‘Io. He’ikai ma’u pe he taimi ko iá ho’o lēkooti fakamo’oní ‘i ho’o fakafonu ‘a e foomú. Ko e link ki he lēkooti fakamo’oní ‘e fiema’u ki ai ‘a e PIN na’a ke fa’ú pea ‘e tuku atu pe ia ki he fika telefoni to’oto’o mo e ‘imeili ‘oku tauhi’aki ho’o lēkooti huhu malu’í.</0><1>Ko e QR code ko e SMART Health Card (Kaati Mo’ui SMART) ia, ko e tatau malu ho’o lēkooti fakamo’oni huhu malu’í. ‘E toe ma’u atu ha ngaahi fakamatala ‘I he <1>https://smarthealth.cards</1>. Ke malu’i ho’o ngaahi fakamatalá, ko e me’angāue SMART Health Card pe te ne lava ‘o scan ho’o QR code.</1>", 
     "11question": "Teu lava ‘o toe fakafo’ou ‘edu PIN?", 
-    "11answer": "‘Io. Ko ho’o houa ‘e 24 meí he taimi te ke ma’u ai ho’o link ke fakahū ho’o PIN mata’ifika ‘e fā ke ma’u’aki ho’o <1>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</1>. Kapau ‘e ‘ikai, ‘e ta’e’aonga ‘a e link ki ho’o lēkootí, ka te ke toe lava pe ‘o kamata fo’ou ke fakafo’ou ho’o PIN ‘o ngaue’aki ki he fa’unga <3>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</3>.<br />Kapau he’ikai te ke manatu’i ho’o PIN, hili ha houa ‘e 24 te ke toe lava pē ‘o fai ‘a e founga tatau pea fa’u mo ha’o PIN fo’ou.<br /><5>FAKATOKANGA: Ko ho’o ma’u pe ho’o lēkooti huhu malu’í mo tauhi ho’o QR code, he’ikai toe ta’e’aonga ia.</5>", 
+    "11answer": "<0>‘Io. Ko ho’o houa ‘e 24 meí he taimi te ke ma’u ai ho’o link ke fakahū ho’o PIN mata’ifika ‘e fā ke ma’u’aki ho’o <1>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</1>. Kapau ‘e ‘ikai, ‘e ta’e’aonga ‘a e link ki ho’o lēkootí, ka te ke toe lava pe ‘o kamata fo’ou ke fakafo’ou ho’o PIN ‘o ngaue’aki ki he fa’unga <3>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</3>.</0><1>Kapau he’ikai te ke manatu’i ho’o PIN, hili ha houa ‘e 24 te ke toe lava pē ‘o fai ‘a e founga tatau pea fa’u mo ha’o PIN fo’ou.</1><2><0>FAKATOKANGA: Ko ho’o ma’u pe ho’o lēkooti huhu malu’í mo tauhi ho’o QR code, he’ikai toe ta’e’aonga ia.</0></2>", 
     "12question": "‘E ma’u heni ‘a e fakamo’oni ‘o ‘eku huhu malu’í?", 
-    "12answer": "‘Io. Ko e taha ‘o e ngaahi <1>fili kehekehe</1> ke ma’u’aki ho’o <3>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</3>  pea lava ‘o paaki pe fakahā fakakomipiuta. Te ke lava foki ‘o fakahā ho’o kaati huhu malu’i COVID-19 meí he Centers for Disease Control and Prevention (CDC, Senitā Pule’i mo Faka’ehi’ehi mei he Ngaahi Mahaki) pe ko ho’o lēkooti huhu malu’i meí he pule’angá.<br />‘Oku ‘ikai fiema’u ia ke ke ma’u ha’o <5>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</5>. Kapau ko ha fili ‘oku ‘uhinga pe ia ke ma’u ha fakamatala fakamo’oni ki ho’o tu’unga huhu malu’i COVID-19, mo e tatau fakakomipiuta ho’o kaati huhu malu’í. 'E fiema’u ke u fakaha 'a e fakamo'oni huhu malu'i? He’ikai fokotu’u ‘e he siteiti ha fa’unga pau ki ha fiema’u ha paasipooti.", 
+    "12answer": "<0>‘Io. Ko e taha ‘o e ngaahi <1>fili kehekehe</1> ke ma’u’aki ho’o <3>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</3>  pea lava ‘o paaki pe fakahā fakakomipiuta. Te ke lava foki ‘o fakahā ho’o kaati huhu malu’i COVID-19 meí he Centers for Disease Control and Prevention (CDC, Senitā Pule’i mo Faka’ehi’ehi mei he Ngaahi Mahaki) pe ko ho’o lēkooti huhu malu’i meí he pule’angá.</0><1>‘Oku ‘ikai fiema’u ia ke ke ma’u ha’o <1>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</1>. Kapau ko ha fili ‘oku ‘uhinga pe ia ke ma’u ha fakamatala fakamo’oni ki ho’o tu’unga huhu malu’i COVID-19, mo e tatau fakakomipiuta ho’o kaati huhu malu’í. 'E fiema’u ke u fakaha 'a e fakamo'oni huhu malu'i? He’ikai fokotu’u ‘e he siteiti ha fa’unga pau ki ha fiema’u ha paasipooti.</1>", 
     "13question": "Fēfē kapau ‘e fiema’u ke fakafetongi ‘eku kaati huhu malu’i?",
     "13answer": "‘Oku tuku atu ‘e he komipiutá ‘a e tatau ho’o lēkooti fakamo’oni huhu malu’í. Kapau ‘oku mole ho’o kaati fakamo’oni huhu malu’í, te ke toe lava pe ‘o paaki ho’o lēkootí ‘o ngaue’aki. Ka mole ho’o <1>Lēkooti Fakamo’oni Huhu Malu’i COVID-19</1>, te ke lava pe ‘o kamata fo’ou ‘i he fa’unga fakakomipiutá ke ma’u mei ai.",
     "14question": "Ko e hā ‘a e me’a ‘e hoko ki he’eku fakamatala ‘o kappa teu vahevahe atu?", 
@@ -135,5 +135,19 @@
     "needhelpcontent05": "Tāpuni ‘i he ngaahi ‘aho mālōlō fakapule’angá", 
     "needhelpcontent06": "<0>FAKATOKANGA:</0> ‘Oku ‘ikai te mau lava ‘o toe tānaki ha fakamatala ki ho’o Lēkooti Fakamo’oni Huhu Malu’i COVID-19 ‘i he telefoní.",
     "vaccineVerificationLink": "https://doh.wa.gov/to/huhu-malui-covid-19"
+  },
+  "month": {
+    "january": "Sanuali",
+    "february": "Fepueli",
+    "march": "Ma’asi",
+    "april": "‘Epeleli",
+    "may": "Mē",
+    "june": "Sune",
+    "july": "Siulai",
+    "august": "‘Aokosi",
+    "september": "Sepitema",
+    "october": "‘Okatopa",
+    "november": "Novema",
+    "december": "Tisema"
   }
 }

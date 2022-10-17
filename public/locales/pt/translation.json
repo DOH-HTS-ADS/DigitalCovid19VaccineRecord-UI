@@ -102,9 +102,9 @@
     "02question": "Como será feita a entrega do meu comprovante?",
     "02answer": "Quando o seu comprovante for encontrado, você receberá um link em seu e-mail ou celular que está no registro de vacinação. Após inserir o seu PIN de quatro dígitos, você verá suas informações de comprovação da vacinação contra a COVID-19, incluindo o seu nome, data de nascimento, data(s) de vacinação e fabricante da vacina. Você também receberá um código QR digitalizável que confirmará a autenticidade do seu comprovante.",
     "03question": "Posso salvar meu comprovante digital em um iPhone?",
-    "03answer": "<0>Você pode salvar o seu Comprovante digital no app Apple Health, com o sistema operacional iOS 15. Será necessário usar o navegador da web Safari para completar o processo. </0><1>Como opção, é possível tirar uma captura de tela do seu <1>Comprovante digital de vacinação contra a COVID-19</1> e salvá-lo nas suas fotos. </1>",
+    "03answer": "<0>Você pode salvar o seu Comprovante digital no app Apple Health, com o sistema operacional iOS 15. Será necessário usar o navegador da web Safari para completar o processo. </0>",
     "04question": "Posso salvar o meu Comprovante digital em um dispositivo Android?",
-    "04answer": "<0>Sim. Você pode salvar o seu <1>Comprovante digital de vacinação contra a COVID-19</1> no Google Play se tiver o Android versão 5 e o Google Play Services versão 21.18 ou superior. </0><1>Você também pode tirar uma captura de tela do <1>Comprovante digital de vacinação contra a COVID-19</1> e salvá-lo em suas fotos.</1>",
+    "04answer": "<0>Sim. Você pode salvar o seu <1>Comprovante digital de vacinação contra a COVID-19</1> no Google Play se tiver o Android versão 5 e o Google Play Services versão 21.18 ou superior. </0>",
     "05question": "Se eu receber doses adicionais, elas aparecerão no meu comprovante digital?",
     "05answer": "<0>Não. Se você receber uma dose adicional ou uma dose de reforço, elas não aparecerão automaticamente no seu comprovante digital. Será necessário reiniciar o sistema de <1>Comprovante digital de vacinação contra a COVID-19</1> para receber um novo código QR. </0><1>Recomendamos esperar entre 3 a 7 dias para que a sua nova dose apareça no Registro de imunização. </1>",
     "06question": "Quando a minha dose da vacina estará disponível no meu comprovante digital?",
@@ -118,9 +118,9 @@
     "10question": "As minhas informações continuarão sendo privadas?",
     "10answer": "<0>Sim. O preenchimento do formulário no sistema não fornece acesso imediato ao seu comprovante. O link para acessar o comprovante requer um PIN que será criado e enviado apenas para o celular ou e-mail associado ao seu registro de imunização. </0><1>O código QR é um SMART Health Card (Cartão de saúde SMART), uma cópia segura do seu comprovante. Veja mais informações em <1>https://smarthealth.cards </1>. Para proteger a sua privacidade, o código QR só pode ser digitalizado e lido por um dispositivo compatível com o SMART Health Card. </1>",
     "11question": "Posso resetar o meu PIN?",
-    "11answer": "Sim. Você tem 24 horas a partir do momento em que recebe o link para inserir seu PIN de quatro dígitos e acessar o seu <1>Comprovante digital de vacinação contra a COVID-19</1>. Se não inseri-lo, o link para acessar o seu comprovante digital expirará, mas é possível resetar o PIN usando o sistema do <3>Comprovante digital de vacinação contra a COVID-19 </3>. <br />Caso você tenha esquecido o número do PIN, é possível repetir o processo e criar um novo após 24 horas.<br /><5>OBSERVAÇÃO: Após acessar o seu comprovante digital e salvar o seu código QR, ele não expirará.</5>",
+    "11answer": "<0>Sim. Você tem 24 horas a partir do momento em que recebe o link para inserir seu PIN de quatro dígitos e acessar o seu <1>Comprovante digital de vacinação contra a COVID-19</1>. Se não inseri-lo, o link para acessar o seu comprovante digital expirará, mas é possível resetar o PIN usando o sistema do <3>Comprovante digital de vacinação contra a COVID-19 </3>.</0><1>Caso você tenha esquecido o número do PIN, é possível repetir o processo e criar um novo após 24 horas.</1><2><0>OBSERVAÇÃO: Após acessar o seu comprovante digital e salvar o seu código QR, ele não expirará.</0></2>",
     "12question": "Isto comprovará que fui vacinado(a)?",
-    "12answer": "Sim. Esta é uma das <1>várias opções</1>  de apresentar o seu <3>Comprovante digital de vacinação contra a COVID-19</3> , que pode ser impresso ou exibido digitalmente. Você também pode mostrar o seu cartão de vacina contra a COVID-19 fornecido pelo Centers for Disease Control and Prevention (CDC, Centro para Controle e Prevenção de Doenças) ou o seu registro estadual de imunização. <br />Você não é obrigado a obter um <5>Comprovante digital de vacinação contra a COVID-19 </5>. Ele é um recurso opcional para obter as suas informações de comprovação de vacinação contra a COVID-19 e é a versão digital do seu comprovante impresso. É uma das opções para mostrar a comprovação de vacinação. O estado não implementará um sistema de passaporte obrigatório.",
+    "12answer": "<0>Sim. Esta é uma das <1>várias opções</1>  de apresentar o seu <3>Comprovante digital de vacinação contra a COVID-19</3> , que pode ser impresso ou exibido digitalmente. Você também pode mostrar o seu cartão de vacina contra a COVID-19 fornecido pelo Centers for Disease Control and Prevention (CDC, Centro para Controle e Prevenção de Doenças) ou o seu registro estadual de imunização.</0><1>Você não é obrigado a obter um <1>Comprovante digital de vacinação contra a COVID-19 </1>. Ele é um recurso opcional para obter as suas informações de comprovação de vacinação contra a COVID-19 e é a versão digital do seu comprovante impresso. É uma das opções para mostrar a comprovação de vacinação. O estado não implementará um sistema de passaporte obrigatório.</1>",
     "13question": "E se eu precisar substituir o meu cartão de vacinação?",
     "13answer": "O sistema fornece uma cópia digital do seu comprovante. Caso tenha perdido o seu comprovante impresso, você pode imprimir o seu comprovante digital e usá-lo. Se você perder o seu <1>Comprovante digital de vacinação contra a COVID-19</1>, é possível reiniciar o processo no sistema. ",
     "14question": "O que acontece com as minhas informações após compartilhá-las?",
@@ -135,5 +135,19 @@
     "needhelpcontent05": "Fechado em feriados estaduais",
     "needhelpcontent06": "<0>OBSERVAÇÃO:</0> Não é possível atualizar o seu Comprovante digital de vacinação contra a COVID-19 pelo telefone.",
     "vaccineVerificationLink": "https://doh.wa.gov/pt-br/guia-visual-do-comprovante-verificado-de-vacinacao-contra-covid-19-do-estado-de-washington"
+  },
+  "month": {
+    "january": "janeiro",
+    "february": "fevereiro",
+    "march": "março",
+    "april": "abril",
+    "may": "maio",
+    "june": "junho",
+    "july": "julho",
+    "august": "agosto",
+    "september": "setembro",
+    "october": "outubro",
+    "november": "novembro",
+    "december": "dezembro"
   }
 }

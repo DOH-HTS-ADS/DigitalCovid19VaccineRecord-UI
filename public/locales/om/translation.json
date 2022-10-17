@@ -102,9 +102,9 @@
     "02question": "Mirkaneessi ragaa kiyya akkamitti darba?",
     "02answer": "Mirkaneessi ragaa keessan yommuu argamu, liinkiin lakkoofsa bilbilaa yookin imeelii ragaa talaallii wajjin wal qabatutti ni ergama/darba. Erga PIN abbaa dijiitii 4 galchitaniin booda, maqaa, guyyaa dhalootaa, guyyaa (oota) talaallii keessanii fi qaama talaallii omishe dabalatee odeeffannoo mirkaneessa COVID-19 keessan ni argitu. Mirkaneessi ragaa keessan sirrii ta’uu mirkaneessuf koodii QR iskaan gochuun danda’amu isin qaqqaba.",
     "03question": "Mirkaneessa ragaa dijitaalaa kiyya iPhone kiyya irratti seevii gochuu nan danda’aa?",
-    "03answer": "<0>Mirkaneessa ragaa Dijitaalaa keessan appilikeeshinii Apple Health sirna oppireetingii iOS 15 irratti seevii gochuu ni dandeessu. Adeemsicha xumuruuf biroowuzarii intarneetii Safari fayyadamuu qabdu. </0><1>Akka filannootti, <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> keessan suura kaasun (screen shot) suura keessan keessatti seevii gochuu dandeessu. </1>",
+    "03answer": "<0>Mirkaneessa ragaa Dijitaalaa keessan appilikeeshinii Apple Health sirna oppireetingii iOS 15 irratti seevii gochuu ni dandeessu. Adeemsicha xumuruuf biroowuzarii intarneetii Safari fayyadamuu qabdu. </0>",
     "04question": "Mirkaneessa ragaa Dijitaalaa kiyya andirooyidii kiyya irratti seevii gochuu nan danda’aa?",
-    "04answer": "<0>Eeyyee. Andirooyidii varshinii 5 fi Google Play Services varshinii 21.18 yookin isaa ol yoo qabaattan <1>mirkaneessa Dijitalaa COVID-19</1> keessan Google Play irratti seevii gochuu ni dandeessu. </0><1><1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> keessan suura kaasun (screen shot) suura keessan keessatti seevii gochuu dandeessu.</1>",
+    "04answer": "<0>Eeyyee. Andirooyidii varshinii 5 fi Google Play Services varshinii 21.18 yookin isaa ol yoo qabaattan <1>mirkaneessa Dijitalaa COVID-19</1> keessan Google Play irratti seevii gochuu ni dandeessu. </0>",
     "05question": "Dooziiwwan dabalataa yoon fudhadhe, mirkaneessa ragaa dijitaalaa koo irratti ni mul’atuu?",
     "05answer": "<0>Lakki. Dooziwaan dabalataa yookin doozii dandeetti dhibee ittisuu dabalu (booster dose) yoo fudhattan, hatattamaan mirkaneessa ragaa dijitaalaa keessan irratti hin mul’atu. Malli yookin siistamni <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> koodii QR deebisee akka fiduus irra deebin banuu (start over) si barbaachisa. </0><1>Doozin keessan haaran Galmee Talaallii keessatti argamuuf guyyaa 3-7 akka eegdan isin gorsina.</1>",
     "06question": "Doozin talaallii kiyya mirkaneessa ragaa dijitaalaa kiyya keessatti yoom argama?",
@@ -118,9 +118,9 @@
     "10question": "Odeeffannoon kiyya icciitiin isaa ni eegama?",
     "10answer": "<0>Eeyyee. Siistamicha irratti unka guutun hatattamaan carraa mirkaneessa ragaa ilaaluu isiniif hin kennu. Liinkiin mirkaneessa ragaa PIN isin uumtan barbaada akkasumas lakoofsa bilbilaa yookin imeelii ragaa talaallii keessan wajjin wal qabatu qofatti ergama. </0><1>Koodin QR Kaardii Fayyaa SMART (SMART Health Card) dha, koppii mirkaneessa ragaa amansiisaa dha. Odeeffannoo <1> https://smarthealth.cards</1> (Ingiliffa qofa) irraa argachuun ni danda’ama. Icciitii keessan eeguf, koodin QR meeshaa SMART Health Card dhaan wal simu qofaan iskaan ta’a akkasumas dubbifama.</1>",
     "11question": "PIN koo irra deebin sirreessuu nan danda’aa?",
-    "11answer": "Eeyyee. Lakkoofsa PIN abbaa dijiitii afurii galchuudhan  <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> (Ingiliffa qofa) keessan ilaaluf yeroo liinkichi isin qaqqabee kaasee sa’aatii 24 qabdu. Kan hin taane taanan, liinkin gara ragaa dijititaalaa keessanitti geessu yeroon isaa ni xumurama, garuu mala <3>Mirkaneessa Ragaa Dijitaalaa COVID-19</3> (Ingiliffa qofa) fayyadamuun deebistanii eegaluun PIN keessan sirreessuu ni dandeessu. <br />PIN keessan hin yaadattan yoo ta’e, sa’aatii 24 booda adeemsuma wal fakkaatu hordofuun PIN haaraa uumuu ni dandeessu. <br /><5>YAADACHIISA: Ragaa dijitaalaa keessan erga argitanii fi koodii QR keessan seevii erga gootaniin booda, yeroon isaa irra hin darbu.</5>",
+    "11answer": "<0>Eeyyee. Lakkoofsa PIN abbaa dijiitii afurii galchuudhan  <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> (Ingiliffa qofa) keessan ilaaluf yeroo liinkichi isin qaqqabee kaasee sa’aatii 24 qabdu. Kan hin taane taanan, liinkin gara ragaa dijititaalaa keessanitti geessu yeroon isaa ni xumurama, garuu mala <3>Mirkaneessa Ragaa Dijitaalaa COVID-19</3> (Ingiliffa qofa) fayyadamuun deebistanii eegaluun PIN keessan sirreessuu ni dandeessu.</0><1>PIN keessan hin yaadattan yoo ta’e, sa’aatii 24 booda adeemsuma wal fakkaatu hordofuun PIN haaraa uumuu ni dandeessu.</1><2><0>YAADACHIISA: Ragaa dijitaalaa keessan erga argitanii fi koodii QR keessan seevii erga gootaniin booda, yeroon isaa irra hin darbu.</0></2>",
     "12question": "Kuni sadarkaa talaallii kiyyaa ragaa (proof) ni dhiyeessaa?",
-    "12answer": "Eeyyee. <1>Filannoowwan heddu</1> (Ingiliffa qofa) keessaa tokkoodha, <3>Mirkaneessa Ragaa Dijitaalaa COVID-19</3> (Ingiliffa qofa) keessan dhiyeessuf akkasumas piriint ta’uu yookin dijitaalan agarsiisuun ni danda’ama. Akkasumas kaardii COVID-19 Giddu Gala Ittisaa fi To’annoo Dhibee (Center for Disease Control) dhan dhiyaatu yookin ragaa talaallii naannoo keessan agarsiisuu ni dandeessu. <br /> <5>Mirkaneessa Ragaa Dijitaalaa COVID-19</5> (Ingiliffa qofa) fudhachuun isin irraa hin eegamu. Odeeffannoo mirkaneessa COVID-19 qabaachun filannoodha, akkasumas mirkaneessa ragaa waraqaa bifa dijitaalan kan bakka bu’uudha. Talaallii fudhachuu ragaa (proof) agarsiisuf filannoowwan jiran keessaa tokkoodha. Naannichi mala paaspoortii (passport system) dirqamaan hojiirra hin oolchu.",
+    "12answer": "<0>Eeyyee. <1>Filannoowwan heddu</1> (Ingiliffa qofa) keessaa tokkoodha, <3>Mirkaneessa Ragaa Dijitaalaa COVID-19</3> (Ingiliffa qofa) keessan dhiyeessuf akkasumas piriint ta’uu yookin dijitaalan agarsiisuun ni danda’ama. Akkasumas kaardii COVID-19 Giddu Gala Ittisaa fi To’annoo Dhibee (Center for Disease Control) dhan dhiyaatu yookin ragaa talaallii naannoo keessan agarsiisuu ni dandeessu.</0><1> <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> (Ingiliffa qofa) fudhachuun isin irraa hin eegamu. Odeeffannoo mirkaneessa COVID-19 qabaachun filannoodha, akkasumas mirkaneessa ragaa waraqaa bifa dijitaalan kan bakka bu’uudha. Talaallii fudhachuu ragaa (proof) agarsiisuf filannoowwan jiran keessaa tokkoodha. Naannichi mala paaspoortii (passport system) dirqamaan hojiirra hin oolchu.</1>",
     "13question": "Kaardii talaallii kiyya bakka buusuu yoon barbaade hoo?",
     "13answer": "Siistamichi/malichi mirkaneessa ragaa keessan koppii dijitaalaa laata. Waraqaa mirkaneessa ragaa keessan yoo gattan, ragaa dijitaalaa piriint gochuun itti fayyadamuu dandeessu. <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> yoo gattan, siistamicha irratti adeemsa isaa irra deebitanii jalqabuu dandeessu.",
     "14question": "Ergan qoodee booda odeeffannoon koo maal ta’a?",
@@ -135,5 +135,19 @@
     "needhelpcontent05": "Guyyaa ayyaana waggaa naannoo kan cufaa ta’an",
     "needhelpcontent06": "<0>YAADACHIISA:</0> Mirkaneessa Ragaa Dijitaalaa COVID-19 keessan bilbilaan haaressuu hin dandeenye.",
     "vaccineVerificationLink": "https://doh.wa.gov/om/qajeelcha-fakkii-visual-guide-naannoo-washington-seera-qabeessa-taetti-geessu-ragaa-talaallii-covid"
+  },
+  "month": {
+    "january": "Amajjii",
+    "february": "Guraandhala",
+    "march": "Bitootessa",
+    "april": "Ebla",
+    "may": "Caamsaa",
+    "june": "Waxabajjii",
+    "july": "Adoolessa",
+    "august": "Hagayya",
+    "september": "Fulbaana/Birraa",
+    "october": "Onkololeessa",
+    "november": "Sadaasa",
+    "december": "Mudde"
   }
 }

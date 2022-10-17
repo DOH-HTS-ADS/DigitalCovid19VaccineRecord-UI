@@ -102,9 +102,9 @@
     "02question": "Nasa nataji de tutu sa",
     "02answer": "Tani nani’in ní tutu ní, kenda in enlace nuu correo electrónico axi nuu yokaa ja ni je’en kivi ja ni kani vacuna ní. Tú ja ni chi’in ní PIN ja kuu ji kumi número, kuni ni tutu ní siki nasa iyo ní nuu kue’e COVID-19, nuu ndeee sivi ní, kivi ni kaku ní, nda kivi ni kani vacuna ní ji na vacuna kuu. Suni ni’in ní in código QR ja kuu kuetiñi ni tágua ste’en ní ja ndaa kuu tu’un ja neva’a ní.",
     "03question": "A kuu tava’a sa tutu sa nuu iPhone sa",
-    "03answer": "<0>Kuu tava’a ní nuu yokaa ní nuu aplicación Apple Health ja satiñu ji iOS 15. Kanuu kuatiñu ní navegador Safari tágua kuu sa’a ní ja kúni ní. </0><1>Tú kuni ní, tava ní in foto pantalla <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> de tava’a ní nuu nda foto ní. </1>",
+    "03answer": "<0>Kuu tava’a ní nuu yokaa ní nuu aplicación Apple Health ja satiñu ji iOS 15. Kanuu kuatiñu ní navegador Safari tágua kuu sa’a ní ja kúni ní. </0>",
     "04question": "A kuu tava’a sa tutu sa nuu in kaa Android",
-    "04answer": "<0>Saa. Kuu tava’a ní <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> nuu Google Pay tú neva’a ní in Android ja satiñu jín version 5 ji versión 21.18 Google Play Services axi ja jee ka. </0><1>Suni kuu tava ní in foto pantalla <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> de tava’a ní nuu nda foto ní.</1>",
+    "04answer": "<0>Saa. Kuu tava’a ní <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> nuu Google Pay tú neva’a ní in Android ja satiñu jín version 5 ji versión 21.18 Google Play Services axi ja jee ka. </0>",
     "05question": "Tú ni kani ka tatan saán, a suni natuu tu’un ñukua uu tutu sa ja iyo nuu kaa ndichí",
     "05answer": "<0>Nduu. Tú ni ni’in ka ni tatan axi ni kani inka jichi, ma natuu nuu tutu ní ja iyo nuu kaa ndichí. Jiniñu’un ndije’e nuu <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> tágua nani’in ní código QR ní.</0><1>Jiniñu’un kundetu ní 3-7 tágua nda tatan ja ni kani jee ní natuu ji nuu tutu ní. </1>",
     "06question": "Na kivi kuu ja natuu vacuna jani kani saán nuu tutu sa ja iyo nuu kaa ndichí",
@@ -118,9 +118,9 @@
     "10question": "A koo yu’u tu’un sa",
     "10answer": "<0>Saa. Ja sa’a chití ní tu’un nuu tutu ya’a nduu kuni ka’an ja ñama kuni ní nuu tutu ní. Enlace ja tetiñu nuu iyo tutu ní jiniñu’un in PIN ja ni kaji ní de vachi ni tetiñu nuu yokaa ní axi nuu in correo electrónico ja yita’an ji tutu vacuna ní. </0><1>Código QR kuu in SMART Health Card (Tarjeta salud ja ndichí), kuu in copia tutuní ja ñu’un va’a. Iyo ka tu’un nuu <1>https://smarthealth.cards</1>. Tágua koto tu’un siki ní, código QR vachi ni kuu katiñu jín in kaa ndichí ja satiñu jín SMART Health Card. </1>",
     "11question": "A kuu nasa’a jee sa PIN sa",
-    "11answer": "Saa. Iyo 24 hora nde kivi kenda enlace nuu ni tágua chi’in ní PIN ní ja kuu kumi número de sukua kivi ní nuu <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> (vachi nuu yu’u Inglés). Tú ma sa’a ní, enlace ja kivi ní nuu iyo tutu ní naa, vese saa kuu ndije’e tuku ní de nasa jee ní PIN ní de kuatiñu ní <3>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</3> (vachi nuu yu’u Inglés). <br />Tú nduu na’an ní PIN ní, nuu 24 kuu ndije’e tuku ní de sa’a n+i in PIN jee. <br /><5>NOTA: Tú ja ni kivi ní de ni nani’in ní tutu ní de ni tava’a ní código QR ní, nduka naa ji.</5>",
+    "11answer": "<0>Saa. Iyo 24 hora nde kivi kenda enlace nuu ni tágua chi’in ní PIN ní ja kuu kumi número de sukua kivi ní nuu <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> (vachi nuu yu’u Inglés). Tú ma sa’a ní, enlace ja kivi ní nuu iyo tutu ní naa, vese saa kuu ndije’e tuku ní de nasa jee ní PIN ní de kuatiñu ní <3>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</3> (vachi nuu yu’u Inglés).</0><1>Tú nduu na’an ní PIN ní, nuu 24 kuu ndije’e tuku ní de sa’a n+i in PIN jee.</1><2><0>NOTA: Tú ja ni kivi ní de ni nani’in ní tutu ní de ni tava’a ní código QR ní, nduka naa ji.</0></2>",
     "12question": "A stuu tutu ya’a siki nasa iyo nda vacuna sa",
-    "12answer": "Saa. Ku in nuu <1>síin síin kaa</1> tágua chu’un ní your <3>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</3> de kuu tava ní axi ste’en ní nuu in kaa ndichí. Suni kuu ste’en ní tarjeta COVID-19 ja ni taji Centers for Disease Control and Prevention (CDC, Ve’e nuu jito ji jekani nda kue’e) nuu ní axi tutu siki tatan ní ja iyo nuu ñuu. <br />Nduu jiniñu’un ja kuneva’a ní in <5>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19 </5>. Kuu in ja kuu ni’in ní tú kúni ní tu’un siki nasa iyo ni nuu COVID-19 de kuu in tutu ja iyo nuu kaa ndichí. Kuu in ja kuu kuetiñu ní tágua ste’en ní ja ni kani vacuna ní. Ñuu ma tava ji in pasaporte ja ndíso tu’un siki ja ya’a.",
+    "12answer": "<0>Saa. Ku in nuu <1>síin síin kaa</1> tágua chu’un ní your <3>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</3> de kuu tava ní axi ste’en ní nuu in kaa ndichí. Suni kuu ste’en ní tarjeta COVID-19 ja ni taji Centers for Disease Control and Prevention (CDC, Ve’e nuu jito ji jekani nda kue’e) nuu ní axi tutu siki tatan ní ja iyo nuu ñuu.</0><1>Nduu jiniñu’un ja kuneva’a ní in <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19 </1>. Kuu in ja kuu ni’in ní tú kúni ní tu’un siki nasa iyo ni nuu COVID-19 de kuu in tutu ja iyo nuu kaa ndichí. Kuu in ja kuu kuetiñu ní tágua ste’en ní ja ni kani vacuna ní. Ñuu ma tava ji in pasaporte ja ndíso tu’un siki ja ya’a.</1>",
     "13question": "Naguá kuu tú jiniñu’un ja nasa’a jee sa tutu vacuna sa",
     "13answer": "Kaa ndichí ya’a taji ji in copia tutu siki nasa iyo vacuna ní. Tú ni skuita ní tutu ní kuu tava ní ja iyo nuu kaa ndichí de kuu kuetiñu ní. Tú ni skuita ní <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1>, kuu natava ní nuu ka ndichí.",
     "14question": "Nagua kuu jín tu’un sa tú ja ni jitenuu",
@@ -135,5 +135,19 @@
     "needhelpcontent05": "Nda kivi ja nduu satiñu",
     "needhelpcontent06": "<0>NOTA:</0> Ma kuu ja nasa’a jáá sa Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19 jín in yokaa.",
     "vaccineVerificationLink": "https://doh.wa.gov/xtu/tutu-ja-ni-tava-nuu-washinton-siki-nasa-iyo-vacuna-covid-19-nda-nayivi"
+  },
+  "month": {
+    "january": "Enero ",
+    "february": "Febrero",
+    "march": "Marzo",
+    "april": "Abril",
+    "may": "Mayo",
+    "june": "Junio",
+    "july": "Julio",
+    "august": "Agosto",
+    "september": "Septiembre",
+    "october": "Octubre",
+    "november": "Noviembre",
+    "december": "Diciembre"
   }
 }
