@@ -102,9 +102,9 @@
     "02question": "E faapefea ona tuuina mai le fa’amaoniga o o’u fa’amaumauga?",
     "02answer": "A tauaaoina ou Faamaumauga Faamaonia o le a tuuina atu se sootaga e tauala atu i le imeli poo le telefoni feavea’i e fesootai tonu ma faamaumauga o lou tui puipui. Pe a uma ona tuu i totonu lau numera patino PIN ona mafai lea ona e silasila i ou Fa’amaumauga Fa’amaonia o le KOVITI-19, e aofia ai lou suafa, aso soifua aso o le tui puipui ma le kamupani na gaosiaina le tui puipui. O le a e mauaina se numera QR code e faaaogaina ai se masini e faamaonia ai le fa’amaoni o faamaumauga o ou tuipuipui.",
     "03question": "E mafai ona faasaoina o’u fa’amaumauga fa’amaonia i luga o upega tafa’ilagi i se iPhone?",
-    "03answer": "<0>E mafai ona sefeina ou fa’amaumauga fa’amaonia i luga o Upega Tafa’ilagi i le Apple Health app e fa’aaoga ai le iOS 15 operating system. Ia fa’aaoga mai le Safari web browser e faamaea ai le faagasologa.</0><1>E mafai foi ona e pu’eina se ata o <1>Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi</1> ma sefeina i au ata.</1>",
+    "03answer": "<0>E mafai ona sefeina ou fa’amaumauga fa’amaonia i luga o Upega Tafa’ilagi i le Apple Health app e fa’aaoga ai le iOS 15 operating system. Ia fa’aaoga mai le Safari web browser e faamaea ai le faagasologa.</0>",
     "04question": "E mafai on a faasaoina o’u Fa’amaumauga Fa’amaonia i luga o le Upega Tafa’ilagi i se masini Android?",
-    "04answer": "<0>Ioe. E mafai ona fa’amauina ou <1> Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi </1> i luga o le Google Play pe afai o lau masini o le Android ituaiga 5 faapena foi ona mafai i le Google Play Services ituaiga 21.18 poo ua taua i luga.</0><1>E mafai foi ona e pu’eina se ata o ou <1>Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi</1> ma sefeina i au ata.</1>",
+    "04answer": "<0>Ioe. E mafai ona fa’amauina ou <1> Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi </1> i luga o le Google Play pe afai o lau masini o le Android ituaiga 5 faapena foi ona mafai i le Google Play Services ituaiga 21.18 poo ua taua i luga.</0>",
     "05question": "Afai e toe fai ni o’u tui puipui faaopopo, e mafai ona maua nei faamatalaga i luga o o’u fa’amaumauga fa’amaonia i luga o upega tafa’ilagi?",
     "05answer": "<0>Leai. Afai e fai sou tui puipui faaopopo poo se tui e fa’amalosia ai lou tui muamua (booster) e le mafai ona otomeki le faaopopopoina i totonu o ou fa’amaumauga fa’amaonia i luga o upega tafa’iagi.. E manaomia le toe amataina i le amataga o  <1>Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi</1> e toe tuuina atu ai se isi ata faa-QR fou.</0><1>E fautuaina lou faatali mo le 3-7 aso ina ia faaali mai lou tui fou faato’a maua lea e le Resitala o tui puipui.</1>",
     "06question": "E maua afea faamatalaga o lo’u tūiga i o’u faamaumauga faamaonia?",
@@ -118,9 +118,9 @@
     "10question": "E malupuipuia pea o’u faamatalaga?",
     "10answer": "<0>Ioe. O le faatumuina o pepa tusitusia o ou faamatalaga o le a le avea lea ma aula e mafai ai ona e ausia ou faamaumauga faamaonia. O le sootaga i Faamaumauga Faamaonia e manaomia ai se numera patino PIN, ma o lea tauala lea i le telefoni feavea’i poo le email o loo fesootai tonui ma au Faamaumauga o tui puipuii.</0><1>O le QR code o le SMART Health Card (faamaumauga faaneionapo e maua ai faamatalaga o lou talaaga faasoifua maloloina) o ni faamaumauga malupuipuia o ou Faamaumauga Faamaonia. Mo nisi faamatalaga <1>https://smarthealth.cards</1>. Ina ia puipuia ou tulaga tumaoti, o le numera QR code faatoa mafai ona faitauina e se masini e taua o le SMART Health Card-compliant device.</1>",
     "11question": "E mafai ona toe sekiina la’u numera PIN?",
-    "11answer": "Ioe. E 24 itula mai i le taimi na maua ai le fesootaiga e mafai ai ona tuu i totonu lau numera patino PIN e fa fuainumera ona mafai ai lea na fesootai i ou <1>Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi</1>. Afai e te le faia, o le a motusia le fesootaiga i au Fa’amaumauga Fa’amaonia, peitai e mafai ona toe maua se sootaga e auala lea i le toe sekiina o lau PIN amata mai <3> Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi </3> polokalama.<br />    Afai ua galo lau PIN poo lau numera patino ia oe pe a uma le 24 itula, e mafai ona faaogaina le faiga lava lea e tasi e maua ai se isi PIN poo sau numera patino.<br /><5>FAASILASILAGA: Afai ua uma ona maua se fesootaiga ma mata’ituina le numera QR code e mafai loa ona faaogaiuna e le toe muta.</5>",
+    "11answer": "<0>Ioe. E 24 itula mai i le taimi na maua ai le fesootaiga e mafai ai ona tuu i totonu lau numera patino PIN e fa fuainumera ona mafai ai lea na fesootai i ou <1>Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi</1>. Afai e te le faia, o le a motusia le fesootaiga i au Fa’amaumauga Fa’amaonia, peitai e mafai ona toe maua se sootaga e auala lea i le toe sekiina o lau PIN amata mai <3> Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi </3> polokalama.</0><1>Afai ua galo lau PIN poo lau numera patino ia oe pe a uma le 24 itula, e mafai ona faaogaina le faiga lava lea e tasi e maua ai se isi PIN poo sau numera patino.</1><2><0>FAASILASILAGA: Afai ua uma ona maua se fesootaiga ma mata’ituina le numera QR code e mafai loa ona faaogaiuna e le toe muta.</0></2>",
     "12question": "Faamata e maua ai se faamaoniga o o’u tui puipui?",
-    "12answer": "Ioe. O se tasi lea o faalauiloa <1>o auala eseese</1>  e ausia ai <3>Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi</3>  poo Faamatalaga tusitusia pe maua foi faa tekonolosi. E mafai fo’i ona faailoa lou Pepa tui puipui maua mai le Centers for Disease Control and Prevention (CDC, Ofisa Tutotonu mo le Vaaiga o le Pepesi o Faamai ma le Puipuia mai Faamai) o le KOVITI-19 poo ou faamaumauga o tuiga o le setete.<br />E le faamalosia oe e mauaina se <5> Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi </5>. O se filifiliga mo oe lava ia pe a fia maua faamaumauga e uiga i le KOVITI-19, ma o se faamaumauga faaneionapo e tutusa lava ma le faamaumauga faapepa na tuuina atu muamua. O le a manaomia ona ou faaalia se faamaoniga o le faia o tui puipui? O le a le faatinoina e le setete se faiga e faamalosia ai le faaaogaina o tusi folau faapitoa mo tuipuipui.",
+    "12answer": "<0>Ioe. O se tasi lea o faalauiloa <1>o auala eseese</1>  e ausia ai <3>Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi</3>  poo Faamatalaga tusitusia pe maua foi faa tekonolosi. E mafai fo’i ona faailoa lou Pepa tui puipui maua mai le Centers for Disease Control and Prevention (CDC, Ofisa Tutotonu mo le Vaaiga o le Pepesi o Faamai ma le Puipuia mai Faamai) o le KOVITI-19 poo ou faamaumauga o tuiga o le setete.</0><1>E le faamalosia oe e mauaina se <1> Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi </1>. O se filifiliga mo oe lava ia pe a fia maua faamaumauga e uiga i le KOVITI-19, ma o se faamaumauga faaneionapo e tutusa lava ma le faamaumauga faapepa na tuuina atu muamua. O le a manaomia ona ou faaalia se faamaoniga o le faia o tui puipui? O le a le faatinoina e le setete se faiga e faamalosia ai le faaaogaina o tusi folau faapitoa mo tuipuipui.</1>",
     "13question": "E faapefea pe a manaomia le toe suia o lo’u pepa tui puipui?",
     "13answer": "E mafai ona maua se kopi faatekinolosi o ou Faamaumauga Faamaonia. Afai ua leiloa pepa o Faamaumauga o lou tui puipui, e mafai ona maua se kopi faaneionapo e te faaogaina. Afai ua leiloa ou <1>Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi</1>, e mafai ona toe faatino le tuuina i totonu o le polokalame e amata mai i le amataga.",
     "14question": "O lea se mea e ono tupu pe a uma ona faasoa atu o’u Faamatalaga faamaumau?",
@@ -135,5 +135,19 @@
     "needhelpcontent05": "Tapunia i aso malolo o le settee",
     "needhelpcontent06": "<0>FAASILASILAGA:</0> O le a le mafai ona faafouina ou Faamatalaga Faamaonia o le KOVITI-19 i luga o le telefoni.",
     "vaccineVerificationLink": "https://doh.wa.gov/sm/taiala-vaaia-aloaia-le-setete-o-uosigitone-i-le-faamaonia-o-tui-puipui-o-le-koviti-19"
+  },
+  "month": {
+    "january": "Ianuari",
+    "february": "Fepuari",
+    "march": "Mati",
+    "april": "Aperila",
+    "may": "Me",
+    "june": "Iuni",
+    "july": "Iulai",
+    "august": "'Aokuso",
+    "september": "Setema",
+    "october": "'Oketopa",
+    "november": "Novema",
+    "december": "Tesema"
   }
 }

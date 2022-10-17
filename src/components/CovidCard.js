@@ -20,7 +20,7 @@ import 'date-fns';
 import {format} from 'date-fns';
 import DateFnsUtils from "@date-io/date-fns";
 import addMonths from "date-fns/addMonths";
-
+import dayjs from 'dayjs';
 import amLocale from "../locale/am"; 
 import arLocale from "date-fns/locale/ar";
 import chkLocale from "date-fns/locale/en-US"; 
@@ -159,6 +159,50 @@ const CovidCard = () => {
     }
   ]
   )
+  const monthMenuList = [
+    t("month.january"),
+    t("month.february"),
+    t("month.march"),
+    t("month.april"),
+    t("month.may"),
+    t("month.june"),
+    t("month.july"),
+    t("month.august"),
+    t("month.september"),
+    t("month.october"),
+    t("month.november"),
+    t("month.december"),
+  ];
+
+  const MonthList = () => {
+    return <>
+      {monthMenuList.map((month, index) => <option key={month} value={index + 1} aria-label={month}>{month}</option>)}
+    </>;
+  }
+
+  const DayList = () => {
+    const d = new Date();
+    let currentYear = d.getFullYear();
+    const arrErrorMonth = ['2','4','6','9','11']
+    if(dayOfBirth && monthOfBirth && ((dayOfBirth === '31' && arrErrorMonth.indexOf(monthOfBirth) > -1) || (dayOfBirth === '29' && monthOfBirth === '2' && yearOfBirth && yearOfBirth % 4 !== 0) || (dayOfBirth === '30' && monthOfBirth === '2')))
+    {
+    setDayOfBirth('');
+    }
+    const getDaysInMonth = (month, year) => (new Array(31)).fill('').map((v, i) => new Date(year, month - 1, i + 1)).filter(v => v.getMonth() === month - 1)
+    return <>
+      {getDaysInMonth(monthOfBirth ?? 1, yearOfBirth ?? (monthOfBirth === '2' ? '2020' : currentYear)).map((days, index) => <option key={index + days} value={index + 1} aria-label={index + 1}>{index + 1}</option>)}
+    </>;
+  }
+
+  const YearList = () => {
+    const d = new Date();
+    let year = d.getFullYear();
+    let yearMenuList = [];
+    for (year; year >= 1900; year--) {
+      yearMenuList.push(<option key={year} value={year} aria-label={year}>{year}</option>)
+    }
+    return yearMenuList;
+  }
 
   const history = useHistory();
   const { CREDENTIALS_API_STATUS } = window.config;
@@ -227,6 +271,16 @@ const CovidCard = () => {
 
     setError(tempErrorObj);
   }
+  const handleMonthChange = (e) => {
+    setMonthOfBirth(e.target.value);
+  }
+  const handleDayChange = (e) => {
+    setDayOfBirth(e.target.value);
+  }
+  const handleYearChange = (e) => {
+    setYearOfBirth(e.target.value);
+  }
+
   const submitForm = async (e) => {
     e.preventDefault();
     let errorCheck = await formSubmitHandler();
@@ -235,7 +289,7 @@ const CovidCard = () => {
       const userData = {
         LastName: valueOfElement("LastName")?.value.trim(),
         FirstName: valueOfElement("FirstName")?.value.trim(),
-        DateOfBirth: selectedBirthDate,
+        DateOfBirth: `${monthOfBirth < 10 ? "0" + monthOfBirth : monthOfBirth}/${dayOfBirth < 10 ? "0" + dayOfBirth : dayOfBirth}/${yearOfBirth}`,
         PhoneNumber: valueOfElement("textmask") ? normalize(valueOfElement("textmask")?.value) : "",
         EmailAddress: document.getElementById('contactEmail')?.value ? document.getElementById('contactEmail').value : "",
         Pin: valueOfElement("PIN").value,
@@ -324,16 +378,30 @@ const CovidCard = () => {
           document.getElementById('LastName').setAttribute("aria-invalid", "true");
           return { ...ele, isInvalid };
         }
-        if (ele.id === 'Date' && !(selectedBirthDate)) {
+        if (ele.id === 'Date' && !(monthOfBirth && dayOfBirth && yearOfBirth)) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          //document.getElementById('Select_Month').style.borderBottomColor = '#b30000';
-          //document.getElementById('Select_Day').style.borderBottomColor = '#b30000';
-          //document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
-          //document.getElementById('dob-label').style.color = '#b30000';
+          document.getElementById('Select_Month').style.borderBottomColor = '#b30000';
+          document.getElementById('Select_Day').style.borderBottomColor = '#b30000';
+          document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
+          document.getElementById('dobLabel').style.color = '#b30000';
+          document.getElementById('monthLabel').style.color = '#b30000';
+          document.getElementById('dayLabel').style.color = '#b30000';
+          document.getElementById('yearLabel').style.color = '#b30000';
           setError({...error, Date: true});
           
           setIsDobGood(false);
+          return { ...ele, isInvalid };
+        }else if(ele.id === 'Date'){
+          let isInvalid = ele.isInvalid;
+          isInvalid = false;
+          document.getElementById('dobLabel').style.color = 'black';
+          document.getElementById('Select_Month').style.borderBottomColor = '#727272';
+          document.getElementById('Select_Day').style.borderBottomColor = '#727272';
+          document.getElementById('Select_Year').style.borderBottomColor = '#727272';
+          document.getElementById('monthLabel').style.color = '#727272';
+          document.getElementById('dayLabel').style.color = '#727272';
+          document.getElementById('yearLabel').style.color = '#727272';
           return { ...ele, isInvalid };
         }
         if (ele.id === 'Phone_Email') {
@@ -380,7 +448,7 @@ const CovidCard = () => {
       }
 
       else if (ele.type === 'dob_format') {
-        if (selectedBirthDate) {
+        /*if (selectedBirthDate) {
 
           if (!isDobGood) {
             let isInvalid = ele.isInvalid;
@@ -402,6 +470,36 @@ const CovidCard = () => {
             //document.getElementById('Select_Year').style.borderBottomColor = '#727272';
             setError({...error, Date: true});
             
+            return { ...ele, isInvalid };
+          }
+        }*/
+        if (yearOfBirth && monthOfBirth && dayOfBirth) {
+          let dob_Date = new Date(monthOfBirth + '/' + dayOfBirth + '/' + yearOfBirth);
+          let currentDate = new Date(dayjs().format('MM/DD/YYYY'));
+          if (dob_Date > currentDate) {
+            let isInvalid = ele.isInvalid;
+            isInvalid = true;
+            document.getElementById('Select_Month').style.borderBottomColor = '#b30000';
+            document.getElementById('Select_Day').style.borderBottomColor = '#b30000';
+            document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
+            document.getElementById('dobLabel').style.color = '#b30000';
+            document.getElementById('monthLabel').style.color = '#b30000';
+            document.getElementById('dayLabel').style.color = '#b30000';
+            document.getElementById('yearLabel').style.color = '#b30000';
+            setIsDobGood(false);
+            return { ...ele, isInvalid };
+          }
+          else {
+            let isInvalid = ele.isInvalid;
+            isInvalid = false;
+            document.getElementById('dobLabel').style.color = 'black';
+            document.getElementById('Select_Month').style.borderBottomColor = '#727272';
+            document.getElementById('Select_Day').style.borderBottomColor = '#727272';
+            document.getElementById('Select_Year').style.borderBottomColor = '#727272';
+            document.getElementById('monthLabel').style.color = '#727272';
+            document.getElementById('dayLabel').style.color = '#727272';
+            document.getElementById('yearLabel').style.color = '#727272';
+            setIsDobGood(true);
             return { ...ele, isInvalid };
           }
         }
@@ -541,13 +639,13 @@ const CovidCard = () => {
   const today = new Date();
   const handleDobChange = (date) => {
     setError({ ...error, Date: false });
-    setSelectedBirthDate(date)
+    /*setSelectedBirthDate(date)
     if (date && date.getFullYear() && date.getFullYear() >= 1900 && date <= addMonths(today, -6)) {
      
       setIsDobGood(true);
     } else {
       setIsDobGood(false);
-    }
+    }*/
   }
 
   const handleClickBorder = (e) => {
@@ -644,6 +742,11 @@ const CovidCard = () => {
               Please fill out the required fields to receive a link to a QR code / digital copy of your COVID-19 Verification Record:
               </Trans>
             </h2>
+            <p style={{fontSize: "1rem"}}>
+            <Trans i18nKey="vaccineform.filloutsubheader"> 
+            Note: Once you click submit, you can expect to receive your link automatically within the next 24 hours.
+            </Trans>
+            </p>
             <div style={{ marginBottom: "15px" }}>
               <Typography>
                 <Trans i18nKey="vaccineform.subtitle">
@@ -685,7 +788,63 @@ const CovidCard = () => {
             />
             {error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true" ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Please enter your Last Name</label> : ''}
 
-            <MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
+            <fieldset id="dob" style={{ display: "flex", alignItems: "flexStart", flexWrap: "wrap", marginTop: '20px' }}>
+                <legend id="dobLabel" style={{ fontSize: '1rem' }}><Trans i18nKey="vaccineform.dateofbirth">Date of Birth</Trans> *</legend>
+                <div id="dobContainer" style={{
+                  display: "flex", alignItems: "flexStart", flexWrap: "wrap"
+                }}>
+
+                  <div style={{ display: "flex", flexDirection: "column", marginRight: '0.5rem' }} className="dobDropDowns">
+                    <label htmlFor="Select_Month" id="monthLabel"><Trans i18nKey="vaccineform.monthLabel_ADA">Month</Trans></label>
+                    <select
+                      name="Select_Month"
+                      id="Select_Month"
+                      value={monthOfBirth}
+                      onChange={handleMonthChange}
+                      aria-required="true"
+                      aria-label={t("vaccineform.monthLabel_ADA")}
+                      error={error.Date || !isDobGood}
+                    >
+                      {monthOfBirth ? <MonthList /> : <><option key={"defaultMonth"} selected disabled hidden></option><MonthList /></>}
+                    </select>
+                  </div>
+
+                  <div style={{ display: "flex", flexDirection: "column", marginRight: '0.5rem' }} className="dobDropDowns">
+                    <label htmlFor="Select_Day" id="dayLabel"><Trans i18nKey="vaccineform.dayLabel_ADA">Day</Trans></label>
+                    <select
+                      name="Select_Day"
+                      id="Select_Day"
+                      value={dayOfBirth}
+                      onChange={handleDayChange}
+                      aria-required="true"
+                      aria-label={t("vaccineform.dayLabel_ADA")}
+                      error={error.Date || !isDobGood}
+                    >
+                      {dayOfBirth ? <DayList /> : <><option key={"defaultDay"} selected disabled hidden></option><DayList /></>}
+                    </select>
+                  </div>
+
+                  <div style={{ display: "flex", flexDirection: "column" }} className="dobDropDowns">
+                    <label htmlFor="Select_Year" id="yearLabel"><Trans i18nKey="vaccineform.yearLabel_ADA">Year</Trans></label>
+                    <select
+                      name="Select_Year"
+                      id="Select_Year"
+                      value={yearOfBirth}
+                      onChange={handleYearChange}
+                      aria-required="true"
+                      aria-label={t("vaccineform.yearLabel_ADA")}
+                      error={error.Date || !isDobGood}
+                    >
+                      {yearOfBirth ? <YearList /> : <><option key={"defaultYear"} selected disabled hidden></option><YearList /></>}
+                    </select>
+                  </div>
+                </div>
+                <br />
+                
+              </fieldset>
+              {(error.Date || !isDobGood) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Date of Birth field cannot be blank</label> : ''}
+
+            {/*<MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
             <KeyboardDatePicker
               disableToolbar
               name="DateOfBirth"
@@ -725,7 +884,7 @@ const CovidCard = () => {
               }
             />
             {(error.Date || !isDobGood) && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Date of Birth field cannot be blank</label> : ''}
-            </MuiPickersUtilsProvider>
+            </MuiPickersUtilsProvider>*/}
             {/* <Trans i18nKey="vaccineform.phoneemailinfo">Provide the phone or email that was used when you received your COVID-19 vaccine.</Trans></p> */}
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
               <FormLabel component="legend">
