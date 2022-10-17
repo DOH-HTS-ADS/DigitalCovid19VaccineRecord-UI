@@ -102,9 +102,9 @@
     "02question": "Hồ sơ xác minh của tôi sẽ được cung cấp như thế nào? ",
     "02answer": "Khi tìm thấy hồ sơ xác minh của bạn, bạn sẽ nhận được đường liên kết gửi đến email hoặc số điện thoại di động liên kết với hồ sơ tiêm vắc-xin. Sau khi nhập số PIN bốn số, bạn sẽ nhìn thấy thông tin xác minh COVID-19 của bạn bao gồm tên, ngày sinh của bạn, (các) ngày tiêm vắc-xin và nhà sản xuất vắc-xin. Bạn cũng sẽ nhận được mã QR có thể quét chứng nhận hồ sơ xác nhận của bạn là xác thực. ", 
     "03question": "Tôi có thể lưu hồ sơ xác nhận kỹ thuật số của mình vào iPhone không? ",
-    "03answer": "<0>Bạn có thể lưu hồ sơ xác nhận kỹ thuật số của bạn vào ứng dụng Apple Health với hệ điều hành iOS 15. Bạn sẽ cần sử dụng trình duyệt web Safari để hoàn thành quy trình. </0>",
+    "03answer": "<0>Bạn có thể lưu hồ sơ xác nhận kỹ thuật số của bạn vào ứng dụng Apple Health với hệ điều hành iOS 15. Bạn sẽ cần sử dụng trình duyệt web Safari để hoàn thành quy trình. </0><1>Hoặc bạn có thể chụp màn hình <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1> và lưu vào hình ảnh của bạn. </1>",
     "04question": "Tôi có thể lưu Hồ sơ xác nhận kỹ thuật số của mình vào thiết bị Android không? ",
-    "04answer": "<0>Có. Bạn có thể lưu <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1> vào Google Play nếu bạn có Android phiên bản 5 và Google Play Services phiên bản 21.18 trở lên. </0>",   
+    "04answer": "<0>Có. Bạn có thể lưu <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1> vào Google Play nếu bạn có Android phiên bản 5 và Google Play Services phiên bản 21.18 trở lên. </0><1>Bạn cũng có thể chụp màn hình <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1>và lưu vào hình ảnh của bạn.</1>",   
     "05question": "Nếu tôi được tiêm liều bổ sung, chúng có hiển thị trên hồ sơ xác nhận kỹ thuật số của tôi không? ",
     "05answer": "<0>Không. Nếu bạn được tiêm một liều bổ sung hoặc liều tăng cường, nó sẽ không tự động phản ánh trên hồ sơ xác nhận kỹ thuật số của bạn. Bạn cần bắt đầu lại trong hệ thống <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1> để truy xuất mã QR mới.</0><1>Chúng tôi đề nghị bạn đợi 3-7 ngày để liều vắc-xin mới của bạn hiển thị trong Immunization Registry (Cơ quan Đăng ký Tiêm chủng). </1>",
     "06question": "Khi nào liều vắc-xin có trong hồ sơ xác nhận kỹ thuật số của tôi? ",
@@ -118,9 +118,9 @@
     "10question": "Thông tin của tôi vẫn có được bảo mật không?",
     "10answer": "<0>Có. Việc điền thông tin vào mẫu trong hệ thống không cho phép truy cập ngay lập tức vào hồ sơ xác nhận của bạn. Đường liên kết đến hồ sơ xác nhận yêu cầu phải có số PIN mà bạn tạo ra và chỉ được gửi đến số điện thoại di động hoặc email liên kết với hồ sơ tiêm chủng của bạn.</0><1>Mã QR là SMART Health Card (Thẻ Y Tế SMART), một bản sao an toàn hồ sơ xác nhận của bạn. Thông tin thêm có trên <1>https://smarthealth.cards</1>. Để bảo vệ sự riêng tư của bạn, mã QR chỉ có thể được quét và đọc bởi thiết bị theo SMART Health Card. </1>", 
     "11question": "Tôi có thể cài đặt lại số PIN không? ",
-    "11answer": "<0>Có. Bạn có 24 giờ từ khi nhận được đường liên kết để nhập số PIN bốn số và truy cập vào <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1>. Nếu bạn không thực hiện, đường liên kết đến hồ sơ kỹ thuật số của bạn sẽ hết hạn, nhưng bạn có thể bắt đầu lại và cài đặt lại số PIN của mình bằng hệ thống <3>Hồ sơ Xác nhận COVID-19 kỹ thuật số</3>.</0><1>Nếu bạn không nhớ số PIN, sau 24 giờ bạn có thể sử dụng quy trình tương tự và tạo số PIN mới.</1><2><0>LƯU Ý: Sau khi truy cập vào hồ sơ kỹ thuật số của bạn và lưu mã QR, đường liên kết sẽ không hết hạn. </0></2>",
+    "11answer": "Có. Bạn có 24 giờ từ khi nhận được đường liên kết để nhập số PIN bốn số và truy cập vào <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1>. Nếu bạn không thực hiện, đường liên kết đến hồ sơ kỹ thuật số của bạn sẽ hết hạn, nhưng bạn có thể bắt đầu lại và cài đặt lại số PIN của mình bằng hệ thống <3>Hồ sơ Xác nhận COVID-19 kỹ thuật số</3>.<br />Nếu bạn không nhớ số PIN, sau 24 giờ bạn có thể sử dụng quy trình tương tự và tạo số PIN mới.<br /><5>LƯU Ý: Sau khi truy cập vào hồ sơ kỹ thuật số của bạn và lưu mã QR, đường liên kết sẽ không hết hạn. </5>",
     "12question": "Điều này có cung cấp bằng chứng tình trạng tiêm vắc-xin của tôi không?",
-    "12answer": "<0>Có. Đây là một trong <1>nhiều lựa chọn</1> để cung cấp <3>Hồ sơ Xác nhận COVID-19 kỹ thuật số</3>  và có thể được in hoặc hiển thị bằng kỹ thuật số. Bạn cũng có thể trình cho Centers for Disease Control and Prevention (CDC, Trung Tâm Kiểm Soát và Phòng Ngừa Dịch Bệnh) thẻ COVID-19 được cung cấp hoặc hồ sơ tiêm chủng của tiểu bang.</0><1>Bạn không phải lấy <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1>. Đây là một phương tiện tùy chọn để nhận thông tin xác nhận COVID-19 của bạn và là phiên bản kỹ thuật số hồ sơ xác nhận bằng giấy của bạn. Là một trong những lựa chọn để trình bằng chứng tiêm vắc-xin. Tiểu bang sẽ không thực hiện hệ thống hộ chiếu bắt buộc.</1> ",  
+    "12answer": "Có. Đây là một trong <1>nhiều lựa chọn</1> để cung cấp <3>Hồ sơ Xác nhận COVID-19 kỹ thuật số</3>  và có thể được in hoặc hiển thị bằng kỹ thuật số. Bạn cũng có thể trình cho Centers for Disease Control and Prevention (CDC, Trung Tâm Kiểm Soát và Phòng Ngừa Dịch Bệnh) thẻ COVID-19 được cung cấp hoặc hồ sơ tiêm chủng của tiểu bang. <br/>Bạn không phải lấy <5>Hồ sơ Xác nhận COVID-19 kỹ thuật số</5>. Đây là một phương tiện tùy chọn để nhận thông tin xác nhận COVID-19 của bạn và là phiên bản kỹ thuật số hồ sơ xác nhận bằng giấy của bạn. Là một trong những lựa chọn để trình bằng chứng tiêm vắc-xin. Tiểu bang sẽ không thực hiện hệ thống hộ chiếu bắt buộc. ",  
     "13question": "Chuyện gì xảy ra nếu tôi cần thay thẻ tiêm vắc-xin của mình? ",
     "13answer": "Hệ thống cung cấp một bản kỹ thuật số hồ sơ xác nhận của bạn. Nếu bạn bị mất hồ sơ xác nhận bằng giấy, bạn có thể in hồ sơ kỹ thuật số ra và sử dụng. Nếu bạn bị mất <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1>, bạn có thể bắt đầu lại quy trình trên hệ thống. ",
     "14question": "Điều gì xảy ra với thông tin của tôi sau khi tôi chia sẻ? ",
@@ -135,19 +135,5 @@
     "needhelpcontent05": "Ngày lễ tiểu bang đóng cửa ",
     "needhelpcontent06": "<0>LƯU Ý</0>: Chúng tôi không thể cập nhật Hồ sơ Xác nhận COVID-19 kỹ thuật số của bạn qua điện thoại.",
     "vaccineVerificationLink": "https://doh.wa.gov/vi/huong-dan-truc-quan-ve-bang-chung-tiem-vac-xin-covid-19-chinh-thuc-cua-tieu-bang-washington"
-  },
-  "month": {
-    "january": "Tháng Một",
-    "february": "Tháng Hai",
-    "march": "Tháng Ba",
-    "april": "Tháng Tư",
-    "may": "Tháng Năm",
-    "june": "Tháng Sáu",
-    "july": "Tháng Bảy",
-    "august": "Tháng Tám",
-    "september": "Tháng Chín",
-    "october": "Tháng Mười",
-    "november": "Tháng Mười Một",
-    "december": "Tháng Mười Hai"
   }
 }

@@ -3,18 +3,13 @@ import ReactGA from "react-ga";
 import { Link } from "react-router-dom";
 import CovidCard from "./CovidCard";
 import { Trans, useTranslation } from "react-i18next";
-import i18next from 'i18next';
 import faqLinkLanguage from "../utils/faqLinkLanguage";
 import AppController from "../utils/AppController";
 
 const Dashboard = () => {
   const { t, i18n } = useTranslation();
   useEffect(() => {
-    var home = "Home"
-    if(i18next.exists('dashboardpage.tabtext')){
-      home = t("dashboardpage.tabtext")
-    }
-    document.title = home + " " + t("dashboardpage.contentheader");
+    document.title = t("dashboardpage.contentheader");
   });
   return (
     <div>
