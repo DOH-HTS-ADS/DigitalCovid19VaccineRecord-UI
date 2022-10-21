@@ -53,7 +53,7 @@ i18n
       escapeValue: false,
     },
     react:{
-      useSuspense:false,
+      useSuspense:true,
       transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p', 'ul', 'li'],
       transSupportBasicHtmlNodes: true
     }
