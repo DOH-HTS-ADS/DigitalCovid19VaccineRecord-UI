@@ -742,7 +742,7 @@ const CovidCard = () => {
               Please fill out the required fields to receive a link to a QR code / digital copy of your COVID-19 Verification Record:
               </Trans>
             </h2>
-            <p style={{fontSize: "1rem"}}>
+            {/*<p style={{fontSize: "1rem"}}>
             <Trans i18nKey="vaccineform.filloutsubheader"> 
             <span
                   style={{
@@ -754,8 +754,8 @@ const CovidCard = () => {
                 >
                   Note:
                 </span> Once you click submit, you can expect to receive your link automatically within the next 24 hours.
-            </Trans>
-            </p>
+                </Trans>
+            </p>*/}
             <div style={{ marginBottom: "15px" }}>
               <Typography>
                 <Trans i18nKey="vaccineform.subtitle">
