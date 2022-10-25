@@ -22,7 +22,7 @@
   },
   "vaccineform": {
     "filloutheader": "Please fill out the required fields to receive a link to a QR code / digital copy of your COVID-19 Verification Record:",
-    "filloutsubheader": "Note: Once you click submit, you can expect to receive your link automatically within the next 24 hours.",
+    "filloutsubheader": "<0>Note:</0> Once you click submit, you can expect to receive your link automatically within the next 24 hours.",
     "title": "Patient Information",
     "subtitle": "Required fields marked with *",
     "lastname": "Last name",

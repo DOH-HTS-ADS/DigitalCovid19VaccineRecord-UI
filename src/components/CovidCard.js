@@ -744,7 +744,16 @@ const CovidCard = () => {
             </h2>
             <p style={{fontSize: "1rem"}}>
             <Trans i18nKey="vaccineform.filloutsubheader"> 
-            Note: Once you click submit, you can expect to receive your link automatically within the next 24 hours.
+            <span
+                  style={{
+                    background: "#22489C",
+                    borderRadius: "5px",
+                    color: "#ffffff",
+                    padding: "4px 5px",
+                  }}
+                >
+                  Note:
+                </span> Once you click submit, you can expect to receive your link automatically within the next 24 hours.
             </Trans>
             </p>
             <div style={{ marginBottom: "15px" }}>
