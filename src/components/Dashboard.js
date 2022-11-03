@@ -64,14 +64,44 @@ const Dashboard = () => {
           <hr />
         </section>
       </div>
-      <section
+
+      {i18n.language != "en" ? (
+        <section
         className="DashContainer"
         style={{ marginBottom: "64px", marginTop: "10px", fontSize: "18px", display: "none"}}
+        >
+          <article>
+            <span>
+              <Trans i18nKey="vaccineform.safe">
+              Safe, free, and effective COVID-19 vaccines are now available. Please visit our  
+                <ReactGA.OutboundLink
+                  eventLabel="VaccineLocator"
+                  to={"https://vaccinelocator.doh.wa.gov/"}
+                  target="VaccineLocator"
+                  style={{
+                    display: "inline",
+                    color: "#0D6EFD",
+                    margin: "0 5px",
+                    textDecoration: "underline"
+                  }}
+                >
+                  COVID vaccine webpage
+                </ReactGA.OutboundLink>
+                to see if you or your child is eligible
+              </Trans> 
+              {AppController.externalLink()} 
+            </span>
+          </article>
+        </section>
+                    
+                  ) : <section
+        className="DashContainer"
+        style={{ marginBottom: "64px", marginTop: "10px", fontSize: "18px"}}
       >
         <article>
           <span>
             <Trans i18nKey="vaccineform.safe">
-            Safe, free, and effective COVID-19 vaccines are now available to everyone age 5 and older,
+            Safe, free, and effective COVID-19 vaccines are now available. Please visit our  
               <ReactGA.OutboundLink
                 eventLabel="VaccineLocator"
                 to={"https://vaccinelocator.doh.wa.gov/"}
@@ -83,13 +113,18 @@ const Dashboard = () => {
                   textDecoration: "underline"
                 }}
               >
-                get vaccinated.
+                COVID vaccine webpage
               </ReactGA.OutboundLink>
+              to see if you or your child is eligible
             </Trans> 
             {AppController.externalLink()} 
           </span>
         </article>
       </section>
+        }
+
+
+      
     </div>
   );
 };
