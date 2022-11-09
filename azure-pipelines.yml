@@ -29,7 +29,7 @@ stages:
     - bash: |
         git checkout main
         git remote add DigitalCovid19VaccineRecord-UI $(remote_repo)
-        git fetch repoGithub main
+        git fetch DigitalCovid19VaccineRecord-UI main
         git reset --hard DigitalCovid19VaccineRecord-UI/main
         git pull --rebase DigitalCovid19VaccineRecord-UI main
         git push --force origin
