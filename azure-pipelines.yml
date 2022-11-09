@@ -26,7 +26,7 @@ stages:
       persistCredentials: true
       displayName: run_commands
     - bash: |
-        git remote add myRemoteRepo https://$(System.AccessToken)@dev.azure.com/HTS-ADS/WA%20Verify/_git/DigitalCovid19VaccineRecord-UI.git
+        git remote add myRemoteRepo https://$(System.AccessToken)@dev.azure.com/HTS-ADS/WA%20Verify/_git/DigitalCovid19VaccineRecord-UI
         git fetch myRemoteRepo
 - stage: dev_build
   displayName: Build Dev Solution
