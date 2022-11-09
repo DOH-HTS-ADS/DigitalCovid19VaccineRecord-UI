@@ -15,6 +15,24 @@ variables:
   remote_repo: 'https://dev.azure.com/HTS-ADS/WA%20Verify/_git/DigitalCovid19VaccineRecord-UI'
 
 stages:
+- stage: running_git_commands
+  displayName: Sync GitHub Repo to Backup
+  jobs:
+  - job: initiate
+    displayName: initiate
+    continueOnError: false
+    steps:
+    - checkout: self
+      clean: true
+      persistCredentials: true
+      displayName: run_commands
+    - bash: 
+        git checkout master
+            git remote add repoGithub $(emote_repo)
+            git fetch repoGithub master
+            git reset --hard repoGithub/master
+            git pull --rebase repoGithub master
+            git push --force origin
 - stage: dev_build
   displayName: Build Dev Solution
   jobs:  
