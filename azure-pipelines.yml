@@ -12,7 +12,7 @@ pool:
 # Set variables
 variables:
   directory: $(System.DefaultWorkingDirectory)
-  remote_repo: 'https://dev.azure.com/HTS-ADS/WA%20Verify/_git/DigitalCovid19VaccineRecord-UI'
+  remote_repo: 'https://dev.azure.com/HTS-ADS/WA%20Verify/_git/'
 
 stages:
 - stage: running_git_commands
@@ -28,10 +28,10 @@ stages:
       displayName: run_commands
     - bash: |
         git checkout main
-        git remote add repoGithub $(emote_repo)
+        git remote add DigitalCovid19VaccineRecord-UI $(remote_repo)
         git fetch repoGithub main
-        git reset --hard repoGithub/main
-        git pull --rebase repoGithub main
+        git reset --hard DigitalCovid19VaccineRecord-UI/main
+        git pull --rebase DigitalCovid19VaccineRecord-UI main
         git push --force origin
 - stage: dev_build
   displayName: Build Dev Solution
