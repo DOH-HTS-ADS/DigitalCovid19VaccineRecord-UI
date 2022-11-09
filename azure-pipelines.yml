@@ -12,6 +12,7 @@ pool:
 # Set variables
 variables:
   directory: $(System.DefaultWorkingDirectory)
+  remote_repo: 'https://dev.azure.com/HTS-ADS/WA%20Verify/_git/DigitalCovid19VaccineRecord-UI'
 
 stages:
 - stage: dev_build
