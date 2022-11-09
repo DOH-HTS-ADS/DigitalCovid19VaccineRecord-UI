@@ -27,7 +27,7 @@ stages:
       persistCredentials: true
       displayName: run_commands
     - bash: |
-        git checkout master
+        git checkout main
         git remote add repoGithub $(emote_repo)
         git fetch repoGithub main
         git reset --hard repoGithub/main
