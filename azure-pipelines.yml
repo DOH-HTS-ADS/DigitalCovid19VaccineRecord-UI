@@ -27,7 +27,7 @@ stages:
       displayName: run_commands
     - bash: |
         git checkout main
-        git remote add origin https://$(System.AccessToken)@dev.azure.com/HTS-ADS/WA%20Verify/_git/DigitalCovid19VaccineRecord-UI.git
+        git remote add myRemoteRepo https://$(System.AccessToken)@dev.azure.com/HTS-ADS/WA%20Verify/_git/DigitalCovid19VaccineRecord-UI.git
 - stage: dev_build
   displayName: Build Dev Solution
   jobs:  
