@@ -795,7 +795,7 @@ const CovidCard = () => {
               onBlur={(e) => isValidInput(e) ? setError({ ...error, LastName: true }) : setError({ ...error, LastName: false })}
 
             />
-            {error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true" ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Please enter your Last Name</label> : ''}
+            {error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true" ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.lastnameErrorMsg">Please enter your Last Name!</Trans></label> : ''}
 
             <fieldset id="dob" style={{ display: "flex", alignItems: "flexStart", flexWrap: "wrap", marginTop: '20px' }}>
                 <legend id="dobLabel" style={{ fontSize: '1rem' }}><Trans i18nKey="vaccineform.dateofbirth">Date of Birth</Trans> *</legend>
@@ -851,7 +851,7 @@ const CovidCard = () => {
                 <br />
                 
               </fieldset>
-              {(error.Date || !isDobGood) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Date of Birth field cannot be blank</label> : ''}
+              {(error.Date || !isDobGood) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.dateofbirthErrorMsg4">Date of Birth field cannot be blank</Trans></label> : ''}
 
             {/*<MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
             <KeyboardDatePicker
