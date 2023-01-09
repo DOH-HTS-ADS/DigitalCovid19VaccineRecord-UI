@@ -13,6 +13,7 @@
     "subtitle": "請填寫表格以建立Quick Response (QR) 代碼"
   },
   "dashboardpage": {
+
     "contentheader": "數位 COVID-19 驗證記錄",
     "content1": "歡迎使用數位 COVID-19 驗證記錄系統。請在下方輸入一些詳細資訊，以獲取前往 QR 代碼和 COVID-19 驗證記錄數位副本的連結。如果您欲分享疫苗接種證明，您可以使用從系統中獲得的電子版本或列印版本記錄。",
     "content2": "家庭中的某位成員可能擁有多個的驗證記錄，並且均與單個電話號碼或電子郵件地址相關聯，請分別輸入每份數位驗證記錄請求。",
@@ -21,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "請填寫必填欄位以接收前往您的 COVID-19 驗證記錄的 QR 代碼/數位副本的連結：",
+    
     "title": "患者資訊",
     "subtitle": "標有 * 的為必填欄位",
     "lastname": "姓氏",
+    "lastnameErrorMsg": "請輸入您的姓氏",
     "firstname": "名字",
+    "firstnameErrorMsg": "請輸入您的名字",
     "middlename": "中間名首字母",
     "dateofbirth": "出生日期",
+
+
+
+    "dateofbirthErrorMsg4": "出生日期欄位不能為空",
     "phoneemailinfo": "請提供可能與您的疫苗記錄相關聯的手機號碼或電子郵件。如果使用您的手機號碼無法找到匹配記錄，請使用您的電子郵件地址重試。",
     "Phone": "手機號碼",
+    "phoneErrorMsg1": "請輸入有效格式的手機號碼",
     "Email": "電子郵件",
+    "emailErrorMsg1": "請輸入一個有效的電子郵件地址",
     "pincode": "建立一個 4 位數的 PIN 碼。您將收到一個連結，用於輸入 PIN 碼並存取您的數位疫苗記錄。*",
     "pinErrorMsg1": "PIN 不允許包含 4 個連續的數字",
     "pinErrorMsg2": "PIN 不允許包含 4 個重複的數字",
@@ -38,9 +48,10 @@
     "pinErrorMsg5": "請與我們連絡或連絡您的醫療保健提供者，以獲取更多資訊或支援。",
     "pinErrorMsg6": "我們無法完成您的請求，請重試。",
     "pinErrorMsg7": "資料格式無效，請重試",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "PIN 號碼必須是 4 個字元",
     "note": "<0>注：</0>您需要使用 PIN 碼才能安全地存取您的數位記錄。",
     "checkboxdescription": "透過勾選此框，以表示根據州和聯邦法律，您鄭重聲明您是患者或患者的父母/監護人，因此有權存取該患者的免疫接記錄，如有偽證，將根據州和聯邦法律予以偽證處罰。",
+    "agreementErrorMsg1": "必須選擇政策協議核取方塊",
     "safe": "現可供 5 歲及以上的所有人接種安全、免費且有效的 COVID-19 疫苗，<1>接種疫苗</1>。",
     "vaccineproductname": "疫苗產品名稱",
     "subsubtitle": "第一劑 COVID-19 疫苗資訊",
