@@ -13,6 +13,7 @@
     "subtitle": "请填写表格以创建 Quick Response (QR) 码"
   },
   "dashboardpage": {
+
     "contentheader": "数字 COVID-19 验证记录",
     "content1": "欢迎使用数字 COVID-19 验证记录系统。请在下方输入一些详细信息，以获取 QR 码和 COVID-19 验证记录数字副本的链接。如果您想要分享疫苗接种证明，您可以使用从系统中获得的电子版本或打印版本记录。",
     "content2": "家庭中的某位成员可能拥有多个验证记录，而这些验证记录均与单个电话号码或电子邮件地址相关联，请分别输入每份数字验证记录请求。",
@@ -21,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "请填写必填字段以接收您 COVID-19 验证记录的 QR 码/数字副本的链接：",
+    
     "title": "患者信息",
     "subtitle": "标有 * 的为必填字段",
     "lastname": "姓氏",
+    "lastnameErrorMsg": "请输入您的姓氏",
     "firstname": "名字",
+    "firstnameErrorMsg": "请输入您的名字",
     "middlename": "中间名首字母",
     "dateofbirth": "出生日期",
+
+
+
+    "dateofbirthErrorMsg4": "出生日期字段不能为空",
     "phoneemailinfo": "请提供可能与您的疫苗记录相关联的手机号码或电子邮件。如果使用您的手机号码无法找到匹配记录，请使用您的电子邮件地址重试。",
     "Phone": "手机号码",
+    "phoneErrorMsg1": "请输入有效格式的手机号码",
     "Email": "电子邮件",
+    "emailErrorMsg1": "请输入有效的电子邮件地址",
     "pincode": "创建一个 4 位数的 PIN 码。您将收到一个链接，用于输入 PIN 码并访问您的数字疫苗记录。*",
     "pinErrorMsg1": "PIN 不允许包含 4 个连续的数字",
     "pinErrorMsg2": "PIN 不允许包含 4 个重复的数字",
@@ -38,9 +48,10 @@
     "pinErrorMsg5": "请联系我们或您的医疗保健提供者以获取更多信息或支持。",
     "pinErrorMsg6": "我们无法完成您的请求，请重试。",
     "pinErrorMsg7": "数据格式无效，请重试",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "PIN 号码必须为 4 个字符",
     "note": "<0>注：</0>您需要使用 PIN 码才能安全地访问您的数字记录。",
     "checkboxdescription": "勾选此框，即表明根据州和联邦法律，您郑重声明您是患者或患者的父母/监护人，因此有权访问该患者的免疫接种记录，如有虚假，将根据州和联邦法律接受伪证罪处罚。",
+    "agreementErrorMsg1": "必须选择政策协议复选框",
     "safe": "现可供 5 岁及以上的所有人接种安全、免费且有效的 COVID-19 疫苗，<1>接种疫苗</1>。",
     "vaccineproductname": "疫苗产品名称",
     "subsubtitle": "第一剂 COVID-19 疫苗信息",
