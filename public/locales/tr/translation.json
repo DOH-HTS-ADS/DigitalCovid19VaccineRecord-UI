@@ -4,12 +4,16 @@
     "highcontrast": "Yüksek Kontrast",
     "contactus": "Bize Ulaşın",
     "settings": "Ayarlar"
+
+
+
   },
   "vaccinepage": {
     "title": "Doğrulama Kare Kodu",
     "subtitle": "Doğrulama kare kodunu oluşturmak için lütfen formu doldurun"
   },
   "dashboardpage": {
+
     "contentheader": "Dijital COVID-19 Doğrulama Kaydı",
     "content1": "Dijital COVID-19 Doğrulama Kaydı sistemine hoş geldiniz. Kare kodun bağlantısını ve COVID-19 Doğrulama Kaydı’nızın dijital kopyasını almak için aşağıya birkaç ayrıntı girin. Aşı kanıtını paylaşmak isterseniz sistemden alacağınız kaydın elektronik veya basılı halini kullanabilirsiniz.",
     "content2": "Bir ailedeki bireyler tek bir telefon numarası veya e-posta adresiyle ilişkili birden fazla doğrulama kaydına sahip olabilir, her dijital doğrulama kaydı talebini ayrıca girmeniz gerekir.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Kare kodun bağlantısını/COVID-19 Doğrulama Kaydı’nızın dijital kopyasını almak için lütfen zorunlu alanları doldurun:",
+    
     "title": "Hasta Bilgileri",
     "subtitle": "Doldurulması zorunlu alanlar * ile işaretlenmiştir",
     "lastname": "Soyadı",
+    "lastnameErrorMsg": "Lütfen Soyadınızı girin",
     "firstname": "Adı",
+    "firstnameErrorMsg": "Lütfen Adınızı girin",
     "Middlename": "Göbel adı ilk harfi",
     "dateofbirth": "Doğum tarihi",
+    
+    
+    
+    "dateofbirthErrorMsg4": "Doğum Tarihi alanı boş bırakılamaz",
     "phoneemailinfo": "Aşı kaydınızla ilişkilendirilebilecek bir cep telefonu veya e-posta verin. Cep telefonunuzu kullanarak bir eşleşme bulamazsanız e-posta adresinizi kullanarak tekrar deneyin.",
     "Phone": "Cep Telefonu",
+    "phoneErrorMsg1": "Lütfen Cep Telefonu numarasını doğru biçimde girin",
     "Email": "E-posta",
+    "emailErrorMsg1": "Geçerli bir e-posta adresi girin",
     "pincode": "4 haneli bir PIN kodu oluşturun PIN kodunu girmek ve dijital aşı kaydınıza erişmek için bir bağlantı alacaksınız. *",
     "pinErrorMsg1": "PIN kodu ardışık 4 rakamı içeremez",
     "pinErrorMsg2": "PIN kodu aynı 4 rakamı içeremez",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Daha fazla bilgi veya destek için lütfen bizimle veya sağlık uzmanınızla iletişime geçin.",
     "pinErrorMsg6": "İsteğinizi tamamlayamadık, lütfen tekrar deneyin.",
     "pinErrorMsg7": "Geçersiz veri biçimi, lütfen tekrar deneyin",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "PIN Numarası 4 karakter uzunluğunda olmalıdır",
     "note": "<0>Not:</0> Dijital kaydınıza güvenli bir şekilde erişmek için PIN kodunuz gereklidir.",
     "checkboxdescription": "Bu kutuyu işaretleyerek, Hasta veya Hastanın Ebeveyni/Vasisi olduğunuzu ve bu nedenle Hastanın aşı kaydına erişme yetkiniz olduğunu eyalet ve federal yasalar uyarınca yalan yere yemin etme cezası ile beyan etmiş olursunuz.",
+    "agreementErrorMsg1": "Politika Sözleşmesi onay kutusu işaretlenmelidir",
     "safe": "Güvenli, ücretsiz ve etkili COVID-19 aşıları artık 5 yaş ve üstü herkese sunuluyor, <1>aşı olun</1>. ",
     "vaccineproductname": "Aşı Ürün Adı",
     "subsubtitle": "COVID-19 Aşısı 1. Doz bilgileri",
