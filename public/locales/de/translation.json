@@ -4,12 +4,16 @@
     "highcontrast": "Hoher Kontrast",
     "contactus": "Kontakt",
     "settings": "Einstellungen"
+
+
+
   },
   "vaccinepage": {
     "title": "Zertifikats-Quick-Response(QR)-Code",
     "subtitle": "Bitte das Formular ausfüllen, um einen Quick-Response(QR)-Code zu erstellen"
   },
   "dashboardpage": {
+
     "contentheader": "COVID-19-Digitalzertifikat",
     "content1": "Willkommen zum COVID-19-Digitalzertifikat-System Geben Sie nachfolgen einige Angaben ein, um einen Link zu einem QR-Code und einer digitalen Kopie Ihres COVID-19-Zertifikats zu erhalten. Wenn Sie einen Impfnachweis teilen möchten, können Sie entweder die elektronische oder eine ausgedruckte Version des Datensatzes verwenden, den Sie vom System erhalten.",
     "content2": "Personen innerhalb einer Familie können mehrere Impfzertifikate haben, die mit ein und derselben Telefonnummer oder E-Mail-Adresse verknüpft sind. Geben Sie jede Digitalzertifikat-Anforderung getrennt ein.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Füllen Sie bitte die Pflichtfelder aus, um einen Link zu einem QR-Code / einer digitalen Kopie Ihres COVID-19-Zertifikats zu erhalten.",
+    
     "title": "Patientendaten",
     "subtitle": "Pflichtfelder sind mit einem * gekennzeichnet",
     "lastname": "Nachname",
+    "lastnameErrorMsg": "Geben Sie bitte Ihren Nachnamen ein.",
     "firstname": "Vorname",
+    "firstnameErrorMsg": "Geben Sie bitte Ihren Vornamen ein.",
     "Middlename": "Erster Buchstabe des zweiten Vornamens",
     "dateofbirth": "Geburtsdatum",
+    
+    
+    
+    "dateofbirthErrorMsg4": "Das Feld für das Geburtsdatum muss ausgefüllt werden.",
     "phoneemailinfo": "Geben Sie bitte eine Handynummer oder eine E-Mail-Adresse an, die Ihrem Impfpass zugeordnet werden kann. Wenn Sie anhand Ihrer Handynummer keinen Treffer bekommen, versuchen Sie es erneut mit Ihrer E-Mail-Adresse.",
     "Phone": "Handy",
+    "phoneErrorMsg1": "Geben Sie bitte die Handynummer in einem gültigen Format ein.",
     "Email": "E-Mail",
+    "emailErrorMsg1": "Geben Sie eine gültige E-Mail-Adresse ein.",
     "pincode": "Erstellen Sie eine 4stellige PIN-Nummer. Sie erhalten einen Link, um die PIN-Nummer einzugeben und auf Ihren digitalen Impfpass zuzugreifen. *",
     "pinErrorMsg1": "Die PIN darf nicht 4 aufeinanderfolgende Ziffern enthalten",
     "pinErrorMsg2": "Die PIN darf nicht 4 gleiche Ziffern enthalten",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Wenn Sie weitere Informationen oder Unterstützung benötigen, setzen Sie sich bitte mit uns oder mit Ihrem Gesundheitsversorger in Verbindung.",
     "pinErrorMsg6": "Wir konnten Ihre Anfrage nicht ausführen. Versuchen Sie es bitte noch einmal.",
     "pinErrorMsg7": "Datumsformat ungültig, bitte erneut versuchen",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "Die PIN-Nummer muss aus 4 Zeichen bestehen.",
     "note": "<0>Hinweis:</0> Um sicher auf Ihren digitalen Datensatz zuzugreifen, wird Ihre PIN benötigt.",
     "checkboxdescription": "Indem Sie dieses Kästchen ankreuzen, erklären Sie unter Strafandrohung für Eidbruch nach bundesstaatlichen und US-Bundesgesetzen, dass Sie der/die Patient(in) bzw. ein Elternteil / Erziehungsberechtigte(r) der Patientin / des Patienten sind und daher berechtigt sind, auf den Impfpass des Patienten zuzugreifen.",
+    "agreementErrorMsg1": "Das Kästchen für das Einverständnis mit der Richtlinie muss aktiviert sein.",
     "safe": "Sichere und wirksame COVID-19-Impfstoffe sind jetzt kostenlos für alle Personen ab 5 Jahren verfügbar, <1>lassen Sie sich impfen </1>. ",
     "vaccineproductname": "Name des Impfprodukts",
     "subsubtitle": "Informationen zur 1. Dosis des COVID-19-Impfstoffs",
