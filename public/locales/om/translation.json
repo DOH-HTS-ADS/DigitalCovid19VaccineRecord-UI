@@ -4,12 +4,16 @@
     "highcontrast": "Garaa garummaa Guddaa",
     "contactus": "Nu Qunnamaa",
     "settings": "Seettingiiwwan"
+
+
+
   },
   "vaccinepage": {
     "title": "Koodii Mirkaneessa Dafee Deebisu (QR)",
     "subtitle": "Koodii dafee deebisu (QR) uumuf unkicha guutaa"
   },
   "dashboardpage": {
+
     "contentheader": "Mirkaneessa Ragaa Dijitaalaa COVID-19",
     "content1": "Gara Mirkaneessa Ragaa Dijitaalaa COVID-19 baga nagaan dhiftan Liinkii koodii QR fi mirkaneessa ragaa COVID-19 keessanitti geessu argachuuf odeeffannoo muraasa armaan gaditti galchaa. Talaallii fudhachuu ragaa mirkaneessu dhiyeessuu yoo feetan, ragaa sirnicha (system) irraa argattan bifa elektiroonkisii yookinmaxansaatiin fayyadamuu dandeessu.",
     "content2": "Namoonni maatii tokko keessa jiraatan ragaalee mirkaneessaa heddu kan lakkoofsa bilbilaa tokko yookin imeelii wajjin wal qabatu heddu qabaachuu malu, tokkoon tokkoo gaaffii ragaa mirkaneessa dijitaalaa (digital verification record request) qofa qofaatti galchaa.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Liinkii koodii QR/koppii mirkaneessa ragaa COVID-19 keessanitti geessu fudhachuuf, bakkeewwan guutamuu qaban guutaa:",
+    
     "title": "Odeeffannoo dhukkubsataa",
     "subtitle": "Bakkeewwan dirqama guutamuu qaban mallattii * qabu",
     "lastname": "Maqaa dhumaa/Akaakayyuu",
+    "lastnameErrorMsg": "Maaloo Maqaa Xumuraa kee galchi",
     "firstname": "Maqaa jalqabaa",
+    "firstnameErrorMsg": "Maaloo Maqaa Jalqabaa kee galchi",
     "Middlename": "Qubee jalqabaa maqaa gidduu",
     "dateofbirth": "Guyyaa dhalootaa",
+    
+    
+    
+    "dateofbirthErrorMsg4": "Guyyaan dhalootaa duwwaa ta'uu hin danda'u",
     "phoneemailinfo": "Lakkoofsa bilbilaa yookin imeelii ragaa talaallii keessanii wajjin wal qabatu barreessaa. Bilbila fayyadamuun yoo wal isiniif simuu dide, imeelii fayyadamuun irra deebin yaalaa.",
     "Phone": "Lakkoofsa bilbilaa",
+    "phoneErrorMsg1": "Maaloo Lakkoofsa bilbilaa bifa sirriin galchi",
     "Email": "Imeelii",
+    "emailErrorMsg1": "Iimeela sirrii galchi",
     "pincode": "Lakkoofsa PIN abbaa dijiitii 4 uumaa. Lakkoofsa PIN fi ragaa talaallii kan dijitaalaa galchuuf liinkin isiniif dhufa. *",
     "pinErrorMsg1": "PIN lakkoofsa 4 walitti fufiinsa jiru qabachuu hin danda’u",
     "pinErrorMsg2": "PIN lakkoofsa tokko si’a 4 irra deebin qabachuu hin danda’u",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Odeeffannoo dabalataaf yookin deeggarsaaf, nuyi yookin ogeessa fayyaa keessan gaafadhaa.",
     "pinErrorMsg6": "Gaaffii keessan xumuruu hin dandeenye, irra deebin yaalaa",
     "pinErrorMsg7": "Bifa odeeffannoo (data format) sirrii hin taane, irra deebin yaalaa",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "Qubeewwan lakkoofsa PIN 4 ta'uu qabu",
     "note": "<0>Yaadachiisa:</0> Ragaa dijitaalaa keessan rakkoo nageenyaa tokko malee argachuuf PIN keessan barbaachisaadha.",
     "checkboxdescription": "Sanduuqa kanatti mallattoo yommuu gootu, akka seera adabbii soba dubbachuu kan naannoo fi federaalaa jalatti tumameen isin Dhukkubsataa yookin Maatii/Guddisee Dhukkubsataa ta’uu keessan ibsaa jirtu; kanaaf ragaa talaallii Dhukkbsatichaa akka ilaaltaniif siif eeyyamameera jechuudha.",
+    "agreementErrorMsg1": "Sanduuqni filannoo Poolisii Waliigaltee filatamuu qaba",
     "safe": "Talaallin COVID-19 rakkoo hin geessifne, bilisaan kennamuu fi bu’a qabeessa ta’e namoota waggaa 5 fi isaa oliitif amma jira, <1>talaalamaa</1> (Ingiliffa qofa).",
     "vaccineproductname": "Maqaa Omisha Talaallii",
     "subsubtitle": "Odeeffannoo Talaallii COVID-19 Doozii 1ffaa",
