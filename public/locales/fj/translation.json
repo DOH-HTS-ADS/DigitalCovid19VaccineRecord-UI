@@ -4,12 +4,16 @@
     "highcontrast": "Levu na kena Duidui",
     "contactus": "Veitaratara kei Keitou",
     "settings": "Kena icakacaka"
+
+
+
   },
   "vaccinepage": {
     "title": "Quick Response (QR) Code ni iVakadinadina",
     "subtitle": "Kerei mo vakalewena na fomu me dua kina nomu quick response (QR) code"
   },
   "dashboardpage": {
+
     "contentheader": "iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19",
     "content1": "Kidavaki ena ituvatuva ni iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19. Vola eso na ka e toka e ra me rawa ni dua kina nomu isema ena QR code ni ivolatukutuku vakalivaliva e vakadeitaka ni o sa cula ena icula ni COVID-19. Ke o vinakata mo vakaraitaka e dua na ivakadinadina ni nomu cula, e rawa ni o vakayagataka na ilavelave vakalivalia se na ilavelave tabaki ni veika e vakarautaki yani ena misini.",
     "content2": "O ira na vakavuvale era na rairai vakalewena na ivolatukutuku ni lewe ni nodra vuvale ra qai vakayagataka ga e dua na naba se imeli. Ena vinakati gona mo na vakalewena yadua na yacadra ni o vakayagataka na nomu naba se talevoni.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Yalovinaka mo vakalewena na veitikina eso a vinakati me dua kina nomu isema ni QR code / ilavelave vakalivaliva ni iVolatukutuku Vakalivaliva ni Veivakadeitaka ni o sa cula ena iCula ni COVID-19:",
+    
     "title": "Me ikuri ni ivakamacala",
     "subtitle": "Kena e dodonu me vakaleweni e toka e yasana na *",
     "lastname": "Yaca ni vuvale",
+    "lastnameErrorMsg": "Kerea mo vola nai karua ni yacamu",
     "firstname": "iMatai ni Yaca",
+    "firstnameErrorMsg": "Kerea mo vola nai matai ni yacamu",
     "Middlename": "iKarua ni Yacamu",
     "dateofbirth": "Tikinisiga ni nomu sucu",
+    
+    
+    
+    "dateofbirthErrorMsg4": "E sega ni rawa ni lala tu na vanua me volai kina na tiki ni siga ni sucu",
     "phoneemailinfo": "Vakarautaka e dua a nomu naba ni talevoni se imeli e vakayagataki ena ivolatukutuku ni nomu cula. Ke sega ni cakacaka na naba ni talevoni, tovolea nomu imeli.",
     "Phone": "Naba ni Talevoni",
+    "phoneErrorMsg1": "Kerea mo tabaka na nomu naba ni talevoni ena kenai walewale dodonu",
     "Email": "iMeli",
+    "emailErrorMsg1": "Vakacuruma e dua na email ka cakacaka tiko",
     "pincode": "Tabaka e 4 na naba ni PIN. Ena vakau yani e dua na isema mo vola kina na naba ni PIN qai raica na ilavelave vakalivaliva ni ivolatukutuku ni cula. *",
     "pinErrorMsg1": "E sega ni rawa ni o vakayagataka e 4 na naba veitaravi ena PIN",
     "pinErrorMsg2": "E sega ni rawa ni o vakayagataka e rua na naba tautauvata ena 4 na naba ni PIN",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Yalovinaka mo veitaratara mai vei keitou se vanua o lai laurai kina ke o via kila eso tale na itukutuku kei na veivuke e vakarautaki.",
     "pinErrorMsg6": "E sega ni rawa ni vakayacori ena gauna qo na ka o kerea, tovolea tale mada.",
     "pinErrorMsg7": "Sega ni donu na ka o vola, tovolea tale mada",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "Na nomu pin naba e dodonu me va ga na matanivola se naba",
     "note": "<0>Nanuma:</0> Ena vinakati nomu PIN mo qai raica rawa kina na kemu itukutuku vakalivaliva.",
     "checkboxdescription": "Ke o toqa na kato qo, o sa bubuluitaka ni o na totogitaki ena ruku ni lawa ni matanitu ena vuku ni itukutuku lasu ke o dua e mai Cula se iTubutubu/Dauniveisusu nei koya a cula, sa tu vei iko na dodonu mo raica na ivolatukutuku kece nei koya e Cula.",
+    "agreementErrorMsg1": "E dodonu me toqai na kisi ni veidinadinati ni lawatu",
     "safe": "Sa vakarautaki vei ira na kece na yabaki 5 lako cake na icula ni wainimate e tarova na COVID-19 e vinaka, sega ni saumi, qai veivakabulai, <1>lai cula</1>.",
     "vaccineproductname": "Yaca ni iCula ni Wainimate",
     "subsubtitle": "iTukutuku ni iMatai ni Cula ni Wainimate e Tarova na COVID-19",
