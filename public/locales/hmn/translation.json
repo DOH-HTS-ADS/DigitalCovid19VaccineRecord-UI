@@ -4,12 +4,16 @@
         "highcontrast": "Pom Tseeb Heev", 
         "contactus": "Txuas Lus Rau Peb", 
         "settings": "Cov Kev Teeb Tsa"
+
+
+
     }, 
     "vaccinepage": {
         "title": "Kev Txheeb Xyuas Tus Khauj Lus Teb Ceev (QR)", 
         "subtitle": "Thov sau daim foos los tsim tus khauj lus teb ceev (QR)"
     }, 
     "dashboardpage": {
+
         "contentheader": "Kev Txheeb Xyuas Ntaub Ntawv Sau Tseg Txog Kab Mob COVID-19 Ua Dis Cis Tauj", 
         "content1": "Zoo siab txais tos los rau kev ua hauj lwm txog Kev Txheeb Xyuas Ntaub Ntawv Sau Tseg Txog Kab Mob COVID-19 Ua Dis Cis Tauj Ntaus nkag ob peb nqe lus qhia meej tseeb hauv qab no txhawm rau kom tau txais txoj kab txuas nkag mus rau tus khauj QR thiab daim theej tawm ntawm kev txheeb xyuas koj cov ntaub ntawv sau tseg txog kab mob COVID-19 ua dis cis tauj. Yog tias koj xav faib tawm pov thawj kev txhaj tshuaj tiv thaiv kab mob, koj tuaj yeem siv tau cov ntaub ntawv sau tseg hauv es lev taus niv los sis luam tawm uas koj yuav tau txais los ntawm qhov kev ua hauj lwm.", 
         "content2": "Tej zaum cov neeg nyob rau hauv tsev neeg yuav muaj ntau cov kev txheeb xyuas ntaub ntawv sau tseg txog uas tau cuam tshuam nrog rau tib tus nab npawb xov tooj los sis tus email, ntaus nkag txhua tej qhov kev thov txheeb xyuas ntaub ntawv sau tseg ua dis cis tauj kom txhob sib txuam.", 
@@ -18,15 +22,24 @@
     }, 
     "vaccineform": {
         "filloutheader": "Thov sau tej kem uas yuav tsum tau sau txhawm rau kom tau txais txoj kab txuas nkag mus rau tus khauj QR / daim theej tawm dis cis tauj ntawm koj li Kev Txheeb Xyuas Ntaub Ntawv Sau Tseg Txog Kab Mob COVID-19:", 
+        
         "title": "Tus Neeg Mob Li Ntaub Ntawv", 
         "subtitle": "Cov kem uas yuav tsum tau sau uas muaj lub cim *", 
         "lastname": "Lub xeem", 
+        "lastnameErrorMsg": "Thov ntaus koj Lub Xeem",
         "firstname": "Lub npe", 
+        "firstnameErrorMsg": "Thov ntaus koj Lub Npe",
         "Middlename": "Lub Npe Nruab Nrab Sau Luv", 
         "dateofbirth": "Hnub yug", 
+        
+        
+        
+        "dateofbirthErrorMsg4": "Kem Hnub yug yuav tsum sau rau",
         "phoneemailinfo": "Muab tus xov tooj ntawm tes los sis tus email uas tej zaum tau cuam tshuam nrog rau koj li ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob. Yog tias koj tsis tau txais qhov zoo sib thooj uas siv koj tus xov tooj ntawm tes, sim dua ib zaug ntxiv uas siv koj tus email.", 
         "Phone": "Xov Tooj Ntawm Tes", 
+        "phoneErrorMsg1": "Sau tus npawb Xov Tooj Ntawm Tes kom raug raws tus qauv",
         "Email": "Email", 
+        "emailErrorMsg1": "Ntaus tus Email kom raug",
         "pincode": "Tsim tus zauv cim PIN 4-tus zauv. Koj yuav tau txais txoj kab txuas nkag mus txhawm rau ntaus nkag tus zauv cim PIN thiab nkag mus rau koj li ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob ua dis cis tauj. *", 
         "pinErrorMsg1": "Tus zauv cim PIN yuav tsum tsis muaj cov zauv sib law 4 tug", 
         "pinErrorMsg2": "Tus zauv cim PIN yuav tsum tsis muaj cov zauv sib tshooj 4 tug", 
@@ -35,9 +48,10 @@
         "pinErrorMsg5": "Thov txuas lus rau peb los sis koj tus kws pab saib xyuas kev noj qab haus huv rau ntaub ntawv kev paub ntxiv los sis kev pab txhawb.", 
         "pinErrorMsg6": "Peb yuav tsis tuaj yeem ua tau koj li kev thov tiav, thov sim dua ib zaug ntxiv.", 
         "pinErrorMsg7": "Tus qauv cov ntaub ntawv tsis raug, thov sim dua ib zaug ntxiv", 
-        "pinErrorMsg8": "PIN Number must be 4 characters",
+        "pinErrorMsg8": "Tus zauv PIN yuav tsum muaj 4 tus niam ntawv",
         "note": "<0>Cim tseg:</0> Yuav tsum tau siv koj tus zauv cim PIN txhawm rau kom muaj kev nyab xeeb rau kev nkag mus rau koj cov ntaub ntawv sau ua dis cis tauj.", 
         "checkboxdescription": "Los ntawm kev kos cim rau lub npov no, koj tab tom lav raws li txoj cai kev raug plua hais txog kev dag ntxias raws li lub xeev thiab tsoom fwv cov kev cai lij choj tias koj yog tus Neeg Mob los sis Niam Txiv/Tus Saib Xyuas Tus Neeg Mob thiab yog li ntawd thiaj tau txais kev tso cai nkag mus siv tus Neeg Mob li ntaub ntawv sau tseg txog kev txhaj tshuaj tiv thaiv kab mob.", 
+        "agreementErrorMsg1": "Cim rau lub npov Pom Zoo Raws Tsab Cai",
         "safe": "Tam sim no muaj cov tshuaj tiv thaiv kab mob COVID-19 uas muaj kev nyab xeeb, tsis xam nqi, thiab muaj kev pov thaiv tau zoo rau txhua tus neeg uas muaj hnub nyoog li 5 xyoos thiab siab dua, <1>tau txhaj tshuaj tiv thaiv kab mob lawm</1> (Lus Askiv nkaus xwb)..", 
         "vaccineproductname": "Lub Npe Tshuaj Tiv Thaiv Kab Mob", 
         "subsubtitle": "Ntaub ntawv kev paub txog Tshuaj Tiv Thaiv Kab Mob COVID-19 koob thib 1", 
