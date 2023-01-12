@@ -4,12 +4,16 @@
     "highcontrast": "Saramoch",
     "contactus": "Kokori Kich",
     "settings": "Neni"
+
+
+
   },
   "vaccinepage": {
     "title": "Afatan Mutirin Ponu (QR) Code",
     "subtitle": "Kose mochen amasoua ewe taropwe ren epwe forata quick response (QR) code"
   },
   "dashboardpage": {
+
     "contentheader": "Digital COVID-19 Afatan Record",
     "content1": "Kinisou ren om nounou ei Digital COVID-19 Afatan Record System. Makenong fitu tichikin poraus fan ren om kopwe angei ew QR code ren om kopwe feino ngeni om kopwe kuna pwaratan pwe mi wor noum COVID-19 on ei kamputer. Ika en mi mochen pwarano pwaratan om ka angei appos, en mi tongeni eaea ew chok me nein ekewe ruu ren epwe chok nom on kamputer ika fon ika printinau non taropwe ren om kopwe aanomu reom.",
     "content2": "Chochon non ew famini ir mi tongeni ani fitu afatan records ika taropwen pwarata epwe riri ngeni ew chok nampan fon ika email address, makenong ew digital record ika ew kapin epwe chok nom on noum kamputer ika fon.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Kose mochen awesano met kei mi auchea epwe amasounong ren om kopwe angei ew QR code ngeni / kapin noum record ren COVID-19 online ika on fon me kamputer:",
+    
     "title": "Poraus Fan Iten Ewe Chon Safei",
     "subtitle": "Met mi auchea epwe awesino ika amasounong ina mi mak esisinen *",
     "lastname": "NASENON ITOM",
+    "lastnameErrorMsg": "Kose mochen wanong omw Last Name",
     "firstname": "AEWIN ITOM",
+    "firstnameErrorMsg": "Kose mochen wanong itom",
     "Middlename": "Efo mak Nepoputan Nukenapen itom",
     "dateofbirth": "Ranin uputuwen",
+    
+    
+    
+    "dateofbirthErrorMsg4": "Ranin uputiwom ese tongeni epwe peen",
     "phoneemailinfo": "Awora ew nampan noum senfon ika email epwe riri ngeni me pwarata usun om appos. Ika pwe ekei ese pwata murin om makenong nampan noum senfon, sotuni sefani ka makeinong om email address.",
     "Phone": "Senfon",
+    "phoneErrorMsg1": "Kose mochen wanong nampan noum na sel fon ngeni pwungun ewe format",
     "Email": "Email",
+    "emailErrorMsg1": "Wanong omw na email address en mei akkaia",
     "pincode": "Forata 4 nampa epwe noum PIN nampa. Kopwe angei ew link ika ew anen om kopwe makenong nampan noum PIN ren om kopwe tongeni kuna noum taropwen appos online ika on kamputer me fon. *",
     "pinErrorMsg1": "PIN esap chok 4 nampa tetenino chok",
     "pinErrorMsg2": "PIN esap eaea 4 nampa epwe aniwin fan ruu",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Kose mochen kokori kich ika om pekin pioin me safei ren tichikin poraus me aninis.",
     "pinErrorMsg6": "Sise tongeni sipwe aponueta met ke tungor, kose mochen sotuni sefani.",
     "pinErrorMsg7": "Ese pung sokkun nikinikin poraus, kose mochen sotuni sefani",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "Omw na PIN Number epwe ukukkun 4 mesen mak",
     "note": "<0>Mi Auchea:</0> Noun PIN mi auchea epwe kawor ren om kopwe tongeni kuna noum taropwen appos online ika on fon me kamputer.",
     "checkboxdescription": "Ren om cheki ei pwor, en ka pwarata pwe kopwe tipis ika ke mwaken fan annukun state me muu-nap pwe en emon chon safei ika Sam me Inn/Ewe a tutumunu ewe chon safei iwe ren ei wewe en ka angei mumutan om kopwe kuna an ewe chon safei taropwen appos.",
+    "agreementErrorMsg1": "Ena pwor awenewenan ena Policy Agreement ururun kopwe checki",
     "safe": "Aninis eoch, ese kamo, me watte aninisin apposen COVID-19 a kawor pwan monota ngeni meinisin ier 5 ika nap seni, <1>angei appos</1>.",
     "vaccineproductname": "Iten Ewe Appos",
     "subsubtitle": "Porausen 1st apposen COVID-19",
