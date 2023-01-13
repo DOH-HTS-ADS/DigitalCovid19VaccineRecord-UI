@@ -4,12 +4,16 @@
     "highcontrast": "Oktak eo Utiej",
     "contactus": "Kūrtok Kōj",
     "settings": "Kein Jerbal ko"
+
+
+
   },
   "vaccinepage": {
     "title": "Uwaak eo emōkaj ikijen Kein Kamool (QR) Code",
     "subtitle": "Jouj im kanne pepa eo n̄an am kōmmane (QR) code eo n̄an uwaak eo emōkaj."
   },
   "dashboardpage": {
+
     "contentheader": "Rekoot in Kein Kamool COVID-19 eo am ilo online",
     "content1": "Ruwainene tok n̄an system eo n̄an Rekoot in Kein Kamool COVID-19 eo am ilo online. Likit jet melele ko ilal n̄an am bōk juon QR code im copy in rekoot in kein kamool COVID-19 eo am ilo online. N̄e kwōj kōnaan jake kein kamool in wā eo am, kwōmāron̄ kōjerbale rekoot eo am ilo online ak peba eo emōj an print jen system in.",
     "content2": "Armij ilo juon baamle māron̄ lōn̄ aer rekoot in kein kamool ilo aer kōjerbal juon telebon nōmba ak email address, en jenolọk am likit kajitōk ko am n̄an rekoot in kein kamool ko kajojo.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Jouj im kanne ijoko rej aukuij melele n̄an am bōk juon QR code/ copy in Rekoot in kein kamool COVID-19 eo am ilo online",
+    
     "title": "Melele ko ikijen rinan̄inmej eo",
     "subtitle": "Ijoko rej aikuij melele rej kakōlle kōn *",
     "lastname": "Et in baamle",
+    "lastnameErrorMsg": "Jouj im likit Et eo Eliktata",
     "firstname": "Et eo etam",
+    "firstnameErrorMsg": "Jouj im likit Et eo Jinion",
     "Middlename": "Et eo juon etam",
     "dateofbirth": "Raan in lōtak",
+    
+    
+    
+    "dateofbirthErrorMsg4": "Jikin raan in lōtak eo ejjab aikuj in ejelọk kobban",
     "phoneemailinfo": "Likit telebon nōmba ak email ej ikijen rekoot in wā eo am. N̄e kwōjjab māron̄ in drelōn̄ kōn telebon nōmba eo am, bar kajjeon̄ ilo am kōjerbale email address eo am.",
     "Phone": "Telebon nōmba",
+    "phoneErrorMsg1": "Jouj im likit Nōmba in Telebon ilo an jimwe",
     "Email": "Email",
+    "emailErrorMsg1": "Likit juōn email eo ejimwe",
     "pincode": "Kōmmane juon am 4-digit PIN nōmba. Kwōnaj bōk juon link n̄an am likit PIN nōmba eo am im kapellọke rekoot in wā eo am ilo online*",
     "pinErrorMsg1": "PIN eo enjab wōr nōmba ko rej walōn̄lak (āinwōt 1234)",
     "pinErrorMsg2": "PIN eo enjab wōr nōmba ko rej walok elōn̄ kōttan (āinwōt 4444)",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Jouj im kūrtok kōj ak taktō eo am n̄an melele ko relaplak ak n̄an jibān̄.",
     "pinErrorMsg6": "Jejjab māron̄ in kadedelọk kajitōk eo am, jouj im bar kajjeon̄e.",
     "pinErrorMsg7": "Ejjab melim jekjek in melele eo, jouj im bar kajjeon̄e.",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "PIN Nōmba ej aikuj in 4 kobban",
     "note": "<0>Kōjellā:</0> Kwōj aikuij PIN eo am n̄an am kapellọke rekoot eo am ilo online.",
     "checkboxdescription": "Ilo am kakōlle pọk in, kwōj kamelim ilo kakien ko an state im federal ke kwe eo rin̄aninmej ak kwe jinen im jemen/ak rilale rin̄aninmej eo im kwōj melim n̄an am kapellọke rekoot in wā eo an rin̄aninmej eo.",
+    "agreementErrorMsg1": "Errā ikijen Kakien eo bọọk ej aikuj in kelet",
     "safe": "Ej pellọk kiō wā ko an COVID-19 me ejjelak joreen, ejjelak wōneen, im emman aer jerbal n̄an aolep armij kajojo jen yiō 5 im rittolak. <1>bōk wā ko</1>.",
     "waproductname": "Et in wā eo",
     "subsubtitle": "Melele kōn wā eo kein kajuon an COVID-19",

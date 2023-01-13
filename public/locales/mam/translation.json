@@ -4,12 +4,16 @@
     "highcontrast": "Saq tuya q’eq tilb’al ",
     "contactus": "Ttzaj q’ajt qi’jay",
     "settings": "Tz’aqsab’"
+
+
+
   },
   "vaccinepage": {
     "title": "Código te cheylakta naj ttzaq’b’eb’ (QR, chi’j qaj t-xe’ tb’i toj tyol me’x xjal)",
     "subtitle": "Nojsank’ax jb’incha’ u’j te tu’ tjax b’inchet jun código te tzaq’b’elta naj (QR)"
   },
   "dashboardpage": {
+
     "contentheader": "Tqanil toj Yolb’il tun Tjyet COVID-19",
     "content1": "B’a’ tulenay toj Tqanil toj Yolb’il tun Tjyet COVID-19. Tz’ib’ak’ax ju’nqch qaj tten tz’alu te tu’ ttiq’ay jun enlace ti’j jun código QR ex jun copia tojx xkutz’ib’ tej tey ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19. Qa tajay kub’ tchitpu’na jun u’j jatuma tz’ib’ak’ax qa ot tz’ok tb’aqay, b’a’ tajb’en tey ja tten toj xk’utz’ib’ mo etetz t-ipimirana ja jatuma tz’ib’ak’ax jtey k’elatz ti’ toj jkloj te xk’utz’ib’.",
     "content2": "Qaj xjal te jun jax ja najaj b’a’ ttiq’ nimk’a ttz’ib’b’al chmo’ tten toj junx tajlal yolb’il mo correo electrónico, tz’ib’akx ju’n qanb’al te tz’ib’b’al te cheylakxta toj xk’utz’ib’ tekax ju’n.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Nojsank’ax qaj tchq’ajlaj ilchi’j tu’ toktz q’i’ jun enlace toj jun código QR/copia tojx xk’utz’ib’ tej tey Ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19:",
+    
     "title": "Q’umb’aj tumal tib’aj jxjal ",
     "subtitle": "Qaj tchq’ajlaj ilchi’j sjiklak tuya *",
     "lastname": "Santal",
+    "lastnameErrorMsg": "Najsama tz'ib'ikuxa tk'ole'ya/t-apeyidile",
     "firstname": "Tne’l tb’i",
+    "firstnameErrorMsg": "Najsama tz'ib'ikuxa tb'iya",
     "Middlename": "T-xe’ tb’iy tej te tkab’ tb’iy ",
     "dateofbirth": "Tajlal q’ij titz’ay ",
+    
+    
+    
+    "dateofbirthErrorMsg4": "Il ti'j tu'n tkux ttz'ib'iye toj alkye q'ij ul itz'jiya",
     "phoneemailinfo": "Exi’ nq’o’ jun yolb’il jaj niy eqat mo correo electrónico alcheqch qaj b’a’ chok junat tuya jtey ttz’ib’b’al qa ot chi ok tb’aqay. Qa uj ttzaj ajb’en jtey tajlal tyolb’il niy eqat mya’ ju’ tten, ok q’ajt qen junt maj tuyaxsa ajb’en we jtey correo electrónico.",
     "Phone": "Yolb’il niy eqat ",
+    "phoneErrorMsg1": "Najsama tz'ib'unkuxa tajlal tyolb'ila tojxix ttxolil",
     "Email": "Tajlal tu'n tz'ib'injtz toj internet",
+    "emailErrorMsg1": "Tz'ib'unkuxa tb'eyil tqanil/correo electronico tojxix ttxolil",
     "pincode": "B’inchawa jun PIN te 4 tajlal. Tey k’okaltz ti’na jun enlace tu’ntza tku’x ttz’ib’ana ja PIN ex nokxttzunay toj jtey ttz’ib’b’al toj xk’utz’ib’ te qa ot tz’ok tb’aqay. *",
     "pinErrorMsg1": "Jtey t-PIN mixb’a’ ttiq’ 4 tajlal kxe’l ti’na ti ttxola",
     "pinErrorMsg2": "Jtey t-PIN mixb’a’ ttiq’ 4 tajlal k’a’ltz meltz’a junt maj",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Tu’ t-xi’ tqanay q’umb’aj tumal mo onb’al, ttzaj q’ajt qeya qi’j mo t-xi’ q’ajt ti’j tey q’oltzta t-onb’al te k’ojlab’ tey tb’anal ttxumlal.",
     "pinErrorMsg6": "Mi eb’int ok qtz’aqsa’na jtey tqanb’al, nib’e’nkx junt maj.",
     "pinErrorMsg7": "Jtten mya’ b’a’, nib’e’nkx junt maj ",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "O'kx 4 letr at tkux toj tajlal PIN",
     "note": "<0>Tqanil yol:</0> Jtey t-PIN ilxax teja ti’j tu’ tokxay toj jtten tumalxax ti’ ttxola toj jtey ttz’ib’b’al toj xk’utz’ib’.",
     "checkboxdescription": "Uj tok tpeq’ana jtkulb’al lu, tey noktz tq’umana tjaq’ qa at tilay qama kub’ tz’aqay titzaxsa tok chu’ qaj kawb’al te chqil ex te jatzanax qa jaj xjal mo jaj mamb’aj/k’ojlal ti’j xjal ex, ju’tzuj, tziya tten tu’ tokxay toj jtz’ib’b’al che qaj b’aq tej xjal.",
+    "agreementErrorMsg1": "Il ti'j tu'n tku'x tyaq'o'na aju tu'n tok ke'yit Tqanil ti'jju in B'ant",
     "safe": "Qaj b’aq te tej tx’u’j yab’il te COVID-19 b’a’nqacheja twitz t-xob’lil, kotzqa ex chiwqa ex ja’la lutqa at che chqil qaj xjal nim toj ch-ab’q’ij twitz 5 ab’q’ij, <1>q’o’nk tb’aqay</1>.",
     "vaccineproductname": "Ti tb’ij tey tb’aq k’okal mo ot tz’ok ",
     "subsubtitle": "Q’umb’aj tumal tej tne’l 1.a paq tej b’aq te tej tx’u’j yab’il te COVID-19",

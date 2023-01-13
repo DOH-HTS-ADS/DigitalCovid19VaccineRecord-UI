@@ -4,12 +4,16 @@
     "highcontrast": "Isbarbardhig Sareeya",
     "contactus": "Nala soo Xariir",
     "settings": "Settings-ka"
+
+
+
   },
   "vaccinepage": {
     "title": "Xaqiijinta Koodhka Quick Response (QR, Jawaabta Degdegga)",
     "subtitle": "Fadlan buuxi foomka si aad u abuurto koodhka jawaabta degdegga"
   },
   "dashboardpage": {
+
     "contentheader": "Diiwaanka Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka Ah",
     "content1": "Ku soo dhawow nidaamka Diiwaanka Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka Ah. Halkaan hoose waxaad gelisaa xog kooban si aad u hesho lifaaqa koodhka QR iyo nuqulka/koobiga dhijitaalka ee diiwaankaaga xaqiijinta tallaalka COVID-19. Haddii aad dooneyso inaad wadaagto caddeynta xaqiijinta tallaalka, waxaad isticmaali kartaa qaabka elektarooniga ah ama qaabka daabacan ee diiwaanka aad ka heli doontid nidaamka.",
     "content2": "Dadka ka wada tirsan qoys waxaa laga yaabaa inay leeyihiin diiwaano xaqiijineed oo badan oo lagu lifaaqay hal taleefan ama hal ciwaan oo iimayl ah, u geli codsiga diiwaan kasta oo xaqiijinta dhijitaalka ah si gooni-gooni ah.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Fadalan buuxi meelaha loo baahan yahay in wax lagu qoro si aad u hesho lifaaqa koodhka Jawaabta Degdegga iyo nuqulka/koobiga dhijitaalka ee Diiwaankaaga Xaqiijinta Tallaalka COVID-19:",
+    
     "title": "Macluumaadka Bukaanka",
     "subtitle": "Meelaha loo baahan yahay waxaa ku calaamadisan *",
     "lastname": "Magaca Ugu dambeeya",
+    "lastnameErrorMsg": "Fadlan geli Magacaaga Saddexaad",
     "firstname": "Magaca Koowaad",
+    "firstnameErrorMsg": "Fadlan geli Magacaaga Koowaad",
     "Middlename": "Saxiixa Magaca Dhexe",
     "dateofbirth": "Taariikhda Dhalashada",
+    
+    
+    
+    "dateofbirthErrorMsg4": "Qaybta Taariikhda Dhalashada ma ahan inay banaanaato",
     "phoneemailinfo": "Bixi lambar taleefanka gacanta ama iimeelka laga yaabo inuu la xiriiro diiwaankaaga tallaalka. Haddii aadan helin wax macluumaad ah oo u dhigma taleefanka lambarkaaga, markale isku day adigoo isticmaalaya cinwaankaada iimeelka.",
     "Phone": "Lambarka Taleefoonka Gacanta",
+    "phoneErrorMsg1": "Fadlan geli Lambarka Taleefanka una geli qaab sax ah",
     "Email": "Iimeelka",
+    "emailErrorMsg1": "Geli ciwaan iimayl oo sax ah",
     "pincode": "Samee Lambar Sireedka Aqoonsiga Shakhsiga oo 4-jiifar/god ah. Waxaad heli doontaa lifaaq aad geliso Lambar Sireedka Aqoonsiga Shakhsiga oo ka gal diiwaankaaga tallaalka dhijitaalka ah. *",
     "pinErrorMsg1": "Lambar Sireedka Aqoonsiga Shakhsiga kama koobnaan karo 4 lambar oo isku xiga",
     "pinErrorMsg2": "Lambar Sireedka Aqoonsiga Shakhsiga kama koobnaan karo 4 lambar oo isku mid ah",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Fadlan nala soo xariir annaga ama adeeg-bixiyahaaga caafimaadka si aad u hesho wixi macluumaad ama taageero dheeraad ah.",
     "pinErrorMsg6": "Ma dhammeystiri karno codsigaaga, fadlan markale iskuday.",
     "pinErrorMsg7": "Qaabka xogta ayaa khaldan, fadlan markale iskuday",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "Lambarka Biinka waa inuu noqdo 4 xaraf",
     "note": "<0>Ogsoonoow:</0> Lambar Sireedkaaga Aqoonsiga Shakhsiga ayaa loo baahan si aad si ammaan ah ugu gasho diiwaankaaga dhijtaalka ah.",
     "checkboxdescription": "Markaa calaamadeyso/saxiix saarto sanduuqan, waxaad caddeyneysaa sida waafaqsan ciqaabta been sheegidda hoos imaaneysa sharciyaasha gobolka iyo federaalka in aad tahay Bukaanka ama Waalidka/Mas'uulka Bukaanka isla markaana laguu oggolaaday inaad gasho diiwaanka Tallaalka ee Bukaanka.",
+    "agreementErrorMsg1": "Bokiska tigta la saaro ee Aqbalida Xeerka waa in tig la saaro",
     "safe": "Tallaalada COVID-19 oo badqaba, bilaash ah, oo waxtar leh ayaa hadda loo heli karaa qof kasta oo jira 5 sano iyo wixii ka sii weyn, <1>istallaal</1>.",
     "vaccineproductname": "Magaca Badeecada Tallaalka",
     "subsubtitle": "Macluumaadka Tallaalka COVID-19 ee Dooska/Qiyaasta 1-aad",

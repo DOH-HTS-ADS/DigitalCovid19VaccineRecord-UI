@@ -4,12 +4,16 @@
     "highcontrast": "Mataas na Contrast",
     "contactus": "Makipag-ugnayan Sa Amin",
     "settings": "Mga Setting"
+
+
+
   },
   "vaccinepage": {
     "title": "Quick Response (QR) Code sa Pagberipika",
     "subtitle": "Mangyaring punan ang form para gumawa ng quick response (QR) code"
   },
   "dashboardpage": {
+
     "contentheader": "Digital na Talaan ng Pagberipika para sa COVID-19",
     "content1": "Welcome sa system ng Digital na Talaan ng Pagberipika para sa COVID-19. Maglagay ng ilang detalye sa ibaba para makatanggap ng link sa isang QR code at digital na kopya ng iyong talaan ng pagberipika para sa COVID-19. Kung gusto mong magbahagi ng katibayan ng pagpapabakuna, puwede mong gamitin ang elektroniko o naka-print na bersyon ng talaang makukuha mula sa system.",
     "content2": "Ang mga tao sa isang pamilya ay maaaring maraming talaan ng pagberipika na nauugnay sa iisang numero ng telepono o email address, kaya ilagay nang magkakahiwalay ang bawat kahilingan para sa digital na talaan ng pagberipika.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Mangyaring sagutan ang mga kinakailangang field para makatanggap ng link sa isang QR code / digital na kopya ng iyong Talaan ng Pagberipika para sa COVID-19:",
+    
     "title": "Impormasyon ng Pasyente",
     "subtitle": "May markang * ang mga field na kailangang punan",
     "lastname": "Apelyido",
+    "lastnameErrorMsg": "Pakilagay ang iyong Apelyido",
     "firstname": "Pangalan",
+    "firstnameErrorMsg": "Pakilagay ang iyong Pangalan",
     "middlename": "Inisyal ng Gitnang Pangalan",
     "dateofbirth": "Petsa ng Kapanganakan",
+
+
+
+    "dateofbirthErrorMsg4": "Hindi maaaring blangko ang Petsa ng Kapanganakan",
     "phoneemailinfo": "Magbigay ng mobile na telepono o email na maaaring nauugnay sa iyong talaan ng bakuna. Kung wala kang makukuhang tugma sa iyong mobile na telepono, subukan ulit gamit ang iyong email address.",
     "Phone": "Mobile na Telepono",
+    "phoneErrorMsg1": "Pakilagay ang Mobile Phone sa wastong format",
     "Email": "Email",
+    "emailErrorMsg1": "Maglagay ng wastong email address",
     "pincode": "Gumawa ng numero ng PIN na may 4 na digit. Makakatanggap ka ng link para ilagay ang numero ng PIN at i-access ang iyong digital na talaan ng bakuna. *",
     "pinErrorMsg1": "Hindi maaaring may 4 na magkakasunod na numero ang PIN",
     "pinErrorMsg2": "Hindi maaaring may 4 na magkakaparehong numero ang PIN",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Mangyaring makipag-ugnayan sa amin o sa iyong provider ng pangangalagang pangkalusugan para sa higit pang impormasyon o suporta.",
     "pinErrorMsg6": "Hindi namin makumpleto ang iyong kahilingan, mangyaring subukan ulit.",
     "pinErrorMsg7": "Maling fomat ng data, mangyaring subukan ulit",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "May 4 character dapat ang PIN Number",
     "note": "<0>Tandaan:</0> Kailangan ang iyong PIN para ma-access o mabuksan nang secure ang iyong digital na talaan.",
     "checkboxdescription": "Sa pamamagitan ng paglalagay ng check sa kahong ito, pinatutunayan mo sa ilalim ng parusa ng pagsisinungaling, na saklaw ng mga batas na pang-estado at pederal, na ikaw ang Pasyente o Magulang/Tagapag-alaga ng Pasyente, at samakatuwid ay awtorisado kang i-access ang talaan ng pagpapabakuna ng Pasyente.",
+    "agreementErrorMsg1": "Dapat piliin ang checkbox na Kasunduan sa Patakaran",
     "safe": "Available na ngayon ang ligtas, libre, at epektibong bakuna sa COVID-19 sa lahat ng may edad na 5 at higit pa, kaya <1>magpabakuna</1>.",
     "vaccineproductname": "Pangalan ng Produkto ng Bakuna",
     "subsubtitle": "Impormasyon sa Unang Dosis sa Bakuna sa COVID-19",

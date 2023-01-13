@@ -4,12 +4,16 @@
     "highcontrast": "High Contrast (Fehangahangai Ma’olunga)",
     "contactus": "Fetu’utaki Mai",
     "settings": "Settings (Tūkunga)"
+
+
+
   },
   "vaccinepage": {
     "title": "Verification Quick Response (QR) Code (Fakamo’oni Ma’u Vave’aki ‘a e QR Code)",
     "subtitle": "Kātaki ‘o fakafonu ‘a e foomu ko eni ke fa’u’aki ha’o fakamo’oni ke ma’u vave’aki ‘a e QR code"
   },
   "dashboardpage": {
+
     "contentheader": "Digital COVID-19 Verification Record (Lēkooti Fakamo’oni Huhu Malu'i COVID-19)",
     "content1": "Talitali lelei koe ki he Polokalama ‘Initaneti ki hono ma’u atu ‘a e Lēkooti Fakamo’oni Huhu Malu’i COVID-19. Tuku mai ha ngaahi fakaikiiki ‘i lalo ke ma’u atu ‘a e link ki he QR code mo e tatau ‘o e lēkooti fakamo’oni huhu malu’i COVID-19. Kapau te ke fiema’u ke fakahā ‘a e fakamo’oni ho’o huhu malu’í, te ke lava ‘o ngaue’aki ‘a e tatau faka’ilekitulōnika pe ko ha tatau kuo paaki meí ho’o lēkootí.",
     "content2": "Ko ha fo’i fāmili ‘e taha ‘e ‘i ai ‘enau ngaahi lēkooti ‘e fehokotaki mo e fika telefoni mo e tu’asila ‘imeili pe ‘e taha, fakahū ‘a e lēkooti fakamo’oni kotoa pē ke ma’u kehekehe mai.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Kātaki ‘o fakafonu ‘a e ngaahi fakamatala ‘oku fiema’ú ke ke ma’u ‘a e link ki he QR code/ tatau faka’ilekitulōnika ki ho’o Lēkooti Fakamo’oni Huhu Malu’i COVID-19:",
+    
     "title": "Fakamatala ki he Mahakí",
     "subtitle": "Ngaahi fakamatala ‘oku fiema’u ‘oku ‘asi atu ai ‘a e *",
     "lastname": "Fakaiku",
+    "lastnameErrorMsg": "Kātaki ʻo fakahū ho Hingoa Fakafāmilí",
     "firstname": "Hingoa ‘Uluaki",
+    "firstnameErrorMsg": "Kātaki ʻo fakahū ho Hingoa ʻUluakí",
     "Middlename": "Faka’ilonga ki he Hingoa Loto",
     "dateofbirth": "‘Aho fa’ele’i",
+    
+    
+    
+    "dateofbirthErrorMsg4": "ʻIkai lava ʻo tuku fakaava ʻa e konga ʻo e ʻAho Fāʻeleʻí",
     "phoneemailinfo": "‘Omi ha fika telefoni to’oto’o pe ‘imeili kaungatonu mo e lēkooti huhu malu’í. Kapau he’ikai ma’u fakafoki mai ha lēkooti ‘i ho’o ngaue’aki ‘a e fika telefoní, ‘ahi’ahi ngaue’aki ha tu’asila ‘imeili.",
     "Phone": "Fika Telefoni To’oto’o",
+    "phoneErrorMsg1": "Kātaki ʻo fakahū ʻa e Telefoni Mōpailá ʻi he sīpinga totonú",
     "Email": "‘Imeili",
+    "emailErrorMsg1": "Fakahū ʻa e tuʻasila ʻo e ʻīmeilí ʻoku ngāué",
     "pincode": "Fa’u ha’o fo’i fika ‘e 4 fakapulipuli (PIN number). Te ke ma’u ha link ke fakahū ho’o fika PIN ke ma’u atu ai ho’o lēkooti huhu malu’í. *",
     "pinErrorMsg1": "He’ikai lava ke mata’ifika tatau kotoa ’e 4 ho’o PIN",
     "pinErrorMsg2": "He’ikai lava ke ‘i ai ha mata’ifika tatau ‘e 4 ‘i ho’o PIN",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Kātaki ‘o fetu’utaki mai kiate kimautolu pe ko ho’o toketā ki ha toe fakamatala pe fiema’u.",
     "pinErrorMsg6": "Ne ‘ikai lava ke mau fakakakato ho’o fiema’ú, kātaki ‘o toe feinga pē.",
     "pinErrorMsg7": "‘Oku hala ‘a e fakamatala ‘oku ke ‘omí, kātaki ‘o toe feinga pē",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "ʻOku totonu ke mataʻitohi ʻe 4 ʻa e Fika Fakapulipulí",
     "note": "<0>Fakatokanga:</0> ‘Oku fiema’u ho’o PIN ke malu ai ho’o ma’u atu ho’o lēkooti huhu malu’í.",
     "checkboxdescription": "‘I ho’o faka’ilonga’i ‘a e puhá ni, ‘oku ke fakapapau ‘i he mahino kiate koe ko e faihala ‘i he ngaahi lao fakafeitu’u mo fakafetulolo ko koe ‘a e Mahaki pe ko e Mātu’a/Tauhi Fānau ‘o e Mahakí pea ‘I ai ho’o ngofua ke ke ma’u atu ‘a e lēkooti huhu malu’i ‘a e mahakí.",
+    "agreementErrorMsg1": "Kuo pau ke fakaʻilongaʻi ʻa e kiʻi puha ʻo e Tuʻutuʻuni Aleapaú",
     "safe": "Malu, ta’etotongi, pea pau ‘a e ngaahi huhu malu’i COVID-19 ‘oku ma’u atu ma’a kinautolu ta’u 5 mo lahiange, <1>’alu ‘o huhu malu’i</1>.",
     "vaccineproductname": "Hingoa ‘o e Huhu Malu’í",
     "subsubtitle": "Fakamatala ki he ‘Uluaki Huhu COVID-19",

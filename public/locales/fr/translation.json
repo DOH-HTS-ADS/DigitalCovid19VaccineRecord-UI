@@ -4,12 +4,16 @@
     "highcontrast": "Contraste élevé",
     "contactus": "Nous contacter",
     "settings": "Paramètres"
+
+
+
   },
   "vaccinepage": {
     "title": "Code QR de vérification",
     "subtitle": "Veuillez remplir le formulaire pour créer un code QR"
   },
   "dashboardpage": {
+
     "contentheader": "Attestation numérique de vaccination COVID-19",
     "content1": "Bienvenue dans le système d'Attestation numérique de vaccination COVID-19. Renseignez quelques informations ci-dessous pour obtenir un lien vers un code QR et une copie numérique de votre attestation de vaccination COVID-19. Si vous souhaitez partager un justificatif de vaccination, vous pouvez utiliser la version électronique ou imprimée de l'attestation qui vous sera délivrée par le système.",
     "content2": "Les membres d'une même famille peuvent avoir plusieurs attestations de vaccination associées à un même numéro de téléphone ou à une même adresse e-mail. Saisissez chaque demande d'attestation numérique de vaccination séparément.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Veuillez remplir les champs requis pour recevoir un lien vers un code QR / une copie numérique de votre attestation de vaccination COVID-19 :",
+    
     "title": "Informations sur le patient",
     "subtitle": "Les champs obligatoires sont marqués d'un *",
     "lastname": "Nom de famille",
+    "lastnameErrorMsg": "Veuillez saisir votre Nom de famille",
     "firstname": "Prénom",
+    "firstnameErrorMsg": "Veuillez saisir votre Prénom",
     "Middlename": "Initiale du deuxième prénom",
     "dateofbirth": "Date de naissance",
+
+
+
+    "dateofbirthErrorMsg4": "Le champ Date de naissance ne peut pas être vide",
     "phoneemailinfo": "Indiquez un numéro de téléphone mobile ou une adresse e-mail qui pourrait être associée à votre attestation de vaccination. Si vous n'obtenez pas de correspondance en utilisant votre numéro de téléphone mobile, réessayez en utilisant votre adresse e-mail.",
     "Phone": "Téléphone mobile",
+    "phoneErrorMsg1": "Veuillez saisir votre Numéro de téléphone dans un format valide",
     "Email": "E-mail :",
+    "emailErrorMsg1": "Saisissez une adresse e-mail valide",
     "pincode": "Créez un code PIN à 4 chiffres. Vous recevrez un lien dans lequel saisir le code PIN et accéder à votre attestation de vaccination numérique. *",
     "pinErrorMsg1": "Le code PIN ne peut pas contenir 4 chiffres consécutifs",
     "pinErrorMsg2": "Le code PIN ne peut pas contenir 4 chiffres identiques",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Veuillez nous contacter ou contacter votre professionnel de santé pour en savoir plus ou pour obtenir de l'aide.",
     "pinErrorMsg6": "Nous n'avons pas pu répondre à votre demande, veuillez réessayer.",
     "pinErrorMsg7": "Format de données non valide, veuillez réessayer",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "Le code PIN doit comporter 4 caractères",
     "note": "<0>Remarque:</0> Votre code PIN est nécessaire pour accéder en toute sécurité à votre attestation numérique.",
     "checkboxdescription": "En cochant cette case, vous déclarez, sous peine de parjure en vertu des lois de l'État et des lois fédérales, que vous êtes le patient ou le parent/tuteur du patient et que vous êtes donc autorisé à accéder à l'attestation de vaccination du patient.",
+    "agreementErrorMsg1": "La case à cocher Acceptation de la politique doit être cochée",
     "safe": "Des vaccins COVID-19 sûrs, gratuits et efficaces sont désormais disponibles pour toutes les personnes âgées de 5 ans et plus, <1>faites-vous vacciner</1> .",
     "vaccineproductname": "Nom du vaccin",
     "subsubtitle": "Informations sur la 1ère dose de vaccin COVID-19",

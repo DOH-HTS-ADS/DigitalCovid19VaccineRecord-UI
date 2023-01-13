@@ -4,12 +4,16 @@
     "highcontrast": "Độ tương phản cao",
     "contactus": "Liên hệ với chúng tôi",
     "settings": "Cài đặt"
+
+
+
   },
   "vaccinepage": {
     "title": "Quick Response (QR) Code Xác nhận",
     "subtitle": "Vui lòng điền đầy đủ thông tin vào mẫu để tạo Quick Response (QR) Code"
   },
   "dashboardpage": {
+
     "contentheader": "Hồ sơ Xác nhận COVID-19 kỹ thuật số",
     "content1": "Chào mừng bạn đến với hệ thống Hồ sơ Xác nhận COVID-19 kỹ thuật số. Nhập một vài thông tin chi tiết để nhận đường liên kết đến mã QR và bản sao kỹ thuật số hồ sơ xác nhận COVID-19 của bạn. Nếu bạn muốn chia sẻ bằng chứng tiêm vắc-xin, bạn có thể sử dụng phiên bản điện tử hoặc bản in hồ sơ mà bạn sẽ nhận được từ hệ thống.",
     "content2": "Nhiều người trong gia đình có thể có nhiều hồ sơ xác nhận liên kết với một số điện thoại hoặc địa chỉ email, nhập từng yêu cầu hồ sơ xác nhận kỹ thuật số riêng lẻ.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Vui lòng điền đầy đủ các trường yêu cầu để nhận đường liên kết đến mã QR/bản sao kỹ thuật số hồ sơ xác nhận COVID-19 của bạn:",
+    
     "title": "Thông tin của bệnh nhân",
     "subtitle": "Các trường bắt buộc có dấu *",
     "lastname": "Họ",
+    "lastnameErrorMsg": "Vui lòng nhập Tên của quý vị",
     "firstname": "Tên",
+    "firstnameErrorMsg": "Vui lòng nhập Họ của quý vị",
     "middlename": "Chữ đầu tên đệm",
     "dateofbirth": "Ngày sinh",
+    
+
+
+    "dateofbirthErrorMsg4": "Trường Ngày Sinh không được để trống",
     "phoneemailinfo": "Cung cấp số điện thoại di động hoặc email có thể được liên kết với hồ sơ vắc-xin của bạn. Nếu bạn không có thông tin khớp khi sử dụng số điện thoại di động của mình, hãy thử lại bằng địa chỉ email của bạn.",
     "Phone": "Điện thoại di động",
+    "phoneErrorMsg1": "Vui lòng nhập Số Điện Thoại Di Động ở định dạng hợp lệ",
     "Email": "Email",
+    "emailErrorMsg1": "Nhập địa chỉ email hợp lệ",
     "pincode": "Tạo số PIN 4 số. Bạn sẽ nhận được một đường liên kết để nhập số Pin và truy cập vào hồ sơ vắc-xin kỹ thuật số của mình. *",
     "pinErrorMsg1": "Số PIN không được có 4 số liên tiếp",
     "pinErrorMsg2": "Số PIN không được có 4 số trùng nhau",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Vui lòng liên hệ với chúng tôi hoặc nhà cung cấp dịch vụ chăm sóc sức khỏe của bạn để biết thêm thông tin hoặc để được hỗ trợ.",
     "pinErrorMsg6": "Chúng tôi không thể hoàn thành yêu cầu của bạn, vui lòng thử lại.",
     "pinErrorMsg7": "Định dạng dữ liệu không hợp lệ, vui lòng thử lại",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "Số PIN phải có 4 ký tự",
     "note": "<0>Lưu ý:</0> Cần có số PIN của bạn để truy cập an toàn vào hồ sơ kỹ thuật số của bạn.",
     "checkboxdescription": "Khi nhấp vào ô này, bạn tuyên bố theo điều luật của hình phạt khai man theo luật pháp của tiểu bang và liên bang mà bạn là Bệnnh nhân hoặc cha/mẹ/người giám hộ của bệnh nhân và vì vậy được phép truy cập vào hồ sơ tiêm chủng của Bệnh nhân.",
+    "agreementErrorMsg1": "Phải đánh dấu vào ô Thỏa Thuận Chính Sách",
     "safe": "Các loại vắc-xin COVID-19 an toàn, miễn phí và hiệu quả hiện đã có dành cho mọi người từ 5 tuổi trở lên, <1>tiêm vắc-xin</1>.",
     "vaccineproductname": "Tên vắc-xin",
     "subsubtitle": "Thông tin vắc-xin COVID-19 liều thứ 1",

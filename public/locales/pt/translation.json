@@ -4,12 +4,16 @@
     "highcontrast": "Alto contraste",
     "contactus": "Entre em contato conosco",
     "settings": "Configurações"
+
+
+
   },
   "vaccinepage": {
     "title": "Código QR do comprovante",
     "subtitle": "Preencha o formulário para criar o código QR"
   },
   "dashboardpage": {
+
     "contentheader": "Comprovante digital de vacinação contra a COVID-19",
     "content1": "Bem-vindo(a) ao sistema do Comprovante digital de vacinação contra a COVID-19. Insira algumas informações abaixo para obter um link com o código QR e a cópia digital do seu comprovante de vacinação contra a COVID-19. Se desejar compartilhar o comprovante de vacinação, é possível usar a versão eletrônica ou impressa do registro que você receberá do sistema.",
     "content2": "Pessoas da mesma família podem ter vários comprovantes associados a um único número de telefone ou endereço de e-mail. Por isso, insira cada solicitação de registro de comprovante digital separadamente.",
@@ -18,15 +22,24 @@
   },
   "vaccineform": {
     "filloutheader": "Preencha os campos obrigatórios para receber um link com o código QR/cópia digital do seu Comprovante de vacinação contra a COVID-19:",
+    
     "title": "Informações do paciente",
     "subtitle": "Campos obrigatórios indicados com *",
     "lastname": "Sobrenome",
+    "lastnameErrorMsg": "Insira o seu sobrenome",
     "firstname": "Nome",
+    "firstnameErrorMsg": "Insira o seu nome",
     "Middlename": "Inicial do nome do meio",
     "dateofbirth": "Data de nascimento",
+    
+    
+    
+    "dateofbirthErrorMsg4": "O campo Data de nascimento não pode estar vazio",
     "phoneemailinfo": "Forneça um número de celular ou e-mail que será associado ao seu comprovante de vacinação. Caso não consiga obter uma correspondência usando o seu número de celular, tente novamente usando o seu endereço de e-mail.",
     "Phone": "Celular",
+    "phoneErrorMsg1": "Insira o Número de celular em um formato válido",
     "Email": "E-mail",
+    "emailErrorMsg1": "Insira um Endereço de e-mail válido",
     "pincode": "Crie um número PIN de 4 dígitos. Você receberá um link para inserir o PIN e acessar seu comprovante digital de vacinação. *",
     "pinErrorMsg1": "O PIN não pode conter 4 números consecutivos",
     "pinErrorMsg2": "O PIN não pode conter 4 números duplicados",
@@ -35,9 +48,10 @@
     "pinErrorMsg5": "Entre em contato conosco ou com seu profissional de saúde para obter mais informações ou suporte.",
     "pinErrorMsg6": "Não foi possível efetuar a sua solicitação. Tente novamente.",
     "pinErrorMsg7": "Formato de dados inválido, tente novamente",
-    "pinErrorMsg8": "PIN Number must be 4 characters",
+    "pinErrorMsg8": "O Número do PIN deve ter 4 caracteres",
     "note": "<0>Observação:</0> É necessário inserir seu PIN para acessar o comprovante digital de forma segura.",
     "checkboxdescription": "Ao marcar esta opção, você declara sob as penas das leis estaduais e federais que você é o paciente ou pai/responsável legal do paciente e, portanto, está autorizado a acessar o registro de imunização dele.",
+    "agreementErrorMsg1": "A caixa de seleção Estou de acordo com a Política deve ser selecionada",
     "safe": "As vacinas contra a COVID-19 são seguras, gratuitas e eficazes, e estão disponíveis agora para todos os indivíduos com idade igual ou superior a 5 anos. <1>Tomar a vacina</1>.",
     "vaccineproductname": "Nome da vacina",
     "subsubtitle": "Informações sobre a 1ª dose da vacina contra a COVID-19",
