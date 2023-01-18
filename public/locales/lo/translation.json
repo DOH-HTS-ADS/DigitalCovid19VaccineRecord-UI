@@ -26,9 +26,9 @@
         "title": "ຂໍ້ມູນຄົນເຈັບ",
         "subtitle": "ຊ່ອງຂໍ້ມູນທີ່ຈຳເປັນທີ່ມີເຄື່ອງໝາຍ *",
         "lastname": "ນາມ​ສະ​ກຸນ",
-        "lastnameErrorMsg": "ກະລຸນາໃສ່ຊື່ຂອງທ່ານ",
+        "lastnameErrorMsg": "ກະລຸນາໃສ່ນາມສະກຸນຂອງທ່ານ",
         "firstname": "ຊື່​",
-        "firstnameErrorMsg": "ກະລຸນາໃສ່ນາມສະກຸນຂອງທ່ານ",
+        "firstnameErrorMsg": "ກະລຸນາໃສ່ຊື່ຂອງທ່ານ",
         "Middlename": "ຊື່​ກາງ",
         "dateofbirth": "ວັນ​ເດືອນ​ປີ​ເກີດ",
         
