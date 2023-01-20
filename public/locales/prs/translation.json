@@ -26,9 +26,9 @@
     "title": "اطلاعات بیمار",
     "subtitle": "خانه های ضروری علامت گذاری شده با *",
     "lastname": "تخلص",
-    "lastnameErrorMsg": "لطفا نام خود را بنوسید",
+    "lastnameErrorMsg": "لطفا نام خانوادگی خود را بنوسید",
     "firstname": "نام",
-    "firstnameErrorMsg": "طفا نام خانوادگی خود را بنوسید",
+    "firstnameErrorMsg": "لطفا نام خود را بنوسید",
     "Middlename": "نام وسط",
     "dateofbirth": "تاریخ تولد",
     
