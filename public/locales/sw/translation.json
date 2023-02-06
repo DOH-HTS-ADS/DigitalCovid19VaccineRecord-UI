@@ -43,7 +43,7 @@
     "pincode": "Unda nambari ya PIN yenye tarakimu 4. Utapokea kiungo cha kuingizia nambari ya PIN na kufikia rekodi yako ya kidijitali ya chanjo. *",
     "pinErrorMsg1": "PIN haiwezi kuwa na nambari 4 zinazofuatana",
     "pinErrorMsg2": "PIN haiwezi kuwa na nambari 4 zinazofanana",
-    "pinErrorMsg3": "PIN iliyoingizwa ni batili. Tafadhali jaribu tena kwa kubofya kiungo kilichotolewa kuingiza upya PIN yako. ",
+    "pinErrorMsg3": "PIN yako si sahihi. Tafadhali jaribu tena.",
     "pinErrorMsg4": "Tafadhali jaribu ombi lako tena baada ya dakika 1.",
     "pinErrorMsg5": "Tafadhali wasiliana nasi au na mhudumu wako wa afya ili kupata maelezo zaidi au msaada.",
     "pinErrorMsg6": "Hatukuweza kukamilisha ombi lako, tafadhali jaribu tena.",
