@@ -39,7 +39,7 @@
     "pincode": "Cree un número de identificación personal (PIN) de 4 dígitos. Recibirá un enlace para ingresar el PIN y acceder a su registro digital de vacunación.*",
     "pinErrorMsg1": "El PIN no puede contener 4 números consecutivos.",
     "pinErrorMsg2": "El PIN no puede contener 4 números duplicados.",
-    "pinErrorMsg3": "El PIN ingresado no es válido. Intente hacer clic de nuevo en el enlace provisto y vuelva a ingresar su PIN.",
+    "pinErrorMsg3": "El PIN es incorrecto. Inténtelo de nuevo.",
     "pinErrorMsg4": "Intente de nuevo en 1 minuto.",
     "pinErrorMsg5": "Comuníquese con nosotros o con su proveedor de atención médica para obtener más información o asistencia.",
     "pinErrorMsg6": "No pudimos completar su solicitud. Inténtelo de nuevo.",
