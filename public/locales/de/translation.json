@@ -43,7 +43,7 @@
     "pincode": "Erstellen Sie eine 4stellige PIN-Nummer. Sie erhalten einen Link, um die PIN-Nummer einzugeben und auf Ihren digitalen Impfpass zuzugreifen. *",
     "pinErrorMsg1": "Die PIN darf nicht 4 aufeinanderfolgende Ziffern enthalten",
     "pinErrorMsg2": "Die PIN darf nicht 4 gleiche Ziffern enthalten",
-    "pinErrorMsg3": "Die eingegebene PIN ist ungültig. Versuchen Sie es bitte noch einmal, indem Sie auf den Link klicken, den Sie erhalten haben, um Ihre PIN erneut einzugeben. ",
+    "pinErrorMsg3": "Ihre PIN ist falsch. Versuchen Sie es bitte erneut.",
     "pinErrorMsg4": "Versuchen Sie bitte, Ihre Anfrage in 1 Minute noch einmal zu stellen.",
     "pinErrorMsg5": "Wenn Sie weitere Informationen oder Unterstützung benötigen, setzen Sie sich bitte mit uns oder mit Ihrem Gesundheitsversorger in Verbindung.",
     "pinErrorMsg6": "Wir konnten Ihre Anfrage nicht ausführen. Versuchen Sie es bitte noch einmal.",
