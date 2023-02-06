@@ -43,7 +43,7 @@
     "pincode": "Créez un code PIN à 4 chiffres. Vous recevrez un lien dans lequel saisir le code PIN et accéder à votre attestation de vaccination numérique. *",
     "pinErrorMsg1": "Le code PIN ne peut pas contenir 4 chiffres consécutifs",
     "pinErrorMsg2": "Le code PIN ne peut pas contenir 4 chiffres identiques",
-    "pinErrorMsg3": "Le code PIN saisi n'est pas valide. Veuillez réessayer de saisir votre code PIN en cliquant sur le lien qui vous a été fourni. ",
+    "pinErrorMsg3": "Votre code PIN est erroné. Veuillez réessayer.",
     "pinErrorMsg4": "Veuillez renouveler votre demande dans 1 minute.",
     "pinErrorMsg5": "Veuillez nous contacter ou contacter votre professionnel de santé pour en savoir plus ou pour obtenir de l'aide.",
     "pinErrorMsg6": "Nous n'avons pas pu répondre à votre demande, veuillez réessayer.",
