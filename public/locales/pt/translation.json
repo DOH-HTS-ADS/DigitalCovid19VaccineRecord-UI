@@ -43,7 +43,7 @@
     "pincode": "Crie um número PIN de 4 dígitos. Você receberá um link para inserir o PIN e acessar seu comprovante digital de vacinação. *",
     "pinErrorMsg1": "O PIN não pode conter 4 números consecutivos",
     "pinErrorMsg2": "O PIN não pode conter 4 números duplicados",
-    "pinErrorMsg3": "O PIN inserido é inválido. Tente novamente clicando no link fornecido para reinserir seu PIN. ",
+    "pinErrorMsg3": "O seu PIN está incorreto. Tente novamente. ",
     "pinErrorMsg4": "Tente novamente em um minuto.",
     "pinErrorMsg5": "Entre em contato conosco ou com seu profissional de saúde para obter mais informações ou suporte.",
     "pinErrorMsg6": "Não foi possível efetuar a sua solicitação. Tente novamente.",
