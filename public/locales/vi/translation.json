@@ -43,7 +43,7 @@
     "pincode": "Tạo số PIN 4 số. Bạn sẽ nhận được một đường liên kết để nhập số Pin và truy cập vào hồ sơ vắc-xin kỹ thuật số của mình. *",
     "pinErrorMsg1": "Số PIN không được có 4 số liên tiếp",
     "pinErrorMsg2": "Số PIN không được có 4 số trùng nhau",
-    "pinErrorMsg3": "Số PIN đã nhận không hợp lệ. Vui lòng thử lại bằng cách nhấp vào đường liên kết đã gửi đến bạn để nhập lại số PIN.",
+    "pinErrorMsg3": "Mã PIN của quý vị không đúng. Vui lòng thử lại.",
     "pinErrorMsg4": "Vui lòng thử lại yêu cầu của bạn một lần nữa trong 1 phút.",
     "pinErrorMsg5": "Vui lòng liên hệ với chúng tôi hoặc nhà cung cấp dịch vụ chăm sóc sức khỏe của bạn để biết thêm thông tin hoặc để được hỗ trợ.",
     "pinErrorMsg6": "Chúng tôi không thể hoàn thành yêu cầu của bạn, vui lòng thử lại.",
