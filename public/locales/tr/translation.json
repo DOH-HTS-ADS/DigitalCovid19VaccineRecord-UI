@@ -43,7 +43,7 @@
     "pincode": "4 haneli bir PIN kodu oluşturun PIN kodunu girmek ve dijital aşı kaydınıza erişmek için bir bağlantı alacaksınız. *",
     "pinErrorMsg1": "PIN kodu ardışık 4 rakamı içeremez",
     "pinErrorMsg2": "PIN kodu aynı 4 rakamı içeremez",
-    "pinErrorMsg3": "Girilen PIN kodu geçersiz. Lütfen PIN kodunuzu yeniden girmek için size verilen bağlantıya tıklayarak yeniden deneyin. ",
+    "pinErrorMsg3": "PIN'iniz doğru değil. Lütfen tekrar deneyin.",
     "pinErrorMsg4": "Lütfen 1 dakika sonra tekrar deneyin.",
     "pinErrorMsg5": "Daha fazla bilgi veya destek için lütfen bizimle veya sağlık uzmanınızla iletişime geçin.",
     "pinErrorMsg6": "İsteğinizi tamamlayamadık, lütfen tekrar deneyin.",
