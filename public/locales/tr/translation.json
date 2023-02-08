@@ -18,7 +18,7 @@
     "content1": "Dijital COVID-19 Doğrulama Kaydı sistemine hoş geldiniz. Kare kodun bağlantısını ve COVID-19 Doğrulama Kaydı’nızın dijital kopyasını almak için aşağıya birkaç ayrıntı girin. Aşı kanıtını paylaşmak isterseniz sistemden alacağınız kaydın elektronik veya basılı halini kullanabilirsiniz.",
     "content2": "Bir ailedeki bireyler tek bir telefon numarası veya e-posta adresiyle ilişkili birden fazla doğrulama kaydına sahip olabilir, her dijital doğrulama kaydı talebini ayrıca girmeniz gerekir.",
     "content3": "Sistem, eyalet aşı kayıtlarının dijital bir kopyasını sağlar. Eğer aşılarınızı bir federal kurumdan (Department of Defense, Indian Health Services (Savunma Bakanlığı, Kızılderili Sağlık Hizmetleri) ya da Veterans Affairs (Gazi İşleri)) aldıysanız, yardım almak için bu kurumlarla iletişim kurmanız gerekecektir.",
-    "content4": "Dijital COVID-19 Doğrulama Kaydınız hakkında sorularınız varsa, Sıkça Sorulan Sorular sayfasını ziyaret edin (<1>SSS</1>)."
+    "content4": "Dijital COVID-19 Doğrulama Kaydınız hakkında sorularınız varsa, <1>Sıkça Sorulan Sorular sayfasını ziyaret edin (SSS)</1>."
   },
   "vaccineform": {
     "filloutheader": "Kare kodun bağlantısını/COVID-19 Doğrulama Kaydı’nızın dijital kopyasını almak için lütfen zorunlu alanları doldurun:",
@@ -95,7 +95,7 @@
     "thankyou": "Teşekkür ederiz.",
     "content1": "İsteğiniz alındı. Sağlanan bilgiler sistemimizdeki bilgilerle eşleşiyorsa, COVID-19 Doğrulama Kaydı’nıza erişmek için bir bağlantı alacaksınız.",
     "content2": "Bağlantıyı 24 saat içinde almadığınız takdirde lütfen tekrar deneyin ve adınızın, doğum tarihinizin, telefon numaranızın veya e-postanızın aşılama sırasında verilen bilgilerle aynı eşleştiğinden emin olun.",
-    "content3": "<1>Dijital COVID-19 Doğrulama Kaydı </1> hakkında sorularınız varsa, cevapları bizde. Sıkça Sorulan Sorular bölümümüzü ziyaret edin (<3>SSS</3>).",
+    "content3": "<1>Dijital COVID-19 Doğrulama Kaydı </1> hakkında sorularınız varsa, cevapları bizde. <3>Sıkça Sorulan Sorular bölümümüzü ziyaret edin (SSS).</3>",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
