@@ -43,7 +43,7 @@
     "pincode": "建立一個 4 位數的 PIN 碼。您將收到一個連結，用於輸入 PIN 碼並存取您的數位疫苗記錄。*",
     "pinErrorMsg1": "PIN 不允許包含 4 個連續的數字",
     "pinErrorMsg2": "PIN 不允許包含 4 個重複的數字",
-    "pinErrorMsg3": "輸入的 PIN 碼無效。請點按提供給您的連結重新輸入您的 PIN 碼以重試。",
+    "pinErrorMsg3": "您的 PIN 碼不正確。請再試一次。",
     "pinErrorMsg4": "請在 1 分鐘後重試您的請求。",
     "pinErrorMsg5": "請與我們連絡或連絡您的醫療保健提供者，以獲取更多資訊或支援。",
     "pinErrorMsg6": "我們無法完成您的請求，請重試。",

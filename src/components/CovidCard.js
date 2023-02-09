@@ -71,6 +71,7 @@ const CovidCard = () => {
   const [loading, setLoading] = useState(false);
   const [selectedBirthDate, setSelectedBirthDate] = useState(null);
   const [contactType, setContactType] = useState("Phone");
+  const [isShrinkEmailLabel, setIsShrinkEmailLabel] = useState();
   const [fieldMasks, setFieldMasks] = useState({
     textmask: "(  )    -    ",
   });
@@ -622,6 +623,10 @@ const CovidCard = () => {
     setContactType(event.target.value);
   };  
 
+  const handleEmailLabelChange = (isShrink) => {
+    setIsShrinkEmailLabel(isShrink);
+  }
+
   const handlePhoneChange = (event) => {
     if (event.target.value.replace(/[^0-9]/g, "").length === 10) {
       setError({ ...error, Phone_Email: false });
@@ -968,6 +973,7 @@ const CovidCard = () => {
                   maxLength: 65,
                   pattern: "[a-zA-ZA-Z0-9._%+-]+@[a-zA-ZA-Z0-9.-]+.[a-zA-ZA-Z]{2,}$",
                 }}
+                InputLabelProps={{ shrink: isShrinkEmailLabel }}
                 type={"email"}
                 id="contactEmail"
                 onChange={(e) => {
@@ -975,11 +981,15 @@ const CovidCard = () => {
                   emailRegex.test(e.target.value) && noWhiteSpaceRegex.test(e.target.value) ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
                   document.getElementById('contactEmail').setAttribute("aria-invalid", error.Phone_Email);
                 }}
+                onFocus={(e) => {
+                  handleEmailLabelChange(true);
+                }}
                 error={error.Phone_Email  || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true"}
                 onBlur={(e) => {
                   e.target.value.length < 1 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false })
                   emailRegex.test(e.target.value) && noWhiteSpaceRegex.test(e.target.value) ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
                   document.getElementById('contactEmail').setAttribute("aria-invalid", error.Phone_Email);
+                  handleEmailLabelChange(e.target.value.length > 0 ? true : false);
                 }}
               />
               {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.emailErrorMsg1">Enter a valid email address</Trans></label> : ''}

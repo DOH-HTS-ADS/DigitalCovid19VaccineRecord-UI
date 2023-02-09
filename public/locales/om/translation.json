@@ -18,7 +18,7 @@
     "content1": "Gara Mirkaneessa Ragaa Dijitaalaa COVID-19 baga nagaan dhiftan Liinkii koodii QR fi mirkaneessa ragaa COVID-19 keessanitti geessu argachuuf odeeffannoo muraasa armaan gaditti galchaa. Talaallii fudhachuu ragaa mirkaneessu dhiyeessuu yoo feetan, ragaa sirnicha (system) irraa argattan bifa elektiroonkisii yookinmaxansaatiin fayyadamuu dandeessu.",
     "content2": "Namoonni maatii tokko keessa jiraatan ragaalee mirkaneessaa heddu kan lakkoofsa bilbilaa tokko yookin imeelii wajjin wal qabatu heddu qabaachuu malu, tokkoon tokkoo gaaffii ragaa mirkaneessa dijitaalaa (digital verification record request) qofa qofaatti galchaa.",
     "content3": "Malichi koppii dijitaalaa ragaalee talaallii naannoo dhiyeessa. Ejansii federaalaa (Muummee Humna Ittisaa, Tajaajila Fayyaa Indiyaa (Department of Defense, Indian Health Services,) yookin Biiroo Dhimma Loltoota Durii (Veterans Affairs)) irraa talaallii yoo fudhattan, deeggarsaaf ejansiiwwan sana qunnamuutu isin barbaachisa.",
-    "content4": "Waa’ee Mirkaneessa Ragaa Dijitaalaa COVID-19 gaaffii yoo qabaattan, fuula Gaaffilee Yeroo Heddu Gaafataman  (<1>FAQ</1>) (Ingiliffa qofa) ilaalaa. "
+    "content4": "Waa’ee Mirkaneessa Ragaa Dijitaalaa COVID-19 gaaffii yoo qabaattan, fuula <1>Gaaffilee Yeroo Heddu Gaafataman (FAQ)</1> (Ingiliffa qofa) ilaalaa. "
   },
   "vaccineform": {
     "filloutheader": "Liinkii koodii QR/koppii mirkaneessa ragaa COVID-19 keessanitti geessu fudhachuuf, bakkeewwan guutamuu qaban guutaa:",
@@ -43,7 +43,7 @@
     "pincode": "Lakkoofsa PIN abbaa dijiitii 4 uumaa. Lakkoofsa PIN fi ragaa talaallii kan dijitaalaa galchuuf liinkin isiniif dhufa. *",
     "pinErrorMsg1": "PIN lakkoofsa 4 walitti fufiinsa jiru qabachuu hin danda’u",
     "pinErrorMsg2": "PIN lakkoofsa tokko si’a 4 irra deebin qabachuu hin danda’u",
-    "pinErrorMsg3": "PIN galfame sirriidha. Irra deebin PIN keessaa galchuuf liinkii isiniif kenname cuqaasun yaalaa. ",
+    "pinErrorMsg3": "PIN keessan sirrii miti. Maaloo irra deebi'uudhan yaalaa. ",
     "pinErrorMsg4": "Maaloo, yaalii keessan daqiiqaa 1 keessatti irra deenin yaalaa.",
     "pinErrorMsg5": "Odeeffannoo dabalataaf yookin deeggarsaaf, nuyi yookin ogeessa fayyaa keessan gaafadhaa.",
     "pinErrorMsg6": "Gaaffii keessan xumuruu hin dandeenye, irra deebin yaalaa",
@@ -95,7 +95,7 @@
     "thankyou": "Galatoomaa.",
     "content1": "Gaaffin kee fudhatameera. Odeeffannoon isin laattan kan siistama keenya keessa jiru wajjin yoo wal sime, mirkaneessa ragaa COVID-19 keessan argachuuf liinkiin isin qaqqaba.",
     "content2": "Sa’aatii 24 keessatti liinkii hin arganne yoo ta’e, irra deebin yaalun maqaa, guyyaa dhalootaa, bilbilli yookin imeelin odeeffannoo yeroo talaallii kenname wajjin wal simuu isaa mirkaneeffadhu.",
-    "content3": "Waa’ee <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> (Ingiliffa qofa) gaaffii yoo qabaatte, deebii qabna. Gaaffilee Yeroo Heddu Gaafataman (<3>FAQ</3>) (Ingiliffa qofa) ilaalaa. ",
+    "content3": "Waa’ee <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> (Ingiliffa qofa) gaaffii yoo qabaatte, deebii qabna. <3>Gaaffilee Yeroo Heddu Gaafataman (FAQ)</3> (Ingiliffa qofa) ilaalaa. ",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
