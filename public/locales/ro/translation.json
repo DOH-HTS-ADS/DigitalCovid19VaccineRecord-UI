@@ -43,7 +43,7 @@
     "pincode": "Creați un cod PIN din 4 cifre. Veți primi un link unde va trebui să introduceți codul PIN pentru a accesa fișa de vaccinare în format digital.*",
     "pinErrorMsg1": "Codul PIN nu poate să conțină 4 cifre consecutive.",
     "pinErrorMsg2": "Codul PIN nu poate să conțină 4 cifre identifice.",
-    "pinErrorMsg3": "Codul PIN introdus nu este valid. Încercați din nou dând clic pe linkul primit pentru a reintroduce codul PIN. ",
+    "pinErrorMsg3": "PIN-ul introdus este incorect. Încercați din nou.",
     "pinErrorMsg4": "Încercați să efectuați din nou o solicitare după 1 minut.",
     "pinErrorMsg5": "Pentru informații suplimentare sau asistență, contactați-ne sau luați legătura cu furnizorul serviciilor medicale.",
     "pinErrorMsg6": "Nu am reușit să finalizăm solicitarea dvs., încercați din nou.",
