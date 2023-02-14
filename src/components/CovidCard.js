@@ -978,7 +978,7 @@ const CovidCard = () => {
                 id="contactEmail"
                 onChange={(e) => {
                   e.target.value.length > 0 ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
-                  emailRegex.test(e.target.value) && noWhiteSpaceRegex.test(e.target.value) ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
+                  noWhiteSpaceRegex.test(e.target.value) ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
                   document.getElementById('contactEmail').setAttribute("aria-invalid", error.Phone_Email);
                 }}
                 onFocus={(e) => {
