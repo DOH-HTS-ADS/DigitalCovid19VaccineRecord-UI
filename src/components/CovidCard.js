@@ -628,6 +628,17 @@ const CovidCard = () => {
   }
 
   const handlePhoneChange = (event) => {
+    if (event.target.value.replace(/[^0-9]/g, "").length > 0) {
+      setError({ ...error, Phone_Email: false });
+      document.getElementById('contactPhone').setAttribute("aria-invalid", "false");
+    }
+    setFieldMasks({
+      ...fieldMasks,
+      [event.target.name]: event.target.value,
+    });
+  };
+
+  const handlePhoneBlur = (event) => {
     if (event.target.value.replace(/[^0-9]/g, "").length === 10) {
       setError({ ...error, Phone_Email: false });
       document.getElementById('contactPhone').setAttribute("aria-invalid", "false");
@@ -635,10 +646,6 @@ const CovidCard = () => {
       setError({ ...error, Phone_Email: true });
       document.getElementById('contactPhone').setAttribute("aria-invalid", "true");
     }
-    setFieldMasks({
-      ...fieldMasks,
-      [event.target.name]: event.target.value,
-    });
   };
 
   const today = new Date();
@@ -951,6 +958,7 @@ const CovidCard = () => {
                   id="contactPhone"
                   error={error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true"}
                   onBlur={(e) => {
+                    handlePhoneBlur(e);
                     e.target.value.replace(/[^0-9]/g, "").length < 10 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false });
                   }}
                 />
