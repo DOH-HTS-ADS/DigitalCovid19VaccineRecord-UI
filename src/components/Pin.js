@@ -243,6 +243,14 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             id="partitioned"
             error={error.Pin}
           />
+          <div 
+            style={{ color: '#b30000' }} 
+            id="pinError" 
+            aria-live="polite" 
+            class="MuiFormHelperText-root Mui-error"
+          >
+            {error.Pin ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}
+          </div>
 
           <CardActions style={{ padding: "8px 0px" }}>
             {loading ? (
@@ -270,7 +278,6 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             )}
           </CardActions>
         </Card>
-        <div style={{ color: '#b30000' }} id="pinError" aria-live="assertive">{error.Pin ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
       </form>
     </div>
   );
