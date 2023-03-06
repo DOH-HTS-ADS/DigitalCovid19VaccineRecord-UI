@@ -21,7 +21,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
   }, []);
 
   useEffect(() => {
-    document.title = t("qrpage.pincode");
+    document.title = t("qrpage.title");
   });
 
   const changeLanguage = (language) => {
@@ -214,7 +214,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             <h1
               style={{ color: "#C84C0E", fontSize: "24px", marginBottom: "25px", lineHeight: "1.38" }}
             >
-              <Trans i18nKey="qrpage.pincode">PIN CODE:</Trans>
+              <Trans i18nKey="qrpage.title">PIN CODE:</Trans>
             </h1>
 
           <div>
