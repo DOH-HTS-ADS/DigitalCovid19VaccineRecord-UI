@@ -21,7 +21,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
   }, []);
 
   useEffect(() => {
-    document.title = t("qrpage.pincode");
+    document.title = t("qrpage.title");
   });
 
   const changeLanguage = (language) => {
@@ -214,7 +214,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             <h1
               style={{ color: "#C84C0E", fontSize: "24px", marginBottom: "25px", lineHeight: "1.38" }}
             >
-              <Trans i18nKey="qrpage.pincode">PIN CODE:</Trans>
+              <Trans i18nKey="qrpage.title">PIN CODE:</Trans>
             </h1>
 
           <div>
@@ -243,6 +243,14 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             id="partitioned"
             error={error.Pin}
           />
+          <div 
+            style={{ color: '#b30000' }} 
+            id="pinError" 
+            aria-live="polite" 
+            class="MuiFormHelperText-root Mui-error"
+          >
+            {error.Pin ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}
+          </div>
 
           <CardActions style={{ padding: "8px 0px" }}>
             {loading ? (
@@ -270,7 +278,6 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             )}
           </CardActions>
         </Card>
-        <div style={{ color: '#b30000' }} id="pinError" aria-live="assertive">{error.Pin ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
       </form>
     </div>
   );
