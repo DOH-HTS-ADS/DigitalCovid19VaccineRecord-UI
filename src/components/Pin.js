@@ -234,8 +234,32 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
               maxLength: 4,
               minLength: 4,
               required: true,
-              onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })],
-              "aria-describedby": "pinError"
+              onBlur: (e) => {
+                setError({ ...error, Pin: false })
+                setErrorMessage( null );
+                if (pin.length != 4) {
+                  setErrorMessage({ type: 'pinErrorMsg8', message: 'PIN Number must be 4 characters' });
+                  setError({ ...error, Pin: true })
+                  document.getElementById('partitioned')?.scrollIntoView();
+                  document.getElementById('partitioned')?.focus();
+                  return;
+                }
+                if (containsDuplicateChar(pin)) {
+                  setErrorMessage({ type: 'pinErrorMsg2', message: 'PIN cannot contain 4 duplicate numbers.' });
+                  setError({ ...error, Pin: true })
+                  document.getElementById('partitioned')?.scrollIntoView();
+                  document.getElementById('partitioned')?.focus();
+                  return;
+                }
+                if (containsAscending(pin)) {
+                  setErrorMessage({ type: 'pinErrorMsg1', message: 'PIN cannot contain 4 consecutive numbers.' });
+                  setError({ ...error, Pin: true })
+                  document.getElementById('partitioned')?.scrollIntoView();
+                  document.getElementById('partitioned')?.focus();
+                  return;
+                }
+              },
+              "aria-describedby":  "pinError"
             }}
             InputProps={{
               className: classes.underline
