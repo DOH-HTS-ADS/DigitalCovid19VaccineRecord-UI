@@ -12,6 +12,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
   const [loading, setLoading] = useState(false);
   const { i18n, t } = useTranslation();
   const [errorMessage, setErrorMessage] = useState({});
+  const [isSubmitError, setIsSubmitError] = useState(false);
 
   useEffect(() => {
     const qrEl = document.getElementsByTagName("h1")[0];
@@ -138,25 +139,30 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
       body: JSON.stringify(credentialData)
     })
       .then((res) => {
+        setIsSubmitError(false);
         if (res.status === 404) {
           setErrorMessage({ type: 'pinErrorMsg3', message: "The PIN entered is invalid. Please retry by clicking the link provided to you to re-enter your PIN." });
           setError({ ...error, Pin: true })
+          setIsSubmitError(true);
           setLoading(false);
         }
         else if (res.status === 429) {
           setErrorMessage({ type: 'pinErrorMsg4', message: "Please try your request again in 1 minute." });
           setError({ ...error, Pin: true })
+          setIsSubmitError(true);
           setLoading(false);
         }
         else if (res.status === 422) {
           setErrorMessage({ type: 'pinErrorMsg5', message: "Please contact WADOH for more info on your vaccine records." });
           setError({ ...error, Pin: true })
+          setIsSubmitError(true);
           setLoading(false);
         }
         else if (res.status !== 200) {
           setLoading(false);
           setErrorMessage({ type: 'pinErrorMsg6', message: "Could not complete the request, please retry later." });
           setError({ ...error, Pin: true })
+          setIsSubmitError(true);
         }
         status = res.status;
         return res.json();
@@ -235,8 +241,10 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
               minLength: 4,
               required: true,
               onBlur: (e) => {
-                setError({ ...error, Pin: false })
-                setErrorMessage( null );
+                if (!isSubmitError) {
+                  setError({ ...error, Pin: false })
+                  setErrorMessage( null );
+                }
                 if (pin.length != 4) {
                   setErrorMessage({ type: 'pinErrorMsg8', message: 'PIN Number must be 4 characters' });
                   setError({ ...error, Pin: true })
