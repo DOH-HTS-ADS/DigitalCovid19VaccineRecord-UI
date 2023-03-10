@@ -1073,6 +1073,7 @@ const CovidCard = () => {
                     borderRadius: "5px",
                     color: "#ffffff",
                     padding: "4px 5px",
+                    whiteSpace: "nowrap"
                   }}
                 >
                   Note:
