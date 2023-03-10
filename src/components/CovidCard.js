@@ -754,20 +754,6 @@ const CovidCard = () => {
               Please fill out the required fields to receive a link to a QR code / digital copy of your COVID-19 Verification Record:
               </Trans>
             </h2>
-            {/*<p style={{fontSize: "1rem"}}>
-            <Trans i18nKey="vaccineform.filloutsubheader"> 
-            <span
-                  style={{
-                    background: "#22489C",
-                    borderRadius: "5px",
-                    color: "#ffffff",
-                    padding: "4px 5px",
-                  }}
-                >
-                  Note:
-                </span> Once you click submit, you can expect to receive your link automatically within the next 24 hours.
-                </Trans>
-            </p>*/}
             <div style={{ marginBottom: "15px" }}>
               <Typography>
                 <Trans i18nKey="vaccineform.subtitle">
@@ -1076,8 +1062,26 @@ const CovidCard = () => {
               </div>
               
             </div>
-            <br />
+            <p>
               {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.agreementErrorMsg1">Policy Agreement checkbox must be selected</Trans></label> : ''}
+            </p>
+            <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
+              <Trans i18nKey="vaccineform.note24hour">
+                <span
+                  style={{
+                    background: "#22489C",
+                    borderRadius: "5px",
+                    color: "#ffffff",
+                    padding: "4px 5px",
+                  }}
+                >
+                  Note:
+                </span>
+                <span class="SpanText-Bold-With-Indent">
+                  {" "}Once you click submit, you can expect to receive your link automatically within the next 24 hours.
+                </span>
+              </Trans>
+            </div>
           </CardContent>
           <CardActions style={{ marginBottom: "30px", padding: "8px 0px" }}>
             {loading ? (
