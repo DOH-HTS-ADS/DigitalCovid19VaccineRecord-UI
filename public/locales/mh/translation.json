@@ -13,9 +13,9 @@
     "subtitle": "Jouj im kanne pepa eo n̄an am kōmmane (QR) code eo n̄an uwaak eo emōkaj."
   },
   "dashboardpage": {
-
+    "tabtext": "Mweo",
     "contentheader": "Rekoot in Kein Kamool COVID-19 eo am ilo online",
-    "content1": "Ruwainene tok n̄an system eo n̄an Rekoot in Kein Kamool COVID-19 eo am ilo online. Likit jet melele ko ilal n̄an am bōk juon QR code im copy in rekoot in kein kamool COVID-19 eo am ilo online. N̄e kwōj kōnaan jake kein kamool in wā eo am, kwōmāron̄ kōjerbale rekoot eo am ilo online ak peba eo emōj an print jen system in.",
+    "content1": "Ruwainene tok n̄an system eo n̄an Rekoot in Kein Kamool COVID-19 eo am ilo online. Likit jet melele ko ilal n̄an am bōk juon QR code im copy in rekoot in kein kamool COVID-19 eo am ilo online. N̄e kwōj kōnaan jake kein kamool in wā eo am, kwōmāron̄ kōjerbale rekoot eo am ilo online ak peba eo emōj an print jen system in. Jej rōjañ kattar 3-7 raan ñan an wā kāāl eo walok ilo Immunization Registry (Jikin Register ñan Wā) mokta jān am kajitōk juōn link. Link eo enij jemlak an jerbal 24 awa elikin an iwaj, jouj im kakwōne, taunlote, ak būrin rekoot eo am.",
     "content2": "Armij ilo juon baamle māron̄ lōn̄ aer rekoot in kein kamool ilo aer kōjerbal juon telebon nōmba ak email address, en jenolọk am likit kajitōk ko am n̄an rekoot in kein kamool ko kajojo.",
     "content3": "System eo ej kakwone copy in rekoot in kein kammol eo am ibben kien ilo online. N̄e kwar bōk wā ko am jen opiij ko an federal (Department of Defense, Indian Health Services, or Veterans Affairs), kwōj aikuij in kurlọk opiij en aer n̄an am bōk jibān̄.",
     "content4": "N̄e ewōr am kajitōk kōn Rekoot in Kein Kamool COVID-19 eo am ilo online, etal n̄an <1>Kajitōk ko Ekutkut Kajitōk (FAQ)</1>."
@@ -66,6 +66,7 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Iuun Dose COVID-19 wamelele",
     "submitbutton": "Jakelọk",
+    "note24hour": "<0>Kōjjellā:</0><1> Ñe emōj am jiped lelak ilal, kwōj māroñ in katmāne bwe en iwaj link eo am iumin 24 awa.</1>",
     "enterPin": "Likit PIN nōmba eo am kwar kōmmane n̄an am kajitōk am kapellọk rekoot in wā eo am.",
     "ok": "AET",
     "cancel": "KABŌJRAK"
