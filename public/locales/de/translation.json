@@ -13,9 +13,9 @@
     "subtitle": "Bitte das Formular ausfüllen, um einen Quick-Response(QR)-Code zu erstellen"
   },
   "dashboardpage": {
-
+    "tabtext": "Startseite",
     "contentheader": "COVID-19-Digitalzertifikat",
-    "content1": "Willkommen zum COVID-19-Digitalzertifikat-System Geben Sie nachfolgen einige Angaben ein, um einen Link zu einem QR-Code und einer digitalen Kopie Ihres COVID-19-Zertifikats zu erhalten. Wenn Sie einen Impfnachweis teilen möchten, können Sie entweder die elektronische oder eine ausgedruckte Version des Datensatzes verwenden, den Sie vom System erhalten.",
+    "content1": "Willkommen zum COVID-19-Digitalzertifikat-System Geben Sie nachfolgen einige Angaben ein, um einen Link zu einem QR-Code und einer digitalen Kopie Ihres COVID-19-Zertifikats zu erhalten. Wenn Sie einen Impfnachweis teilen möchten, können Sie entweder die elektronische oder eine ausgedruckte Version des Datensatzes verwenden, den Sie vom System erhalten. Wir empfehlen Ihnen, vor der Anforderung eines Links 3-7 Tage zu warten, bis Ihre neue Dosis im Immunization Registry (Impfregister) angezeigt wird. Der Link läuft 24 Stunden nach dem Absenden ab. Daher sollten Sie Ihr Zertifikat speichern, herunterladen oder ausdrucken.",
     "content2": "Personen innerhalb einer Familie können mehrere Impfzertifikate haben, die mit ein und derselben Telefonnummer oder E-Mail-Adresse verknüpft sind. Geben Sie jede Digitalzertifikat-Anforderung getrennt ein.",
     "content3": "Vom System wird eine digitale Kopie des bundesstaatlichen Impfpasses ausgegeben. Wenn Sie Ihre Impfungen von einer US-Bundesbehörde [Department of Defense (Verteidigungsministerium), Indian Health Services (Abteilung für die medizinische Versorgung der indigenen Bevölkerung) oder Veterans Affairs (Kriegsveteranenministerium)] erhalten haben, müssen Sie sich an diese Behörden wenden, um Unterstützung zu erhalten.",
     "content4": "Falls Sie Fragen zu Ihrem COVID-19-Digitalzertifikat haben, lesen Sie die <1>Häufig gestellten Fragen (FAQ)</1> . "
@@ -67,6 +67,7 @@
     "Subsubsubtitle": "Informationen zur Auffrischungsdosis des COVID-19-Impfstoffs",
     "submitbutton": "Senden",
     "enterPin": "Geben Sie bitte die PIN-Nummer ein, die Sie erstellt haben, um Zugang zu Ihrem Impfpass zu bekommen.",
+    "note24hour": "<0>Hinweis:</0><1> Nachdem Sie unten auf „Senden“ geklickt haben, erhalten Sie Ihren Link automatisch innerhalb der nächsten 24 Stunden.</1>",
     "ok": "OK",
     "cancel": "Abbrechen"
   },
