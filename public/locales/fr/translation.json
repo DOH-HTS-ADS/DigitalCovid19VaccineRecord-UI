@@ -13,9 +13,9 @@
     "subtitle": "Veuillez remplir le formulaire pour créer un code QR"
   },
   "dashboardpage": {
-
+    "tabtext": "À domicile",
     "contentheader": "Attestation numérique de vaccination COVID-19",
-    "content1": "Bienvenue dans le système d'Attestation numérique de vaccination COVID-19. Renseignez quelques informations ci-dessous pour obtenir un lien vers un code QR et une copie numérique de votre attestation de vaccination COVID-19. Si vous souhaitez partager un justificatif de vaccination, vous pouvez utiliser la version électronique ou imprimée de l'attestation qui vous sera délivrée par le système.",
+    "content1": "Bienvenue dans le système d'Attestation numérique de vaccination COVID-19. Renseignez quelques informations ci-dessous pour obtenir un lien vers un code QR et une copie numérique de votre attestation de vaccination COVID-19. Si vous souhaitez partager un justificatif de vaccination, vous pouvez utiliser la version électronique ou imprimée de l'attestation qui vous sera délivrée par le système. Nous vous recommandons d'attendre 3 à 7 jours pour que votre nouvelle dose apparaisse dans l'Immunization Registry (registre des vaccinations) avant de demander un lien. Le lien expirera 24 heures après avoir été envoyé, alors veillez à sauvegarder, télécharger ou imprimer votre justificatif.",
     "content2": "Les membres d'une même famille peuvent avoir plusieurs attestations de vaccination associées à un même numéro de téléphone ou à une même adresse e-mail. Saisissez chaque demande d'attestation numérique de vaccination séparément.",
     "content3": "Le système fournit une copie numérique des attestations de vaccination de l'État. Si vous avez reçu vos vaccins auprès d'une agence fédérale (Department of Defense (ministère de la Défense), Indian Health Services (services de santé indiens) ou Veterans Affairs (ministère des Anciens Combattants)), vous devez contacter ces agences pour obtenir de l'aide.",
     "content4": "Si vous avez des questions à propos de votre Attestation numérique de vaccination COVID-19, consultez la <1>Foire aux questions (FAQ)</1> ."
@@ -67,6 +67,7 @@
     "Subsubsubtitle": "Informations sur la dose de rappel de vaccin COVID-19",
     "submitbutton": "Envoyer",
     "enterPin": "Veuillez saisir le code PIN que vous avez créé pour demander l'accès à votre attestation de vaccination.",
+    "note24hour": "<0>Remarque:</0><1> après avoir cliqué sur « Envoyer » ci-dessous, vous recevrez automatiquement votre lien sous 24 heures.</1>",
     "ok": "OK",
     "cancel": "Annuler"
   },
