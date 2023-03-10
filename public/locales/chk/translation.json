@@ -13,9 +13,9 @@
     "subtitle": "Kose mochen amasoua ewe taropwe ren epwe forata quick response (QR) code"
   },
   "dashboardpage": {
-
+    "tabtext": "Imw",
     "contentheader": "Digital COVID-19 Afatan Record",
-    "content1": "Kinisou ren om nounou ei Digital COVID-19 Afatan Record System. Makenong fitu tichikin poraus fan ren om kopwe angei ew QR code ren om kopwe feino ngeni om kopwe kuna pwaratan pwe mi wor noum COVID-19 on ei kamputer. Ika en mi mochen pwarano pwaratan om ka angei appos, en mi tongeni eaea ew chok me nein ekewe ruu ren epwe chok nom on kamputer ika fon ika printinau non taropwe ren om kopwe aanomu reom.",
+    "content1": "Kinisou ren om nounou ei Digital COVID-19 Afatan Record System. Makenong fitu tichikin poraus fan ren om kopwe angei ew QR code ren om kopwe feino ngeni om kopwe kuna pwaratan pwe mi wor noum COVID-19 on ei kamputer. Ika en mi mochen pwarano pwaratan om ka angei appos, en mi tongeni eaea ew chok me nein ekewe ruu ren epwe chok nom on kamputer ika fon ika printinau non taropwe ren om kopwe aanomu reom. Imwen aramas epwe ita eu leenien 3-7 ngang ua nuku pwe popun me auchean a chok nenne me (Immunization Registry, Ra Angangfengen ne Apechekunakich) non pekin ngun ren emon. A nnielo aramas nge aksiten chok epwe 24 ren wiisen fori atewe a wiisen likitalo leenian ewe telimwen op me nonnom.",
     "content2": "Chochon non ew famini ir mi tongeni ani fitu afatan records ika taropwen pwarata epwe riri ngeni ew chok nampan fon ika email address, makenong ew digital record ika ew kapin epwe chok nom on noum kamputer ika fon.",
     "content3": "Ew system e awora ew kapin om appos epwe nom on fon ika kamputer pwe nenien. Ika pwe ke angei om appos seni ew pekin ren muu-nap (Department of Defense, Indian Health Services (Ofesin Pekin Fiu, Angangen Aninisin Safean Indian)), ika Veteran Affairs (Tumunun Foforun Son Fiu)), iwe kopwe pwisin kokori ekewe pekin ren ar aninis.",
     "content4": "Ika mi wor om kapas eis usun noum Digital COVID-19 Afatan Record mi nom on kamputer ika fon, tota won ewe <1>Chechemeni kapas ais (FAQ)</1>. "
@@ -66,6 +66,7 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Porausen pwan ew appos ren appechekunen ewe apposen COVID-19",
     "submitbutton": "Tinanong",
+    "note24hour": "<0>Iwe inamo:</0><1> Sia kaeo pwe manau eu mettoch mi fokkun pin me sia wiisen sufoliiti ei poraus a pwalo 24 ren met emon.</1>",
     "enterPin": "Kose mochen makenong nampan noum PIN ewe ke fori ika ke mochen kuna noum taropwen appos online.",
     "ok": "iwe ina",
     "cancel": "oukano"
