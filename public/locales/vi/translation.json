@@ -13,9 +13,9 @@
     "subtitle": "Vui lòng điền đầy đủ thông tin vào mẫu để tạo Quick Response (QR) Code"
   },
   "dashboardpage": {
-
+    "tabtext": "Trang Chủ",
     "contentheader": "Hồ sơ Xác nhận COVID-19 kỹ thuật số",
-    "content1": "Chào mừng bạn đến với hệ thống Hồ sơ Xác nhận COVID-19 kỹ thuật số. Nhập một vài thông tin chi tiết để nhận đường liên kết đến mã QR và bản sao kỹ thuật số hồ sơ xác nhận COVID-19 của bạn. Nếu bạn muốn chia sẻ bằng chứng tiêm vắc-xin, bạn có thể sử dụng phiên bản điện tử hoặc bản in hồ sơ mà bạn sẽ nhận được từ hệ thống.",
+    "content1": "Chào mừng bạn đến với hệ thống Hồ sơ Xác nhận COVID-19 kỹ thuật số. Nhập một vài thông tin chi tiết để nhận đường liên kết đến mã QR và bản sao kỹ thuật số hồ sơ xác nhận COVID-19 của bạn. Nếu bạn muốn chia sẻ bằng chứng tiêm vắc-xin, bạn có thể sử dụng phiên bản điện tử hoặc bản in hồ sơ mà bạn sẽ nhận được từ hệ thống. Chúng tôi đề nghị quý vị đợi 3-7 ngày để liều vắc-xin mới của quý vị hiển thị trong Immunization Registry (Cơ Quan Đăng Ký Tiêm Chủng) trước khi yêu cầu một liên kết. Liên kết sẽ không thể truy cập sau 24 giờ kể từ lúc được gửi đến, vì vậy vui lòng lưu lại, tải xuống hoặc in ra hồ sơ của quý vị.",
     "content2": "Nhiều người trong gia đình có thể có nhiều hồ sơ xác nhận liên kết với một số điện thoại hoặc địa chỉ email, nhập từng yêu cầu hồ sơ xác nhận kỹ thuật số riêng lẻ.",
     "content3": "Hệ thống cung cấp một bản kỹ thuật số hồ sơ vắc-xin của tiểu bang. Nếu bạn đã được tiêm vắc-xin từ một cơ quan liên bang (Department of Defense (Bộ Quốc Phòng), Indian Health Services (Dịch Vụ Y Tế Người Da Đỏ), hoặc Veterans Affairs (Bộ Cựu Chiến Binh)), bạn cần liên hệ với những cơ quan này để được hỗ trợ.",
     "content4": "Nếu bạn có câu hỏi về Hồ sơ Xác nhận COVID-19 kỹ thuật số, hãy truy cập vào <1>Các Câu Hỏi Thường Gặp (FAQ)</1>"
@@ -66,6 +66,7 @@
     "shealthcareprofessional": "Chuyên gia chăm sóc sức khỏe hoặc trang web phòng khám",
     "submitbutton": "Gửi",
     "enterPin": "Vui lòng nhập số PIN mà bạn đã tạo để yêu cầu truy cập hồ sơ vắc-xin của bạn.",
+    "note24hour": "<0>Lưu ý:</0><1> Sau khi nhấp gửi ở bên dưới, quý vị có thể tự động nhận được liên kết trong vòng 24 giờ tiếp theo.</1>",
     "ok": "OK",
     "cancel": "Hủy"
   },
