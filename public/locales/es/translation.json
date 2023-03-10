@@ -13,9 +13,9 @@
     "subtitle": "Complete el formulario para crear el código de respuesta rápida (QR)."
   },
   "dashboardpage": {
-
+    "tabtext": "Inicio",
     "contentheader": "Registro digital de verificación de COVID-19",
-    "content1": "Bienvenido al sistema de Registro digital de verificación de COVID-19. Ingrese algunos datos a continuación para obtener el enlace a un código QR y una copia digital de su registro de verificación de COVID-19. Si desea compartir un comprobante de vacunación, puede utilizar la versión electrónica o una impresa del registro que obtenga del sistema.",
+    "content1": "Bienvenido al sistema de Registro digital de verificación de COVID-19. Ingrese algunos datos a continuación para obtener el enlace a un código QR y una copia digital de su registro de verificación de COVID-19. Si desea compartir un comprobante de vacunación, puede utilizar la versión electrónica o una impresa del registro que obtenga del sistema. Recomendamos esperar entre 3 y 7 días antes de solicitar un enlace porque su nueva dosis tardará en aparecer en el Registro de Vacunación. El enlace caduca 24 horas después de que se lo envió, por lo que deberá guardar, descargar o imprimir su registro.",
     "content2": "Es posible que las personas de la misma familia tengan varios registros de verificación asociados con un solo número de teléfono o una sola dirección de correo electrónico. Por eso, ingrese cada solicitud de registro de verificación digital por separado.",
     "content3": "El sistema proporciona una copia digital de los registros de vacunación del estado. Si recibe las vacunas de un organismo federal (como el Departamento de Defensa, los Servicios de Salud Indígena o los Asuntos de Veteranos), deberá comunicarse con ese organismo para obtener asistencia.",
     "content4": "Si tiene preguntas sobre su Registro digital de verificación de COVID-19, visite la sección de <1>preguntas frecuentes </1>."
@@ -66,6 +66,7 @@
     "shealthcareprofessional": "",
     "submitbutton": "Enviar",
     "enterPin": "Ingrese el PIN que creó para solicitar el acceso al registro de vacunación.",
+    "note24hour": "<0>Nota:</0><1> Una vez que haga clic en “Enviar” abajo, recibirá su enlace automáticamente dentro de las próximas 24 horas.</1>",
     "ok": "Aceptar",
     "cancel": "Cancelar"
   },
