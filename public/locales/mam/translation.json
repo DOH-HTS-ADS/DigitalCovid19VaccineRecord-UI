@@ -13,9 +13,9 @@
     "subtitle": "Nojsank’ax jb’incha’ u’j te tu’ tjax b’inchet jun código te tzaq’b’elta naj (QR)"
   },
   "dashboardpage": {
-
+    "tabtext": "Tzalu In Xi Tzyet",
     "contentheader": "Tqanil toj Yolb’il tun Tjyet COVID-19",
-    "content1": "B’a’ tulenay toj Tqanil toj Yolb’il tun Tjyet COVID-19. Tz’ib’ak’ax ju’nqch qaj tten tz’alu te tu’ ttiq’ay jun enlace ti’j jun código QR ex jun copia tojx xkutz’ib’ tej tey ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19. Qa tajay kub’ tchitpu’na jun u’j jatuma tz’ib’ak’ax qa ot tz’ok tb’aqay, b’a’ tajb’en tey ja tten toj xk’utz’ib’ mo etetz t-ipimirana ja jatuma tz’ib’ak’ax jtey k’elatz ti’ toj jkloj te xk’utz’ib’.",
+    "content1": "B’a’ tulenay toj Tqanil toj Yolb’il tun Tjyet COVID-19. Tz’ib’ak’ax ju’nqch qaj tten tz’alu te tu’ ttiq’ay jun enlace ti’j jun código QR ex jun copia tojx xkutz’ib’ tej tey ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19. Qa tajay kub’ tchitpu’na jun u’j jatuma tz’ib’ak’ax qa ot tz’ok tb’aqay, b’a’ tajb’en tey ja tten toj xk’utz’ib’ mo etetz t-ipimirana ja jatuma tz’ib’ak’ax jtey k’elatz ti’ toj jkloj te xk’utz’ib’. Na'mxtoq tzaj tqanina tqanil, b'a'n tu'n tayona 3 ex qa 7 q'ij tu'n tetz yek'un toj Immunization Registry (U'j te Q'ol Vacuna) qa ya otoq tz'ok vacuna ti'je. K'unxa ex qa q'inkutza tu'n tetz imprimirit twitz u'j tu'ntzun mi'n tnaj tqanil aj tik' 24 or.",
     "content2": "Qaj xjal te jun jax ja najaj b’a’ ttiq’ nimk’a ttz’ib’b’al chmo’ tten toj junx tajlal yolb’il mo correo electrónico, tz’ib’akx ju’n qanb’al te tz’ib’b’al te cheylakxta toj xk’utz’ib’ tekax ju’n.",
     "content3": "Jkloj te xk’utz’ib’ ntzaj tq’o’ jun copia tojx xk’utz’ib’ che qaj tz’ib’b’al te qa ot tz’ok tb’aqay toj ja tnom. Qa s-etz ti’na tb’aqay toj jun tja q’oltzta onb’al te kawb’al tex jatzana (Tja nik’ub’ aq’unt te Klolakta [Department of Defense, toj tyol me’x xjal], Qaj onb’al te Tb’anal xumlal te che qaj at Chxe’chal [Indian Health Services, toj tyol me’x xjal] mo Tqanil chyol qaj eten toj Q’oj [Veterans Affairs, toj tyol me’x xjal]),\rilti’j kyolana tuya ja tja q’oltzta onb’al te tu’ tq’ij onb’al.",
     "content4": "Qa at tajay tzaj tqanay tib’aj jtey Tqanil toj Yolb’il tun Tjyet COVID-19, tokx toj jkloj che qaj Qanb’al jakax (<1>Qe Xjel Kukx in che Tzaj Qanin (FAQ)</1>, ch’ij qaj t-xe’ tb’i toj tyol me’x xjal)."
@@ -66,6 +66,7 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Q’umb’aj tumal tej paq b’aq te q’olak tipomal te tej tx’u’j yab’il te COVID-19",
     "submitbutton": "Smanx ",
+    "note24hour": "<0>Tqanil:</0><1> Aj tku'x tyaq'ona tu'n samet, tzul q'on teya jun tqanil ti'j jlu toj 24 or.</1>",
     "enterPin": "Tz’ib’ak’ax j-PIN tey xjaw tb’incha’ tu’ tokx tqanay te tu’ tokxay toj jatuma tz’ib’waxay ti’j b’aq.",
     "ok": "Matxe",
     "cancel": "Tu'n Tnaj"
