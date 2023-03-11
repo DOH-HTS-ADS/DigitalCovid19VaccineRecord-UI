@@ -13,9 +13,9 @@
     "subtitle": "Faamolemole ia faatumuina ni pepa e mafai ai ona maua se numera mo faamaoniga vave e faaaoga ai le ata o le QR"
   },
   "dashboardpage": {
-
+    "tabtext": "Aiga",
     "contentheader": "Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi",
-    "content1": "E faafeiloa’i atu le polokalame o Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi.<br /> Tuu i totonu ni faamatalaga ina ia maua ai se sootaga mo se Fa’amaoniga vave QR code ina ia tuuina atu ai lea ose kopi o ou Fa’amaumauga Fa’amaonia o le KOVITI-19. A e fia faasoa maia se faamaoniga o lou tui puipui, e mafai ona faaogaina se kopi ua lolomiina pe o le faamaoniga faatekonolosi.",
+    "content1": "E faafeiloa’i atu le polokalame o Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi.<br /> Tuu i totonu ni faamatalaga ina ia maua ai se sootaga mo se Fa’amaoniga vave QR code ina ia tuuina atu ai lea ose kopi o ou Fa’amaumauga Fa’amaonia o le KOVITI-19. A e fia faasoa maia se faamaoniga o lou tui puipui, e mafai ona faaogaina se kopi ua lolomiina pe o le faamaoniga faatekonolosi. E fautuaina lou fa'atali i le 3-7 aso fa'ato’a maua lea o lou tui puipui fou i totonu o le Immunization Registry (Lesitala o Tūiga) ae le'i talosagaina se sootaga fa'aInitaneti. O le a fa'aleaogaina lenei sootaga fa'aInitaneti pe a mae'a le 24 itula talu ona lafo atu, o le mea lea fa'amolemole sefe, tuu i lalo, pe lolomiina mo au fa'amaumauga.",
     "content2": "Afai o se aiga toatele e eseese uma Faamaumauga Faamaonia ae na o le tasi le numera o le telefoni na faaogaina pe tasi foi se tuatusi o le imeli, ia taito’atasi ona talosagaina faamaumauga a se tagata se toatasi.",
     "content3": "O lenei pokokalame e mafai ona maua ai Faamaumauga o tuipuipui a le setete. Afai ua e mauaina ou tui puipui mai le Department of Defense, Indian Health Services, or Veterans Affairs (Matagaluega o Puipuiga, Soifua Maloloina Initia poo Mataupu mo latou sa o i le Taua), ua tatau ona e faafesootaiina na ofisa mo se fesoasoani.",
     "content4": "Afai e iai ni au fesili e faatatau i ou Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi, fa’afesootai Fesili Masani (<1>Fesili Masani ma Tali</1>)."
@@ -67,6 +67,7 @@
     "Subsubsubtitle": "Fa’amatalaga mo Tui puipuia faaopopo o le tui KOVITI-19",
     "submitbutton": "Tuuina atu",
     "enterPin": "Faamolemole tuu i totonu le numera PIN e mafaia ai ona maua faamaumauga o ou tui.",
+    "note24hour": "<0>Mo le silafia:</0><1> Afai e te kiliki i le submit (lafo) i lalo, o le a vave ona e mauaina se sootaga fa'aInitaneti i totonu o le isi 24 itula.</1>",
     "ok": "lelei",
     "cancel": "Fa'aleaogaina"
   },
