@@ -13,9 +13,9 @@
     "subtitle": "Kerei mo vakalewena na fomu me dua kina nomu quick response (QR) code"
   },
   "dashboardpage": {
-
+    "tabtext": "Vale",
     "contentheader": "iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19",
-    "content1": "Kidavaki ena ituvatuva ni iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19. Vola eso na ka e toka e ra me rawa ni dua kina nomu isema ena QR code ni ivolatukutuku vakalivaliva e vakadeitaka ni o sa cula ena icula ni COVID-19. Ke o vinakata mo vakaraitaka e dua na ivakadinadina ni nomu cula, e rawa ni o vakayagataka na ilavelave vakalivalia se na ilavelave tabaki ni veika e vakarautaki yani ena misini.",
+    "content1": "Kidavaki ena ituvatuva ni iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19. Vola eso na ka e toka e ra me rawa ni dua kina nomu isema ena QR code ni ivolatukutuku vakalivaliva e vakadeitaka ni o sa cula ena icula ni COVID-19. Ke o vinakata mo vakaraitaka e dua na ivakadinadina ni nomu cula, e rawa ni o vakayagataka na ilavelave vakalivalia se na ilavelave tabaki ni veika e vakarautaki yani ena misini. Keitou vakatura mo wawa me 3-7 na siga me qai laurai ena Immunization Registry (Rejisita ni Cula) ni o sa cula ni bera ni o kerea na isema. Na isema ena oti ena loma ni 24 na aua ni sa vakau, yalovinaka mo maroroya, download se tabaka e dua nomu ilavelave.",
     "content2": "O ira na vakavuvale era na rairai vakalewena na ivolatukutuku ni lewe ni nodra vuvale ra qai vakayagataka ga e dua na naba se imeli. Ena vinakati gona mo na vakalewena yadua na yacadra ni o vakayagataka na nomu naba se talevoni.",
     "content3": "Na misini ena vakarautaka na ilavelave vakalivaliva ena ivolatukutuku ni ituvaki ni icula ni dua na vanua. Ke o cula mai na dua na tabana ni veiqaravi (Department of Defense, Indian Health Services, or Veterans Affairs (Tabana ni iTataqomaki, Tabana ni Bula ni Idia, se Taba ni Veiqaravi ni Sotia Luvaisulu)), ena vinakati mo na veitaratara kei na taba ni veiqaravi qori.",
     "content4": "Ke dua na taro o via taroga me baleta na iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19, rai ena <1>Taro e Tarogi Wasoma (FAQ)</1>."
@@ -67,6 +67,7 @@
     "Subsubsubtitle": "iTukutuku ni iCula ni Veivakaukauataki ni Wainimate e Tarova na COVID-19",
     "submitbutton": "Vakauta",
     "enterPin": "Yalovinaka mo tabaka na naba ni PIN o bulia mo rawa ni raica kina na itukutuku ni nomu cula.",
+    "note24hour": "<0>Me nanumi:</0><1> Na gauna o sa tabaka kina na vakauta e ra, o rawa ni namaka me vakau yani vei iko na isema ena loma ni 24 na aua.</1>",
     "ok": "Donu",
     "cancel": "Boko"
   },

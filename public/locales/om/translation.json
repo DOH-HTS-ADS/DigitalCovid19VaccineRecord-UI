@@ -13,9 +13,9 @@
     "subtitle": "Koodii dafee deebisu (QR) uumuf unkicha guutaa"
   },
   "dashboardpage": {
-
+    "tabtext": "Jalqabaa",
     "contentheader": "Mirkaneessa Ragaa Dijitaalaa COVID-19",
-    "content1": "Gara Mirkaneessa Ragaa Dijitaalaa COVID-19 baga nagaan dhiftan Liinkii koodii QR fi mirkaneessa ragaa COVID-19 keessanitti geessu argachuuf odeeffannoo muraasa armaan gaditti galchaa. Talaallii fudhachuu ragaa mirkaneessu dhiyeessuu yoo feetan, ragaa sirnicha (system) irraa argattan bifa elektiroonkisii yookinmaxansaatiin fayyadamuu dandeessu.",
+    "content1": "Gara Mirkaneessa Ragaa Dijitaalaa COVID-19 baga nagaan dhiftan Liinkii koodii QR fi mirkaneessa ragaa COVID-19 keessanitti geessu argachuuf odeeffannoo muraasa armaan gaditti galchaa. Talaallii fudhachuu ragaa mirkaneessu dhiyeessuu yoo feetan, ragaa sirnicha (system) irraa argattan bifa elektiroonkisii yookinmaxansaatiin fayyadamuu dandeessu. Geessituu gaafachuu keessaniin dura dooziin keessan haaraan Immunization Registry (Galmee Talaallii fudhachuu) keessatti akka mul'atuuf guyyaa 3-7 akka eegdan isin gorsina. Geessituun kun erga ergamee sa'aatii 24 booda yeroon isaa ni xumurama, kanaaf maaloo galmee keessan olkaa'aa, buusaa ykn maxxansaa.",
     "content2": "Namoonni maatii tokko keessa jiraatan ragaalee mirkaneessaa heddu kan lakkoofsa bilbilaa tokko yookin imeelii wajjin wal qabatu heddu qabaachuu malu, tokkoon tokkoo gaaffii ragaa mirkaneessa dijitaalaa (digital verification record request) qofa qofaatti galchaa.",
     "content3": "Malichi koppii dijitaalaa ragaalee talaallii naannoo dhiyeessa. Ejansii federaalaa (Muummee Humna Ittisaa, Tajaajila Fayyaa Indiyaa (Department of Defense, Indian Health Services,) yookin Biiroo Dhimma Loltoota Durii (Veterans Affairs)) irraa talaallii yoo fudhattan, deeggarsaaf ejansiiwwan sana qunnamuutu isin barbaachisa.",
     "content4": "Waa’ee Mirkaneessa Ragaa Dijitaalaa COVID-19 gaaffii yoo qabaattan, fuula <1>Gaaffilee Yeroo Heddu Gaafataman (FAQ)</1> (Ingiliffa qofa) ilaalaa. "
@@ -67,6 +67,7 @@
     "Subsubsubtitle": "Odeeffannoo Talaallii COVID-19 Doozii Dandeettii Dhibee Ittisuu Dabalu",
     "submitbutton": "Galchi",
     "enterPin": "Ragaa talaallii kee argachuuf lakkoofsa PIN uumte sana galchaa.",
+    "note24hour": "<0>Yaadachiisa:</0><1> Erga galchi armaan gadii cuqaastanii booda sa'aatii 24 itti aanu keessatti geessituu keessan ofumaan akka argattan eeguu dandeessu.</1>",
     "ok": "Tole",
     "cancel": "Haqi"
   },
