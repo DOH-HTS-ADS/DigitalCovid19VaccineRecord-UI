@@ -1028,7 +1028,9 @@ const CovidCard = () => {
                     borderRadius: "5px",
                     color: "#ffffff",
                     padding: "4px 5px",
-                    whiteSpace: "nowrap"
+                    whiteSpace: "nowrap",
+                    marginRight: i18n.dir(i18n.language) !== "rtl" ? "5px": "",
+                    marginLeft: i18n.dir(i18n.language) == "rtl" ? "5px": ""
                   }}
                 >
                   Note:
