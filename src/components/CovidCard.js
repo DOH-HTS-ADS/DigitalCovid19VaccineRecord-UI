@@ -1020,7 +1020,7 @@ const CovidCard = () => {
             </div>
             {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite" class="MuiFormHelperText-root Mui-error"><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
             {!errorMessage.type && document.getElementById('partitioned')?.value.length < 4 && document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite" class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.pinErrorMsg8">PIN Number must be 4 characters</Trans></label> : ''}
-            <div style={{ marginBottom: "50px", marginTop: "20px" }}>
+            <div style={{ marginBottom: "50px", marginTop: "20px", display: "flex", flexDirection: "row", alignItems: "center" }}>
               <Trans i18nKey="vaccineform.note">
                 <span
                   style={{
@@ -1028,6 +1028,7 @@ const CovidCard = () => {
                     borderRadius: "5px",
                     color: "#ffffff",
                     padding: "4px 5px",
+                    whiteSpace: "nowrap"
                   }}
                 >
                   Note:
