@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Veuillez saisir votre Prénom",
     "Middlename": "Initiale du deuxième prénom",
     "dateofbirth": "Date de naissance",
-
-
-
+    "monthLabel": "Mois",
+    "dayLabel": "Jour",
+    "yearLabel": "Année",
     "dateofbirthErrorMsg4": "Le champ Date de naissance ne peut pas être vide",
     "phoneemailinfo": "Indiquez un numéro de téléphone mobile ou une adresse e-mail qui pourrait être associée à votre attestation de vaccination. Si vous n'obtenez pas de correspondance en utilisant votre numéro de téléphone mobile, réessayez en utilisant votre adresse e-mail.",
     "Phone": "Téléphone mobile",
