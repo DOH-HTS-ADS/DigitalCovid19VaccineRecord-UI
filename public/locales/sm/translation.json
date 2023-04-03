@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Fa'amolemole tusi lou Igoa Muamua",
     "Middlename": "Mataitusi muamua o igoa ogatotonu",
     "dateofbirth": "Aso Fanau",
-    
-    
-    
+    "monthLabel": "Masina",
+    "dayLabel": "Aso",
+    "yearLabel": "Tausaga",
     "dateofbirthErrorMsg4": "E le tatau ona fa'aavanoaina le Aso Fanau",
     "phoneemailinfo": "Tuuina mai se telefoni fe’avea’i po’o se imeli e ono fesoota’i ma lou faamaumauga o tui puipui. Afai e le maua se faamaumauga tutusa i le numera o lau telefoni fe’aveai, toe taumafai e faaoga le tuatusi imeli.",
     "Phone": "Telefoni fe’avea’i",

@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Maaloo Maqaa Jalqabaa kee galchi",
     "Middlename": "Qubee jalqabaa maqaa gidduu",
     "dateofbirth": "Guyyaa dhalootaa",
-    
-    
-    
+    "monthLabel": "Ji'a",
+    "dayLabel": "Guyyaa",
+    "yearLabel": "Waggaa",
     "dateofbirthErrorMsg4": "Guyyaan dhalootaa duwwaa ta'uu hin danda'u",
     "phoneemailinfo": "Lakkoofsa bilbilaa yookin imeelii ragaa talaallii keessanii wajjin wal qabatu barreessaa. Bilbila fayyadamuun yoo wal isiniif simuu dide, imeelii fayyadamuun irra deebin yaalaa.",
     "Phone": "Lakkoofsa bilbilaa",

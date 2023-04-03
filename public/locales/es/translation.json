@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Introduzca su nombre.",
     "middlename": "",
     "dateofbirth": "Fecha de nacimiento",
-    
-    
-
+    "monthLabel": "Mes",
+    "dayLabel": "Día",
+    "yearLabel": "Año",
     "dateofbirthErrorMsg4": "El campo de la fecha de nacimiento no puede estar vacío.",
     "phoneemailinfo": "Proporcione un número de teléfono celular o una dirección de correo electrónico que puedan estar asociados con el registro de vacunación. Si no obtiene resultados con el número de teléfono celular, inténtelo con la dirección de correo electrónico.",
     "pincode": "Cree un número de identificación personal (PIN) de 4 dígitos. Recibirá un enlace para ingresar el PIN y acceder a su registro digital de vacunación.*",

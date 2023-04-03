@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Insira o seu nome",
     "Middlename": "Inicial do nome do meio",
     "dateofbirth": "Data de nascimento",
-    
-    
-    
+    "monthLabel": "Mês",
+    "dayLabel": "Dia",
+    "yearLabel": "Ano",
     "dateofbirthErrorMsg4": "O campo Data de nascimento não pode estar vazio",
     "phoneemailinfo": "Forneça um número de celular ou e-mail que será associado ao seu comprovante de vacinação. Caso não consiga obter uma correspondência usando o seu número de celular, tente novamente usando o seu endereço de e-mail.",
     "Phone": "Celular",

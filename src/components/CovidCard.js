@@ -802,14 +802,14 @@ const CovidCard = () => {
                 }}>
 
                   <div style={{ display: "flex", flexDirection: "column", marginRight: '0.5rem' }} className="dobDropDowns">
-                    <label htmlFor="Select_Month" id="monthLabel"><Trans i18nKey="vaccineform.monthLabel_ADA">Month</Trans></label>
+                    <label htmlFor="Select_Month" id="monthLabel"><Trans i18nKey="vaccineform.monthLabel">Month</Trans></label>
                     <select
                       name="Select_Month"
                       id="Select_Month"
                       value={monthOfBirth}
                       onChange={handleMonthChange}
                       aria-required="true"
-                      aria-label={t("vaccineform.monthLabel_ADA")}
+                      aria-label={t("vaccineform.monthLabel")}
                       error={error.Date || !isDobGood}
                     >
                       {monthOfBirth ? <MonthList /> : <><option key={"defaultMonth"} selected disabled hidden></option><MonthList /></>}
@@ -817,14 +817,14 @@ const CovidCard = () => {
                   </div>
 
                   <div style={{ display: "flex", flexDirection: "column", marginRight: '0.5rem' }} className="dobDropDowns">
-                    <label htmlFor="Select_Day" id="dayLabel"><Trans i18nKey="vaccineform.dayLabel_ADA">Day</Trans></label>
+                    <label htmlFor="Select_Day" id="dayLabel"><Trans i18nKey="vaccineform.dayLabel">Day</Trans></label>
                     <select
                       name="Select_Day"
                       id="Select_Day"
                       value={dayOfBirth}
                       onChange={handleDayChange}
                       aria-required="true"
-                      aria-label={t("vaccineform.dayLabel_ADA")}
+                      aria-label={t("vaccineform.dayLabel")}
                       error={error.Date || !isDobGood}
                     >
                       {dayOfBirth ? <DayList /> : <><option key={"defaultDay"} selected disabled hidden></option><DayList /></>}
@@ -832,14 +832,14 @@ const CovidCard = () => {
                   </div>
 
                   <div style={{ display: "flex", flexDirection: "column" }} className="dobDropDowns">
-                    <label htmlFor="Select_Year" id="yearLabel"><Trans i18nKey="vaccineform.yearLabel_ADA">Year</Trans></label>
+                    <label htmlFor="Select_Year" id="yearLabel"><Trans i18nKey="vaccineform.yearLabel">Year</Trans></label>
                     <select
                       name="Select_Year"
                       id="Select_Year"
                       value={yearOfBirth}
                       onChange={handleYearChange}
                       aria-required="true"
-                      aria-label={t("vaccineform.yearLabel_ADA")}
+                      aria-label={t("vaccineform.yearLabel")}
                       error={error.Date || !isDobGood}
                     >
                       {yearOfBirth ? <YearList /> : <><option key={"defaultYear"} selected disabled hidden></option><YearList /></>}

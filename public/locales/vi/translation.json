@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Vui lòng nhập Họ của quý vị",
     "middlename": "Chữ đầu tên đệm",
     "dateofbirth": "Ngày sinh",
-    
-
-
+    "monthLabel": "Tháng",
+    "dayLabel": "Ngày",
+    "yearLabel": "Năm",
     "dateofbirthErrorMsg4": "Trường Ngày Sinh không được để trống",
     "phoneemailinfo": "Cung cấp số điện thoại di động hoặc email có thể được liên kết với hồ sơ vắc-xin của bạn. Nếu bạn không có thông tin khớp khi sử dụng số điện thoại di động của mình, hãy thử lại bằng địa chỉ email của bạn.",
     "Phone": "Điện thoại di động",

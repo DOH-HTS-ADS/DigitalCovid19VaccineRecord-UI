@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Fadlan geli Magacaaga Koowaad",
     "Middlename": "Saxiixa Magaca Dhexe",
     "dateofbirth": "Taariikhda Dhalashada",
-    
-    
-    
+    "monthLabel": "Bil",
+    "dayLabel": "Maalin",
+    "yearLabel": "Sanad",
     "dateofbirthErrorMsg4": "Qaybta Taariikhda Dhalashada ma ahan inay banaanaato",
     "phoneemailinfo": "Bixi lambar taleefanka gacanta ama iimeelka laga yaabo inuu la xiriiro diiwaankaaga tallaalka. Haddii aadan helin wax macluumaad ah oo u dhigma taleefanka lambarkaaga, markale isku day adigoo isticmaalaya cinwaankaada iimeelka.",
     "Phone": "Lambarka Taleefoonka Gacanta",
