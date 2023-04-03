@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Geben Sie bitte Ihren Vornamen ein.",
     "Middlename": "Erster Buchstabe des zweiten Vornamens",
     "dateofbirth": "Geburtsdatum",
-    
-    
-    
+    "monthLabel": "Monat",
+    "dayLabel": "Tag",
+    "yearLabel": "Jahr",
     "dateofbirthErrorMsg4": "Das Feld für das Geburtsdatum muss ausgefüllt werden.",
     "phoneemailinfo": "Geben Sie bitte eine Handynummer oder eine E-Mail-Adresse an, die Ihrem Impfpass zugeordnet werden kann. Wenn Sie anhand Ihrer Handynummer keinen Treffer bekommen, versuchen Sie es erneut mit Ihrer E-Mail-Adresse.",
     "Phone": "Handy",
