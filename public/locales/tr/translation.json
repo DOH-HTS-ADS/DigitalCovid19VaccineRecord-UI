@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Lütfen Adınızı girin",
     "Middlename": "Göbel adı ilk harfi",
     "dateofbirth": "Doğum tarihi",
-    
-    
-    
+    "monthLabel": "Ay",
+    "dayLabel": "Gün",
+    "yearLabel": "Yıl",
     "dateofbirthErrorMsg4": "Doğum Tarihi alanı boş bırakılamaz",
     "phoneemailinfo": "Aşı kaydınızla ilişkilendirilebilecek bir cep telefonu veya e-posta verin. Cep telefonunuzu kullanarak bir eşleşme bulamazsanız e-posta adresinizi kullanarak tekrar deneyin.",
     "Phone": "Cep Telefonu",
