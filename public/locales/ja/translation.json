@@ -31,9 +31,9 @@
       "firstnameErrorMsg": "名前を入力してください",
       "middlename": "ミドルネームの頭文字", 
       "dateofbirth": "生年月日", 
-
-
-
+      "monthLabel": "月",
+      "dayLabel": "日",
+      "yearLabel": "年",
       "dateofbirthErrorMsg4": "誕生日欄は空白にしないでください",
       "phoneemailinfo": "ワクチン接種記録に関連付けられた携帯電話番号または電子メールを入力してください。携帯電話番号が一致しない場合は、電子メールアドレスを使ってもう一度試してください。", 
       "Phone": "携帯電話番号", 
