@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "请输入您的名字",
     "middlename": "中间名首字母",
     "dateofbirth": "出生日期",
-
-
-
+    "monthLabel": "月",
+    "dayLabel": "日",
+    "yearLabel": "年",
     "dateofbirthErrorMsg4": "出生日期字段不能为空",
     "phoneemailinfo": "请提供可能与您的疫苗记录相关联的手机号码或电子邮件。如果使用您的手机号码无法找到匹配记录，请使用您的电子邮件地址重试。",
     "Phone": "手机号码",
