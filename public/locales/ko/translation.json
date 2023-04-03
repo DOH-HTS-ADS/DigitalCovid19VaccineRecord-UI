@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "귀하의 이름을 입력하십시오",
     "middlename": "중간 이니셜",
     "dateofbirth": "생년월일",
-
-
-
+    "monthLabel": "월",
+    "dayLabel": "일",
+    "yearLabel": "연도",
     "dateofbirthErrorMsg4": "생년월일 입력란은 공란으로 둘 수 없습니다",
     "phoneemailinfo": "귀하의 백신 기록과 연계되어 있는 휴대전화 또는 이메일을 입력해 주십시오. 휴대전화를 사용해 일치하는 기록을 확인하지 못한 경우 이메일 주소로 다시 시도해 주십시오.",
     "Phone": "휴대전화",
