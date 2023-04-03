@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Pakilagay ang iyong Pangalan",
     "middlename": "Inisyal ng Gitnang Pangalan",
     "dateofbirth": "Petsa ng Kapanganakan",
-
-
-
+    "monthLabel": "Buwan",
+    "dayLabel": "Araw",
+    "yearLabel": "Taon",
     "dateofbirthErrorMsg4": "Hindi maaaring blangko ang Petsa ng Kapanganakan",
     "phoneemailinfo": "Magbigay ng mobile na telepono o email na maaaring nauugnay sa iyong talaan ng bakuna. Kung wala kang makukuhang tugma sa iyong mobile na telepono, subukan ulit gamit ang iyong email address.",
     "Phone": "Mobile na Telepono",
