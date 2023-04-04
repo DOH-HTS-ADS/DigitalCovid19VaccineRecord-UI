@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Najsama tz'ib'ikuxa tb'iya",
     "Middlename": "T-xe’ tb’iy tej te tkab’ tb’iy ",
     "dateofbirth": "Tajlal q’ij titz’ay ",
-    
-    
-    
+    "monthLabel": "Xjaw",
+    "dayLabel": "Q'ij",
+    "yearLabel": "Ab'q'i",
     "dateofbirthErrorMsg4": "Il ti'j tu'n tkux ttz'ib'iye toj alkye q'ij ul itz'jiya",
     "phoneemailinfo": "Exi’ nq’o’ jun yolb’il jaj niy eqat mo correo electrónico alcheqch qaj b’a’ chok junat tuya jtey ttz’ib’b’al qa ot chi ok tb’aqay. Qa uj ttzaj ajb’en jtey tajlal tyolb’il niy eqat mya’ ju’ tten, ok q’ajt qen junt maj tuyaxsa ajb’en we jtey correo electrónico.",
     "Phone": "Yolb’il niy eqat ",
