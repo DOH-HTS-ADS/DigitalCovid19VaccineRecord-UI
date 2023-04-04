@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Tafadhali weka Jina lako la Kwanza",
     "Middlename": "Jina la Kati",
     "dateofbirth": "Tarehe ya kuzaliwa",
-    
-    
-    
+    "monthLabel": "Mwezi",
+    "dayLabel": "Siku",
+    "yearLabel": "Mwaka",
     "dateofbirthErrorMsg4": "Sehemu ya Tarehe ya Kuzaliwa haiwezi kuwa tupu",
     "phoneemailinfo": "Toa nambari ya simu au barua pepe inayoweza kuhusishwa na rekodi yako ya chanjo. Usipopata mlingano kwa kutumia nambari yako ya simu, jaribu tena kwa kutumia anwani ya barua pepe.",
     "Phone": "Simu ya Mkononi",
