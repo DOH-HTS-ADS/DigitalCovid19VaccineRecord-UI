@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Tee ní sivi ní",
     "Middlename": "Letra kije’e jín sivi uu ní",
     "dateofbirth": "Kivi ni kaku ní",
-    
-    
-    
+    "monthLabel": "Yoo",
+    "dayLabel": "Kivi",
+    "yearLabel": "Kuiya",
     "dateofbirthErrorMsg4": "Kánuu ja tee ní kivi ja ni kaku ní",
     "phoneemailinfo": "Tee ní número yokaa ní axi in correo electrónico ja yita’an jín tu’un siki vacuna ní. Tú nduu kani ta’an jín número yokaa ní, chi’in tuku ni jín correo electrónico ní.",
     "Phone": "Número yokaa ní",

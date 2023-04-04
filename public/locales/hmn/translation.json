@@ -31,9 +31,9 @@
         "firstnameErrorMsg": "Thov ntaus koj Lub Npe",
         "Middlename": "Lub Npe Nruab Nrab Sau Luv", 
         "dateofbirth": "Hnub yug", 
-        
-        
-        
+        "monthLabel": "Hli",
+        "dayLabel": "Hnub",
+        "yearLabel": "Xyoo",
         "dateofbirthErrorMsg4": "Kem Hnub yug yuav tsum sau rau",
         "phoneemailinfo": "Muab tus xov tooj ntawm tes los sis tus email uas tej zaum tau cuam tshuam nrog rau koj li ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob. Yog tias koj tsis tau txais qhov zoo sib thooj uas siv koj tus xov tooj ntawm tes, sim dua ib zaug ntxiv uas siv koj tus email.", 
         "Phone": "Xov Tooj Ntawm Tes", 
