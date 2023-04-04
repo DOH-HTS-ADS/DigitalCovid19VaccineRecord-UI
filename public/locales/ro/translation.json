@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Introduceți prenumele.",
     "Middlename": "Inițiala tatălui",
     "dateofbirth": "Data nașterii",
-    
-    
-    
+    "monthLabel": "Lună",
+    "dayLabel": "Zi",
+    "yearLabel": "An",
     "dateofbirthErrorMsg4": "Câmpul pentru data nașterii nu poate fi necompletat.",
     "phoneemailinfo": "Introduceți un număr de telefon mobil sau o adresă de e-mail care pot fi asociate cu fișa dvs. de vaccinare. Dacă nu găsiți nicio potrivire după numărul telefonului mobil, încercați din nou folosind adresa de e-mail.",
     "Phone": "Telefon mobil",
