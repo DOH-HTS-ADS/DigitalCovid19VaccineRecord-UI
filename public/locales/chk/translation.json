@@ -31,9 +31,9 @@
     "firstnameErrorMsg": "Kose mochen wanong itom",
     "Middlename": "Efo mak Nepoputan Nukenapen itom",
     "dateofbirth": "Ranin uputuwen",
-    
-    
-    
+    "monthLabel": "Maram",
+    "dayLabel": "Ráán",
+    "yearLabel": "Wattetä",
     "dateofbirthErrorMsg4": "Ranin uputiwom ese tongeni epwe peen",
     "phoneemailinfo": "Awora ew nampan noum senfon ika email epwe riri ngeni me pwarata usun om appos. Ika pwe ekei ese pwata murin om makenong nampan noum senfon, sotuni sefani ka makeinong om email address.",
     "Phone": "Senfon",
