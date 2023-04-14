@@ -147,6 +147,8 @@
     "14answer": "Your <1>Digital COVID-19 Verification Record</1> shows the same information as your paper CDC vaccine card. You can ask organizations that will scan the QR code in your <3>Digital COVID-19 Verification Record</3> how they will use your data or if they will keep it. Only you can decide how and when to share your record.",  
     "15question": "What if I made multiple vaccination appointments for multiple people with a single phone number?",
     "15answer": "If you are a parent or guardian and have created multiple appointments with a single phone number or email, enter the requests one at a time to receive separate links for each verification record.",
+    "16question": "Is WA Verify free to use?",
+    "16answer": "WA Verify is a free tool that can be used to access your digital COVID-19 verification record.  You should not be asked to provide any payment information.  If you are prompted to pay for this service, exit the application immediately.",
     "needhelptitle": "Need more help?",
     "needhelpcontent01": "For questions and other assistance, contact:",
     "needhelpcontent02": "1-800-525-0127, press #",
