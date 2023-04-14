@@ -18,6 +18,7 @@ const FAQScreen = () => {
   const [expanded13, setExpanded13] = useState(false);
   const [expanded14, setExpanded14] = useState(false);
   const [expanded15, setExpanded15] = useState(false);
+  const [expanded16, setExpanded16] = useState(false);
   const toggleExpanded01 = () => {
     setExpanded01(!expanded01);
   }
@@ -62,6 +63,9 @@ const FAQScreen = () => {
   }
   const toggleExpanded15 = () => {
     setExpanded15(!expanded15);
+  }
+  const toggleExpanded16 = () => {
+    setExpanded16(!expanded16);
   }
 
   const { t, i18n } = useTranslation();
@@ -419,6 +423,24 @@ const FAQScreen = () => {
                   If you are a parent or guardian and have created multiple appointments with a single phone
                   number or email, enter the requests one at a time to receive separate links for each
                   verification record.
+                </Trans>
+                <hr/>
+              </p>
+            </dd>
+
+            <dt style={{display: i18n.language === "en" ? "block" : "none"}}>
+              <button aria-expanded={expanded16} aria-controls="faq16_desc" onClick={toggleExpanded16}>
+                <Trans i18nKey="faqpage.16question">
+                  Is WA Verify free to use?
+                </Trans>
+              </button>
+            </dt>
+            <dd style={{display: i18n.language === "en" ? "block" : "none"}}>
+              <p id="faq16_desc" aria-hidden={!expanded16} style={{display: expanded16 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+                <Trans i18nKey="faqpage.16answer">
+                  WA Verify is a free tool that can be used to access your digital COVID-19 verification 
+                  record.  You should not be asked to provide any payment information.  If you are prompted 
+                  to pay for this service, exit the application immediately.
                 </Trans>
                 <hr/>
               </p>
