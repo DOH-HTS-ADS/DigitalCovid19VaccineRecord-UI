@@ -65,7 +65,7 @@ const Dashboard = () => {
         </section>
       </div>
 
-      {i18n.language != "en" ? (
+      {i18n.language.indexOf("en") !== 0 ? (
         <section
         className="DashContainer"
         style={{ marginBottom: "64px", marginTop: "10px", fontSize: "18px", display: "none"}}

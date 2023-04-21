@@ -122,7 +122,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     <div className={'center-w-margin'}>
       <div>
         <h1 style={{ color: "#C84C0E", fontSize: "38px", marginTop: "20px", overflowWrap: "break-word" }}>
-        {i18n.language != "en" ? (
+        {i18n.language.indexOf("en") !== 0 ? (
           <>
           <Trans i18nKey="qrpage.title">
             Personal Digital COVID-19 Verification Record
@@ -168,7 +168,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           
           <p className="qrDataItem">
             <bdi>
-              {i18n.language != "en" ? (
+              {i18n.language.indexOf("en") !== 0 ? (
                 <>
                 <Trans i18nKey="qrpage.name">Name: </Trans>
                 &nbsp;/&nbsp;
@@ -181,7 +181,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           </p>
           <p className="qrDataItem">
             <bdi>
-              {i18n.language != "en" ? (
+              {i18n.language.indexOf("en") !== 0 ? (
                 <>
                 <Trans i18nKey="qrpage.dateofbirth">DOB: </Trans>
                 &nbsp;/&nbsp;
@@ -198,7 +198,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             <li key={`dose${idx}`}>
               <p className="qrDataItem">
                 <bdi>
-                  {i18n.language != "en" ? (
+                  {i18n.language.indexOf("en") !== 0 ? (
                     <>
                     <Trans i18nKey="qrpage.date">Date: </Trans>
                     &nbsp;/&nbsp;
@@ -211,7 +211,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               </p>
               <p className="qrDataItem">
                 <bdi>
-                  {i18n.language != "en" ? (
+                  {i18n.language.indexOf("en") !== 0 ? (
                     <>
                     <Trans i18nKey="qrpage.type">Type/Mfr: </Trans>
                     &nbsp;/&nbsp;
@@ -224,7 +224,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               </p>
               <p className="qrDataItem">
                 <bdi>
-                  {i18n.language != "en" ? (
+                  {i18n.language.indexOf("en") !== 0 ? (
                     <>
                     <Trans i18nKey="qrpage.flotnumber">Lot Number: </Trans>
                     &nbsp;/&nbsp;
