@@ -187,7 +187,11 @@ const CovidCard = () => {
     const arrErrorMonth = ['2','4','6','9','11']
     if(dayOfBirth && monthOfBirth && ((dayOfBirth === '31' && arrErrorMonth.indexOf(monthOfBirth) > -1) || (dayOfBirth === '29' && monthOfBirth === '2' && yearOfBirth && yearOfBirth % 4 !== 0) || (dayOfBirth === '30' && monthOfBirth === '2')))
     {
-    setDayOfBirth('');
+      setDayOfBirth('');
+      setError({...error, Date: true});
+      setIsDobGood(false);
+      let isInvalid = true;
+      formatDateField(isInvalid);
     }
     const getDaysInMonth = (month, year) => (new Array(31)).fill('').map((v, i) => new Date(year, month - 1, i + 1)).filter(v => v.getMonth() === month - 1)
     return <>
@@ -274,12 +278,68 @@ const CovidCard = () => {
   }
   const handleMonthChange = (e) => {
     setMonthOfBirth(e.target.value);
+    if (e.target.value && dayOfBirth && yearOfBirth) {
+      validateDate(e.target.value, dayOfBirth, yearOfBirth);
+    }
   }
   const handleDayChange = (e) => {
     setDayOfBirth(e.target.value);
+    if (monthOfBirth && e.target.value && yearOfBirth) {
+      validateDate(monthOfBirth, e.target.value, yearOfBirth);
+    }
   }
   const handleYearChange = (e) => {
     setYearOfBirth(e.target.value);
+    if (monthOfBirth && dayOfBirth && e.target.value) {
+      validateDate(monthOfBirth, dayOfBirth, e.target.value);
+    }    
+  }
+
+  const handleDateFieldBlur = (event) => {
+    if (!event.target.value) {
+      setError({...error, Date: true});
+      setIsDobGood(false);
+      let isInvalid = true;
+      formatDateField(isInvalid);
+    } else if (monthOfBirth && dayOfBirth && yearOfBirth) {
+      validateDate(monthOfBirth, dayOfBirth, yearOfBirth);
+    }
+  };
+
+  function validateDate(aMonth, aDay, aYear) {
+    let dob_Date = new Date(aMonth + '/' + aDay + '/' + aYear);
+    let currentDate = new Date(dayjs().format('MM/DD/YYYY'));
+    if (dob_Date <= currentDate) {
+      setError({...error, Date: false});
+      setIsDobGood(true);
+      let isInvalid = false;
+      formatDateField(isInvalid);
+    } else {
+      setError({...error, Date: true});
+      setIsDobGood(false);
+      let isInvalid = true;
+      formatDateField(isInvalid);
+    }
+  }
+
+  function formatDateField(isInvalid) {
+    if (isInvalid) {
+      document.getElementById('Select_Month').style.borderBottomColor = '#b30000';
+      document.getElementById('Select_Day').style.borderBottomColor = '#b30000';
+      document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
+      document.getElementById('dobLabel').style.color = '#b30000';
+      document.getElementById('monthLabel').style.color = '#b30000';
+      document.getElementById('dayLabel').style.color = '#b30000';
+      document.getElementById('yearLabel').style.color = '#b30000';
+    } else {
+      document.getElementById('dobLabel').style.color = 'black';
+      document.getElementById('Select_Month').style.borderBottomColor = '#727272';
+      document.getElementById('Select_Day').style.borderBottomColor = '#727272';
+      document.getElementById('Select_Year').style.borderBottomColor = '#727272';
+      document.getElementById('monthLabel').style.color = '#727272';
+      document.getElementById('dayLabel').style.color = '#727272';
+      document.getElementById('yearLabel').style.color = '#727272';
+    }
   }
 
   const submitForm = async (e) => {
@@ -382,13 +442,7 @@ const CovidCard = () => {
         if (ele.id === 'Date' && !(monthOfBirth && dayOfBirth && yearOfBirth)) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          document.getElementById('Select_Month').style.borderBottomColor = '#b30000';
-          document.getElementById('Select_Day').style.borderBottomColor = '#b30000';
-          document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
-          document.getElementById('dobLabel').style.color = '#b30000';
-          document.getElementById('monthLabel').style.color = '#b30000';
-          document.getElementById('dayLabel').style.color = '#b30000';
-          document.getElementById('yearLabel').style.color = '#b30000';
+          formatDateField(isInvalid);
           setError({...error, Date: true});
           
           setIsDobGood(false);
@@ -396,13 +450,7 @@ const CovidCard = () => {
         }else if(ele.id === 'Date'){
           let isInvalid = ele.isInvalid;
           isInvalid = false;
-          document.getElementById('dobLabel').style.color = 'black';
-          document.getElementById('Select_Month').style.borderBottomColor = '#727272';
-          document.getElementById('Select_Day').style.borderBottomColor = '#727272';
-          document.getElementById('Select_Year').style.borderBottomColor = '#727272';
-          document.getElementById('monthLabel').style.color = '#727272';
-          document.getElementById('dayLabel').style.color = '#727272';
-          document.getElementById('yearLabel').style.color = '#727272';
+          formatDateField(isInvalid);
           return { ...ele, isInvalid };
         }
         if (ele.id === 'Phone_Email') {
@@ -808,6 +856,9 @@ const CovidCard = () => {
                       id="Select_Month"
                       value={monthOfBirth}
                       onChange={handleMonthChange}
+                      onBlur={(e) => {
+                        handleDateFieldBlur(e);
+                      }}                      
                       aria-required="true"
                       aria-label={t("vaccineform.monthLabel")}
                       error={error.Date || !isDobGood}
@@ -823,6 +874,9 @@ const CovidCard = () => {
                       id="Select_Day"
                       value={dayOfBirth}
                       onChange={handleDayChange}
+                      onBlur={(e) => {
+                        handleDateFieldBlur(e);
+                      }}                      
                       aria-required="true"
                       aria-label={t("vaccineform.dayLabel")}
                       error={error.Date || !isDobGood}
@@ -838,6 +892,9 @@ const CovidCard = () => {
                       id="Select_Year"
                       value={yearOfBirth}
                       onChange={handleYearChange}
+                      onBlur={(e) => {
+                        handleDateFieldBlur(e);
+                      }}                      
                       aria-required="true"
                       aria-label={t("vaccineform.yearLabel")}
                       error={error.Date || !isDobGood}
