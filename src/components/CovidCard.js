@@ -653,7 +653,8 @@ const CovidCard = () => {
       e.target.setAttribute("aria-invalid", "true");
     } else {
       const isInvalid = false;
-      formatPinField(isInvalid);      setErrorMessage({});
+      formatPinField(isInvalid);
+      setErrorMessage({});
       e.target.setAttribute("aria-invalid", "false");
     }
     const numsOnly = e.target.value.replace(/[^0-9]/g, "");
