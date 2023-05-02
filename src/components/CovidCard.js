@@ -138,7 +138,7 @@ const CovidCard = () => {
       "id": "Pin",
       "isInvalid": false,
       "type": "required",
-      "message": "vaccineform.pinErrorMsg_ADA"
+      "message": "vaccineform.pinErrorMsg8"
     },
     {
       "id": "Pin",
@@ -268,7 +268,8 @@ const CovidCard = () => {
     }
     if (document.getElementById('partitioned').value.length < 4) {
       tempErrorObj.Pin = true;
-      document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+      const isInvalid = true;
+      formatPinField(isInvalid);
     }
     if (!(monthOfBirth && dayOfBirth && yearOfBirth)) {
       tempErrorObj.Date = true;
@@ -339,6 +340,28 @@ const CovidCard = () => {
       document.getElementById('monthLabel').style.color = '#727272';
       document.getElementById('dayLabel').style.color = '#727272';
       document.getElementById('yearLabel').style.color = '#727272';
+    }
+  }
+
+  const handlePinBlur = (event) => {
+    if (event.target.value.length < 4) {
+      const isInvalid = true;
+      formatPinField(isInvalid);
+      setError({ ...error, Pin: isInvalid });
+      document.getElementById('partitioned').setAttribute("aria-invalid", "true");
+    } else {
+      const isInvalid = false;
+      formatPinField(isInvalid);
+      setError({ ...error, Pin: isInvalid });
+      document.getElementById('partitioned').setAttribute("aria-invalid", "false");
+    }
+  };
+
+  function formatPinField(isInvalid) {
+    if (isInvalid) {
+      document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat";
+    } else {
+      document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat";
     }
   }
 
@@ -479,7 +502,7 @@ const CovidCard = () => {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
           //document.getElementById("pinlabel").style.color = "#b30000"
-          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          formatPinField(isInvalid);
           document.getElementById('partitioned').setAttribute("aria-invalid", "true");
           setError({...error, Pin: true});
           return { ...ele, isInvalid };
@@ -584,7 +607,7 @@ const CovidCard = () => {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
           //document.getElementById("pinlabel").style.color = "#b30000"
-          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          formatPinField(isInvalid);
           document.getElementById('partitioned').setAttribute("aria-invalid", "true");
           setError({...error, Pin: true});
           return { ...ele, isInvalid }
@@ -595,7 +618,7 @@ const CovidCard = () => {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
           //document.getElementById("pinlabel").style.color = "#b30000"
-          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          formatPinField(isInvalid);
           setError({...error, Pin: true});
           return { ...ele, isInvalid }
         }
@@ -611,18 +634,26 @@ const CovidCard = () => {
   }
 
   const numbersOnly = (e) => {
-    if (e.target.value.length === 4) {
-      e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat";
+    const isContainsDuplicate = containsDuplicateChar(e.target.value);
+    const isContainsAscending = containsAscending(e.target.value);
+    if (e.target.value.length === 4 && !isContainsDuplicate && !isContainsAscending) {
+      const isInvalid = false;
+      formatPinField(isInvalid);
       setError({ ...error, Pin: false });
-    }
-    if (containsDuplicateChar(e.target.value)) {
+      e.target.setAttribute("aria-invalid", "true");
+    } else if (isContainsDuplicate) {
+      const isInvalid = true;
+      formatPinField(isInvalid);
       setErrorMessage({ type: 'pinErrorMsg2', message: 'PIN cannot contain 4 duplicate numbers.' });
       e.target.setAttribute("aria-invalid", "true");
-    }
-    else if (containsAscending(e.target.value)) {
+    } else if (isContainsAscending) {
+      const isInvalid = true;
+      formatPinField(isInvalid);
       setErrorMessage({ type: 'pinErrorMsg1', message: 'PIN cannot contain 4 consecutive numbers.' });
       e.target.setAttribute("aria-invalid", "true");
     } else {
+      const isInvalid = false;
+      formatPinField(isInvalid);
       setErrorMessage({});
       e.target.setAttribute("aria-invalid", "false");
     }
@@ -1064,7 +1095,6 @@ const CovidCard = () => {
                     minLength: 4,
                     required: true,
                     "aria-label": t("vaccineform.pincode"),
-                    onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })],
                     "aria-describedby": "pinError"
                   }}
                   InputProps={{
@@ -1072,6 +1102,9 @@ const CovidCard = () => {
                   }}
                   id="partitioned"
                   error={error.Pin || document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"}
+                  onBlur={(e) => {
+                    handlePinBlur(e)
+                  }}
                 />
 
               </div>
