@@ -46,7 +46,7 @@ import omLocale from "date-fns/locale/en-US";
 import paLocale from "date-fns/locale/en-US"; 
 import prsLocale from "date-fns/locale/en-US"; 
 import psLocale from "date-fns/locale/en-US"; 
-import ptLocale from "date-fns/locale/pt"; 
+import ptLocale from "date-fns/locale/pt-BR"; 
 import roLocale from "date-fns/locale/ro"; 
 import ruLocale from "date-fns/locale/ru"; 
 import smLocale from "date-fns/locale/en-US"; 
