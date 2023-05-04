@@ -33,8 +33,7 @@ i18n
 
           // Process custom fallbacks
           if (customFallbacks[code]) {
-              fallbacks.push(customFallbacks[code])
-              return fallbacks;
+              return customFallbacks[code];
           }
 
           // add pure lang
