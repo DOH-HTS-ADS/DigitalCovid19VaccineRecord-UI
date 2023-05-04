@@ -69,7 +69,6 @@ import { FiberNewSharp } from "@material-ui/icons";
 const CovidCard = () => {
   const { t, i18n } = useTranslation();
   const [loading, setLoading] = useState(false);
-  const [selectedBirthDate, setSelectedBirthDate] = useState(null);
   const [contactType, setContactType] = useState("Phone");
   const [isShrinkEmailLabel, setIsShrinkEmailLabel] = useState();
   const [fieldMasks, setFieldMasks] = useState({
@@ -77,6 +76,7 @@ const CovidCard = () => {
   });
   const [checked, setChecked] = useState(false);
   const [isDobGood, setIsDobGood] = useState(true);
+  const [isDobPastMaxDate, setIsDobPastMaxDate] = useState(false);
   const [pin, setPin] = useState("");
   const [errorMessage, setErrorMessage] = useState({});
   const [responseMessage, setResponseMessage] = useState(false);
@@ -182,10 +182,40 @@ const CovidCard = () => {
   }
 
   const DayList = () => {
-    const d = new Date();
-    let currentYear = d.getFullYear();
-    const arrErrorMonth = ['2','4','6','9','11']
-    if(dayOfBirth && monthOfBirth && ((dayOfBirth === '31' && arrErrorMonth.indexOf(monthOfBirth) > -1) || (dayOfBirth === '29' && monthOfBirth === '2' && yearOfBirth && yearOfBirth % 4 !== 0) || (dayOfBirth === '30' && monthOfBirth === '2')))
+
+    const todaysDate = new Date();
+    const sixMonthsAgo =  getSixMonthsAgo(todaysDate.getFullYear(), todaysDate.getMonth(), todaysDate.getDate());
+    let maxYear = sixMonthsAgo.getFullYear();
+    let maxMonthInMaxYear = sixMonthsAgo.getMonth();
+    let maxDayInMaxMonth = sixMonthsAgo.getDate();
+    // month/day/year entered and birth month in max year so make sure birthday is not less than six months ago
+    if (monthOfBirth && dayOfBirth && yearOfBirth && yearOfBirth === maxYear.toString()) {
+      const everyMonthArray = ['1','2','3','4','5','6','7','8','9','10','11','12'];
+      let offsetMonthOfBirth = everyMonthArray.indexOf(monthOfBirth);
+      let offsetMaxMonth = everyMonthArray.indexOf((maxMonthInMaxYear + 1).toString());
+      const everyDayArray = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];
+      let offsetDayOfBirth = everyDayArray.indexOf(dayOfBirth);
+      let offsetMaxDay = everyDayArray.indexOf(maxDayInMaxMonth.toString());
+      if (offsetMonthOfBirth > offsetMaxMonth) {
+        // Birth month is after max month
+        setMonthOfBirth('');
+        setDayOfBirth('');
+        setError({...error, Date: true});
+        setIsDobGood(false);
+        let isInvalid = true;
+        formatDateField(isInvalid);
+      } else if (offsetMonthOfBirth === offsetMaxMonth && offsetDayOfBirth > offsetMaxDay) {
+        // Birth month is max month and day of birth is after max birth day
+        setDayOfBirth('');
+        setError({...error, Date: true});
+        setIsDobGood(false);
+        let isInvalid = true;
+        formatDateField(isInvalid);
+      }
+    }
+
+    const thirtyDayMonthArray = ['2','4','6','9','11']
+    if(dayOfBirth && monthOfBirth && ((dayOfBirth === '31' && thirtyDayMonthArray.indexOf(monthOfBirth) > -1) || (dayOfBirth === '29' && monthOfBirth === '2' && yearOfBirth && yearOfBirth % 4 !== 0) || (dayOfBirth === '30' && monthOfBirth === '2')))
     {
       setDayOfBirth('');
       setError({...error, Date: true});
@@ -195,13 +225,14 @@ const CovidCard = () => {
     }
     const getDaysInMonth = (month, year) => (new Array(31)).fill('').map((v, i) => new Date(year, month - 1, i + 1)).filter(v => v.getMonth() === month - 1)
     return <>
-      {getDaysInMonth(monthOfBirth ?? 1, yearOfBirth ?? (monthOfBirth === '2' ? '2020' : currentYear)).map((days, index) => <option key={index + days} value={index + 1} aria-label={index + 1}>{index + 1}</option>)}
+      {getDaysInMonth(monthOfBirth ?? 1, yearOfBirth ?? (monthOfBirth === '2' ? '2020' : maxYear)).map((days, index) => <option key={index + days} value={index + 1} aria-label={index + 1}>{index + 1}</option>)}
     </>;
   }
 
   const YearList = () => {
-    const d = new Date();
-    let year = d.getFullYear();
+    const todaysDate = new Date();
+    const sixMonthsAgo =  getSixMonthsAgo(todaysDate.getFullYear(), todaysDate.getMonth(), todaysDate.getDate());
+    let year = sixMonthsAgo.getFullYear();
     let yearMenuList = [];
     for (year; year >= 1900; year--) {
       yearMenuList.push(<option key={year} value={year} aria-label={year}>{year}</option>)
@@ -321,6 +352,13 @@ const CovidCard = () => {
       let isInvalid = true;
       formatDateField(isInvalid);
     }
+    // Check if month/day/year set and dob > max date
+    const sixMonthsAgo =  getSixMonthsAgo(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate());
+    if (aMonth && aDay && aYear && dob_Date > sixMonthsAgo) {
+      setIsDobPastMaxDate(true);
+    } else {
+      setIsDobPastMaxDate(false);
+    }
   }
 
   function formatDateField(isInvalid) {
@@ -341,6 +379,41 @@ const CovidCard = () => {
       document.getElementById('dayLabel').style.color = '#727272';
       document.getElementById('yearLabel').style.color = '#727272';
     }
+  }
+
+  function getSixMonthsAgo(aYear, aMonth, aDay) {
+    // months: 0 (Jan), 1 (Feb), 2 (Mar), 3 (Apr), 4 (May), 5 (Jun), 6 (Jul), 7 (Aug), 8 (Sep), 9 (Oct), 10 (Nov), 11 (Dec)
+    const todaysDate = new Date(aYear, aMonth, aDay);
+    const monthToday = todaysDate.getMonth();
+    const dayToday = todaysDate.getDate();
+    const yearToday = todaysDate.getFullYear();
+    let monthSixMonthsAgo = monthToday - 6;
+    let daySixMonthsAgo = dayToday;
+    let yearSixMonthsAgo = yearToday;
+    if (monthSixMonthsAgo < 0) {
+      monthSixMonthsAgo = 12 + monthSixMonthsAgo;
+      yearSixMonthsAgo--;      
+    }
+    let maxDay = getMaxDayInMonth(monthSixMonthsAgo, yearSixMonthsAgo);
+    if (daySixMonthsAgo > maxDay) {
+      daySixMonthsAgo = maxDay;
+    }
+    const sixMonthsAgo = new Date(yearSixMonthsAgo, monthSixMonthsAgo, daySixMonthsAgo);
+    return sixMonthsAgo;
+  }
+
+  function getMaxDayInMonth(aMonth, aYear) {
+    let maxDay = 31;
+    if (aMonth === 1) {
+      if (aYear % 4 === 0) {
+        maxDay = 29;
+      } else {
+        maxDay = 28;
+      }
+    } else if (aMonth === 3 || aMonth === 5 || aMonth === 8 || aMonth === 10) {
+      maxDay = 30;
+    }
+    return maxDay;
   }
 
   const handlePinBlur = (event) => {
@@ -937,7 +1010,8 @@ const CovidCard = () => {
                 <br />
                 
               </fieldset>
-              {(error.Date || !isDobGood) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.dateofbirthErrorMsg4">Date of Birth field cannot be blank</Trans></label> : ''}
+              {(!isDobGood && !isDobPastMaxDate) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.dateofbirthErrorMsg4">Date of Birth field cannot be blank</Trans></label> : ''}
+              {(!isDobGood && isDobPastMaxDate) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.dateofbirthErrorMsg3">Date should not be after maximal date</Trans></label> : ''}
 
             {/*<MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
             <KeyboardDatePicker
