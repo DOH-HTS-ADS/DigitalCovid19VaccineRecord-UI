@@ -150,5 +150,19 @@
         "needhelpcontent05": "ໄດ້ປິດວັນພັກຂອງລັດ",
         "needhelpcontent06": "<0>ໝາຍເຫດ:</0> ພວກເຮົາບໍ່ສາມາດອັບເດດບັນທຶກການຢັ້ງຢືນ ພະຍາດ ໂຄວິດ-19 ແບບດີຈີຕອນ ທາງໂທລະສັບໄດ້.",
         "vaccineVerificationLink": "https://doh.wa.gov/lo/khameinanamepnuubphaab-aysyaangepnthaangkaanaynld-washington-hlkthaankaanskyaawksiinpngknphanyaad"
+    },
+    "month": {
+      "january": "ເດືອນມັງກອນ",
+      "february": "ເດືອນກຸມພາ",
+      "march": "ເດືອນມີນາ",
+      "april": "ເດືອນເມສາ",
+      "may": "ເດືອນພຶດສະພາ",
+      "june": "ເດືອນມິຖຸນາ",
+      "july": "ເດືອນກໍລະກົດ",
+      "august": "ເດືອນສິງຫາ",
+      "september": "ເດືອນກັນຍາ",
+      "october": "ເດືອນຕຸລາ",
+      "november": "ເດືອນພະຈິກ",
+      "december": "ເດືອນທັນວາ"
     }
 }
