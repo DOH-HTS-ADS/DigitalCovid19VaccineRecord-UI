@@ -52,7 +52,7 @@
     "note": "<0>Observação:</0> É necessário inserir seu PIN para acessar o comprovante digital de forma segura.",
     "checkboxdescription": "Ao marcar esta opção, você declara sob as penas das leis estaduais e federais que você é o paciente ou pai/responsável legal do paciente e, portanto, está autorizado a acessar o registro de imunização dele.",
     "agreementErrorMsg1": "A caixa de seleção Estou de acordo com a Política deve ser selecionada",
-    "safe": "As vacinas contra a COVID-19 são seguras, gratuitas e eficazes, e estão disponíveis agora para todos os indivíduos com idade igual ou superior a 5 anos. <1>Tomar a vacina</1>.",
+    "safe": "Vacinas contra a COVID-19 seguras, gratuitas e eficazes estão disponíveis agora.  Acesse nossa <1>página da web sobre vacinas contra a COVID</1> para ver se você ou a criança pode tomar a vacina.",
     "vaccineproductname": "Nome da vacina",
     "subsubtitle": "Informações sobre a 1ª dose da vacina contra a COVID-19",
     "fproductname": "Nome do produto",
