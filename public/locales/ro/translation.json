@@ -52,7 +52,7 @@
     "note": "<0>Notă:</0> codul PIN este necesar pentru a accesa în siguranță fișa dvs. digitală.",
     "checkboxdescription": "Dacă bifați această casetă, declarați sub incidența legii de stat și federale privind sperjurul că sunteți Pacientul sau Părintele/Tutorele legal al Pacientului și că, prin urmare, sunteți autorizat să accesați fișa de vaccinare a Pacientului.",
     "agreementErrorMsg1": "Trebuie să bifați caseta de selectare pentru acordul privind politica.",
-    "safe": "În prezent există vaccinuri anti-COVID-19 sigure, gratuite și eficiente pentru toate persoanele începând cu vârsta de 5 ani; <1>vaccinați-vă</1>. ",
+    "safe": "În prezent există vaccinuri împotriva COVID-19 sigure, gratuite și eficiente. Accesați <1>pagina noastră web privind vaccinurile împotriva COVID</1> pentru a afla dacă dvs. sau copilul dvs. îndepliniți condițiile necesare.",
     "vaccineproductname": "Denumire vaccin",
     "subsubtitle": "Informații privind doza 1 a vaccinului anti-COVID-19",
     "fproductname": "Denumire produs",

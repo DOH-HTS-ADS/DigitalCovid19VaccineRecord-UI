@@ -80,7 +80,7 @@ const Header = () => {
     'ne': '<span lang="en">Nepali</span>&nbsp;-&nbsp;<span lang="ne">नेपाली</span>',
     'om': '<span lang="en">Oromo</span>&nbsp;-&nbsp;<span lang="om">Oromiffa</span>',
     'ps': '<span lang="en">Pashto</span>&nbsp;-&nbsp;<span lang="ps">پښتو</span>',
-    'pt': '<span lang="en">Portuguese</span>&nbsp;-&nbsp;<span lang="pt">Português (Brasil)</span>',
+    'pt-BR': '<span lang="en">Portuguese</span>&nbsp;-&nbsp;<span lang="pt-BR">Português (Brasil)</span>',
     'pa': '<span lang="en">Punjabi</span>&nbsp;-&nbsp;<span lang="pa">ਪੰਜਾਬੀ</span>',
     'ro': '<span lang="en">Romanian</span>&nbsp;-&nbsp;<span lang="ro">Română</span>',
     'ru': '<span lang="en">Russian</span>&nbsp;-&nbsp;<span lang="ru">Русский</span>',
