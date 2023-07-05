@@ -1007,7 +1007,6 @@ const CovidCard = () => {
                     </select>
                   </div>
                 </div>
-                <br />
                 
               </fieldset>
               {(!isDobGood && !isDobPastMaxDate) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.dateofbirthErrorMsg4">Date of Birth field cannot be blank</Trans></label> : ''}
