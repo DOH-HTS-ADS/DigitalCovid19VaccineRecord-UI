@@ -18,8 +18,8 @@ const Maintenance = () => {
             >
               We'll be back soon
             </h1>
-            <p>Site is temporarily unavailable for maintenance. <br /> Please
-              check back soon. We appreciate your patience!</p>
+            <p>Site is temporarily unavailable for maintenance.</p> 
+            <p>Please check back soon. We appreciate your patience!</p>
           </div>
         </div>
       </div>

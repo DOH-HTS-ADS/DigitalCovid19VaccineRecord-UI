@@ -28,9 +28,8 @@ const SplashScreen = () => {
         </h1>
       </div>
       <div style={{ textAlign: "center" }}>
-        To access your online verification records, please select from the options below.
-        <br />
-        If you have questions about WA Verify, please call 800-525-0127, press #
+        <p>To access your online verification records, please select from the options below.</p>
+        <p>If you have questions about WA Verify, please call 800-525-0127, press #</p>
       </div>
       <div className="container" style={{ paddingTop: 30 }}>
         <div className="row">
