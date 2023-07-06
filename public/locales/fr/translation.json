@@ -143,6 +143,8 @@
     "14answer": "Votre <1>Attestation numérique de vaccination COVID-19</1> contient les mêmes informations que votre carte de vaccination délivrée par le Center for Disease Control and Prevention (CDC, centre de contrôle et de prévention des maladies) au format papier. Vous pouvez demander aux organisations qui scannent le code QR de votre <3>Attestation numérique de vaccination COVID-19</3> comment elles prévoient d'utiliser vos données, ou si elles les conserveront. Vous seul pouvez décider comment et quand présenter votre attestation.", 
     "15question": "Que faire si j'ai pris plusieurs rendez-vous de vaccination pour plusieurs personnes avec le même numéro de téléphone ?", 
     "15answer": "Si vous êtes un parent ou un tuteur et que vous avez créé plusieurs rendez-vous avec le même numéro de téléphone ou la même adresse e-mail, saisissez les demandes une par une afin de recevoir des liens distincts pour chaque attestation de vaccination.", 
+    "16question": "L'utilisation de WA Verify est-elle gratuite?",
+    "16answer": "WA Verify est un outil gratuit qui vous permet d'accéder à votre dossier d'attestation numérique COVID-19.  Aucune information de paiement ne devrait vous être demandée.  S'il vous est demandé de payer pour bénéficier ce service, quittez immédiatement l'application.",
     "needhelptitle": "Vous avez besoin d'aide ?", 
     "needhelpcontent01": "Pour toute question ou si vous avez besoin d'aide, contactez :", 
     "needhelpcontent02": "1-800-525-0127, appuyez sur #", 

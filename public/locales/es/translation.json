@@ -142,6 +142,8 @@
     "14answer": "Su <1>Registro digital de verificación de COVID-19</1> muestra la misma información que la que tiene en la tarjeta física de vacunación de los CDC. Puede preguntarles a las organizaciones que escanearán el código QR en su <3>Registro digital de verificación de COVID-19</3> cómo usarán sus datos o cómo los guardarán. Solo usted puede decidir cómo y cuándo compartir sus registros.",  
     "15question": "¿Qué sucede si programo varias citas de vacunación para distintas personas con el mismo número de teléfono?",
     "15answer": "Si usted es padre, madre o tutor y programa varias citas con un solo número de teléfono o dirección de correo electrónico, ingrese las solicitudes una por una para recibir enlaces distintos para cada registro de verificación.",
+    "16question": "¿Verifica WA es gratuito?",
+    "16answer": "WA Verify (Verifica WA) es una herramienta gratuita que puede usarse para acceder a su registro digital de vacunación contra el COVID-19.  Nadie debería pedirle ninguna información de pago.  Si se le pide que pague por este servicio, salga de la aplicación inmediatamente.",
     "needhelptitle": "¿Necesita más ayuda?",
     "needhelpcontent01": "Para hacer preguntas o recibir asistencia, comuníquese al",
     "needhelpcontent02": "1-800-525-0127 y presione #",

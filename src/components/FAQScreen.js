@@ -428,14 +428,14 @@ const FAQScreen = () => {
               </p>
             </dd>
 
-            <dt style={{display: i18n.language.indexOf("en") === 0 ? "block" : "none"}}>
+            <dt>
               <button aria-expanded={expanded16} aria-controls="faq16_desc" onClick={toggleExpanded16}>
                 <Trans i18nKey="faqpage.16question">
                   Is WA Verify free to use?
                 </Trans>
               </button>
             </dt>
-            <dd style={{display: i18n.language.indexOf("en") === 0 ? "block" : "none"}}>
+            <dd>
               <p id="faq16_desc" aria-hidden={!expanded16} style={{display: expanded16 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.16answer">
                   WA Verify is a free tool that can be used to access your digital COVID-19 verification 
