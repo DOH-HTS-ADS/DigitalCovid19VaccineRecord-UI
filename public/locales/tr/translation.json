@@ -142,6 +142,8 @@
     "14answer": "<1>Dijital COVID-19 Doğrulama Kaydi</1>’niz basılı Centers for Disease Control and Prevention (CDC, Hastalık Kontrol ve Korunma Merkezleri) aşı kartınızla tamamen aynı bilgileri gösterir. <3>Dijital COVID-19 Doğrulama Kaydi</3>’nizdaki kare kodu taratacak kuruluşlara verilerinizi nasıl kullanacaklarını veya saklayacaklarını sorabilirsiniz. Kaydınızı nasıl ve ne zaman paylaşacağınıza yalnızca siz karar verebilirsiniz.", 
     "15question": "Tek bir telefon numarasıyla birden fazla kişi için birden fazla aşı randevusu alırsam ne olur?", 
     "15answer": "Ebeveyn veya vasiyseniz ve tek bir telefon numarası veya e-posta ile birden fazla randevu oluşturduysanız, her doğrulama kaydı için ayrı bağlantılar almak için istekleri birer birer girmeniz gerekir.", 
+    "16question": "WA Verify kullanımı ücretsiz midir?",
+    "16answer": "WA Verify, dijital COVID-19 doğrulama kaydınıza ulaşmak için kullanılan ücretsiz bir araçtır. Herhangi bir ödeme bilgisi sağlamanız istenmez. Bu hizmet için bir bedel ödemeniz istenirse uygulamadan derhal çıkın.",
     "needhelptitle": "Daha fazla yardıma mı ihtiyacınız var?", 
     "needhelpcontent01": "Sorularınız ve diğer konulardaki yardım istekleriniz için şu numarayı arayın:", 
     "needhelpcontent02": "1-800-525-0127, # tuşuna basın", 
