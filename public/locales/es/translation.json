@@ -117,7 +117,7 @@
     "02question": "¿Cómo se compartirá mi registro de verificación?",
     "02answer": "Cuando encontremos su registro de verificación, recibirá un enlace en su correo electrónico o al número de teléfono celular asociados con el registro de vacunación. Después de ingresar su PIN de cuatro dígitos, verá su información de verificación de COVID-19 que incluye su nombre, fecha de nacimiento, fechas de vacunación y el fabricante de la vacuna. Además, recibirá un código QR que puede escanear y que confirmará que su registro de verificación es auténtico.", 
     "03question": "¿Puedo guardar mi registro digital de verificación en mi iPhone?",
-    "03answer": "<0>Puede guardar su registro digital de verificación en la aplicación HealthApp de Apple si tiene el sistema operativo iOS 15. Deberá usar el navegador Safari para completar el proceso.</0>",
+    "03answer": "<0>Puede guardar su registro digital de verificación en la aplicación HealthApp de Apple si tiene el sistema operativo iOS 15. Deberá usar el navegador Safari para completar el proceso. Usuarios de dispositivos Apple: si tiene más de 4 dosis, haga clic en los tres puntos en la esquina superior derecha de la tarjeta de vacunación de Apple Wallet para ver la lista completa de dosis que ha recibido.</0>",
     "04question": "¿Puedo guardar mi registro digital de verificación en mi dispositivo Android?",
     "04answer": "<0>Sí. Puede guardar el <1>Registro digital de verificación de COVID-19</1> en Google Play si tiene un dispositivo Android, versión 5, y Google Play Services, versión 21.18 o superior.</0>",   
     "05question": "Si recibo una dosis adicional, ¿se registrará esto en mi registro de verificación digital?",
