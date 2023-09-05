@@ -46,7 +46,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     printWindow.document.write('<p style="margin: 0; padding: 0; line-height: 0;" />');
 
     dataItem.forEach((item, idx) => {
-      printWindow.document.write(item.innerHTML);
+      printWindow.document.write(`<div style="width:700px;">${item.innerHTML}</div>`);
       printWindow.document.write('<p style="margin: 0; padding: 0; line-height: 0;" />');
       if (idx % 3 === 1) {
         printWindow.document.write('<hr />');
