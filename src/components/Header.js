@@ -25,6 +25,7 @@ const Header = () => {
     //}
 
     i18n.changeLanguage(language);
+    i18n.reloadResources();
     setLanguage(language);
     document.documentElement.lang = language;
   };
