@@ -27,3 +27,5 @@ azure-pipelines-dev.yml
 
 /config/*
 !/config/config.production.js
+
+public/config.js
