@@ -127,7 +127,7 @@ const Header = () => {
                   <img className={i18n.dir(i18n.language) == "rtl"?"doh_logo_doh-black_rtl":"doh_logo_doh-black"} alt={"Washington State Department of Health Logo"} width="240px" src="/imgs/doh_logo_doh-black.png" />
                 </div>
                 <div style={{ verticalAlign: "middle", textAlign: 'middle' }}>
-                <Trans i18nKey="header.dohlogotext">Washington State<p style={{margin: 0, padding: 0, lineHeight: 0}} /> Department of Health</Trans>
+                <Trans i18nKey="header.dohlogotext">WASHINGTON State<p style={{margin: 0, color: 'blue', padding: 0, lineHeight: 0}} /> Department of Health</Trans>
                 </div>
               </div>
               {/* Temporarily disabled until we have all the Translations */}
