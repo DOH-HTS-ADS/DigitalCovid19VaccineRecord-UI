@@ -153,7 +153,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             <span style={{ fontWeight: "700", fontSize: "18px" }}>
                 SMART Health Card
             </span>
-            <a href={'https://smarthealth.cards/'} target="_blank" rel="noopener noreferrer" style={{ margin: '0' }}>
+            <a href={'https://smarthealth.cards/'} target="_blank" rel="noopener noreferrer" style={{ margin: 'inherit' }}>
               <img
                 src="/imgs/smart-logo.svg"
                 alt="Smart Health Card"
@@ -251,7 +251,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           </h2> */}
           <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}><Trans i18nKey="qrpage.howtosave">To Save</Trans></p>
           <div className="save-buttons" data-html2canvas-ignore="true">
-            <Button id={'print-button'} variant="contained" startIcon={<PrintIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={classes.button} onClick={}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
+            <Button id={'print-button'} variant="contained" startIcon={<PrintIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
             <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={i18n.dir(i18n.language) == "rtl" ? classes.buttonRight : classes.buttonLeft}  onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
           </div>
 
