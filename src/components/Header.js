@@ -76,6 +76,7 @@ const Header = () => {
     'ko': '<span lang="en">Korean</span>&nbsp;-&nbsp;<span lang="ko">한국어</span>',
     'lo': '<span lang="en">Lao</span>&nbsp;-&nbsp;<span lang="lo">ພາ​ສາ​ລາວ</span>',
     'mam': '<span lang="en">Mam</span>&nbsp;-&nbsp;<span lang="mam">Qyol Mam</span>',
+    'mr': '<span lang="en">Marathi</span>&nbsp;-&nbsp;<span lang="mh">मराठी</span>',
     'mh': '<span lang="en">Marshallese</span>&nbsp;-&nbsp;<span lang="mh">Kajin Ṃajeḷ</span>',
     'mxb': '<span lang="en">Mixteco Bajo</span>&nbsp;-&nbsp;<span lang="mxb">Ñuu savi</span>',
     'ne': '<span lang="en">Nepali</span>&nbsp;-&nbsp;<span lang="ne">नेपाली</span>',
