@@ -68,6 +68,7 @@ const Header = () => {
     'fr': '<span lang="en">French</span>&nbsp;-&nbsp;<span lang="fr">Français</span>',
     'fj': '<span lang="en">Fijian</span>&nbsp;-&nbsp;<span lang="fj">Vosa vakaviti</span>',
     'de': '<span lang="en">German</span>&nbsp;-&nbsp;<span lang="de">Deutsch</span>',
+    'gu': '<span lang="en">Gujarati</span>&nbsp;-&nbsp;<span lang="de">ગુજરાતી</span>',
     'hi': '<span lang="en">Hindi</span>&nbsp;-&nbsp;<span lang="hi">हिन्दी</span>',
     'hmn': '<span lang="en">Hmong</span>&nbsp;-&nbsp;<span lang="hmn">Hmoob</span>',
     'ja': '<span lang="en">Japanese</span>&nbsp;-&nbsp;<span lang="ja">日本語</span>',
