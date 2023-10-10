@@ -155,7 +155,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </span>
             <a href={'https://smarthealth.cards/'} target="_blank" rel="noopener noreferrer" style={{ margin: 'inherit' }}>
               <img
-                src="/imgs/smart-logo.svg"
+                src="/imgs/smart-logo.png"
                 alt="Smart Health Card"
                 style={{ alignSelf: "baseline", width: "60px", minHeight: "48px" }}
               />
