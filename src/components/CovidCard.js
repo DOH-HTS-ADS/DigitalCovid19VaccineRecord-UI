@@ -832,6 +832,12 @@ const CovidCard = () => {
       "&&:after": {
         borderBottom: "none"
       }
+    },
+    placeholder: {
+      "&::placeholder": {
+        color: "#575757",
+        opacity: 1
+      }
     }
   });
   const classes = useStyles();
@@ -1100,6 +1106,9 @@ const CovidCard = () => {
                   placeholder={"(555) 555-5555"}
                   required
                   type='tel'
+                  inputProps={{
+                    className: classes.placeholder
+                  }}                  
                   onChange={handlePhoneChange}
                   name="textmask"
                   id="contactPhone"
@@ -1127,6 +1136,7 @@ const CovidCard = () => {
                 inputProps={{
                   maxLength: 65,
                   pattern: "[a-zA-ZA-Z0-9._%+-]+@[a-zA-ZA-Z0-9.-]+.[a-zA-ZA-Z]{2,}$",
+                  className: classes.placeholder
                 }}
                 InputLabelProps={{ shrink: isShrinkEmailLabel }}
                 type={"email"}
