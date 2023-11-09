@@ -124,5 +124,17 @@
   "footer.accessibility": "נגישות",
   "footer.faq": "שאלות נפוצות",
   "footer.contactus": "יצירת קשר",
-  "footer.copyright": "זכויות יוצרים"
+  "footer.copyright": "זכויות יוצרים",
+  "month.january": "ינואר",
+  "month.february": "פברואר",
+  "month.march": "מרץ",
+  "month.april": "אפריל",
+  "month.may": "מאי",
+  "month.june": "יוני",
+  "month.july": "יולי",
+  "month.august": "אוגוסט",
+  "month.september": "ספטמבר",
+  "month.october": "אוקטובר",
+  "month.november": "נובמבר",
+  "month.december": "דצמבר"
 }
