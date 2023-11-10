@@ -166,7 +166,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
         <div className="dataDiv" id="data-div">
           
-          <p className="qrDataItem">
+          <p className="qrDataItem" dir={i18n.dir(i18n.language)}>
             <bdi>
               {i18n.language.indexOf("en") !== 0 ? (
                 <>
