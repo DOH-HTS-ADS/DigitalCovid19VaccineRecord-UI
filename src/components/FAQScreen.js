@@ -250,7 +250,7 @@ const FAQScreen = () => {
                   </ul>
                   <p>To find your record, try re-entering your information with a different email or mobile number.
                   If your record still isn't found, contact your provider to update your vaccination record or
-                  <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a> to request a review of your record. You'll be notified of our findings and
+                  <a href="https://redcap.doh.wa.gov/surveys/?s=NH77DJDXKEWCCH8H" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a> to request a review of your record. You'll be notified of our findings and
                   remediation actions within 2-3 weeks.</p>
                   <p>If you received your vaccination from a federal agency (like the Department of Defense, Indian
                   Health Services or Veterans Affairs), you will need to contact those agencies for assistance
@@ -272,7 +272,7 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.08answer">
                   If the information on your Digital vaccine record is incorrect or missing a dose, has wrong
                   dates or incorrect brand), you may need to correct or update your immunization record. You
-                  can contact your provider to update your record or <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>. You will be notified of our
+                  can contact your provider to update your record or <a href="https://redcap.doh.wa.gov/surveys/?s=NH77DJDXKEWCCH8H" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>. You will be notified of our
                   findings and remediation actions within 2-3 weeks.
                 </Trans>
                 <hr/>
