@@ -147,9 +147,9 @@
     "16answer": "WA Verify est un outil gratuit qui vous permet d'accéder à votre dossier d'attestation numérique COVID-19.  Aucune information de paiement ne devrait vous être demandée.  S'il vous est demandé de payer pour bénéficier ce service, quittez immédiatement l'application.",
     "needhelptitle": "Vous avez besoin d'aide ?", 
     "needhelpcontent01": "Pour toute question ou si vous avez besoin d'aide, contactez :", 
-    "needhelpcontent02": "1-800-525-0127, appuyez sur #", 
-    "needhelpcontent03": "Lundi 6h-22h", 
-    "needhelpcontent04": "Mardi-dimanche 6h-18h", 
+    "needhelpcontent02": "866-397-0337 ou 360-236-3595", 
+    "needhelpcontent03": "Lundi-Vendredi, 8h - 17h", 
+    "needhelpcontent04": "", 
     "needhelpcontent05": "Fermé les jours fériés", 
     "needhelpcontent06": "<0>REMARQUE:</0> Nous ne sommes pas en mesure de mettre à jour votre Attestation numérique de vaccination COVID-19 par téléphone",
     "vaccineVerificationLink": "https://doh.wa.gov/fr/guide-visuel-des-justificatifs-de-vaccination-covid-19-officiels-de-letat-de-washington"
