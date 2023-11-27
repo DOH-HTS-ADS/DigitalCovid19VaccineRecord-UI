@@ -101,9 +101,8 @@ const FAQScreen = () => {
             For questions and other assistance, contact:
           </Trans>
           <ul>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent02">1-800-525-0127, press #</Trans></li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Monday 6AM-10PM</Trans></li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Tuesday-Sunday 6AM-6PM</Trans></li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent02">866-397-0337 or 360-236-3595</Trans></li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">8AM - 5PM, Monday-Friday</Trans></li>
             <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent05">Closed state holidays</Trans></li>
           </ul>
           <p style={{ paddingTop: 40 }}>
