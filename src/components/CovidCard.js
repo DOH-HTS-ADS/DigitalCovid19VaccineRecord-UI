@@ -248,7 +248,8 @@ const CovidCard = () => {
 
   useEffect(() => {
     document.querySelectorAll(".MuiButtonBase-root")[1].setAttribute("aria-label", "Date of birth")
-    document.getElementById("submitcheckbox").setAttribute("aria-label", t('vaccineform.checkboxdescription'))
+    document.getElementById("submitcheckbox").setAttribute("aria-label", t('vaccineform.checkboxlabel'))
+    document.getElementById("submitcheckbox").setAttribute("aria-describedby", "chkbx_desc")
     document.getElementById("partitioned").setAttribute("aria-label", t('vaccineform.pincode'))
   }, []);
 
@@ -1213,6 +1214,11 @@ const CovidCard = () => {
               </Trans>
             </div>
             <div style={{ display: "flex" }}>
+              <label style={{ marginLeft: "0" }} htmlFor={'submitcheckbox'}>
+                <Trans i18nKey="vaccineform.checkboxlabel">Authorization Declaration</Trans>
+              </label>
+            </div>            
+            <div style={{ display: "flex" }}>
               <FormControlLabel
                 htmlFor='submitcheckbox'
                 control={
@@ -1226,18 +1232,26 @@ const CovidCard = () => {
                     error = {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true"}
                     inputProps={{
                       "aria-required": true,
-                      "aria-label": t("vaccineform.checkboxdescription")
+                      "aria-label": t("vaccineform.checkboxlabel"),
+                      "aria-describedby": "chkbx_desc"
                     }}
                   />
                 }
                 className={i18n.dir(i18n.language) == "rtl" ? "checkBoxRtl" : ""}
               />
-              <div>
+              <div id="chkbx_desc">
                 <Trans i18nKey="vaccineform.checkboxdescription">
-                By checking this box, you are declaring under penalty of perjury under state and federal laws that you are the Patient or Parent/Guardian of the Patient and are therefore authorized to access the Patient’s immunization record.
+                <p>By checking this box, you declare under penalty of perjury under state and federal law that one of the following criteria is true:</p>
+                  <ul>
+                  <li>I am accessing my own record.</li>
+                  <li>I am accessing the record of another person <strong>and</strong> I am acting pursuant to a court-ordered guardianship, conservatorship, or protective arrangement.</li>
+                  <li>I am accessing the record of a person who is under age 18 <strong>and</strong> I am that person's parent or I am acting as that person's parent in the absence of a parent or a court-appointed guardian.</li>
+                  <li>I am accessing the record of a person who is age 18 or older <strong>and</strong> I have received that person's consent.*</li>
+                  </ul>
+                  <p>*The required form and content of the consent vary. If you know or have reason to believe that the person's record you are accessing contains any information entered by a representative of the person's current or former K-12 school, you must have consent from that person that complies with the requirements of the federal Family Educational Rights and Privacy Act (FERPA) found at 
+                  <a href="https://www.ecfr.gov/current/title-34/subtitle-A/part-99/subpart-D/section-99.30" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>34 CFR § 99.30</a>. If not, the Department of Health does not require any specific form of consent.</p>
                 </Trans>
-              </div>
-              
+              </div>              
             </div>
             <p>
               {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.agreementErrorMsg1">Policy Agreement checkbox must be selected</Trans></label> : ''}
