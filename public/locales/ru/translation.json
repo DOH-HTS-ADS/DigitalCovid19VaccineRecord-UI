@@ -19,6 +19,7 @@
   "vaccineform.lastnameErrorMsg": "Укажите фамилию",
   "vaccineform.firstname": "Имя",
   "vaccineform.firstnameErrorMsg": "Укажите имя",
+  "vaccineform.middlename": "Инициал второго имени",
   "vaccineform.dateofbirth": "Дата рождения",
   "vaccineform.monthLabel": "Месяц",
   "vaccineform.dayLabel": "День",
@@ -138,7 +139,5 @@
   "month.october": "октябрь",
   "month.november": "ноябрь",
   "month.december": "декабрь",
-  "vaccineform.middlename": "Инициал второго имени",
-  "qrpage.language": "русский",
   "localeCode": "ru"
 }

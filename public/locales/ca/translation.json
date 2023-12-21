@@ -23,6 +23,7 @@
   "vaccineform.monthLabel": "Mes",
   "vaccineform.dayLabel": "Dia",
   "vaccineform.yearLabel": "Any",
+  "vaccineform.dateofbirthErrorMsg3": "La data no pot ser posterior a la data màxima",
   "vaccineform.dateofbirthErrorMsg4": "La data de naixement no es pot deixar en blanc",
   "vaccineform.phoneemailinfo": "Faciliteu un número de mòbil o un correu electrònic que pugui estar associat amb el vostre historial de vacunació. Si no obteniu resultats amb el número de mòbil, torneu-ho a provar amb l’adreça de correu electrònic.",
   "vaccineform.Phone": "Telèfon mòbil",
@@ -134,9 +135,5 @@
   "month.october": "Octubre",
   "month.november": "Novembre",
   "month.december": "Desembre",
-  "vaccineform.dateofbirthErrorMsg1": "Format necessari: MM/DD/AAAA",
-  "vaccineform.dateofbirthErrorMsg2": "La data no pot ser anterior a la data mínima",
-  "vaccineform.dateofbirthErrorMsg3": "La data no pot ser posterior a la data màxima",
-  "ffirstvaccinationdate": "Data",
   "localeCode": "ca"
 }

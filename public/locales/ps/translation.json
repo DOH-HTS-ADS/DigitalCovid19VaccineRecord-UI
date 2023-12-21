@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "په مهربانۍ سره خپل تخلص ولیکئ",
   "vaccineform.firstname": "لومړی نوم",
   "vaccineform.firstnameErrorMsg": "په مهربانۍ سره خپل نوم ولیکئ",
-  "vaccineform.Middlename": "منځنی ابتدايي توري",
+  "vaccineform.middlename": "منځنی ابتدايي توري",
   "vaccineform.dateofbirth": "د زېږون نېټه",
   "vaccineform.monthLabel": "میاشت",
   "vaccineform.dayLabel": "ورځ",

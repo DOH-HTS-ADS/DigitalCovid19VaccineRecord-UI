@@ -23,6 +23,7 @@
   "vaccineform.monthLabel": "Mwa",
   "vaccineform.dayLabel": "Jou",
   "vaccineform.yearLabel": "Ane",
+  "vaccineform.dateofbirthErrorMsg3": "Dat la pa ta dwe apre dat maksimal la",
   "vaccineform.dateofbirthErrorMsg4": "Chan Dat nesans lan pa kapab vid",
   "vaccineform.phoneemailinfo": "Bay yon nimewo telefòn mobil oswa imèl yo ka asosye avèk dosye vaksinasyon w lan. Si w pa jwenn yon korespondans lè w itilize telefòn mobil ou a, eseye ankò avèk adrès imèl ou.",
   "vaccineform.Phone": "Telefòn Mobil",
@@ -134,9 +135,5 @@
   "month.october": "Oktòb",
   "month.november": "Novanm",
   "month.december": "Desanm",
-  "vaccineform.dateofbirthErrorMsg1": "Fòma ki Obligatwa: Mwa/Jou/Ane",
-  "vaccineform.dateofbirthErrorMsg2": "Dat la pa ta dwe anvan dat minimal la",
-  "vaccineform.dateofbirthErrorMsg3": "Dat la pa ta dwe apre dat maksimal la",
-  "ffirstvaccinationdate": "Dat la",
   "localeCode": "ht"
 }

@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "Introduceți numele de familie.",
   "vaccineform.firstname": "Prenume",
   "vaccineform.firstnameErrorMsg": "Introduceți prenumele.",
-  "vaccineform.Middlename": "Inițiala tatălui",
+  "vaccineform.middlename": "Inițiala tatălui",
   "vaccineform.dateofbirth": "Data nașterii",
   "vaccineform.monthLabel": "Lună",
   "vaccineform.dayLabel": "Zi",

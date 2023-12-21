@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "Lütfen Soyadınızı girin",
   "vaccineform.firstname": "Adı",
   "vaccineform.firstnameErrorMsg": "Lütfen Adınızı girin",
-  "vaccineform.Middlename": "Göbel adı ilk harfi",
+  "vaccineform.middlename": "Göbel adı ilk harfi",
   "vaccineform.dateofbirth": "Doğum tarihi",
   "vaccineform.monthLabel": "Ay",
   "vaccineform.dayLabel": "Gün",

@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "Veuillez saisir votre Nom de famille",
   "vaccineform.firstname": "Prénom",
   "vaccineform.firstnameErrorMsg": "Veuillez saisir votre Prénom",
-  "vaccineform.Middlename": "Initiale du deuxième prénom",
+  "vaccineform.middlename": "Initiale du deuxième prénom",
   "vaccineform.dateofbirth": "Date de naissance",
   "vaccineform.monthLabel": "Mois",
   "vaccineform.dayLabel": "Jour",
@@ -139,6 +139,5 @@
   "month.october": "octobre",
   "month.november": "novembre",
   "month.december": "décembre",
-  "qrpage.language": "Français",
   "localeCode": "fr"
 }

@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "ກະລຸນາໃສ່ນາມສະກຸນຂອງທ່ານ",
   "vaccineform.firstname": "ຊື່​",
   "vaccineform.firstnameErrorMsg": "ກະລຸນາໃສ່ຊື່ຂອງທ່ານ",
-  "vaccineform.Middlename": "ຊື່​ກາງ",
+  "vaccineform.middlename": "ຊື່​ກາງ",
   "vaccineform.dateofbirth": "ວັນ​ເດືອນ​ປີ​ເກີດ",
   "vaccineform.monthLabel": "ເດືອນ",
   "vaccineform.dayLabel": "ມື້",

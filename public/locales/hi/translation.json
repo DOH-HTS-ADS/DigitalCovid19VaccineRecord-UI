@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "कृपया अपना अंतिम नाम दर्ज करें",
   "vaccineform.firstname": "पहला नाम",
   "vaccineform.firstnameErrorMsg": "कृपया अपना पहला नाम दर्ज करें",
-  "vaccineform.Middlename": "मध्य आद्याक्षर",
+  "vaccineform.middlename": "मध्य आद्याक्षर",
   "vaccineform.dateofbirth": "जन्म-तिथि",
   "vaccineform.monthLabel": "महीना",
   "vaccineform.dayLabel": "दिन",

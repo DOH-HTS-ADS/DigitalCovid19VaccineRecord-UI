@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "ብኽብረትኩም ናይ መጨረሽታ ሽሞም ይምልኡ",
   "vaccineform.firstname": "ቀዳማይ ስም",
   "vaccineform.firstnameErrorMsg": "ብኽብረትኩም ናይ መጀመርታ ሽሞም ይምልኡ",
-  "vaccineform.Middlename": "ናይ ማእከላይ ስም መጀመርታ ፊደል",
+  "vaccineform.middlename": "ናይ ማእከላይ ስም መጀመርታ ፊደል",
   "vaccineform.dateofbirth": "ዕለተ ልደት",
   "vaccineform.monthLabel": "ወርሒ",
   "vaccineform.dayLabel": "ዕለት",

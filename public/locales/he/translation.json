@@ -23,6 +23,7 @@
   "vaccineform.monthLabel": "חודש",
   "vaccineform.dayLabel": "יום",
   "vaccineform.yearLabel": "שנה",
+  "vaccineform.dateofbirthErrorMsg3": "התאריך לא יחול אחרי תאריך המקסימום",
   "vaccineform.dateofbirthErrorMsg4": "אין להשאיר את שדה תאריך הלידה ריק",
   "vaccineform.phoneemailinfo": "יש לציין מספר טלפון או כתובת דוא\"ל שאפשר לשייך לתיעוד החיסון שלך. אם לא קיבלת התאמה באמצעות הטלפון הנייד, יש לנסות שוב באמצעות כתובת הדוא\"ל שלך.",
   "vaccineform.Phone": "טלפון נייד",
@@ -134,9 +135,5 @@
   "month.october": "אוקטובר",
   "month.november": "נובמבר",
   "month.december": "דצמבר",
-  "vaccineform.dateofbirthErrorMsg1": "תבנית נדרשת: MM/DD/YYYY",
-  "vaccineform.dateofbirthErrorMsg2": "התאריך לא יחול לפני תאריך המינימום",
-  "vaccineform.dateofbirthErrorMsg3": "התאריך לא יחול אחרי תאריך המקסימום",
-  "ffirstvaccinationdate": "תאריך",
   "localeCode": "he"
 }

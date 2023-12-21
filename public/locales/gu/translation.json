@@ -21,6 +21,7 @@
   "vaccineform.monthLabel": "મહિનો",
   "vaccineform.dayLabel": "દિવસ",
   "vaccineform.yearLabel": "વર્ષ",
+  "vaccineform.dateofbirthErrorMsg3": "તારીખ છેલ્લી તારીખ પછીની ન હોવી જોઈએ",
   "vaccineform.dateofbirthErrorMsg4": "જન્મ તારીખનું ક્ષેત્ર ખાલી રાખી શકાતું નથી",
   "vaccineform.phoneemailinfo": "એક મોબાઇલ ફોન અથવા ઇમેઇલ પ્રદાન કરો જે તમારી રસીના રેકોર્ડ સાથે સંકળાયેલ હોઈ શકે છે. જો તમને તમારા મોબાઇલ ફોનનો ઉપયોગ કરીને મેચ ન મળે, તો તમારા ઇમેઇલ એડ્રેસનો ઉપયોગ કરીને ફરીથી પ્રયાસ કરો.",
   "vaccineform.Phone": "મોબાઇલ ફોન",
@@ -135,9 +136,5 @@
   "month.october": "ઓક્ટોબર",
   "month.november": "નવેમ્બર",
   "month.december": "ડિસેમ્બર",
-  "qrpage.language": "gu",
-  "vaccineform.dateofbirthErrorMsg1": "આવશ્યક ફોર્મેટ: MM/DD/YYYY",
-  "vaccineform.dateofbirthErrorMsg2": "તારીખ પહેલી તારીખ પહેલાંની ન હોવી જોઈએ",
-  "vaccineform.dateofbirthErrorMsg3": "તારીખ છેલ્લી તારીખ પછીની ન હોવી જોઈએ",
   "localeCode": "gu"
 }

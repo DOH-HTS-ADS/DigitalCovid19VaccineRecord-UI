@@ -19,6 +19,7 @@
   "vaccineform.lastnameErrorMsg": "Pakilagay ang iyong Apelyido",
   "vaccineform.firstname": "Pangalan",
   "vaccineform.firstnameErrorMsg": "Pakilagay ang iyong Pangalan",
+  "vaccineform.middlename": "Inisyal ng Gitnang Pangalan",
   "vaccineform.dateofbirth": "Petsa ng Kapanganakan",
   "vaccineform.monthLabel": "Buwan",
   "vaccineform.dayLabel": "Araw",
@@ -144,8 +145,5 @@
   "month.october": "Oktubre",
   "month.november": "Nobyembre",
   "month.december": "Disyembre",
-  "vaccineform.middlename": "Inisyal ng Gitnang Pangalan",
-  "qrpage.language": "Tagalog",
-  "vaccineform.PinCode": "PIN CODE",
   "localeCode": "tl"
 }

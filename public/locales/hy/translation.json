@@ -23,6 +23,7 @@
   "vaccineform.monthLabel": "Ամիս",
   "vaccineform.dayLabel": "Օր",
   "vaccineform.yearLabel": "Տարի",
+  "vaccineform.dateofbirthErrorMsg3": "Ամսաթիվը չպետք է լինի առավելագույն ամսաթվից հետո",
   "vaccineform.dateofbirthErrorMsg4": "Ծննդյան ամսաթվի դաշտը չպետք է դատարկ լինի",
   "vaccineform.phoneemailinfo": "Տրամադրեք բջջային հեռախոսահամար կամ էլփոստ, որը կապված է Ձեր պատվաստումների արձանագրության հետ: Եթե Ձեր բջջային հեռախոսահամարի միջոցով համընկնում չեք գտնում, կրկին փորձեք՝ օգտագործելով ձեր էլփոստի հասցեն:",
   "vaccineform.Phone": "Բջջային հեռախոսահամար",
@@ -134,9 +135,5 @@
   "month.october": "Հոկտեմբեր",
   "month.november": "Նոյեմբեր",
   "month.december": "Դեկտեմբեր",
-  "vaccineform.dateofbirthErrorMsg1": "Պահանջվող ձևաչափը՝ ԱԱ/ՕՕ/ՏՏՏՏ",
-  "vaccineform.dateofbirthErrorMsg2": "Ամսաթիվը չպետք է լինի նախքան նվազագույն ամսաթիվը",
-  "vaccineform.dateofbirthErrorMsg3": "Ամսաթիվը չպետք է լինի առավելագույն ամսաթվից հետո",
-  "ffirstvaccinationdate": "Ամսաթիվը",
   "localeCode": "hy"
 }

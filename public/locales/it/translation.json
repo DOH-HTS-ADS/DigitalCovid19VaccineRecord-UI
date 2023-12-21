@@ -23,6 +23,7 @@
   "vaccineform.monthLabel": "Mese",
   "vaccineform.dayLabel": "Giorno",
   "vaccineform.yearLabel": "Anno",
+  "vaccineform.dateofbirthErrorMsg3": "La data non deve essere successiva alla data massima",
   "vaccineform.dateofbirthErrorMsg4": "Il campo Data di nascita non deve essere vuoto",
   "vaccineform.phoneemailinfo": "Fornisci un numero di cellulare o un indirizzo e-mail che possa essere associato al tuo documento di vaccinazione. Se non ottieni una corrispondenza con il numero di cellulare, riprova utilizzando l’indirizzo e-mail.",
   "vaccineform.Phone": "N. di cellulare",
@@ -134,9 +135,5 @@
   "month.october": "Ottobre",
   "month.november": "Novembre",
   "month.december": "Dicembre",
-  "vaccineform.dateofbirthErrorMsg1": "Formato richiesto: MM/GG/AAAA",
-  "vaccineform.dateofbirthErrorMsg2": "La data non deve essere antecedente alla data minima",
-  "vaccineform.dateofbirthErrorMsg3": "La data non deve essere successiva alla data massima",
-  "ffirstvaccinationdate": "Data",
   "localeCode": "it"
 }

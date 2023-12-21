@@ -23,6 +23,7 @@
   "vaccineform.monthLabel": "Hilabetea",
   "vaccineform.dayLabel": "Eguna",
   "vaccineform.yearLabel": "Urtea",
+  "vaccineform.dateofbirthErrorMsg3": "Data ezin da data maximoa baino beranduago izan",
   "vaccineform.dateofbirthErrorMsg4": "Jaiotze-data ezin da hutsik utzi",
   "vaccineform.phoneemailinfo": "Idatzi telefono zenbaki bat edo helbide elektroniko bat zure txertaketa-agiriarekin lotuta egoteko. Ezin baduzu lortu zure telefonoarekin, saiatu zure helbide elektronikoarekin.",
   "vaccineform.Phone": "Telefono mugikorra",
@@ -134,9 +135,5 @@
   "month.october": "Urria",
   "month.november": "Azaroa",
   "month.december": "Abendua",
-  "vaccineform.dateofbirthErrorMsg1": "Erabili behar den formatua: UUUU/HH/EE",
-  "vaccineform.dateofbirthErrorMsg2": "Data ezin da data minimoa baino lehenago izan",
-  "vaccineform.dateofbirthErrorMsg3": "Data ezin da data maximoa baino beranduago izan",
-  "ffirstvaccinationdate": "Data",
   "localeCode": "eu"
 }

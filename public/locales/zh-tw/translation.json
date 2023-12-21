@@ -4,6 +4,9 @@
   "header.highcontrast": "高對比",
   "header.contactus": "與我們連絡",
   "header.settings": "設定",
+  "header.dohlogotext": "Washington State<1></1>Department of Health",
+  "header.waverifylogo": "waverifylogo.png",
+  "header.waverifylogoalt": "WaVerify Logo",
   "vaccinepage.title": "驗證Quick Response (QR) 代碼",
   "vaccinepage.subtitle": "請填寫表格以建立Quick Response (QR) 代碼",
   "dashboardpage.tabtext": "主頁",
@@ -19,6 +22,7 @@
   "vaccineform.lastnameErrorMsg": "請輸入您的姓氏",
   "vaccineform.firstname": "名字",
   "vaccineform.firstnameErrorMsg": "請輸入您的名字",
+  "vaccineform.middlename": "中間名首字母",
   "vaccineform.dateofbirth": "出生日期",
   "vaccineform.monthLabel": "月",
   "vaccineform.dayLabel": "日",
@@ -140,10 +144,5 @@
   "month.october": "十月",
   "month.november": "十一月",
   "month.december": "十二月",
-  "vaccineform.middlename": "中間名首字母",
-  "qrpage.language": "漢語廣東話",
-  "header.dohlogotext": "Washington State<1></1>Department of Health",
-  "header.waverifylogo": "waverifylogo.png",
-  "header.waverifylogoalt": "WaVerify Logo",
   "localeCode": "zh-TW"
 }

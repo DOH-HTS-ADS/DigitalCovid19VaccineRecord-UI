@@ -23,6 +23,7 @@
   "vaccineform.monthLabel": "മാസം",
   "vaccineform.dayLabel": "ദിവസം",
   "vaccineform.yearLabel": "വർഷം",
+  "vaccineform.dateofbirthErrorMsg3": "തീയതി പരമാവധി തീയതിയ്ക്ക് ശേഷമുള്ളതായിരിക്കരുത്",
   "vaccineform.dateofbirthErrorMsg4": "ജനനത്തീയതിയുടെ ഫീൽഡ് ശൂന്യമാക്കരുത്",
   "vaccineform.phoneemailinfo": "നിങ്ങളുടെ വാക്സിൻ റെക്കോർഡുമായി ബന്ധപ്പെടുത്തിയിട്ടുള്ള ഒരു മൊബൈൽ ഫോണോ ഇമെയിലോ നൽകുക. നിങ്ങളുടെ മൊബൈൽ ഫോൺ പൊരുത്തപ്പെടുന്നില്ലെങ്കിൽ, നിങ്ങളുടെ ഇമെയിൽ വിലാസം ഉപയോഗിച്ച് വീണ്ടും ശ്രമിക്കുക.",
   "vaccineform.Phone": "മൊബൈൽ ഫോൺ",
@@ -137,9 +138,5 @@
   "month.october": "ഒക്ടോബർ",
   "month.november": "നവംബർ",
   "month.december": "ഡിസംബർ",
-  "qrpage.language": "ml",
-  "vaccineform.dateofbirthErrorMsg1": "ശരിയായ ഫോർമാറ്റ്: MM/DD/YYYY",
-  "vaccineform.dateofbirthErrorMsg2": "തീയതി ഏറ്റവും കുറഞ്ഞ തീയതിക്ക് മുമ്പുള്ളതായിരിക്കരുത്",
-  "vaccineform.dateofbirthErrorMsg3": "തീയതി പരമാവധി തീയതിയ്ക്ക് ശേഷമുള്ളതായിരിക്കരുത്",
   "localeCode": "ml"
 }

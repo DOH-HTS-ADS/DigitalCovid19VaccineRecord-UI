@@ -23,6 +23,7 @@
   "vaccineform.monthLabel": "महिना",
   "vaccineform.dayLabel": "दिवस",
   "vaccineform.yearLabel": "वर्ष",
+  "vaccineform.dateofbirthErrorMsg3": "तारीख महत्तम तारखेच्या नंतरची नसावी",
   "vaccineform.dateofbirthErrorMsg4": "जन्मतारखेचे क्षेत्र कोरे नसावे",
   "vaccineform.phoneemailinfo": "मोबाईल फोन किंवा इमेल द्या, जो तुमच्या लसीकरणाच्या नोंदीशी जोडलेला असेल. तुमचा मोबाईल फोन वापरून तुम्हाला एक जोड (मॅच) मिळत नसेल, तर तुमचा इमेल अॅड्रेस वापरून पुन्हा प्रयत्न करा.",
   "vaccineform.Phone": "मोबाईल फोन",
@@ -137,9 +138,5 @@
   "month.october": "ऑक्टोबर",
   "month.november": "नोव्हेंबर",
   "month.december": "डिसेंबर",
-  "qrpage.language": "mr",
-  "vaccineform.dateofbirthErrorMsg1": "आवश्यक प्रारूप: महिना/दिवस/वर्ष",
-  "vaccineform.dateofbirthErrorMsg2": "तारीख न्यूनतम तारखेच्या अगोदरची नसावी",
-  "vaccineform.dateofbirthErrorMsg3": "तारीख महत्तम तारखेच्या नंतरची नसावी",
   "localeCode": "mr"
 }

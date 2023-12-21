@@ -19,6 +19,7 @@
   "vaccineform.lastnameErrorMsg": "نرجو إدخال اسمك الأخير",
   "vaccineform.firstname": "الاسم الأول",
   "vaccineform.firstnameErrorMsg": "نرجو إدخال اسمك الأول",
+  "vaccineform.middlename": "أول حرف من اسم الأب",
   "vaccineform.dateofbirth": "تاريخ الميلاد",
   "vaccineform.monthLabel": "شهر",
   "vaccineform.dayLabel": "يوم",
@@ -144,7 +145,5 @@
   "month.october": "أكتوبر",
   "month.november": "نوفمبر",
   "month.december": "ديسمبر",
-  "vaccineform.middlename": "أول حرف من اسم الأب",
-  "qrpage.language": "العَرَبِيةُ",
   "localeCode": "ar"
 }

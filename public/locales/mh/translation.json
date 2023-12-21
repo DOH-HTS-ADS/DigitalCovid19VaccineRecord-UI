@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "Jouj im likit Et eo Eliktata",
   "vaccineform.firstname": "Et eo etam",
   "vaccineform.firstnameErrorMsg": "Jouj im likit Et eo Jinion",
-  "vaccineform.Middlename": "Et eo juon etam",
+  "vaccineform.middlename": "Et eo juon etam",
   "vaccineform.dateofbirth": "Raan in lōtak",
   "vaccineform.monthLabel": "Alloñ",
   "vaccineform.dayLabel": "Raan",
@@ -138,6 +138,5 @@
   "month.october": "Oktoba",
   "month.november": "Nobeṃba",
   "month.december": "Tiijōṃba",
-  "vaccineform.waproductname": "Et in wā eo",
   "localeCode": "mh"
 }

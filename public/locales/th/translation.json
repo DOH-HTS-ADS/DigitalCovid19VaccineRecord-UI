@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "กรุณากรอกนามสกุลของคุณ",
   "vaccineform.firstname": "ชื่อ",
   "vaccineform.firstnameErrorMsg": "กรุณากรอกชื่อของคุณ",
-  "vaccineform.Middlename": "ชื่อกลาง",
+  "vaccineform.middlename": "ชื่อกลาง",
   "vaccineform.dateofbirth": "วันเดือนปีเกิด",
   "vaccineform.monthLabel": "เดือน",
   "vaccineform.dayLabel": "วัน",

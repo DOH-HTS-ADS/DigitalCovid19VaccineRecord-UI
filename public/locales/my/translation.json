@@ -19,7 +19,7 @@
   "vaccineform.lastnameErrorMsg": "သင့်နောက်ဆုံးအမည်ကို ထည့်ပေးပါ",
   "vaccineform.firstname": "ပထမဆုံးအမည်",
   "vaccineform.firstnameErrorMsg": "သင့်ပထမအမည်ကို ထည့်ပေးပါ",
-  "vaccineform.Middlename": "အလယ်အမည်",
+  "vaccineform.middlename": "အလယ်အမည်",
   "vaccineform.dateofbirth": "မွေးသက္ကရာဇ်",
   "vaccineform.monthLabel": "လ",
   "vaccineform.dayLabel": "ရက်",

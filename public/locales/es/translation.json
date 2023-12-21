@@ -4,6 +4,9 @@
   "header.highcontrast": "Mucho contraste",
   "header.contactus": "Comuníquese con nosotros",
   "header.settings": "Configuración",
+  "header.dohlogotext": "Departamento de Salud del<1></1>Estado de Washington",
+  "header.waverifylogo": "verificawalogo.png",
+  "header.waverifylogoalt": "VerificaWA Logo",
   "vaccinepage.title": "Código de respuesta rápida (QR) de verificación",
   "vaccinepage.subtitle": "Complete el formulario para crear el código de respuesta rápida (QR).",
   "dashboardpage.tabtext": "Inicio",
@@ -137,9 +140,5 @@
   "month.october": "octubre",
   "month.november": "noviembre",
   "month.december": "diciembre",
-  "qrpage.language": "Español",
-  "header.dohlogotext": "Departamento de Salud del<1></1>Estado de Washington",
-  "header.waverifylogo": "verificawalogo.png",
-  "header.waverifylogoalt": "VerificaWA Logo",
   "localeCode": "es"
 }
