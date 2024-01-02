@@ -30,7 +30,7 @@
   "vaccineform.dateofbirthErrorMsg4": "出生日期欄位不能為空",
   "vaccineform.phoneemailinfo": "請提供可能與您的疫苗記錄相關聯的手機號碼或電子郵件。如果使用您的手機號碼無法找到匹配記錄，請使用您的電子郵件地址重試。",
   "vaccineform.Phone": "手機號碼",
-  "vaccineform.phoneErrorMsg1": "請輸入有效格式的手機號碼",
+  "vaccineform.phoneErrorMsg1": "請輸入有效的 10 位行動電話號碼",
   "vaccineform.Email": "電子郵件",
   "vaccineform.emailErrorMsg1": "請輸入一個有效的電子郵件地址",
   "vaccineform.pincode": "建立一個 4 位數的 PIN 碼。您將收到一個連結，用於輸入 PIN 碼並存取您的數位疫苗記錄。*",

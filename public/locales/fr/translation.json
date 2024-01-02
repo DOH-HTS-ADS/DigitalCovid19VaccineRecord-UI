@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Le champ Date de naissance ne peut pas être vide",
   "vaccineform.phoneemailinfo": "Indiquez un numéro de téléphone mobile ou une adresse e-mail qui pourrait être associée à votre attestation de vaccination. Si vous n'obtenez pas de correspondance en utilisant votre numéro de téléphone mobile, réessayez en utilisant votre adresse e-mail.",
   "vaccineform.Phone": "Téléphone mobile",
-  "vaccineform.phoneErrorMsg1": "Veuillez saisir votre Numéro de téléphone dans un format valide",
+  "vaccineform.phoneErrorMsg1": "Veuillez saisir un numéro de téléphone portable valide à 10 chiffres",
   "vaccineform.Email": "E-mail :",
   "vaccineform.emailErrorMsg1": "Saisissez une adresse e-mail valide",
   "vaccineform.pincode": "Créez un code PIN à 4 chiffres. Vous recevrez un lien dans lequel saisir le code PIN et accéder à votre attestation de vaccination numérique. *",

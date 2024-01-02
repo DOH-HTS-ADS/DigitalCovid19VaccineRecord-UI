@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "O campo Data de nascimento não pode estar vazio",
   "vaccineform.phoneemailinfo": "Forneça um número de celular ou e-mail que será associado ao seu comprovante de vacinação. Caso não consiga obter uma correspondência usando o seu número de celular, tente novamente usando o seu endereço de e-mail.",
   "vaccineform.Phone": "Celular",
-  "vaccineform.phoneErrorMsg1": "Insira o Número de celular em um formato válido",
+  "vaccineform.phoneErrorMsg1": "Insira um número de celular válido de 10 dígitos",
   "vaccineform.Email": "E-mail",
   "vaccineform.emailErrorMsg1": "Insira um Endereço de e-mail válido",
   "vaccineform.pincode": "Crie um número PIN de 4 dígitos. Você receberá um link para inserir o PIN e acessar seu comprovante digital de vacinação. *",

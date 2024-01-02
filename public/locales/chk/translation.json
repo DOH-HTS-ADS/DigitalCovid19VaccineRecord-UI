@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Ranin uputiwom ese tongeni epwe peen",
   "vaccineform.phoneemailinfo": "Awora ew nampan noum senfon ika email epwe riri ngeni me pwarata usun om appos. Ika pwe ekei ese pwata murin om makenong nampan noum senfon, sotuni sefani ka makeinong om email address.",
   "vaccineform.Phone": "Senfon",
-  "vaccineform.phoneErrorMsg1": "Kose mochen wanong nampan noum na sel fon ngeni pwungun ewe format",
+  "vaccineform.phoneErrorMsg1": "Kose mochen tikanong 10-foufoun nampan senfon mei pwung",
   "vaccineform.Email": "Email",
   "vaccineform.emailErrorMsg1": "Wanong omw na email address en mei akkaia",
   "vaccineform.pincode": "Forata 4 nampa epwe noum PIN nampa. Kopwe angei ew link ika ew anen om kopwe makenong nampan noum PIN ren om kopwe tongeni kuna noum taropwen appos online ika on kamputer me fon. *",

@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "E sega ni rawa ni lala tu na vanua me volai kina na tiki ni siga ni sucu",
   "vaccineform.phoneemailinfo": "Vakarautaka e dua a nomu naba ni talevoni se imeli e vakayagataki ena ivolatukutuku ni nomu cula. Ke sega ni cakacaka na naba ni talevoni, tovolea nomu imeli.",
   "vaccineform.Phone": "Naba ni Talevoni",
-  "vaccineform.phoneErrorMsg1": "Kerea mo tabaka na nomu naba ni talevoni ena kenai walewale dodonu",
+  "vaccineform.phoneErrorMsg1": "Yalovinaka mo vakalewena e 10 na naba ni talevoni donu",
   "vaccineform.Email": "iMeli",
   "vaccineform.emailErrorMsg1": "Vakacuruma e dua na email ka cakacaka tiko",
   "vaccineform.pincode": "Tabaka e 4 na naba ni PIN. Ena vakau yani e dua na isema mo vola kina na naba ni PIN qai raica na ilavelave vakalivaliva ni ivolatukutuku ni cula. *",

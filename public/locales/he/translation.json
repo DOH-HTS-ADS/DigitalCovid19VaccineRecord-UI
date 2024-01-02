@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "אין להשאיר את שדה תאריך הלידה ריק",
   "vaccineform.phoneemailinfo": "יש לציין מספר טלפון או כתובת דוא\"ל שאפשר לשייך לתיעוד החיסון שלך. אם לא קיבלת התאמה באמצעות הטלפון הנייד, יש לנסות שוב באמצעות כתובת הדוא\"ל שלך.",
   "vaccineform.Phone": "טלפון נייד",
-  "vaccineform.phoneErrorMsg1": "נא להזין טלפון נייד בתבנית חוקית",
+  "vaccineform.phoneErrorMsg1": "אנא הקש מספר נייד תקף בן 10 ספרות",
   "vaccineform.Email": "דוא\"ל",
   "vaccineform.emailErrorMsg1": "נא להזין כתובת דוא\"ל חוקית",
   "vaccineform.pincode": "יש ליצור מספר PIN באורך ארבע ספרות. יישלח לך קישור להזנת מספר ה-PIN ולגישה אל תיעוד החיסון הדיגיטלי שלך. *",

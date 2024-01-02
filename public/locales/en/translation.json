@@ -30,7 +30,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Date of Birth field cannot be blank",
   "vaccineform.phoneemailinfo": "Provide a mobile phone or email that may be associated with your vaccine record. If you do not get a match using your mobile phone, try again using your email address.",
   "vaccineform.Phone": "Mobile Phone",
-  "vaccineform.phoneErrorMsg1": "Please enter Mobile Phone in valid format ",
+  "vaccineform.phoneErrorMsg1": "Please enter a valid 10-digit mobile phone number",
   "vaccineform.Email": "Email",
   "vaccineform.emailErrorMsg1": "Enter a valid email address ",
   "vaccineform.pincode": "Create a 4-digit PIN number. You'll receive a link to enter the PIN number and access your digital vaccine record. *",

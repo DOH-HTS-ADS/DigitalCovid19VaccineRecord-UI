@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Sehemu ya Tarehe ya Kuzaliwa haiwezi kuwa tupu",
   "vaccineform.phoneemailinfo": "Toa nambari ya simu au barua pepe inayoweza kuhusishwa na rekodi yako ya chanjo. Usipopata mlingano kwa kutumia nambari yako ya simu, jaribu tena kwa kutumia anwani ya barua pepe.",
   "vaccineform.Phone": "Simu ya Mkononi",
-  "vaccineform.phoneErrorMsg1": "Tafadhali andika Nambari ya Simu katika muundo sahihi",
+  "vaccineform.phoneErrorMsg1": "Tafadhali weka nambari ya simu ya mkononi yenye dijiti 10",
   "vaccineform.Email": "Barua pepe",
   "vaccineform.emailErrorMsg1": "Andika anwani ya barua pepe sahihi",
   "vaccineform.pincode": "Unda nambari ya PIN yenye tarakimu 4. Utapokea kiungo cha kuingizia nambari ya PIN na kufikia rekodi yako ya kidijitali ya chanjo. *",

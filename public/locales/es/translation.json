@@ -29,7 +29,7 @@
   "vaccineform.dateofbirthErrorMsg4": "El campo de la fecha de nacimiento no puede estar vacío.",
   "vaccineform.phoneemailinfo": "Proporcione un número de teléfono celular o una dirección de correo electrónico que puedan estar asociados con el registro de vacunación. Si no obtiene resultados con el número de teléfono celular, inténtelo con la dirección de correo electrónico.",
   "vaccineform.Phone": "Número de teléfono celular",
-  "vaccineform.phoneErrorMsg1": "Introduzca el número de celular en un formato válido.",
+  "vaccineform.phoneErrorMsg1": "Por favor, ingrese un número de teléfono móvil válido de 10 dígitos",
   "vaccineform.Email": "Dirección de correo electrónico",
   "vaccineform.emailErrorMsg1": "Introduzca una dirección de correo electrónico válida.",
   "vaccineform.pincode": "Cree un número de identificación personal (PIN) de 4 dígitos. Recibirá un enlace para ingresar el PIN y acceder a su registro digital de vacunación.*",

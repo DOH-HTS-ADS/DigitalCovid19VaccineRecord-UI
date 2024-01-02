@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "La data de naixement no es pot deixar en blanc",
   "vaccineform.phoneemailinfo": "Faciliteu un número de mòbil o un correu electrònic que pugui estar associat amb el vostre historial de vacunació. Si no obteniu resultats amb el número de mòbil, torneu-ho a provar amb l’adreça de correu electrònic.",
   "vaccineform.Phone": "Telèfon mòbil",
-  "vaccineform.phoneErrorMsg1": "Introduïu el telèfon mòbil en un format vàlid",
+  "vaccineform.phoneErrorMsg1": "Si us plau, introduïu un número de telèfon mòbil vàlid de 10 dígits",
   "vaccineform.Email": "Correu electrònic",
   "vaccineform.emailErrorMsg1": "Introduïu una adreça de correu electrònica vàlida",
   "vaccineform.pincode": "Creeu un codi PIN de 4 dígits. Rebreu un enllaç per introduir el codi PIN i accedir al vostre historial de vacunació digital.*",

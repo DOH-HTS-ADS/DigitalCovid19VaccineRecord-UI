@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Il campo Data di nascita non deve essere vuoto",
   "vaccineform.phoneemailinfo": "Fornisci un numero di cellulare o un indirizzo e-mail che possa essere associato al tuo documento di vaccinazione. Se non ottieni una corrispondenza con il numero di cellulare, riprova utilizzando l’indirizzo e-mail.",
   "vaccineform.Phone": "N. di cellulare",
-  "vaccineform.phoneErrorMsg1": "Immetti il numero di cellulare utilizzando un formato valido",
+  "vaccineform.phoneErrorMsg1": "Si prega di inserire un numero di telefono cellulare valido di 10 cifre",
   "vaccineform.Email": "E-mail",
   "vaccineform.emailErrorMsg1": "Immetti un indirizzo email valido",
   "vaccineform.pincode": "Crea un codice PIN a 4 cifre. Riceverai un link per immettere il codice PIN e accedere al tuo documento di vaccinazione digitale. *",
