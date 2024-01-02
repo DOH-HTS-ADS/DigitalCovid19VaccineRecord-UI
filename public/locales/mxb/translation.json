@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Kánuu ja tee ní kivi ja ni kaku ní",
   "vaccineform.phoneemailinfo": "Tee ní número yokaa ní axi in correo electrónico ja yita’an jín tu’un siki vacuna ní. Tú nduu kani ta’an jín número yokaa ní, chi’in tuku ni jín correo electrónico ní.",
   "vaccineform.Phone": "Número yokaa ní",
-  "vaccineform.phoneErrorMsg1": "Tee va'a ní número yokaa ní tanu jikan",
+  "vaccineform.phoneErrorMsg1": "Chi’in ní número yokaa ja neva’a 10 número",
   "vaccineform.Email": "Correo electrónico ní",
   "vaccineform.emailErrorMsg1": "Tee va'a ní correo electrónico ní",
   "vaccineform.pincode": "Kaji ní in PIN ja ndiso 4 número. Kenda in enlacenuuní nuu kuu chi’in ní número PIN de sukua kuu kuni ní tutu ja ndíso tu’un siki vacuna ní nuu in laa ndichí. *",

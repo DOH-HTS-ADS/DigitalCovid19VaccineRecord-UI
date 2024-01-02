@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Trường Ngày Sinh không được để trống",
   "vaccineform.phoneemailinfo": "Cung cấp số điện thoại di động hoặc email có thể được liên kết với hồ sơ vắc-xin của bạn. Nếu bạn không có thông tin khớp khi sử dụng số điện thoại di động của mình, hãy thử lại bằng địa chỉ email của bạn.",
   "vaccineform.Phone": "Điện thoại di động",
-  "vaccineform.phoneErrorMsg1": "Vui lòng nhập Số Điện Thoại Di Động ở định dạng hợp lệ",
+  "vaccineform.phoneErrorMsg1": "Vui lòng nhập số điện thoại di động hợp lệ gồm 10 chữ số",
   "vaccineform.Email": "Email",
   "vaccineform.emailErrorMsg1": "Nhập địa chỉ email hợp lệ",
   "vaccineform.pincode": "Tạo số PIN 4 số. Bạn sẽ nhận được một đường liên kết để nhập số Pin và truy cập vào hồ sơ vắc-xin kỹ thuật số của mình. *",

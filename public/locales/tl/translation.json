@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Hindi maaaring blangko ang Petsa ng Kapanganakan",
   "vaccineform.phoneemailinfo": "Magbigay ng mobile na telepono o email na maaaring nauugnay sa iyong talaan ng bakuna. Kung wala kang makukuhang tugma sa iyong mobile na telepono, subukan ulit gamit ang iyong email address.",
   "vaccineform.Phone": "Mobile na Telepono",
-  "vaccineform.phoneErrorMsg1": "Pakilagay ang Mobile Phone sa wastong format",
+  "vaccineform.phoneErrorMsg1": "Maglagay ng valid na numero ng mobile phone na may 10 digit",
   "vaccineform.Email": "Email",
   "vaccineform.emailErrorMsg1": "Maglagay ng wastong email address",
   "vaccineform.pincode": "Gumawa ng numero ng PIN na may 4 na digit. Makakatanggap ka ng link para ilagay ang numero ng PIN at i-access ang iyong digital na talaan ng bakuna. *",

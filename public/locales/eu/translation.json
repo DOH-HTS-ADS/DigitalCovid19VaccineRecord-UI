@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Jaiotze-data ezin da hutsik utzi",
   "vaccineform.phoneemailinfo": "Idatzi telefono zenbaki bat edo helbide elektroniko bat zure txertaketa-agiriarekin lotuta egoteko. Ezin baduzu lortu zure telefonoarekin, saiatu zure helbide elektronikoarekin.",
   "vaccineform.Phone": "Telefono mugikorra",
-  "vaccineform.phoneErrorMsg1": "Idatzi zure telefono zenbakia formatu aproposean",
+  "vaccineform.phoneErrorMsg1": "Sartu baliozko 10 digituko telefono mugikor baten zenbakia",
   "vaccineform.Email": "Helbide elektronikoa",
   "vaccineform.emailErrorMsg1": "Idatzi helbide elektroniko baliodun bat",
   "vaccineform.pincode": "Sortu 4 digituzko PIN zenbakia. Esteka bat jasoko duzu PIN zenbakia sartzeko eta zure txertaketa-agiri digitala atzitu ahal izateko. *",

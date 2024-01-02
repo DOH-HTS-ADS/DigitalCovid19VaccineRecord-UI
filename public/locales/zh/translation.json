@@ -30,7 +30,7 @@
   "vaccineform.dateofbirthErrorMsg4": "出生日期字段不能为空",
   "vaccineform.phoneemailinfo": "请提供可能与您的疫苗记录相关联的手机号码或电子邮件。如果使用您的手机号码无法找到匹配记录，请使用您的电子邮件地址重试。",
   "vaccineform.Phone": "手机号码",
-  "vaccineform.phoneErrorMsg1": "请输入有效格式的手机号码",
+  "vaccineform.phoneErrorMsg1": "请输入有效的 10 位手机号码",
   "vaccineform.Email": "电子邮件",
   "vaccineform.emailErrorMsg1": "请输入有效的电子邮件地址",
   "vaccineform.pincode": "创建一个 4 位数的 PIN 码。您将收到一个链接，用于输入 PIN 码并访问您的数字疫苗记录。*",

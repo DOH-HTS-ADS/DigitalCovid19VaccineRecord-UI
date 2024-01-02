@@ -30,7 +30,7 @@
   "vaccineform.dateofbirthErrorMsg4": "የልደት ቀን ቦታ ባዶ መሆን አይችልም",
   "vaccineform.phoneemailinfo": "ከክትባት መዝገብዎ ጋር ሊያያዝ የሚችል ተንቀሳቃሽ ስልክ ወይም ኢሜይል ያቅርቡ። የሞባይል ስልክዎን በመጠቀም ግጣም ካላገኙ የኢሜል አድራሻዎን በመጠቀም እንደገና ይሞክሩ።",
   "vaccineform.Phone": "ተንቀሳቃሽ ስልክ",
-  "vaccineform.phoneErrorMsg1": "እባክዎ የሞባይል ስልክ ቁጥር በትክክለኛ ቅርጸት ያስገቡ",
+  "vaccineform.phoneErrorMsg1": "እባክዎ ትክክለኛ ባለ 10-አሃዝ የሞባይል ስልክ ቁጥር ያስገቡ",
   "vaccineform.Email": "ኢሜይል",
   "vaccineform.emailErrorMsg1": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ",
   "vaccineform.pincode": "ባለ 4-አሃዝ የ PIN ቁጥር ይፍጠሩ። የ PIN ቁጥሩን ለማስገባት እና የእርስዎን ዲጂታል የክትባት መዝገብ የሚያገኙበት አገናኝ ይደርስዎታል።",

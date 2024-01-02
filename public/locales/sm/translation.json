@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "E le tatau ona fa'aavanoaina le Aso Fanau",
   "vaccineform.phoneemailinfo": "Tuuina mai se telefoni fe’avea’i po’o se imeli e ono fesoota’i ma lou faamaumauga o tui puipui. Afai e le maua se faamaumauga tutusa i le numera o lau telefoni fe’aveai, toe taumafai e faaoga le tuatusi imeli.",
   "vaccineform.Phone": "Telefoni fe’avea’i",
-  "vaccineform.phoneErrorMsg1": "Fa'amolemole tusi le Numera o le Telefoni Feavea'i i lona fa'atulagana sa'o",
+  "vaccineform.phoneErrorMsg1": "Fa'amolemole tuu i totonu numera sa'o e 10 o le telefoni",
   "vaccineform.Email": "Imeli",
   "vaccineform.emailErrorMsg1": "Tusi se imeli sa'o",
   "vaccineform.pincode": "Ia faia se numera faalilolilo poo se PIN e 4 numera. O le a mauaina lau sootaga e faaaoga i ai le numera PIN ma maua ai faamaumauga o tui puipui. *",

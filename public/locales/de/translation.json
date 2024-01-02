@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Das Feld für das Geburtsdatum muss ausgefüllt werden.",
   "vaccineform.phoneemailinfo": "Geben Sie bitte eine Handynummer oder eine E-Mail-Adresse an, die Ihrem Impfpass zugeordnet werden kann. Wenn Sie anhand Ihrer Handynummer keinen Treffer bekommen, versuchen Sie es erneut mit Ihrer E-Mail-Adresse.",
   "vaccineform.Phone": "Handy",
-  "vaccineform.phoneErrorMsg1": "Geben Sie bitte die Handynummer in einem gültigen Format ein.",
+  "vaccineform.phoneErrorMsg1": "Geben Sie bitte eine gültige 10-stellige Mobiltelefonnummer ein.",
   "vaccineform.Email": "E-Mail",
   "vaccineform.emailErrorMsg1": "Geben Sie eine gültige E-Mail-Adresse ein.",
   "vaccineform.pincode": "Erstellen Sie eine 4stellige PIN-Nummer. Sie erhalten einen Link, um die PIN-Nummer einzugeben und auf Ihren digitalen Impfpass zuzugreifen. *",

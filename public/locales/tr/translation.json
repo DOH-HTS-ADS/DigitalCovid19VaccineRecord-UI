@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Doğum Tarihi alanı boş bırakılamaz",
   "vaccineform.phoneemailinfo": "Aşı kaydınızla ilişkilendirilebilecek bir cep telefonu veya e-posta verin. Cep telefonunuzu kullanarak bir eşleşme bulamazsanız e-posta adresinizi kullanarak tekrar deneyin.",
   "vaccineform.Phone": "Cep Telefonu",
-  "vaccineform.phoneErrorMsg1": "Lütfen Cep Telefonu numarasını doğru biçimde girin",
+  "vaccineform.phoneErrorMsg1": "Lütfen 10 haneli geçerli bir cep telefonu numarası girin",
   "vaccineform.Email": "E-posta",
   "vaccineform.emailErrorMsg1": "Geçerli bir e-posta adresi girin",
   "vaccineform.pincode": "4 haneli bir PIN kodu oluşturun PIN kodunu girmek ve dijital aşı kaydınıza erişmek için bir bağlantı alacaksınız. *",

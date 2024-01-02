@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Kem Hnub yug yuav tsum sau rau",
   "vaccineform.phoneemailinfo": "Muab tus xov tooj ntawm tes los sis tus email uas tej zaum tau cuam tshuam nrog rau koj li ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob. Yog tias koj tsis tau txais qhov zoo sib thooj uas siv koj tus xov tooj ntawm tes, sim dua ib zaug ntxiv uas siv koj tus email.",
   "vaccineform.Phone": "Xov Tooj Ntawm Tes",
-  "vaccineform.phoneErrorMsg1": "Sau tus npawb Xov Tooj Ntawm Tes kom raug raws tus qauv",
+  "vaccineform.phoneErrorMsg1": "Thov sau tus naj npawb xov tooj uas muaj 10 tus leb",
   "vaccineform.Email": "Email",
   "vaccineform.emailErrorMsg1": "Ntaus tus Email kom raug",
   "vaccineform.pincode": "Tsim tus zauv cim PIN 4-tus zauv. Koj yuav tau txais txoj kab txuas nkag mus txhawm rau ntaus nkag tus zauv cim PIN thiab nkag mus rau koj li ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob ua dis cis tauj. *",

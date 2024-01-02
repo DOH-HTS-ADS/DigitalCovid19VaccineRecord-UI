@@ -27,7 +27,7 @@
   "vaccineform.dateofbirthErrorMsg4": "Guyyaan dhalootaa duwwaa ta'uu hin danda'u",
   "vaccineform.phoneemailinfo": "Lakkoofsa bilbilaa yookin imeelii ragaa talaallii keessanii wajjin wal qabatu barreessaa. Bilbila fayyadamuun yoo wal isiniif simuu dide, imeelii fayyadamuun irra deebin yaalaa.",
   "vaccineform.Phone": "Lakkoofsa bilbilaa",
-  "vaccineform.phoneErrorMsg1": "Maaloo Lakkoofsa bilbilaa bifa sirriin galchi",
+  "vaccineform.phoneErrorMsg1": "Maaloo lakkoofsa bilbilaa sirrii dijiitii 10 qabu galchaa",
   "vaccineform.Email": "Imeelii",
   "vaccineform.emailErrorMsg1": "Iimeela sirrii galchi",
   "vaccineform.pincode": "Lakkoofsa PIN abbaa dijiitii 4 uumaa. Lakkoofsa PIN fi ragaa talaallii kan dijitaalaa galchuuf liinkin isiniif dhufa. *",
