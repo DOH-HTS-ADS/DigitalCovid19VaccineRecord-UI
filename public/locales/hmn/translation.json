@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Xov Tooj Ntawm Tes",
   "vaccineform.phoneErrorMsg1": "Thov sau tus naj npawb xov tooj uas muaj 10 tus leb",
   "vaccineform.Email": "Email",
-  "vaccineform.emailErrorMsg1": "Ntaus tus Email kom raug",
+  "vaccineform.emailErrorMsg1": "Thov sau qhov chaw nyob email kom raug hom. Qhov chaw nyob email muaj cov kab ntawv leb xyaw niam ntawv raws qab nrog rau tus cim @ thiab tom qab ntawd muaj lub dos mees ua leb xyaw niam ntawv uas muaj tus cim ib tee kem. Piv xwv li: joe.smith@domain.com",
   "vaccineform.pincode": "Tsim tus zauv cim PIN 4-tus zauv. Koj yuav tau txais txoj kab txuas nkag mus txhawm rau ntaus nkag tus zauv cim PIN thiab nkag mus rau koj li ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob ua dis cis tauj. *",
   "vaccineform.pinErrorMsg1": "Tus zauv cim PIN yuav tsum tsis muaj cov zauv sib law 4 tug",
   "vaccineform.pinErrorMsg2": "Tus zauv cim PIN yuav tsum tsis muaj cov zauv sib tshooj 4 tug",

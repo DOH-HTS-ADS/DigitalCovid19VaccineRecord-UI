@@ -29,7 +29,7 @@
   "vaccineform.Phone": "نمبر موبایل",
   "vaccineform.phoneErrorMsg1": "لطفا یک شماره تلیفون همراه 10 رقمی معتبر وارد کنید",
   "vaccineform.Email": "ایمیل",
-  "vaccineform.emailErrorMsg1": "یک آدرس ایمیل معتبر داخل کنید",
+  "vaccineform.emailErrorMsg1": "لطفاً یک آدرس ایمیل در فارمت درست داخل کنید. آدرس ایمیل باید شامل یک عبارت الفبایی باشد که با علامت @ و به دنبال آن یک دامنه الفبایی جدا شده با نقطه همراه باشد. بطور مثال: joe.smith@domain.com",
   "vaccineform.pincode": "یک PIN نمبر 4-رقمی بسازید. شما لینکی برای وارد کردن PIN نمبر و دسترسی به سابقه دیجیتل واکسین خود دریافت خواهید کرد. *",
   "vaccineform.pinErrorMsg1": "PIN نمی تواند شامل 4 عدد متوالی باشد",
   "vaccineform.pinErrorMsg2": "PIN نمی تواند 4 عدد تکراری باشد",

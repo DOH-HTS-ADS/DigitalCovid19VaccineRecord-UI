@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Número yokaa ní",
   "vaccineform.phoneErrorMsg1": "Chi’in ní número yokaa ja neva’a 10 número",
   "vaccineform.Email": "Correo electrónico ní",
-  "vaccineform.emailErrorMsg1": "Tee va'a ní correo electrónico ní",
+  "vaccineform.emailErrorMsg1": "Tee ní in correo electrónico ja iyo va'a. Kánuu ja correo electrónico ní kuneva'a letra ji número ñukua de tee ní simbolo @ ñukua de tee ka ní letra axi número tanu kuu ja nde'e ya'a: joe.smith@domain.com",
   "vaccineform.pincode": "Kaji ní in PIN ja ndiso 4 número. Kenda in enlacenuuní nuu kuu chi’in ní número PIN de sukua kuu kuni ní tutu ja ndíso tu’un siki vacuna ní nuu in laa ndichí. *",
   "vaccineform.pinErrorMsg1": "Nuu número PIN ma kuu ja kundiso ji 4 número consecutivo",
   "vaccineform.pinErrorMsg2": "Nuu número PIN ma kuu ja kundee uu jichi in número nuu ndi 4",

@@ -1119,7 +1119,9 @@ const CovidCard = () => {
                     e.target.value.replace(/[^0-9]/g, "").length < 10 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false });
                   }}
                 />
-                {error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true" ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.phoneErrorMsg1">Please enter Mobile Phone in valid format</Trans></label> : ''}
+                {error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true" ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">
+                  <Trans i18nKey="vaccineform.phoneErrorMsg1">Please enter a valid 10-digit mobile phone number</Trans>
+                </label> : ''}
               </FormControl>
             ) : (
               <FormControl className={"col-12"}>
@@ -1158,7 +1160,9 @@ const CovidCard = () => {
                   handleEmailLabelChange(e.target.value.length > 0 ? true : false);
                 }}
               />
-              {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.emailErrorMsg1">Enter a valid email address</Trans></label> : ''}
+              {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">
+                  <Trans i18nKey="vaccineform.emailErrorMsg1">Please enter email address in valid format. Email address must contain an alphanumeric phrase followed by the @, followed by an alphanumeric dot-separated domain. For example: joesmith@domain.com.</Trans>
+                </label> : ''}
               </FormControl>
             )}
             <FormLabel component="label" style={{ color: error.Pin ? '#b30000' : 'dimgrey', marginTop: "50px" }}>

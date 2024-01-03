@@ -29,7 +29,7 @@
   "vaccineform.Phone": "携帯電話番号",
   "vaccineform.phoneErrorMsg1": "10桁の有効な携帯電話番号を入力してください",
   "vaccineform.Email": "電子メール",
-  "vaccineform.emailErrorMsg1": "有効な電子メールアドレスを入力してください",
+  "vaccineform.emailErrorMsg1": "有効な形式のメールアドレスを入力してください。メールアドレスには、英数字のフレーズの後に@記号、その後に英数字のドット区切りのドメインが続く必要があります。例：joe.smith@domain.com",
   "vaccineform.pincode": "4桁のPIN番号を作成します。後ほどPIN番号を入力するためのリンクが届きます。PIN番号を入力すると、ワクチン接種電子記録を利用できます。*",
   "vaccineform.pinErrorMsg1": "PINでは4つの連続する番号は使用できません",
   "vaccineform.pinErrorMsg2": "PINでは4つの同じ番号は使用できません",

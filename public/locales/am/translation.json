@@ -32,7 +32,7 @@
   "vaccineform.Phone": "ተንቀሳቃሽ ስልክ",
   "vaccineform.phoneErrorMsg1": "እባክዎ ትክክለኛ ባለ 10-አሃዝ የሞባይል ስልክ ቁጥር ያስገቡ",
   "vaccineform.Email": "ኢሜይል",
-  "vaccineform.emailErrorMsg1": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ",
+  "vaccineform.emailErrorMsg1": "እባክዎ በትክክለኛ ቅርጸት የኢሜይል አድራሻ ያስገቡ። የኢሜል አድራሻ ፊደላት ቁጥር ያለው ሀረግ በመቀጠል የ @ ምልክት እና በመቀጠል በነጥብ በተለየ ጎራ ፊደላት ቁጥር መያዝ አለበት። ለምሳሌ፦ joe.smith@domain.com",
   "vaccineform.pincode": "ባለ 4-አሃዝ የ PIN ቁጥር ይፍጠሩ። የ PIN ቁጥሩን ለማስገባት እና የእርስዎን ዲጂታል የክትባት መዝገብ የሚያገኙበት አገናኝ ይደርስዎታል።",
   "vaccineform.pinErrorMsg1": "PIN 4 ተከታታይ ቁጥሮችን መያዝ አይችልም።",
   "vaccineform.pinErrorMsg2": "PIN 4 ተደጋጋሚ ቁጥሮችን መያዝ አይችልም።",
