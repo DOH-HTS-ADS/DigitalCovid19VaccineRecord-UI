@@ -29,7 +29,7 @@
   "vaccineform.Phone": "ቁጽሪ ሞባይል",
   "vaccineform.phoneErrorMsg1": "ብኽብረትካ ብቑዕ ናይ 10-ኣሃዝ ቁጽሪ ተንቀሳቓሲት ተሌፎን ኣእቱ",
   "vaccineform.Email": "ኢመይል",
-  "vaccineform.emailErrorMsg1": "እቲ ልክዕ ናይ ኢመይል ኣድራሻ ይምል",
+  "vaccineform.emailErrorMsg1": "ብኽብረትኩም ብብቑዕ መልክዕ ኣድራሻ ኢመይል ኣእትዉ። ኣድራሻ ኢመይል ንፊደለ-ኣሃዛዊ ሓረግ ስዒቡ @ ዝብል ምልክት ዝሓዘ ኾይኑ ብድሕሪኡ ስዒቡ ድማ ፊደለ-ኣሃዛዊ ብምልክት ንቚጣ ዝተፈልየ ዶመይን ክህልዎ ኣለዎ። ንኣብነት፥ joe.smith@domain.com",
   "vaccineform.pincode": "4-ብዝሒ ቁጽሪ/ዲጂት ዘለዎ ናይ ፒን ቁጽሪ ግበሩ። ነቲ ቁጽሪ ናይ ፒን ንምእታውን ናትኩም ዲጂታላዊ ናይ ክታበት መዝገብ ንምርካብ ሊንክ ክትውሃቡ ኢኹም።*",
   "vaccineform.pinErrorMsg1": "ፒን ድማ ኣርባዕተ ተኸታተልቲ ቁጽርታት ክሕዝ ኣይክእልን እዩ",
   "vaccineform.pinErrorMsg2": "ፒን ድማ ኣርባዕተ ተመሳሰልቲ ቁጽርታት ክሕዝ ኣይክእልን እዩ",

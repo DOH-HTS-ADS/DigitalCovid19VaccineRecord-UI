@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Lambarka Taleefoonka Gacanta",
   "vaccineform.phoneErrorMsg1": "Fadlan geli lambarka taleefanka gacanta oo 10 lambar ah oo sax ah",
   "vaccineform.Email": "Iimeelka",
-  "vaccineform.emailErrorMsg1": "Geli ciwaan iimayl oo sax ah",
+  "vaccineform.emailErrorMsg1": "Fadlan qaab sax ah u geli ciwaanka iimaylka. Ciwaanka iimaylka waa inuu leeyahay lambar iyo xaraf oo ay wehliso caalamada @ iyo sidoo kale caalamada dhibicda ah ee dhoomeynka iyo xarafyada kala jarta. Tusaale ahaan: joe.smith@domain.com",
   "vaccineform.pincode": "Samee Lambar Sireedka Aqoonsiga Shakhsiga oo 4-jiifar/god ah. Waxaad heli doontaa lifaaq aad geliso Lambar Sireedka Aqoonsiga Shakhsiga oo ka gal diiwaankaaga tallaalka dhijitaalka ah. *",
   "vaccineform.pinErrorMsg1": "Lambar Sireedka Aqoonsiga Shakhsiga kama koobnaan karo 4 lambar oo isku xiga",
   "vaccineform.pinErrorMsg2": "Lambar Sireedka Aqoonsiga Shakhsiga kama koobnaan karo 4 lambar oo isku mid ah",

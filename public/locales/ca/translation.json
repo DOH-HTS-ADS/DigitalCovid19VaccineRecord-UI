@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Telèfon mòbil",
   "vaccineform.phoneErrorMsg1": "Si us plau, introduïu un número de telèfon mòbil vàlid de 10 dígits",
   "vaccineform.Email": "Correu electrònic",
-  "vaccineform.emailErrorMsg1": "Introduïu una adreça de correu electrònica vàlida",
+  "vaccineform.emailErrorMsg1": "Introduïu una adreça de correu electrònic en un format vàlid. L'adreça electrònica ha de contenir un text alfanumèric seguit del símbol @ i seguit d'un domini alfanumèric separat per un punt. Per exemple: joe.smith@domini.com",
   "vaccineform.pincode": "Creeu un codi PIN de 4 dígits. Rebreu un enllaç per introduir el codi PIN i accedir al vostre historial de vacunació digital.*",
   "vaccineform.pinErrorMsg1": "El PIN no pot contenir 4 números consecutius",
   "vaccineform.pinErrorMsg2": "El PIN no pot contenir 4 números repetits",

@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Telefoni fe’avea’i",
   "vaccineform.phoneErrorMsg1": "Fa'amolemole tuu i totonu numera sa'o e 10 o le telefoni",
   "vaccineform.Email": "Imeli",
-  "vaccineform.emailErrorMsg1": "Tusi se imeli sa'o",
+  "vaccineform.emailErrorMsg1": "Fa'amolemole tusi i lalo lau imeli sa'o. O le imeli e tatau ona iai se mata'itusi ma se fuainumera e mulimuli mai le fa'ailoga @ ona sosoo lea ma le piriota e vaveese ai mai le vaega pito i luma. Mo le fa'ata'ita'iga: joe.smith@domain.com",
   "vaccineform.pincode": "Ia faia se numera faalilolilo poo se PIN e 4 numera. O le a mauaina lau sootaga e faaaoga i ai le numera PIN ma maua ai faamaumauga o tui puipui. *",
   "vaccineform.pinErrorMsg1": "E le mafai ona faaogaina ni numera sosoo se 4 mo le PIN",
   "vaccineform.pinErrorMsg2": "E le mafai ona faaogaina le numera e tasi faafa mo le PIN",

@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Cep Telefonu",
   "vaccineform.phoneErrorMsg1": "Lütfen 10 haneli geçerli bir cep telefonu numarası girin",
   "vaccineform.Email": "E-posta",
-  "vaccineform.emailErrorMsg1": "Geçerli bir e-posta adresi girin",
+  "vaccineform.emailErrorMsg1": "Lütfen geçerli bir formatta bir e-posta adresi giriniz. E-posta adresi, @ simgesinin takip ettiği alfanumerik bir ifade ve ardından alfanumerik bir noktayla ayrılmış alan adı içermelidir. Örneğin: joe.smith@domain.com",
   "vaccineform.pincode": "4 haneli bir PIN kodu oluşturun PIN kodunu girmek ve dijital aşı kaydınıza erişmek için bir bağlantı alacaksınız. *",
   "vaccineform.pinErrorMsg1": "PIN kodu ardışık 4 rakamı içeremez",
   "vaccineform.pinErrorMsg2": "PIN kodu aynı 4 rakamı içeremez",

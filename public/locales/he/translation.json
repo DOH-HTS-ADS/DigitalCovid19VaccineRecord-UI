@@ -29,7 +29,7 @@
   "vaccineform.Phone": "טלפון נייד",
   "vaccineform.phoneErrorMsg1": "אנא הקש מספר נייד תקף בן 10 ספרות",
   "vaccineform.Email": "דוא\"ל",
-  "vaccineform.emailErrorMsg1": "נא להזין כתובת דוא\"ל חוקית",
+  "vaccineform.emailErrorMsg1": "נא להזין כתובת דוא\"ל בפורמט חוקי. על כתובת דוא\"ל להיות מורכבת מביטוי שמכיל אותיות וספרות ואחריו הסמל @ ואחריו דומיין המופרד בנקודה שהינו ביטוי המורכב מאותיות וספרות.לדוגמה: joe.smith@domain.com",
   "vaccineform.pincode": "יש ליצור מספר PIN באורך ארבע ספרות. יישלח לך קישור להזנת מספר ה-PIN ולגישה אל תיעוד החיסון הדיגיטלי שלך. *",
   "vaccineform.pinErrorMsg1": "מספר PIN לא יכול להכיל רצף של ארבעה ספרות עוקבות",
   "vaccineform.pinErrorMsg2": "מספר PIN לא יכול להכיל ארבע ספרות זהות",
