@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Điện thoại di động",
   "vaccineform.phoneErrorMsg1": "Vui lòng nhập số điện thoại di động hợp lệ gồm 10 chữ số",
   "vaccineform.Email": "Email",
-  "vaccineform.emailErrorMsg1": "Vui lòng nhập địa chỉ email ở định dạng hợp lệ. Địa chỉ email phải có cụm từ chữ số theo sau ký hiệu @ và miền chữ số được phân cách bằng dấu chấm. Ví dụ: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Vui lòng nhập địa chỉ email ở định dạng hợp lệ. Địa chỉ email phải có cụm từ chữ số theo sau ký hiệu @ và miền chữ số được phân cách bằng dấu chấm. Ví dụ: username@example.com",
   "vaccineform.pincode": "Tạo số PIN 4 số. Bạn sẽ nhận được một đường liên kết để nhập số Pin và truy cập vào hồ sơ vắc-xin kỹ thuật số của mình. *",
   "vaccineform.pinErrorMsg1": "Số PIN không được có 4 số liên tiếp",
   "vaccineform.pinErrorMsg2": "Số PIN không được có 4 số trùng nhau",

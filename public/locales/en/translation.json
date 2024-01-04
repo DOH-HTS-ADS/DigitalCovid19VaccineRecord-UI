@@ -32,7 +32,7 @@
   "vaccineform.Phone": "Mobile Phone",
   "vaccineform.phoneErrorMsg1": "Please enter a valid 10-digit mobile phone number",
   "vaccineform.Email": "Email",
-  "vaccineform.emailErrorMsg1": "Please enter email address in valid format. Email address must contain an alphanumeric phrase followed by the @, followed by an alphanumeric dot-separated domain. For example: joesmith@domain.com.",
+  "vaccineform.emailErrorMsg1": "Please enter email address in valid format. Email address must contain an alphanumeric phrase followed by the @, followed by an alphanumeric dot-separated domain. For example: username@example.com.",
   "vaccineform.pincode": "Create a 4-digit PIN number. You'll receive a link to enter the PIN number and access your digital vaccine record. *",
   "vaccineform.pinErrorMsg1": "PIN cannot contain 4 consecutive numbers",
   "vaccineform.pinErrorMsg2": "PIN cannot contain 4 duplicate numbers",

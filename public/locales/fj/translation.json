@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Naba ni Talevoni",
   "vaccineform.phoneErrorMsg1": "Yalovinaka mo vakalewena e 10 na naba ni talevoni donu",
   "vaccineform.Email": "iMeli",
-  "vaccineform.emailErrorMsg1": "Yalovinaka mo vola na imeli ena kena ivakarau dodonu. Na imeli me tiko kina na matanivola vakafika vaka kina na ivakatakilakila na @ tomani ena kena matanivola vakafika kei na dua na kena digo qai mai vakacavari ena domain. Kena ivakaraitaki qo: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Yalovinaka mo vola na imeli ena kena ivakarau dodonu. Na imeli me tiko kina na matanivola vakafika vaka kina na ivakatakilakila na @ tomani ena kena matanivola vakafika kei na dua na kena digo qai mai vakacavari ena domain. Kena ivakaraitaki qo: username@example.com",
   "vaccineform.pincode": "Tabaka e 4 na naba ni PIN. Ena vakau yani e dua na isema mo vola kina na naba ni PIN qai raica na ilavelave vakalivaliva ni ivolatukutuku ni cula. *",
   "vaccineform.pinErrorMsg1": "E sega ni rawa ni o vakayagataka e 4 na naba veitaravi ena PIN",
   "vaccineform.pinErrorMsg2": "E sega ni rawa ni o vakayagataka e rua na naba tautauvata ena 4 na naba ni PIN",

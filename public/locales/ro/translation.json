@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Telefon mobil",
   "vaccineform.phoneErrorMsg1": "Introduceți un număr de telefon valid din 10 cifre.",
   "vaccineform.Email": "E-mail",
-  "vaccineform.emailErrorMsg1": "Introduceți adresa de e-mail într-un format valid. Adresa de e-mail trebuie să includă o expresie alfanumerică urmată de simbolul @ și de numele alfanumeric al unui domeniu, separat prin punct. De exemplu: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Introduceți adresa de e-mail într-un format valid. Adresa de e-mail trebuie să includă o expresie alfanumerică urmată de simbolul @ și de numele alfanumeric al unui domeniu, separat prin punct. De exemplu: username@example.com",
   "vaccineform.pincode": "Creați un cod PIN din 4 cifre. Veți primi un link unde va trebui să introduceți codul PIN pentru a accesa fișa de vaccinare în format digital.*",
   "vaccineform.pinErrorMsg1": "Codul PIN nu poate să conțină 4 cifre consecutive.",
   "vaccineform.pinErrorMsg2": "Codul PIN nu poate să conțină 4 cifre identifice.",

@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Fika Telefoni To’oto’o",
   "vaccineform.phoneErrorMsg1": "Kātaki ʻo fakahū ha mataʻifika telefoni toʻotoʻo ʻe 10 'oku tonú",
   "vaccineform.Email": "‘Imeili",
-  "vaccineform.emailErrorMsg1": "Kātaki ʻo fakahū ha tuʻasila ʻīmeili ʻi ha sīpinga ʻoku tonú. Kuo pau ke kau ʻi he tuʻasila ʻīmeilí ha konga lea mataʻitohi mo e fika hoko ki ai ʻa e fakaʻilonga @ pea hoko ki ai ha tōmeini mataʻitohi mo e fika ʻoku fakamavahe ʻaki ʻa e foʻi piliote. Fakatātā: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Kātaki ʻo fakahū ha tuʻasila ʻīmeili ʻi ha sīpinga ʻoku tonú. Kuo pau ke kau ʻi he tuʻasila ʻīmeilí ha konga lea mataʻitohi mo e fika hoko ki ai ʻa e fakaʻilonga @ pea hoko ki ai ha tōmeini mataʻitohi mo e fika ʻoku fakamavahe ʻaki ʻa e foʻi piliote. Fakatātā: username@example.com",
   "vaccineform.pincode": "Fa’u ha’o fo’i fika ‘e 4 fakapulipuli (PIN number). Te ke ma’u ha link ke fakahū ho’o fika PIN ke ma’u atu ai ho’o lēkooti huhu malu’í. *",
   "vaccineform.pinErrorMsg1": "He’ikai lava ke mata’ifika tatau kotoa ’e 4 ho’o PIN",
   "vaccineform.pinErrorMsg2": "He’ikai lava ke ‘i ai ha mata’ifika tatau ‘e 4 ‘i ho’o PIN",
