@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Yolb’il niy eqat ",
   "vaccineform.phoneErrorMsg1": "Tz'ib'inkuxa t-numero yolb'il te 10 tajlal",
   "vaccineform.Email": "Tajlal tu'n tz'ib'injtz toj internet",
-  "vaccineform.emailErrorMsg1": "Tzʼibʼinkuya aju tbʼeyil tqanil mo correo electrónico tojxix tumel. Tnejel, aju tbʼi correo ex jun letra @ ex te mankbʼil aju tbʼi dominio tukʼil takʼ mo punto. Jun techel lu ken: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Tzʼibʼinkuya aju tbʼeyil tqanil mo correo electrónico tojxix tumel. Tnejel, aju tbʼi correo ex jun letra @ ex te mankbʼil aju tbʼi dominio tukʼil takʼ mo punto. Jun techel lu ken: username@example.com",
   "vaccineform.pincode": "B’inchawa jun PIN te 4 tajlal. Tey k’okaltz ti’na jun enlace tu’ntza tku’x ttz’ib’ana ja PIN ex nokxttzunay toj jtey ttz’ib’b’al toj xk’utz’ib’ te qa ot tz’ok tb’aqay. *",
   "vaccineform.pinErrorMsg1": "Jtey t-PIN mixb’a’ ttiq’ 4 tajlal kxe’l ti’na ti ttxola",
   "vaccineform.pinErrorMsg2": "Jtey t-PIN mixb’a’ ttiq’ 4 tajlal k’a’ltz meltz’a junt maj",

@@ -29,7 +29,7 @@
   "vaccineform.Phone": "휴대전화",
   "vaccineform.phoneErrorMsg1": "유효한 10자리 휴대폰 번호를 입력하세요",
   "vaccineform.Email": "이메일",
-  "vaccineform.emailErrorMsg1": "올바른 형식의 이메일 주소를 입력하십시오. 이메일 주소는 영숫자 구문 뒤에 @ 기호가 뒤따르며 연이어 점으로 구분된 영숫자 도메인이 포함되어야 합니다. 예: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "올바른 형식의 이메일 주소를 입력하십시오. 이메일 주소는 영숫자 구문 뒤에 @ 기호가 뒤따르며 연이어 점으로 구분된 영숫자 도메인이 포함되어야 합니다. 예: username@example.com",
   "vaccineform.pincode": "4자리 PIN 번호를 생성하십시오. PIN 번호를 입력하면 디지털 백신 기록을 확인할 수 있는 링크를 받으시게 됩니다.*",
   "vaccineform.pinErrorMsg1": "PIN은 4개의 연속된 숫자를 포함할 수 없습니다.",
   "vaccineform.pinErrorMsg2": "PIN은 4개의 중복 숫자를 포함할 수 없습니다.",

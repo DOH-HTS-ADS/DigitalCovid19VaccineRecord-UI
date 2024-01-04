@@ -31,7 +31,7 @@
   "vaccineform.Phone": "Número de teléfono celular",
   "vaccineform.phoneErrorMsg1": "Por favor, ingrese un número de teléfono móvil válido de 10 dígitos",
   "vaccineform.Email": "Dirección de correo electrónico",
-  "vaccineform.emailErrorMsg1": "Ingrese una dirección de correo electrónico con formato válido. La dirección de correo electrónico debe contener una frase alfanumérica seguida del símbolo @ y, luego, un dominio alfanumérico separado con un punto. Por ejemplo: juan.perez@dominio.com",
+  "vaccineform.emailErrorMsg1": "Ingrese una dirección de correo electrónico con formato válido. La dirección de correo electrónico debe contener una frase alfanumérica seguida del símbolo @ y, luego, un dominio alfanumérico separado con un punto. Por ejemplo: username@example.com",
   "vaccineform.pincode": "Cree un número de identificación personal (PIN) de 4 dígitos. Recibirá un enlace para ingresar el PIN y acceder a su registro digital de vacunación.*",
   "vaccineform.pinErrorMsg1": "El PIN no puede contener 4 números consecutivos.",
   "vaccineform.pinErrorMsg2": "El PIN no puede contener 4 números duplicados.",

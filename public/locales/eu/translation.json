@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Telefono mugikorra",
   "vaccineform.phoneErrorMsg1": "Sartu baliozko 10 digituko telefono mugikor baten zenbakia",
   "vaccineform.Email": "Helbide elektronikoa",
-  "vaccineform.emailErrorMsg1": "Idatzi baliozko formatu batean helbide elektroniko bat. Helbide elektronikoak esaldi alfanumeriko bat izan behar du, ondoren @ ikurra, eta ondoren puntuekin bereizitako eremu alfanumeriko bat. Adibidez: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Idatzi baliozko formatu batean helbide elektroniko bat. Helbide elektronikoak esaldi alfanumeriko bat izan behar du, ondoren @ ikurra, eta ondoren puntuekin bereizitako eremu alfanumeriko bat. Adibidez: username@example.com",
   "vaccineform.pincode": "Sortu 4 digituzko PIN zenbakia. Esteka bat jasoko duzu PIN zenbakia sartzeko eta zure txertaketa-agiri digitala atzitu ahal izateko. *",
   "vaccineform.pinErrorMsg1": "PIN zenbakiak ezin ditu 4 zenbaki jarraian izan",
   "vaccineform.pinErrorMsg2": "PIN zenbakiak ezin ditu 4 zenbaki errepikatu izan",

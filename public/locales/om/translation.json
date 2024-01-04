@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Lakkoofsa bilbilaa",
   "vaccineform.phoneErrorMsg1": "Maaloo lakkoofsa bilbilaa sirrii dijiitii 10 qabu galchaa",
   "vaccineform.Email": "Imeelii",
-  "vaccineform.emailErrorMsg1": "Maaloo teessoo imeelii bifa sirrii ta'een galchaa. Teessoon imeelii gaalee qubee lakkoofsaa kan mallattoo @ dhaan hordofamee fi domeenii (qayee) qubee lakkoofsaa tuqaadhan adda baafameen hordofame qabaachuu qaba. Fakkeenyaaf: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Maaloo teessoo imeelii bifa sirrii ta'een galchaa. Teessoon imeelii gaalee qubee lakkoofsaa kan mallattoo @ dhaan hordofamee fi domeenii (qayee) qubee lakkoofsaa tuqaadhan adda baafameen hordofame qabaachuu qaba. Fakkeenyaaf: username@example.com",
   "vaccineform.pincode": "Lakkoofsa PIN abbaa dijiitii 4 uumaa. Lakkoofsa PIN fi ragaa talaallii kan dijitaalaa galchuuf liinkin isiniif dhufa. *",
   "vaccineform.pinErrorMsg1": "PIN lakkoofsa 4 walitti fufiinsa jiru qabachuu hin danda’u",
   "vaccineform.pinErrorMsg2": "PIN lakkoofsa tokko si’a 4 irra deebin qabachuu hin danda’u",

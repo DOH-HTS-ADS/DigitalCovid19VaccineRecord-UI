@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Handy",
   "vaccineform.phoneErrorMsg1": "Geben Sie bitte eine gültige 10-stellige Mobiltelefonnummer ein.",
   "vaccineform.Email": "E-Mail",
-  "vaccineform.emailErrorMsg1": "Geben Sie bitte eine E-Mail-Adresse in einem gültigen Format ein. Die E-Mail-Adresse muss eine alphanumerische Zeichenfolge enthalten, gefolgt vom @-Symbol und einer alphanumerischen, durch einen Punkt getrennten Domäne. Zum Beispiel: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Geben Sie bitte eine E-Mail-Adresse in einem gültigen Format ein. Die E-Mail-Adresse muss eine alphanumerische Zeichenfolge enthalten, gefolgt vom @-Symbol und einer alphanumerischen, durch einen Punkt getrennten Domäne. Zum Beispiel: username@example.com",
   "vaccineform.pincode": "Erstellen Sie eine 4stellige PIN-Nummer. Sie erhalten einen Link, um die PIN-Nummer einzugeben und auf Ihren digitalen Impfpass zuzugreifen. *",
   "vaccineform.pinErrorMsg1": "Die PIN darf nicht 4 aufeinanderfolgende Ziffern enthalten",
   "vaccineform.pinErrorMsg2": "Die PIN darf nicht 4 gleiche Ziffern enthalten",

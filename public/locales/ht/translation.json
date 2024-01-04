@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Telefòn Mobil",
   "vaccineform.phoneErrorMsg1": "Tanpri mete yon nimewo telefòn pòtab ki valid epi ki gen 10 chif",
   "vaccineform.Email": "Imèl",
-  "vaccineform.emailErrorMsg1": "Tanpri mete yon adrès imèl ki nan yon fòma ki valid. Fòk adrès imèl la genyen yon fraz alfanimerik epi fòk senbòl @ la ak yon domèn alfanimerik ki separe ak pwen vini annapre li. Pa egzanp: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Tanpri mete yon adrès imèl ki nan yon fòma ki valid. Fòk adrès imèl la genyen yon fraz alfanimerik epi fòk senbòl @ la ak yon domèn alfanimerik ki separe ak pwen vini annapre li. Pa egzanp: username@example.com",
   "vaccineform.pincode": "Kreye yon nimewo PIN 4 chif. Ou ap resevwa yon lyen pou mete nimewo PIN lan pou w jwenn aksè nan dosye vaksinasyon nimerik ou a. *",
   "vaccineform.pinErrorMsg1": "PIN nan pa kapab genyen 4 chif youn dèyè lòt",
   "vaccineform.pinErrorMsg2": "PIN nan pa kapab genyen 4 chif ki doub",

@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Mobile na Telepono",
   "vaccineform.phoneErrorMsg1": "Maglagay ng valid na numero ng mobile phone na may 10 digit",
   "vaccineform.Email": "Email",
-  "vaccineform.emailErrorMsg1": "Maglagay ng email address na may wastong format. Ang email address ay dapat maglaman ng pariralang puwedeng may alpabeto at numero na sinusundan ng simbolong @ at ng domain na puwedeng may alpabeto at numero na may naghihiwalay na tuldok. Halimbawa: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Maglagay ng email address na may wastong format. Ang email address ay dapat maglaman ng pariralang puwedeng may alpabeto at numero na sinusundan ng simbolong @ at ng domain na puwedeng may alpabeto at numero na may naghihiwalay na tuldok. Halimbawa: username@example.com",
   "vaccineform.pincode": "Gumawa ng numero ng PIN na may 4 na digit. Makakatanggap ka ng link para ilagay ang numero ng PIN at i-access ang iyong digital na talaan ng bakuna. *",
   "vaccineform.pinErrorMsg1": "Hindi maaaring may 4 na magkakasunod na numero ang PIN",
   "vaccineform.pinErrorMsg2": "Hindi maaaring may 4 na magkakaparehong numero ang PIN",

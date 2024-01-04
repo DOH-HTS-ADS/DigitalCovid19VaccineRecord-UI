@@ -32,7 +32,7 @@
   "vaccineform.Phone": "手机号码",
   "vaccineform.phoneErrorMsg1": "请输入有效的 10 位手机号码",
   "vaccineform.Email": "电子邮件",
-  "vaccineform.emailErrorMsg1": "请输入有效格式的电子邮件地址。电子邮件地址必须包含一个字母数字短语，后面跟着 @ 符号以及一个以点分隔的字母数字域名。例如： joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "请输入有效格式的电子邮件地址。电子邮件地址必须包含一个字母数字短语，后面跟着 @ 符号以及一个以点分隔的字母数字域名。例如： username@example.com",
   "vaccineform.pincode": "创建一个 4 位数的 PIN 码。您将收到一个链接，用于输入 PIN 码并访问您的数字疫苗记录。*",
   "vaccineform.pinErrorMsg1": "PIN 不允许包含 4 个连续的数字",
   "vaccineform.pinErrorMsg2": "PIN 不允许包含 4 个重复的数字",

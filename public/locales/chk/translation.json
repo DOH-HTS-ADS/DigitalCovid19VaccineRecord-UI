@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Senfon",
   "vaccineform.phoneErrorMsg1": "Kose mochen tikanong 10-foufoun nampan senfon mei pwung",
   "vaccineform.Email": "Email",
-  "vaccineform.emailErrorMsg1": "Kose mochen wanong eu email address non pwungun makkan. Ena email address epwe wor foun mesen mak tapweto ewe esissin @ iwe pwan foun mesen mak nge efou piriot epwe eimwuni ewe kompeni. Awewe chek: joe.smith@domail.com",
+  "vaccineform.emailErrorMsg1": "Kose mochen wanong eu email address non pwungun makkan. Ena email address epwe wor foun mesen mak tapweto ewe esissin @ iwe pwan foun mesen mak nge efou piriot epwe eimwuni ewe kompeni. Awewe chek: username@example.com",
   "vaccineform.pincode": "Forata 4 nampa epwe noum PIN nampa. Kopwe angei ew link ika ew anen om kopwe makenong nampan noum PIN ren om kopwe tongeni kuna noum taropwen appos online ika on kamputer me fon. *",
   "vaccineform.pinErrorMsg1": "PIN esap chok 4 nampa tetenino chok",
   "vaccineform.pinErrorMsg2": "PIN esap eaea 4 nampa epwe aniwin fan ruu",

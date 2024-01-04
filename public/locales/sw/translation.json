@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Simu ya Mkononi",
   "vaccineform.phoneErrorMsg1": "Tafadhali weka nambari ya simu ya mkononi yenye dijiti 10",
   "vaccineform.Email": "Barua pepe",
-  "vaccineform.emailErrorMsg1": "Tafadhali ingiza anwani ya barua pepe katika muundo sahihi. Anwani ya barua pepe lazima iwe na istilahi ya alfabeti na nambari zikifuatwa na ishara ya @ na kufuatwa na kikoa cha alfabeti na nambari zilizotenganishwa na kitone. Kwa mfano: joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Tafadhali ingiza anwani ya barua pepe katika muundo sahihi. Anwani ya barua pepe lazima iwe na istilahi ya alfabeti na nambari zikifuatwa na ishara ya @ na kufuatwa na kikoa cha alfabeti na nambari zilizotenganishwa na kitone. Kwa mfano: username@example.com",
   "vaccineform.pincode": "Unda nambari ya PIN yenye tarakimu 4. Utapokea kiungo cha kuingizia nambari ya PIN na kufikia rekodi yako ya kidijitali ya chanjo. *",
   "vaccineform.pinErrorMsg1": "PIN haiwezi kuwa na nambari 4 zinazofuatana",
   "vaccineform.pinErrorMsg2": "PIN haiwezi kuwa na nambari 4 zinazofanana",

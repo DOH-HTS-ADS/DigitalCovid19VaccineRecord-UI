@@ -1161,7 +1161,7 @@ const CovidCard = () => {
                 }}
               />
               {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">
-                  <Trans i18nKey="vaccineform.emailErrorMsg1">Please enter email address in valid format. Email address must contain an alphanumeric phrase followed by the @, followed by an alphanumeric dot-separated domain. For example: joesmith@domain.com.</Trans>
+                  <Trans i18nKey="vaccineform.emailErrorMsg1">Please enter email address in valid format. Email address must contain an alphanumeric phrase followed by the @, followed by an alphanumeric dot-separated domain. For example: username@example.com.</Trans>
                 </label> : ''}
               </FormControl>
             )}

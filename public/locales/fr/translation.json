@@ -29,7 +29,7 @@
   "vaccineform.Phone": "Téléphone mobile",
   "vaccineform.phoneErrorMsg1": "Veuillez saisir un numéro de téléphone portable valide à 10 chiffres",
   "vaccineform.Email": "E-mail :",
-  "vaccineform.emailErrorMsg1": "Veuillez saisir une adresse e-mail dans un format valide. L’adresse e-mail doit comporter une phrase alphanumérique suivie du symbole @ et d’un nom de domaine alphanumérique séparé par un point. Par exemple : joe.smith@domain.com",
+  "vaccineform.emailErrorMsg1": "Veuillez saisir une adresse e-mail dans un format valide. L’adresse e-mail doit comporter une phrase alphanumérique suivie du symbole @ et d’un nom de domaine alphanumérique séparé par un point. Par exemple : username@example.com",
   "vaccineform.pincode": "Créez un code PIN à 4 chiffres. Vous recevrez un lien dans lequel saisir le code PIN et accéder à votre attestation de vaccination numérique. *",
   "vaccineform.pinErrorMsg1": "Le code PIN ne peut pas contenir 4 chiffres consécutifs",
   "vaccineform.pinErrorMsg2": "Le code PIN ne peut pas contenir 4 chiffres identiques",
