@@ -274,6 +274,20 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   aria-role={"button"}
                 />
               </ReactGA.OutboundLink>
+              <ReactGA.OutboundLink
+                eventLabel="commonhealth_button"
+                to={`${user.walletContent}`}
+                style={{ margin: '5px 0px 0px 0px' }}                
+              >
+                <button>
+                <img
+                  id={"android-common-health-button"}
+                  src={"/imgs/AddtoCommonHealthBlack.svg"}
+                  alt={"Adds to CommonHealth application or, if CommonHealth not installed, goes to Google Play so CommonHealth can be installed."}
+                  aria-role={"button"}
+                />
+                </button>
+              </ReactGA.OutboundLink>
               <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
                 <Trans i18nKey={"qrpage.minrequirementsandroid"}>
                   Minimum requirements: Android version 5 and Google Play
