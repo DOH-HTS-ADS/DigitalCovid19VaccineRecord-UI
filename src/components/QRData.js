@@ -290,6 +290,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 eventLabel="commonhealth_button"
                 to={`${user.walletContent}`}
                 style={{ margin: 'inherit' }}                
+                url={`https://app.commonhealth.org/m/phr/main?source=add_shc_to_ch#shc_numeric=shc:/${qr}`}
               >
                 <button>
                 <img
