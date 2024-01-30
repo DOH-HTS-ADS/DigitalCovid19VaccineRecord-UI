@@ -293,7 +293,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               >
                 <button>
                 <img
-                  width={"300px"}
+                  width={"260px"}
                   id={"android-common-health-button"}
                   src={"/imgs/AddtoCommonHealthBlack.svg"}
                   alt={"Adds to CommonHealth application or, if CommonHealth not installed, goes to Google Play so CommonHealth can be installed."}
