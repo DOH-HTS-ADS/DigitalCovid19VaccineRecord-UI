@@ -302,8 +302,8 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 </button>
               </ReactGA.OutboundLink>
               <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
-                <Trans i18nKey={"qrpage.minrequirementsandroid"}>
-                  Minimum requirements: Android version 6+.
+                <Trans i18nKey={"qrpage.minrequirementscommonhealth"}>
+                Minimum requirements: Android version 6 &amp; above.
                 </Trans>
               </p>{" "}
             </div>
