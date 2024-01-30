@@ -274,6 +274,18 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   aria-role={"button"}
                 />
               </ReactGA.OutboundLink>
+
+              <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
+                <Trans i18nKey={"qrpage.minrequirementsandroid"}>
+                  Minimum requirements: Android version 5 and Google Play
+                  Services version 21.18 &amp; above.
+                </Trans>
+              </p>{" "}
+            </div>
+          ) : null}
+
+          {google === true && isMobile() === "G" ? (
+            <div data-html2canvas-ignore="true">
               <ReactGA.OutboundLink
                 eventLabel="commonhealth_button"
                 to={`${user.walletContent}`}
@@ -291,8 +303,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               </ReactGA.OutboundLink>
               <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
                 <Trans i18nKey={"qrpage.minrequirementsandroid"}>
-                  Minimum requirements: Android version 5 and Google Play
-                  Services version 21.18 &amp; above.
+                  Minimum requirements: Android version 6+.
                 </Trans>
               </p>{" "}
             </div>
