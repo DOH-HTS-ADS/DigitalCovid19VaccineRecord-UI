@@ -277,7 +277,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               <ReactGA.OutboundLink
                 eventLabel="commonhealth_button"
                 to={`${user.walletContent}`}
-                style={{ margin: '5px 0px 0px 0px' }}                
+                style={{ margin: 'inherit' }}                
               >
                 <button>
                 <img
