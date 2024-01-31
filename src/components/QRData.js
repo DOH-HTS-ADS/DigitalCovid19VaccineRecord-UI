@@ -9,7 +9,6 @@ import { makeStyles } from '@material-ui/core/styles';
 // eslint-disable-next-line no-unused-vars
 import html2canvas from "html2canvas";
 import Canvas2Image from "../utils/canvas2image";
-import QRCode from 'qrcode.react'
 
 
 const QRData = async ({ user, qr, apple, google, isMobile }) => {
@@ -25,16 +24,6 @@ const QRData = async ({ user, qr, apple, google, isMobile }) => {
     qrEl.scrollIntoView();
 
   }, []);
-
-  const QrGenComponent = async () => {
-    const blogUrl = user.walletContent;
-    const response = await fetch(blogUrl);
-    const blob = await response.blob();
-    const dataUrl = URL.createObjectURL(blob);    
-    return (
-      <QRCode value={dataUrl} />
-    );
-  };
 
   const buildPdf = () => {
 
@@ -315,7 +304,6 @@ const QRData = async ({ user, qr, apple, google, isMobile }) => {
                 <Trans i18nKey={"qrpage.minrequirementscommonhealth"}>
                 Minimum requirements: Android version 6 &amp; above.
                 </Trans>
-                {`<br/>TEST: https://app.commonhealth.org/m/phr/main?source=add_shc_to_ch#shc_numeric=shc:/${user.walletContent}`}
               </p>{" "}
             </div>
           ) : null}
