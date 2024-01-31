@@ -11,7 +11,7 @@ import html2canvas from "html2canvas";
 import Canvas2Image from "../utils/canvas2image";
 
 
-const QRData = async ({ user, qr, apple, google, isMobile }) => {
+const QRData = ({ user, qr, apple, google, isMobile }) => {
   const { i18n, t } = useTranslation();
   const english_i18n = i18n.createInstance({
     supportedLngs: ['en-US']
