@@ -288,7 +288,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             <div data-html2canvas-ignore="true">
               <ReactGA.OutboundLink
                 eventLabel="commonhealth_button"
-                to={`https://app.commonhealth.org/m/phr/main?source=add_shc_to_ch#shc_numeric=shc:/${qr}`}
+                to={`https://app.commonhealth.org/m/phr/main?source=add_shc_to_ch#shc_numeric=shc:/blob:${qr}`}
                 style={{ margin: 'inherit' }}
               >
                 <button>
@@ -305,7 +305,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 <Trans i18nKey={"qrpage.minrequirementscommonhealth"}>
                 Minimum requirements: Android version 6 &amp; above.
                 </Trans>
-                {`<br/>TEST: https://app.commonhealth.org/m/phr/main?source=add_shc_to_ch#shc_numeric=shc:/${qr}`}
+                {`<br/>TEST: https://app.commonhealth.org/m/phr/main?source=add_shc_to_ch#shc_numeric=shc:/blob:${qr}`}
               </p>{" "}
             </div>
           ) : null}
