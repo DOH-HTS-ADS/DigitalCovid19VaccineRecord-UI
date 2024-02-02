@@ -254,6 +254,12 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             <Button id={'print-button'} variant="contained" startIcon={<PrintIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
             <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={i18n.dir(i18n.language) == "rtl" ? classes.buttonRight : classes.buttonLeft}  onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
           </div>
+          <div>
+            ${qr}
+          </div>
+          <div>
+            ${user.walletContent}
+          </div>
 
           {google === true && isMobile() === "G" ? (
             <div data-html2canvas-ignore="true">
