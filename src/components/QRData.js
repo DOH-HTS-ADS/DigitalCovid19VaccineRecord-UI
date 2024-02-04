@@ -308,10 +308,6 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </div>
           ) : null}
 
-          <div>
-            {user.commonHealthContent}
-          </div>
-
           {isVersionGood && apple === true && isMobile() === "A" ? (
             <div data-html2canvas-ignore="true">
               {ReactGA.event({
