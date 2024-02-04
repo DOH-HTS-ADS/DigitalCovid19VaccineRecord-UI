@@ -19,7 +19,6 @@
   "vaccineform.lastnameErrorMsg": "Укажіть прізвище",
   "vaccineform.firstname": "Ім’я:",
   "vaccineform.firstnameErrorMsg": "Укажіть ім’я",
-  "vaccineform.middlename": "Ініціал імені по батькові:",
   "vaccineform.dateofbirth": "Дата народження:",
   "vaccineform.monthLabel": "Місяць",
   "vaccineform.dayLabel": "День",

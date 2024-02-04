@@ -22,7 +22,6 @@
   "vaccineform.lastnameErrorMsg": "请输入您的姓氏",
   "vaccineform.firstname": "名字",
   "vaccineform.firstnameErrorMsg": "请输入您的名字",
-  "vaccineform.middlename": "中间名首字母",
   "vaccineform.dateofbirth": "出生日期",
   "vaccineform.monthLabel": "月",
   "vaccineform.dayLabel": "日",

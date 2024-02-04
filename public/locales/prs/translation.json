@@ -19,7 +19,6 @@
   "vaccineform.lastnameErrorMsg": "لطفا نام خانوادگی خود را بنوسید",
   "vaccineform.firstname": "نام",
   "vaccineform.firstnameErrorMsg": "لطفا نام خود را بنوسید",
-  "vaccineform.middlename": "نام وسط",
   "vaccineform.dateofbirth": "تاریخ تولد",
   "vaccineform.monthLabel": "ماه",
   "vaccineform.dayLabel": "روز",

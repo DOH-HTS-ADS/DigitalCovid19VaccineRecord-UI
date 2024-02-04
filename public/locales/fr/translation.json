@@ -19,7 +19,6 @@
   "vaccineform.lastnameErrorMsg": "Veuillez saisir votre Nom de famille",
   "vaccineform.firstname": "Prénom",
   "vaccineform.firstnameErrorMsg": "Veuillez saisir votre Prénom",
-  "vaccineform.middlename": "Initiale du deuxième prénom",
   "vaccineform.dateofbirth": "Date de naissance",
   "vaccineform.monthLabel": "Mois",
   "vaccineform.dayLabel": "Jour",
