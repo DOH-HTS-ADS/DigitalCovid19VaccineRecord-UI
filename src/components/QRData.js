@@ -177,7 +177,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
               <span lang="en"><Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans></span>:&nbsp;
             </bdi>
-            {user.suffix == null ? `${user.firstName} ${user.lastName}` : `${user.firstName} ${user.lastName} ${user.suffix}`}
+            {user.suffix == null ? `${user.firstName} ${user.middleName} ${user.lastName}` : `${user.firstName} ${user.middleName} ${user.lastName} ${user.suffix}`}
           </p>
           <p className="qrDataItem">
             <bdi>
@@ -307,6 +307,10 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               </p>{" "}
             </div>
           ) : null}
+
+          <div>
+            {user.commonHealthContent}
+          </div>
 
           {isVersionGood && apple === true && isMobile() === "A" ? (
             <div data-html2canvas-ignore="true">
