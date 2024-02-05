@@ -19,7 +19,6 @@
   "vaccineform.lastnameErrorMsg": "귀하의 성을 입력하십시오",
   "vaccineform.firstname": "이름",
   "vaccineform.firstnameErrorMsg": "귀하의 이름을 입력하십시오",
-  "vaccineform.middlename": "중간 이니셜",
   "vaccineform.dateofbirth": "생년월일",
   "vaccineform.monthLabel": "월",
   "vaccineform.dayLabel": "일",

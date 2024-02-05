@@ -177,7 +177,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
               <span lang="en"><Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans></span>:&nbsp;
             </bdi>
-            {user.suffix == null ? `${user.firstName} ${user.lastName}` : `${user.firstName} ${user.lastName} ${user.suffix}`}
+            {user.suffix == null ? `${user.firstName} ${user.middleName} ${user.lastName}` : `${user.firstName} ${user.middleName} ${user.lastName} ${user.suffix}`}
           </p>
           <p className="qrDataItem">
             <bdi>
@@ -278,6 +278,31 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 <Trans i18nKey={"qrpage.minrequirementsandroid"}>
                   Minimum requirements: Android version 5 and Google Play
                   Services version 21.18 &amp; above.
+                </Trans>
+              </p>{" "}
+            </div>
+          ) : null}
+	
+          {google === true && isMobile() === "G" ? (
+            <div data-html2canvas-ignore="true">
+              <ReactGA.OutboundLink
+                eventLabel="commonhealth_button"
+                to={`https://app.commonhealth.org/m/phr/main?source=add_shc_to_ch#shc_numeric=shc:/${user.commonHealthContent}`}
+                style={{ margin: 'inherit' }}
+              >
+                <button>
+                <img
+                  width={"260px"}
+                  id={"android-common-health-button"}
+                  src={"/imgs/AddtoCommonHealthBlack.svg"}
+                  alt={"Adds to CommonHealth application or, if CommonHealth not installed, goes to Google Play so CommonHealth can be installed."}
+                  aria-role={"button"}
+                />
+                </button>
+              </ReactGA.OutboundLink>
+              <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
+                <Trans i18nKey={"qrpage.minrequirementscommonhealth"}>
+                  Minimum requirements: Android version 6 and above.
                 </Trans>
               </p>{" "}
             </div>

@@ -19,7 +19,6 @@
   "vaccineform.lastnameErrorMsg": "Geben Sie bitte Ihren Nachnamen ein.",
   "vaccineform.firstname": "Vorname",
   "vaccineform.firstnameErrorMsg": "Geben Sie bitte Ihren Vornamen ein.",
-  "vaccineform.middlename": "Erster Buchstabe des zweiten Vornamens",
   "vaccineform.dateofbirth": "Geburtsdatum",
   "vaccineform.monthLabel": "Monat",
   "vaccineform.dayLabel": "Tag",

@@ -19,7 +19,6 @@
   "vaccineform.lastnameErrorMsg": "Insira o seu sobrenome",
   "vaccineform.firstname": "Nome",
   "vaccineform.firstnameErrorMsg": "Insira o seu nome",
-  "vaccineform.middlename": "Inicial do nome do meio",
   "vaccineform.dateofbirth": "Data de nascimento",
   "vaccineform.monthLabel": "Mês",
   "vaccineform.dayLabel": "Dia",

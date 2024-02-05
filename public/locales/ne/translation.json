@@ -19,7 +19,6 @@
   "vaccineform.lastnameErrorMsg": "कृपया आफ्नो थर प्रविष्ट गर्नुहोस्",
   "vaccineform.firstname": "नाम",
   "vaccineform.firstnameErrorMsg": "कृपया आफ्नो नाम प्रविष्ट गर्नुहोस्",
-  "vaccineform.middlename": "बीचको प्रथमाक्षर",
   "vaccineform.dateofbirth": "जन्म मिति",
   "vaccineform.monthLabel": "महिना",
   "vaccineform.dayLabel": "दिन/मिति",

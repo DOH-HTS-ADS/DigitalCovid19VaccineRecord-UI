@@ -447,6 +447,7 @@ const CovidCard = () => {
       const userData = {
         LastName: valueOfElement("LastName")?.value.trim(),
         FirstName: valueOfElement("FirstName")?.value.trim(),
+        MiddleName: valueOfElement("MiddleName")?.value.trim(),
         DateOfBirth: `${monthOfBirth < 10 ? "0" + monthOfBirth : monthOfBirth}/${dayOfBirth < 10 ? "0" + dayOfBirth : dayOfBirth}/${yearOfBirth}`,
         PhoneNumber: valueOfElement("textmask") ? normalize(valueOfElement("textmask")?.value) : "",
         EmailAddress: document.getElementById('contactEmail')?.value ? document.getElementById('contactEmail').value : "",
@@ -936,6 +937,16 @@ const CovidCard = () => {
               onBlur={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
             />
             {error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true" ? <label id='firstNameError' htmlFor='FirstName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.firstnameErrorMsg">Please enter your First Name</Trans></label> : ''}
+            <TextField
+              name="MiddleName"
+              label={<Trans i18nKey="vaccineform.middlename">Middle name(s) or Middle initial(s)</Trans>}
+              variant="standard"
+              className={"col-12"}
+              inputProps={{
+                maxLength: 30
+              }}
+              id="MiddleName"
+            />
             <TextField
               name="LastName"
               label={<Trans i18nKey="vaccineform.lastname">Last name</Trans>}

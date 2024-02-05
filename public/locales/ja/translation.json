@@ -19,7 +19,6 @@
   "vaccineform.lastnameErrorMsg": "名字（姓）を入力してください",
   "vaccineform.firstname": "名前（名）",
   "vaccineform.firstnameErrorMsg": "名前を入力してください",
-  "vaccineform.middlename": "ミドルネームの頭文字",
   "vaccineform.dateofbirth": "生年月日",
   "vaccineform.monthLabel": "月",
   "vaccineform.dayLabel": "日",
