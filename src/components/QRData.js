@@ -336,9 +336,6 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </div>
           ) : null}
 
-        <p>CommonHealth Link:</p>
-        <p>{user.commonHealthContent}</p>
-
           <div data-html2canvas-ignore="true">
             <h2
               style={{
