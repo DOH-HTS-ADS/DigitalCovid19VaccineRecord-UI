@@ -176,7 +176,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               ) : null}
 
               <span dir="ltr" lang="en"><Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans></span>:&nbsp;
-              <span dir="ltr">{user.suffix == null ? `${user.firstName} ${user.middleName} ${user.lastName}` : `${user.firstName} ${user.middleName} ${user.lastName} ${user.suffix}`}</span>
+              {isVersionGood && apple === true && isMobile() === "A" && i18n.dir(i18n.language) === "rtl" ? (
+                <span style={{float: 'left'}} dir="ltr">{user.suffix == null ? `${user.firstName} ${user.middleName} ${user.lastName}` : `${user.firstName} ${user.middleName} ${user.lastName} ${user.suffix}`}</span>
+                ) : (
+                <span dir="ltr">{user.suffix == null ? `${user.firstName} ${user.middleName} ${user.lastName}` : `${user.firstName} ${user.middleName} ${user.lastName} ${user.suffix}`}</span>
+              )}
             </bdi>
           </p>
           <p className="qrDataItem">
