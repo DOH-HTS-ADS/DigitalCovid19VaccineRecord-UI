@@ -283,6 +283,26 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
+              <button aria-expanded={expanded17} aria-controls="faq17_desc" onClick={toggleExpanded17}>
+                <Trans i18nKey="faqpage.17question">
+                  What if I want my full name displayed on my Digital Verification Record to match an 
+                  identification document?
+                </Trans>
+              </button>
+            </dt>
+            <dd>
+              <p id="faq17_desc" aria-hidden={!expanded17} style={{display: expanded17 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+                <Trans i18nKey="faqpage.17answer">
+                  You may enter in one or multiple middle names or middle initials in any format to match 
+                  how they are displayed on your identification document (eg passport, driver’s license). 
+                  The middle name field is optional and is not used to find your vaccine record in the state’s 
+                  immunization systems.
+                </Trans>
+                <hr/>
+              </p>
+            </dd>
+
+            <dt>
               <button aria-expanded={expanded09} aria-controls="faq09_desc" onClick={toggleExpanded09}>
                 <Trans i18nKey="faqpage.09question">
                   How does the Digital COVID-19 Vaccine Record system work?
@@ -444,26 +464,6 @@ const FAQScreen = () => {
                   WA Verify is a free tool that can be used to access your digital COVID-19 verification 
                   record.  You should not be asked to provide any payment information.  If you are prompted 
                   to pay for this service, exit the application immediately.
-                </Trans>
-                <hr/>
-              </p>
-            </dd>
-
-            <dt>
-              <button aria-expanded={expanded17} aria-controls="faq17_desc" onClick={toggleExpanded17}>
-                <Trans i18nKey="faqpage.17question">
-                  What if I want my full name displayed on my Digital Verification Record to match an 
-                  identification document?
-                </Trans>
-              </button>
-            </dt>
-            <dd>
-              <p id="faq17_desc" aria-hidden={!expanded17} style={{display: expanded17 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
-                <Trans i18nKey="faqpage.17answer">
-                  You may enter in one or multiple middle names or middle initials in any format to match 
-                  how they are displayed on your identification document (eg passport, driver’s license). 
-                  The middle name field is optional and is not used to find your vaccine record in the state’s 
-                  immunization systems.
                 </Trans>
                 <hr/>
               </p>
