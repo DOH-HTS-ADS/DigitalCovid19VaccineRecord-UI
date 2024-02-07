@@ -78,6 +78,7 @@ const CovidCard = () => {
   const [isDobGood, setIsDobGood] = useState(true);
   const [isDobPastMaxDate, setIsDobPastMaxDate] = useState(false);
   const [pin, setPin] = useState("");
+  const [middleName, setMiddleName] = useState("");
   const [errorMessage, setErrorMessage] = useState({});
   const [responseMessage, setResponseMessage] = useState(false);
   const [error, setError] = useState({
@@ -736,6 +737,11 @@ const CovidCard = () => {
     setPin(numsOnly);
   };
 
+  const middleNameCharactersOnly = (e) => {
+    const allowedCharsOnly = e.target.value.replace(/[^a-zA-Z0-9\-'\s.]/g, "");
+    setMiddleName(allowedCharsOnly);
+  };
+
   const containsAscending = (str) => {
     const strArr = str.split("");
     let ascendingFlag = false;
@@ -943,7 +949,9 @@ const CovidCard = () => {
               variant="standard"
               className={"col-12"}
               inputProps={{
-                maxLength: 30
+                maxLength: 30,
+                value: middleName,
+                onChange: middleNameCharactersOnly
               }}
               id="MiddleName"
             />
