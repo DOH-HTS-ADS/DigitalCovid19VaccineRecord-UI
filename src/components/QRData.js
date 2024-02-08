@@ -175,9 +175,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 </>
               ) : null}
 
-              <span lang="en"><Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans></span>:&nbsp;
+              <span dir="ltr" lang="en"><Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans></span>:&nbsp;
+              <span dir="ltr">{user.suffix == null ? `${user.firstName} ${user.middleName} ${user.lastName}` : `${user.firstName} ${user.middleName} ${user.lastName} ${user.suffix}`}</span>
             </bdi>
-            {user.suffix == null ? `${user.firstName} ${user.middleName} ${user.lastName}` : `${user.firstName} ${user.middleName} ${user.lastName} ${user.suffix}`}
           </p>
           <p className="qrDataItem">
             <bdi>
@@ -188,9 +188,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 </>
               ) : null}
 
-              <span lang="en"><Trans i18nKey="qrpage.dateofbirth" i18n={english_i18n}>DOB</Trans></span>:&nbsp;
+              <span dir="ltr" lang="en"><Trans i18nKey="qrpage.dateofbirth" i18n={english_i18n}>DOB</Trans></span>:&nbsp;
+              <span dir="ltr">{user.dob}</span>
             </bdi>
-            {user.dob}
           </p>
           <hr />
           <ol>
@@ -205,9 +205,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                     </>
                   ) : null}
 
-                  <span lang="en"><Trans i18nKey="qrpage.date" i18n={english_i18n}>Date</Trans></span>:&nbsp;
+                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.date" i18n={english_i18n}>Date</Trans></span>:&nbsp;
+                  <span dir="ltr">{dose.doa}</span>
                 </bdi>
-                {dose.doa}
               </p>
               <p className="qrDataItem">
                 <bdi>
@@ -219,8 +219,8 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   ) : null}
 
                   <span dir="ltr" lang="en"><Trans i18nKey="qrpage.type" i18n={english_i18n}>Type/Mfr.</Trans></span>:&nbsp;
+                  <span dir="ltr">{dose.type}</span>
                 </bdi>
-                <span dir="ltr">{dose.type}</span>
               </p>
               <p className="qrDataItem">
                 <bdi>
@@ -231,9 +231,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                     </>
                   ) : null}
 
-                <span lang="en"><Trans i18nKey="qrpage.flotnumber" i18n={english_i18n}>Lot Number</Trans></span>:&nbsp;
+                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.flotnumber" i18n={english_i18n}>Lot Number</Trans></span>:&nbsp;
+                  <span dir="ltr">{dose.lotNumber}</span>
                 </bdi>
-                {dose.lotNumber}
               </p>
               <hr />
             </li>
