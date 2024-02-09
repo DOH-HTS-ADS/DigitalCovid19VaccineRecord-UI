@@ -283,7 +283,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded17} aria-controls="faq17_desc" onClick={toggleExpanded17}>
+              <button direction={i18n.dir(i18n.language)} aria-expanded={expanded17} aria-controls="faq17_desc" onClick={toggleExpanded17}>
                 <Trans i18nKey="faqpage.17question">
                   What if I want my full name displayed on my Digital Verification Record to match an 
                   identification document?
