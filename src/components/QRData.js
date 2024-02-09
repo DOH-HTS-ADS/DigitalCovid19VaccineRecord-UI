@@ -171,11 +171,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               {i18n.language.indexOf("en") !== 0 ? (
                 <>
                 <Trans i18nKey="qrpage.name">Name: </Trans>
-                &nbsp;/&nbsp;
+                {' '}/{' '}
                 </>
               ) : null}
 
-              <span dir="ltr" lang="en"><Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans></span>:&nbsp;
+              <span dir="ltr" lang="en"><Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans></span>:{' '}
               <span dir="ltr">{user.suffix == null ? `${user.firstName} ${user.middleName} ${user.lastName}` : `${user.firstName} ${user.middleName} ${user.lastName} ${user.suffix}`}</span>
             </bdi>
           </p>
@@ -184,11 +184,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               {i18n.language.indexOf("en") !== 0 ? (
                 <>
                 <Trans i18nKey="qrpage.dateofbirth">DOB: </Trans>
-                &nbsp;/&nbsp;
+                {' '}/{' '}
                 </>
               ) : null}
 
-              <span dir="ltr" lang="en"><Trans i18nKey="qrpage.dateofbirth" i18n={english_i18n}>DOB</Trans></span>:&nbsp;
+              <span dir="ltr" lang="en"><Trans i18nKey="qrpage.dateofbirth" i18n={english_i18n}>DOB</Trans></span>:{' '}
               <span dir="ltr">{user.dob}</span>
             </bdi>
           </p>
@@ -201,11 +201,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   {i18n.language.indexOf("en") !== 0 ? (
                     <>
                     <Trans i18nKey="qrpage.date">Date: </Trans>
-                    &nbsp;/&nbsp;
+                    {' '}/{' '}
                     </>
                   ) : null}
 
-                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.date" i18n={english_i18n}>Date</Trans></span>:&nbsp;
+                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.date" i18n={english_i18n}>Date</Trans></span>:{' '}
                   <span dir="ltr">{dose.doa}</span>
                 </bdi>
               </p>
@@ -214,11 +214,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   {i18n.language.indexOf("en") !== 0 ? (
                     <>
                     <Trans i18nKey="qrpage.type">Type/Mfr: </Trans>
-                    &nbsp;/&nbsp;
+                    {' '}/{' '}
                     </>
                   ) : null}
 
-                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.type" i18n={english_i18n}>Type/Mfr.</Trans></span>:&nbsp;
+                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.type" i18n={english_i18n}>Type/Mfr.</Trans></span>:{' '}
                   <span dir="ltr">{dose.type}</span>
                 </bdi>
               </p>
@@ -227,11 +227,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   {i18n.language.indexOf("en") !== 0 ? (
                     <>
                     <Trans i18nKey="qrpage.flotnumber">Lot Number: </Trans>
-                    &nbsp;/&nbsp;
+                    {' '}/{' '}
                     </>
                   ) : null}
 
-                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.flotnumber" i18n={english_i18n}>Lot Number</Trans></span>:&nbsp;
+                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.flotnumber" i18n={english_i18n}>Lot Number</Trans></span>:{' '}
                   <span dir="ltr">{dose.lotNumber}</span>
                 </bdi>
               </p>
