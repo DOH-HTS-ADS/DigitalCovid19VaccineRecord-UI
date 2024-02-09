@@ -127,7 +127,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq01_desc" aria-hidden={!expanded01} style={{display: expanded01 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.01answer">
                   Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> is an electronic vaccination record drawn from the
@@ -150,7 +150,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq02_desc" aria-hidden={!expanded02} style={{display: expanded02 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.02answer">
                   When your verification record is found, you will receive a link delivered to the email or
@@ -169,7 +169,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <div id="faq03_desc" aria-hidden={!expanded03} style={{display: expanded03 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.03answer">
                   <p>You can save your Digital verification record to the Apple Health app with the iOS 15
@@ -186,7 +186,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <div id="faq04_desc" aria-hidden={!expanded04} style={{display: expanded04 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.04answer">
                   <p>Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
@@ -204,7 +204,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <div id="faq05_desc" aria-hidden={!expanded05} style={{display: expanded05 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.05answer">
                   <p>No. If you receive an additional dose or booster dose, it will not automatically reflect on
@@ -222,7 +222,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq06_desc" aria-hidden={!expanded06} style={{display: expanded06 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.06answer">
                   Clinics vary in the length of time it takes to submit dose information to the Immunization
@@ -240,7 +240,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <div id="faq07_desc" aria-hidden={!expanded07} style={{display: expanded07 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.07answer">
                   <p>Your vaccine provider submits your vaccination record to the Immunization Registry, but they
@@ -270,7 +270,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq08_desc" aria-hidden={!expanded08} style={{display: expanded08 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.08answer">
                   If the information on your Digital vaccine record is incorrect or missing a dose, has wrong
@@ -282,7 +282,7 @@ const FAQScreen = () => {
               </p>
             </dd>
 
-            <dt direction={i18n.dir(i18n.language)}>
+            <dt>
               <button aria-expanded={expanded17} aria-controls="faq17_desc" onClick={toggleExpanded17}>
                 <Trans i18nKey="faqpage.17question">
                   What if I want my full name displayed on my Digital Verification Record to match an 
@@ -290,7 +290,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq17_desc" aria-hidden={!expanded17} style={{display: expanded17 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.17answer">
                   You may enter in one or multiple middle names or middle initials in any format to match 
@@ -309,7 +309,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq09_desc" aria-hidden={!expanded09} style={{display: expanded09 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.09answer">
                   The <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system draws COVID-19 records from the state’s
@@ -330,7 +330,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <div id="faq10_desc" aria-hidden={!expanded10} style={{display: expanded10 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.10answer">
                   <p>Yes. Filling out the form on the system does not provide instant access to your verification
@@ -352,7 +352,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <div id="faq11_desc" aria-hidden={!expanded11} style={{display: expanded11 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.11answer">
                   <p>Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and
@@ -375,7 +375,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <div id="faq12_desc" aria-hidden={!expanded12} style={{display: expanded12 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.12answer">
                   <p>Yes. It is one of
@@ -402,7 +402,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq13_desc" aria-hidden={!expanded13} style={{display: expanded13 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.13answer">
                   The system provides a digital copy of your verification record. If you’ve lost your paper
@@ -420,7 +420,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq14_desc" aria-hidden={!expanded14} style={{display: expanded14 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.14answer">
                   Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> shows the same information as your paper CDC
@@ -440,7 +440,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq15_desc" aria-hidden={!expanded15} style={{display: expanded15 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.15answer">
                   If you are a parent or guardian and have created multiple appointments with a single phone
@@ -458,7 +458,7 @@ const FAQScreen = () => {
                 </Trans>
               </button>
             </dt>
-            <dt direction={i18n.dir(i18n.language)}>
+            <dd>
               <p id="faq16_desc" aria-hidden={!expanded16} style={{display: expanded16 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.16answer">
                   WA Verify is a free tool that can be used to access your digital COVID-19 verification 
