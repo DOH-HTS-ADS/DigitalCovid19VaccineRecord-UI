@@ -27,11 +27,6 @@ const Header = () => {
     i18n.changeLanguage(language);
     i18n.reloadResources();
     setLanguage(language);
-    if (i18n.language) {
-      document.body.dir = i18n.dir(i18n.language);
-    } else {
-      document.body.dir = "ltr";
-    }
     document.documentElement.lang = language;
   };
 
