@@ -27,6 +27,11 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
+    if (i18n.language) {
+      document.body.dir = i18n.dir(i18n.language);
+    } else {
+      document.body.dir = "ltr";
+    }
   };
 
   useEffect(() => {
