@@ -189,9 +189,7 @@ const FAQScreen = () => {
             <dd>
               <div id="faq04_desc" aria-hidden={!expanded04} style={{display: expanded04 ? "block" : "none"}} class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.04answer">
-                  <p>Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
-                  Android version 5 and Google Play Services version 21.18 or above.</p>
-                  
+                  <p>Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Verification Record</a> to Google Wallet or CommonHealth if you have Android version 6 and Google Play Services version 21.18 or above.</p>
                 </Trans>
                 <hr/>
               </div>
