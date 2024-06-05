@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import ReactGA from 'react-ga';
 import { Trans } from "react-i18next";
 import { useTranslation } from "react-i18next";
@@ -8,8 +8,16 @@ import AppController from '../utils/AppController';
 
 
 const Footer = () => {
+
     const { t, i18n } = useTranslation();
+
+    useEffect(() => {
+        i18n.reloadResources();
+        document.documentElement.lang = i18n.language;
+    }, []);
+
     const date = new Date();
+
     return (
         <footer className="footer">
             <div className="footerContainer">

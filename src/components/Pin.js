@@ -29,8 +29,6 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
     i18n.changeLanguage(language);
     if (i18n.language) {
       document.body.dir = i18n.dir(i18n.language);
-      document.documentElement.lang = language;
-      i18n.reloadResources();
     } else {
       document.body.dir = "ltr";
     }
