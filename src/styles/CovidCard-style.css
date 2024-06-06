@@ -226,6 +226,11 @@
   margin: 3vw;
 }
 
+.qr-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .pt-2 {
   width: 50%;
 }
@@ -330,13 +335,9 @@ hr {
 @media only screen and (min-width: 552px) {
   .qrDiv{
     margin-right: 20px;
-    direction: ltr;
-    text-align: left;
   }
   .qrDivRtl{
     margin-left: 20px;
-    direction: rtl;
-    text-align: right;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -391,22 +392,12 @@ hr {
     /*text-align: center;*/
   }
 
-  .qr-flexLtr {
+  .qr-flex {
     align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    direction: ltr;
-  }
-
-  .qr-flexRtl {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    direction: rtl;
   }
 
   .pt-2 {
