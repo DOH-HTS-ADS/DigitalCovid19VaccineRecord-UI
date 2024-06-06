@@ -68,18 +68,21 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
     //html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
 
-    if (qrDiv === null) {
+    if (qrDiv.current === null) {
       console.write('error attempting to create and download file: could not find data-for-image');
       return;
     }
     try {
-      const dataUrl = await toPng(qrDiv);
+      const dataUrl = await toPng(qrDiv.current);
       const link = document.createElement('qrDownload');
       link.href = dataUrl;
       link.download = 'qr-and-vaccines.png';
       document.body.appendChild(link);
       link.click();
-      document.body.removeChild(link);
+      //document.body.removeChild(link);
+      var img = new Image();
+      img.src = dataUrl;
+      document.body.appendChild(img);
     } catch (error) {
       console.error('error attempting to create and download file: ', error);
     }      
