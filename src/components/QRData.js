@@ -193,9 +193,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </bdi>
           </p>
           <hr />
-          <ol class={i18n.dir(i18n.language) === "rtl" ? "rtlOl" : "ltrOl"}>
+          <ol>
           {user.doses.map((dose, idx) => (
-            <li key={`dose${idx}`} class={i18n.dir(i18n.language) === "rtl" ? "rtlLi" : "ltrLi"}>
+            <li key={`dose${idx}`}>
               <p className="qrDataItem">
                 <bdi>
                   {i18n.language.indexOf("en") !== 0 ? (
