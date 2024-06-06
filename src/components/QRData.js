@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useCallback, useRef, download } from "react";
 import { Trans, useTranslation } from "react-i18next";
 import ReactGA from 'react-ga';
 //import AppController from "../utils/AppController";
@@ -9,6 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 // eslint-disable-next-line no-unused-vars
 import html2canvas from "html2canvas";
 import Canvas2Image from "../utils/canvas2image";
+import * as htmlToImage from 'html-to-image';
 
 
 
@@ -65,7 +66,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
       qrDiv.style.padding = '20%';
     }
 
-    html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
+    //html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
+    htmlToImage.toPng(qrDiv)
+      .then(function (dataUrl) {
+        download(dataUrl, 'my-qr-and-vaccines.png');
+      });
     qrDiv.style.padding = '0px';
   }
 
