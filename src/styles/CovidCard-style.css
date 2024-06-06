@@ -395,7 +395,7 @@ hr {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    direction: left;
+    direction: ltr;
   }
 
   .qr-flexRtl {
@@ -404,7 +404,7 @@ hr {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    direction: right;
+    direction: rtl;
   }
 
   .pt-2 {
