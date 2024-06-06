@@ -83,6 +83,22 @@ p{
     font-size: 1.125rem;
 }
 
+.rtlOl {
+  direction: rtl;
+}
+
+.ltrOl {
+  direction: ltr;
+}
+
+.rtlLi {
+  text-align: right;
+}
+
+.ltrLi {
+  text-align: left;
+}
+
 /*
 **styles for the FAQ page
 */
