@@ -9,7 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 // eslint-disable-next-line no-unused-vars
 import html2canvas from "html2canvas";
 import Canvas2Image from "../utils/canvas2image";
-import * as htmlToImage from 'html-to-image';
+import { toPng } from 'html-to-image';
 
 
 
@@ -60,20 +60,31 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     printWindow.print();
   }
 
-  const handleImageSave = () => {
+  const handleImageSave = async () => {
     const qrDiv = document.getElementById('data-for-image');
     if (window.screen.width > 768) {
       qrDiv.style.padding = '20%';
     }
 
     //html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
-    htmlToImage.toPng(qrDiv)
-      .then(function (dataUrl) {
-        download(dataUrl, 'qr-and-vaccines.png');
-      })
-      .catch(function (error) {
-        console.error('Error when attempting to create and download image file.', error);
-      });
+
+    if (qrDiv === null) {
+      console.write('error attempting to create and download file: could not find data-for-image');
+      return;
+    }
+    try {
+      const dataUrl = await toPng(qrDiv);
+      const link = document.createElement('qrDownload');
+      link.href = dataUrl;
+      link.download = 'qr-and-vaccines.png';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('error attempting to create and download file: ', error);
+    }      
+
+
     qrDiv.style.padding = '0px';
   }
 
