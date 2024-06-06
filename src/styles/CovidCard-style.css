@@ -226,11 +226,6 @@
   margin: 3vw;
 }
 
-.qr-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .pt-2 {
   width: 50%;
 }
@@ -394,12 +389,22 @@ hr {
     /*text-align: center;*/
   }
 
-  .qr-flex {
+  .qr-flexLtr {
     align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    direction: left;
+  }
+
+  .qr-flexRtl {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    direction: right;
   }
 
   .pt-2 {
