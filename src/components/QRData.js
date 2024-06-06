@@ -69,7 +69,10 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     //html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
     htmlToImage.toPng(qrDiv)
       .then(function (dataUrl) {
-        download(dataUrl, 'my-qr-and-vaccines.png');
+        download(dataUrl, 'qr-and-vaccines.png');
+      })
+      .catch(function (error) {
+        console.error('Error when attempting to create and download image file.', error);
       });
     qrDiv.style.padding = '0px';
   }
