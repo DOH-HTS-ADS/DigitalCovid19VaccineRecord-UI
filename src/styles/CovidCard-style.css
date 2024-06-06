@@ -335,9 +335,11 @@ hr {
 @media only screen and (min-width: 552px) {
   .qrDiv{
     margin-right: 20px;
+    direction: ltr;
   }
   .qrDivRtl{
     margin-left: 20px;
+    direction: rtl;
   }
 }
 @media only screen and (max-width: 768px) {
