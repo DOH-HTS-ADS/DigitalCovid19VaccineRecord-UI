@@ -121,7 +121,7 @@ const FAQScreen = () => {
         <div class="col-sm-12">
           <dl class="faq" style={{ width: "90%", paddingLeft: 10 }}>
             <dt>
-              <button aria-expanded={expanded01} aria-controls="faq01_desc" onClick={toggleExpanded01}>
+              <button aria-expanded={expanded01} aria-controls="faq01_desc" onClick={toggleExpanded01} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.01question">
                   What is a Digital COVID 19 Verification Record?
                 </Trans>
@@ -144,7 +144,7 @@ const FAQScreen = () => {
             </dd>
             
             <dt>
-              <button aria-expanded={expanded02} aria-controls="faq02_desc" onClick={toggleExpanded02}>
+              <button aria-expanded={expanded02} aria-controls="faq02_desc" onClick={toggleExpanded02} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.02question">
                   How will my verification record be delivered?
                 </Trans>
@@ -163,7 +163,7 @@ const FAQScreen = () => {
               </p>
             </dd>
             <dt>
-              <button aria-expanded={expanded03} aria-controls="faq03_desc" onClick={toggleExpanded03}>
+              <button aria-expanded={expanded03} aria-controls="faq03_desc" onClick={toggleExpanded03} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.03question">
                   Can I save my digital verification record on an iPhone?
                 </Trans>
@@ -180,7 +180,7 @@ const FAQScreen = () => {
               </div>
             </dd>
             <dt>
-              <button aria-expanded={expanded04} aria-controls="faq04_desc" onClick={toggleExpanded04}>
+              <button aria-expanded={expanded04} aria-controls="faq04_desc" onClick={toggleExpanded04} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.04question">
                   Can I save my Digital verification record on an Android device?
                 </Trans>
@@ -196,7 +196,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded05} aria-controls="faq05_desc" onClick={toggleExpanded05}>
+              <button aria-expanded={expanded05} aria-controls="faq05_desc" onClick={toggleExpanded05} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.05question">
                   If I get additional doses, will they show on my digital verification record?
                 </Trans>
@@ -214,7 +214,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded06} aria-controls="faq06_desc" onClick={toggleExpanded06}>
+              <button aria-expanded={expanded06} aria-controls="faq06_desc" onClick={toggleExpanded06} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.06question">
                   When will my vaccine dose be available in my digital verification record?
                 </Trans>
@@ -232,7 +232,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded07} aria-controls="faq07_desc" onClick={toggleExpanded07}>
+              <button aria-expanded={expanded07} aria-controls="faq07_desc" onClick={toggleExpanded07} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.07question">
                   What if my record is not found?
                 </Trans>
@@ -262,7 +262,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded08} aria-controls="faq08_desc" onClick={toggleExpanded08}>
+              <button aria-expanded={expanded08} aria-controls="faq08_desc" onClick={toggleExpanded08} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.08question">
                   What if my Digital Verification Record is incorrect?
                 </Trans>
@@ -281,7 +281,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded17} aria-controls="faq17_desc" onClick={toggleExpanded17}>
+              <button aria-expanded={expanded17} aria-controls="faq17_desc" onClick={toggleExpanded17} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.17question">
                   What if I want my full name displayed on my Digital Verification Record to match an 
                   identification document?
@@ -301,7 +301,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded09} aria-controls="faq09_desc" onClick={toggleExpanded09}>
+              <button aria-expanded={expanded09} aria-controls="faq09_desc" onClick={toggleExpanded09} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.09question">
                   How does the Digital COVID-19 Vaccine Record system work?
                 </Trans>
@@ -322,7 +322,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded10} aria-controls="faq10_desc" onClick={toggleExpanded10}>
+              <button aria-expanded={expanded10} aria-controls="faq10_desc" onClick={toggleExpanded10} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.10question">
                   Will my information remain private?
                 </Trans>
@@ -344,7 +344,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded11} aria-controls="faq11_desc" onClick={toggleExpanded11}>
+              <button aria-expanded={expanded11} aria-controls="faq11_desc" onClick={toggleExpanded11} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.11question">
                   Can I reset my PIN?
                 </Trans>
@@ -367,7 +367,7 @@ const FAQScreen = () => {
               </div>
             </dd>
             <dt>
-              <button aria-expanded={expanded12} aria-controls="faq12_desc" onClick={toggleExpanded12}>
+              <button aria-expanded={expanded12} aria-controls="faq12_desc" onClick={toggleExpanded12} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.12question">
                   Will this provide proof of my vaccine status?
                 </Trans>
@@ -394,7 +394,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded13} aria-controls="faq13_desc" onClick={toggleExpanded13}>
+              <button aria-expanded={expanded13} aria-controls="faq13_desc" onClick={toggleExpanded13} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.13question">
                   What if I need to replace my vaccination card?
                 </Trans>
@@ -412,7 +412,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded14} aria-controls="faq14_desc" onClick={toggleExpanded14}>
+              <button aria-expanded={expanded14} aria-controls="faq14_desc" onClick={toggleExpanded14} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.14question">
                   What happens to my information after I share it?
                 </Trans>
@@ -431,7 +431,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded15} aria-controls="faq15_desc" onClick={toggleExpanded15}>
+              <button aria-expanded={expanded15} aria-controls="faq15_desc" onClick={toggleExpanded15} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.15question">
                   What if I made multiple vaccination appointments for multiple people with a single phone
                   number?
@@ -450,7 +450,7 @@ const FAQScreen = () => {
             </dd>
 
             <dt>
-              <button aria-expanded={expanded16} aria-controls="faq16_desc" onClick={toggleExpanded16}>
+              <button aria-expanded={expanded16} aria-controls="faq16_desc" onClick={toggleExpanded16} class={i18n.dir(i18n.language) === "rtl" ? "rtlButton" : "ltrButton"}>
                 <Trans i18nKey="faqpage.16question">
                   Is WA Verify free to use?
                 </Trans>
