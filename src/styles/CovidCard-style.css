@@ -331,10 +331,12 @@ hr {
   .qrDiv{
     margin-right: 20px;
     direction: ltr;
+    text-align: left;
   }
   .qrDivRtl{
     margin-left: 20px;
     direction: rtl;
+    text-align: right;
   }
 }
 @media only screen and (max-width: 768px) {
