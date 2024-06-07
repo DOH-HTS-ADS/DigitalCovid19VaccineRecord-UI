@@ -74,7 +74,14 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     }
     try {
       htmlToImage.toPng(qrDiv)
-        .then((canvas) => Canvas2Image.saveAsPNG(canvas));
+        .then((dataUrl) {
+          var link = document.createElement('a');
+          link.href = dataUrl;
+          link.download = 'qr-vaccines.png';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        });
     } catch (error) {
       console.error('error attempting to create and download file: ', error);
     }      
