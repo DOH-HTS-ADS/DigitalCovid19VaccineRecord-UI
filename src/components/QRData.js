@@ -12,7 +12,7 @@ import Canvas2Image from "../utils/canvas2image";
 
 
 
-const QRData = ({ user, qr, apple, google, isMobile }) => {
+const QRData = ({ user, qr, apple, google, isMobile, lang }) => {
   const { i18n, t } = useTranslation();
   const english_i18n = i18n.createInstance({
     supportedLngs: ['en-US']
@@ -107,12 +107,23 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     }
   });
   const classes = useStyles();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+    i18n.reloadResources();
+    if (i18n.language) {
+      document.body.dir = i18n.dir(i18n.language);
+    } else {
+      document.body.dir = "ltr";
+    }
+  };
+
   useEffect(() => {
     const qrEl = document.getElementsByTagName("h1")[0];
     qrEl.setAttribute("tabindex", "0")
     qrEl?.scrollIntoView();
     qrEl.focus();
-
+    changeLanguage(lang);
   }, []);
   useEffect(() => {
     document.title = t("qrpage.title");

@@ -40,6 +40,7 @@ const QrScreen = () => {
           apple={apple}
           google={google}
           isMobile={getMobileOperatingSystem}
+          lang={lang}
         />
       </div>
     );
