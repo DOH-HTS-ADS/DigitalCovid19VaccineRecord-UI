@@ -21,7 +21,7 @@ const Footer = () => {
                             to={'https://www.doh.wa.gov/'}
                             target="_blank"
                         >
-                            t("footer.home")
+                            <Trans i18nKey="footer.home">doh.wa.gov home</Trans>
                         </ReactGA.OutboundLink>
                         {AppController.externalLink()}
                     </li>
@@ -31,7 +31,7 @@ const Footer = () => {
                             to={'https://www.doh.wa.gov/PrivacyandCopyright'}
                             target="_blank"
                         >
-                            t("footer.conditionsofuse")
+                            <Trans i18nKey="footer.conditionsofuse">Conditions of Use</Trans>
                         </ReactGA.OutboundLink>
                         {AppController.externalLink()}
                     </li>
@@ -41,7 +41,7 @@ const Footer = () => {
                             to={'https://www.doh.wa.gov/PrivacyandCopyright'}
                             target="_blank"
                         >
-                            t("footer.privacypolicy")
+                            <Trans i18nKey="footer.privacypolicy">Privacy Policy</Trans>
                         </ReactGA.OutboundLink>
                         {AppController.externalLink()}
                     </li>
@@ -51,14 +51,14 @@ const Footer = () => {
                             to={'https://www.doh.wa.gov/AboutUs/AccessibilityPolicyAboutInformationandData'}
                             target="_blank"
                         >
-                            t("footer.accessibility")
+                            <Trans i18nKey="footer.accessibility">Accessibility</Trans>
                         </ReactGA.OutboundLink>
                         {AppController.externalLink()}
                     </li>
-                    <li><a href="/faq"   rel="noopener noreferrer">t("footer.faq")</a></li>
-                    <li><a href="/faq#NeedMoreHelp"  rel="noopener noreferrer">t("footer.contactus")</a></li>
+                    <li><a href="/faq"   rel="noopener noreferrer"><Trans i18nKey="footer.faq">FAQ</Trans></a></li>
+                    <li><a href="/faq#NeedMoreHelp"  rel="noopener noreferrer"><Trans i18nKey="footer.contactus">Contact Us</Trans></a></li>
                 </ul>
-                <p className="footerCopyright">{t("footer.copyright")} &copy; {date.getFullYear()} State of Washington</p>
+                <p className="footerCopyright">{<Trans i18nKey="footer.copyright">Copyright</Trans>} &copy; {date.getFullYear()} State of Washington</p>
             </div>
         </footer>
     )
