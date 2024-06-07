@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import QRData from "./QRData";
 import Pin from "./Pin";
+import Footer from "./Footer";
 import { Trans, useTranslation } from "react-i18next";
 
 const QrScreen = () => {
@@ -76,6 +77,7 @@ const QrScreen = () => {
             walletCode={walletCode}
             isMobile={getMobileOperatingSystem}
           />
+          <Footer />
         </article>
       </section>
     );
