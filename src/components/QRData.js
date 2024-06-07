@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback, useRef, download } from "react";
+import React, { useEffect } from "react";
 import { Trans, useTranslation } from "react-i18next";
 import ReactGA from 'react-ga';
 //import AppController from "../utils/AppController";
@@ -9,7 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 // eslint-disable-next-line no-unused-vars
 import html2canvas from "html2canvas";
 import Canvas2Image from "../utils/canvas2image";
-import { toPng } from 'html-to-image';
+import * as htmlToImage from 'html-to-image';
 
 
 
@@ -60,7 +60,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     printWindow.print();
   }
 
-  const handleImageSave = async () => {
+  const handleImageSave = () => {
     const qrDiv = document.getElementById('data-for-image');
     if (window.screen.width > 768) {
       qrDiv.style.padding = '20%';
@@ -68,21 +68,13 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
     //html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
 
-    if (qrDiv.current === null) {
+    if (qrDiv === null) {
       console.write('error attempting to create and download file: could not find data-for-image');
       return;
     }
     try {
-      const dataUrl = await toPng(qrDiv.current);
-      const link = document.createElement('qrDownload');
-      link.href = dataUrl;
-      link.download = 'qr-and-vaccines.png';
-      document.body.appendChild(link);
-      link.click();
-      //document.body.removeChild(link);
-      var img = new Image();
-      img.src = dataUrl;
-      document.body.appendChild(img);
+      htmlToImage.toPng(qrDiv)
+        .then((canvas) => Canvas2Image.saveAsPNG(canvas));
     } catch (error) {
       console.error('error attempting to create and download file: ', error);
     }      
