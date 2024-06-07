@@ -9,7 +9,6 @@ import { makeStyles } from '@material-ui/core/styles';
 // eslint-disable-next-line no-unused-vars
 import html2canvas from "html2canvas";
 import Canvas2Image from "../utils/canvas2image";
-import * as htmlToImage from 'html-to-image';
 
 
 
@@ -66,20 +65,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
       qrDiv.style.padding = '20%';
     }
 
-    //html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
-
-    if (qrDiv === null) {
-      console.write('error attempting to create and download file: could not find data-for-image');
-      return;
-    }
-    try {
-      htmlToImage.toCanvas(qrDiv)
-        .then((canvas) => Canvas2Image.saveAsPNG(canvas));
-    } catch (error) {
-      console.error('error attempting to create and download file: ', error);
-    }      
-
-
+    html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
     qrDiv.style.padding = '0px';
   }
 
