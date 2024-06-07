@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import QRData from "./QRData";
 import Pin from "./Pin";
+import { Trans, useTranslation } from "react-i18next";
 
 const QrScreen = () => {
   const { id, lang } = useParams();
@@ -12,6 +13,7 @@ const QrScreen = () => {
   const [walletCode, setWalletCode] = useState(null);
   const [apple, setappleState] = useState(true);
   const [google, setgoogleState] = useState(true);
+  const { i18n, t } = useTranslation();
 
   const getMobileOperatingSystem = () => {
     var userAgent = navigator.userAgent;
@@ -23,12 +25,23 @@ const QrScreen = () => {
     return OS;
   };
 
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+    i18n.reloadResources();
+    if (i18n.language) {
+      document.body.dir = i18n.dir(i18n.language);
+    } else {
+      document.body.dir = "ltr";
+    }
+  };
+  
   useEffect(() => {
     if (getMobileOperatingSystem() === "A") {
       setWalletCode("A");
     } else if (getMobileOperatingSystem() === "G") {
       setWalletCode("G");
     }
+    changeLanguage(lang);
   }, []);
 
   if (user !== null && qr !== null) {

@@ -27,6 +27,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
+    i18n.reloadResources();
     if (i18n.language) {
       document.body.dir = i18n.dir(i18n.language);
     } else {
