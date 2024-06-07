@@ -74,7 +74,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     }
     try {
       htmlToImage.toPng(qrDiv)
-        .then((dataUrl) {
+        .then((dataUrl) => {
           var link = document.createElement('a');
           link.href = dataUrl;
           link.download = 'qr-vaccines.png';
