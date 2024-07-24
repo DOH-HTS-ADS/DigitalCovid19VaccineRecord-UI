@@ -23,7 +23,7 @@ stages:
     - task: NodeTool@0
       displayName: 'Install node.js'
       inputs:
-        versionSpec: '10.x'
+        versionSpec: '16.x'
 
     - script: 
         npm install
@@ -109,7 +109,7 @@ stages:
     - task: NodeTool@0
       displayName: 'Install node.js'
       inputs:
-        versionSpec: '10.x'
+        versionSpec: '16.x'
 
     - script: 
         npm install
@@ -188,7 +188,7 @@ stages:
     - task: NodeTool@0
       displayName: 'Install node.js'
       inputs:
-        versionSpec: '10.x'
+        versionSpec: '16.x'
 
     - script: 
         npm install
