@@ -258,5 +258,4 @@ trigger:
                   deployToSlotOrASE: true
                   ResourceGroupName: 'rg-waverify-prod'
                   SlotName: 'staging'
-                  packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
-                  
+                  packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'  
