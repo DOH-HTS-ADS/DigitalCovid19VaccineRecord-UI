@@ -26,6 +26,11 @@ stages:
         versionSpec: '10.x'
 
     - script: 
+        npm config set legacy-peer-deps true
+      displayName: 'npm config set legacy-peer-deps true'
+      workingDirectory: $(directory)
+ 
+    - script: 
         npm install
       displayName: 'npm install'
       workingDirectory: $(directory)
@@ -112,6 +117,11 @@ stages:
         versionSpec: '10.x'
 
     - script: 
+        npm config set legacy-peer-deps true
+      displayName: 'npm config set legacy-peer-deps true'
+      workingDirectory: $(directory)
+ 
+    - script: 
         npm install
       displayName: 'npm install'
       workingDirectory: $(directory)
@@ -190,6 +200,11 @@ stages:
       inputs:
         versionSpec: '10.x'
 
+    - script: 
+        npm config set legacy-peer-deps true
+      displayName: 'npm config set legacy-peer-deps true'
+      workingDirectory: $(directory)
+ 
     - script: 
         npm install
       displayName: 'npm install'
