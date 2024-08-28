@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Trans } from "react-i18next";
 import { useTranslation } from "react-i18next";
-import faqLinkLanguage from "../utils/faqLinkLanguage";
 
 const ReceivedScreen = () => {
   const { t, i18n } = useTranslation();

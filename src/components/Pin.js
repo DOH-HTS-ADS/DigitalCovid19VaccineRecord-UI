@@ -111,7 +111,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
     }
     setError({ ...error, Pin: false })
     setErrorMessage( null );
-    if (pin.length != 4) {
+    if (pin.length !== 4) {
       setErrorMessage({ type: 'pinErrorMsg8', message: 'PIN Number must be 4 characters' });
       setError({ ...error, Pin: true })
       document.getElementById('partitioned')?.scrollIntoView();
@@ -250,7 +250,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
                   setError({ ...error, Pin: false })
                   setErrorMessage( null );
                 }
-                if (pin.length != 4) {
+                if (pin.length !== 4) {
                   setErrorMessage({ type: 'pinErrorMsg8', message: 'PIN Number must be 4 characters' });
                   setError({ ...error, Pin: true })
                   document.getElementById('partitioned')?.scrollIntoView();
