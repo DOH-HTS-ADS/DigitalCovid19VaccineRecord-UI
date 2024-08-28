@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback  } from "react";
+import { useEffect, useState, useCallback  } from "react";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
@@ -6,7 +6,6 @@ import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import TextField from "@material-ui/core/TextField";
 import FormControl from "@material-ui/core/FormControl";
-import { KeyboardDatePicker, MuiPickersUtilsProvider  } from "@material-ui/pickers";
 import {Trans, useTranslation} from "react-i18next";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
@@ -17,9 +16,6 @@ import PhoneMask from "./PhoneMask";
 import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import 'date-fns';
-import {format} from 'date-fns';
-import DateFnsUtils from "@date-io/date-fns";
-import addMonths from "date-fns/addMonths";
 import dayjs from 'dayjs';
 import amLocale from "../locale/am"; 
 import arLocale from "date-fns/locale/ar";
@@ -64,7 +60,6 @@ import urLocale from "date-fns/locale/en-US";
 import viLocale from "date-fns/locale/vi";  
 import zhLocale from "date-fns/locale/zh-CN";  
 import zhtwLocale from "date-fns/locale/zh-TW";  
-import { FiberNewSharp } from "@material-ui/icons";
 
 const CovidCard = () => {
   const { t, i18n } = useTranslation();
@@ -596,31 +591,6 @@ const CovidCard = () => {
       }
 
       else if (ele.type === 'dob_format') {
-        /*if (selectedBirthDate) {
-
-          if (!isDobGood) {
-            let isInvalid = ele.isInvalid;
-            isInvalid = true;
-            //document.getElementById('Select_Month').style.borderBottomColor = '#b30000';
-            //document.getElementById('Select_Day').style.borderBottomColor = '#b30000';
-            //document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
-            //document.getElementById('dob-label').style.color = '#b30000';
-            setError({...error, Date: true});
-            
-            return { ...ele, isInvalid };
-          }
-          else {
-            let isInvalid = ele.isInvalid;
-            isInvalid = false;
-            document.getElementById('dob-label').style.color = 'black';
-            //document.getElementById('Select_Month').style.borderBottomColor = '#727272';
-            //document.getElementById('Select_Day').style.borderBottomColor = '#727272';
-            //document.getElementById('Select_Year').style.borderBottomColor = '#727272';
-            setError({...error, Date: true});
-            
-            return { ...ele, isInvalid };
-          }
-        }*/
         if (yearOfBirth && monthOfBirth && dayOfBirth) {
           let dob_Date = new Date(monthOfBirth + '/' + dayOfBirth + '/' + yearOfBirth);
           let currentDate = new Date(dayjs().format('MM/DD/YYYY'));
@@ -808,18 +778,6 @@ const CovidCard = () => {
     }
   };
 
-  const today = new Date();
-  const handleDobChange = (date) => {
-    setError({ ...error, Date: false });
-    /*setSelectedBirthDate(date)
-    if (date && date.getFullYear() && date.getFullYear() >= 1900 && date <= addMonths(today, -6)) {
-     
-      setIsDobGood(true);
-    } else {
-      setIsDobGood(false);
-    }*/
-  }
-
   const handleClickBorder = (e) => {
     e.target.classList.add('no-border');
   }
@@ -939,10 +897,10 @@ const CovidCard = () => {
               id="FirstName"
               onClick={(e) => handleClickBorder(e)}
               onChange={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
-              error={error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true"}
+              error={error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") === "true"}
               onBlur={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
             />
-            {error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true" ? <label id='firstNameError' htmlFor='FirstName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.firstnameErrorMsg">Please enter your First Name</Trans></label> : ''}
+            {error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") === "true" ? <label id='firstNameError' htmlFor='FirstName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.firstnameErrorMsg">Please enter your First Name</Trans></label> : ''}
             <TextField
               name="MiddleName"
               label={<Trans i18nKey="vaccineform.middlename">Middle name(s) or Middle initial(s)</Trans>}
@@ -967,11 +925,11 @@ const CovidCard = () => {
               
               id="LastName"
               onChange={(e) => isValidInput(e) ? setError({ ...error, LastName: true }) : setError({ ...error, LastName: false })}
-              error={error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true"}
+              error={error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") === "true"}
               onBlur={(e) => isValidInput(e) ? setError({ ...error, LastName: true }) : setError({ ...error, LastName: false })}
 
             />
-            {error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true" ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.lastnameErrorMsg">Please enter your Last Name!</Trans></label> : ''}
+            {error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") === "true" ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.lastnameErrorMsg">Please enter your Last Name!</Trans></label> : ''}
 
             <fieldset id="dob" style={{ display: "flex", alignItems: "flexStart", flexWrap: "wrap", marginTop: '20px' }}>
                 <legend id="dobLabel" style={{ fontSize: '1rem' }}><Trans i18nKey="vaccineform.dateofbirth">Date of Birth</Trans> *</legend>
@@ -1038,48 +996,6 @@ const CovidCard = () => {
               {(!isDobGood && !isDobPastMaxDate) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.dateofbirthErrorMsg4">Date of Birth field cannot be blank</Trans></label> : ''}
               {(!isDobGood && isDobPastMaxDate) ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.dateofbirthErrorMsg3">Date should not be after maximal date</Trans></label> : ''}
 
-            {/*<MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
-            <KeyboardDatePicker
-              disableToolbar
-              name="DateOfBirth"
-              id={"dob"}
-              value={selectedBirthDate}
-              onChange={handleDobChange}
-              placeholder={"MM/DD/YYYY"}
-              format="MM/dd/yyyy"
-              invalidDateMessage={"Required Format: MM/DD/YYYY"}
-              label={<Trans i18nKey="vaccineform.dateofbirth">Date of birth</Trans>}
-              className={"col-12"}
-              autoOk
-              disableFuture
-              required
-              error={error.Date || !isDobGood}
-              
-              maxDate={ addMonths(today, -6) }
-              onClick={() => selectLocale(i18n.resolvedLanguage.toString())}
-              onBlur={(e) => e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })}
-              okLabel={<Trans i18nKey="vaccineform.ok">Ok</Trans>}
-              cancelLabel={<Trans i18nKey="vaccineform.cancel">Cancel</Trans>}              
-              inputProps={{
-                "aria-invalid": error.Date
-              }}
-              onFocus={
-                (e) => {
-                  if(loading){
-                    var prevValue = document.getElementById("dob").getAttribute("aria-invalid");
-                    e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })
-                    document.getElementById("dob").setAttribute("aria-invalid", (e.target.value.length < 1 || !isDobGood))
-                    if(document.getElementById("dob").getAttribute("aria-invalid") == "false" && document.getElementById("dob").getAttribute("aria-invalid") != prevValue){
-                      document.querySelector('[aria-invalid="true"]')?.scrollIntoView();
-                      document.querySelector('[aria-invalid="true"]')?.focus();
-                    }
-                  }
-                }
-              }
-            />
-            {(error.Date || !isDobGood) && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Date of Birth field cannot be blank</label> : ''}
-            </MuiPickersUtilsProvider>*/}
-            {/* <Trans i18nKey="vaccineform.phoneemailinfo">Provide the phone or email that was used when you received your COVID-19 vaccine.</Trans></p> */}
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
               <FormLabel component="legend">
                 <Trans i18nKey="vaccineform.phoneemailinfo">
@@ -1132,13 +1048,13 @@ const CovidCard = () => {
                   onChange={handlePhoneChange}
                   name="textmask"
                   id="contactPhone"
-                  error={error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true"}
+                  error={error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") === "true"}
                   onBlur={(e) => {
                     handlePhoneBlur(e);
                     e.target.value.replace(/[^0-9]/g, "").length < 10 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false });
                   }}
                 />
-                {error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true" ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">
+                {error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") === "true" ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">
                   <Trans i18nKey="vaccineform.phoneErrorMsg1">Please enter a valid 10-digit mobile phone number</Trans>
                 </label> : ''}
               </FormControl>
@@ -1171,7 +1087,7 @@ const CovidCard = () => {
                 onFocus={(e) => {
                   handleEmailLabelChange(true);
                 }}
-                error={error.Phone_Email  || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true"}
+                error={error.Phone_Email  || document.getElementById('contactEmail')?.getAttribute("aria-invalid") === "true"}
                 onBlur={(e) => {
                   e.target.value.length < 1 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false })
                   emailRegex.test(e.target.value) && noWhiteSpaceRegex.test(e.target.value) ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
@@ -1179,7 +1095,7 @@ const CovidCard = () => {
                   handleEmailLabelChange(e.target.value.length > 0 ? true : false);
                 }}
               />
-              {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">
+              {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") === "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">
                   <Trans i18nKey="vaccineform.emailErrorMsg1">Please enter email address in valid format. Email address must contain an alphanumeric phrase followed by the @, followed by an alphanumeric dot-separated domain. For example: username@example.com.</Trans>
                 </label> : ''}
               </FormControl>
@@ -1208,7 +1124,7 @@ const CovidCard = () => {
                     className: classes.underline
                   }}
                   id="partitioned"
-                  error={error.Pin || document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"}
+                  error={error.Pin || document.getElementById('partitioned')?.getAttribute("aria-invalid") === "true"}
                   onBlur={(e) => {
                     handlePinBlur(e)
                   }}
@@ -1217,7 +1133,7 @@ const CovidCard = () => {
               </div>
             </div>
             {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite" class="MuiFormHelperText-root Mui-error"><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
-            {!errorMessage.type && document.getElementById('partitioned')?.value.length < 4 && document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite" class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.pinErrorMsg8">PIN Number must be 4 characters</Trans></label> : ''}
+            {!errorMessage.type && document.getElementById('partitioned')?.value.length < 4 && document.getElementById('partitioned')?.getAttribute("aria-invalid") === "true"? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite" class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.pinErrorMsg8">PIN Number must be 4 characters</Trans></label> : ''}
             <div style={{ marginBottom: "50px", marginTop: "20px", display: "flex", flexDirection: "row", alignItems: "center" }}>
               <Trans i18nKey="vaccineform.note">
                 <span
@@ -1252,7 +1168,7 @@ const CovidCard = () => {
                     name="submitChecked"
                     color={"primary"}
                     id='submitcheckbox'
-                    error = {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true"}
+                    error = {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") === "true"}
                     inputProps={{
                       "aria-required": true,
                       "aria-label": t("vaccineform.checkboxlabel"),
@@ -1277,7 +1193,7 @@ const CovidCard = () => {
               </div>              
             </div>
             <p>
-              {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.agreementErrorMsg1">Policy Agreement checkbox must be selected</Trans></label> : ''}
+              {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") === "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error"><Trans i18nKey="vaccineform.agreementErrorMsg1">Policy Agreement checkbox must be selected</Trans></label> : ''}
             </p>
             <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
               <Trans i18nKey="vaccineform.note24hour">

@@ -1,10 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import ReactGA from "react-ga";
-import { Link } from "react-router-dom";
 import CovidCard from "./CovidCard";
 import { Trans, useTranslation } from "react-i18next";
 import i18next from 'i18next';
-import faqLinkLanguage from "../utils/faqLinkLanguage";
 import AppController from "../utils/AppController";
 
 const Dashboard = () => {

@@ -1,6 +1,3 @@
-import React from "react";
-import { Link } from 'react-router-dom';
-
 const Maintenance = () => {
   return (
     <div class="maintainance-container" style={{ paddingBottom: 300}}>

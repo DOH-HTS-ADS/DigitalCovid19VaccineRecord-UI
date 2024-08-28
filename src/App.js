@@ -1,4 +1,3 @@
-import React, {useEffect } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 
@@ -15,7 +14,6 @@ import { MuiPickersUtilsProvider } from "@material-ui/pickers";
 import DayJsUtils from "@date-io/dayjs";
 import "./i18n";
 import "./styles/CovidCard-style.css";
-import "./styles/ButtonStyles.min.css";
 import "./styles/override/styles.scss";
 import { useTranslation } from "react-i18next";
 import withAITracking  from './AppInsights';
@@ -62,20 +60,13 @@ function App() {
         <Router>
           <Header />
           <main>
-{/* Comment the entire section below to DISable the Maintenance page */}          
-          <Route exact path="/" component={Dashboard} />
-          <Route path="/received" component={ReceivedScreen} />
-          <Route path="/FAQ" component={FAQScreen} />
-          <Route path="/SplashScreen" component={SplashScreen} />          
-          <Route path="/qr/:lang/:id" component={QrScreen} /> 
-  <Route path="/Maintenance" component={MaintenanceScreen} />  
-
-{/* Uncomment the entire section below to enable the Maintenance page */}
-{/*}
-           <Route exact path="/" component={MaintenanceScreen} />
-  <Route path="/FAQ" component={FAQScreen} /> */}
-              
-</main>
+            <Route exact path="/" component={Dashboard} />
+            <Route path="/received" component={ReceivedScreen} />
+            <Route path="/FAQ" component={FAQScreen} />
+            <Route path="/SplashScreen" component={SplashScreen} />          
+            <Route path="/qr/:lang/:id" component={QrScreen} /> 
+            <Route path="/Maintenance" component={MaintenanceScreen} />
+          </main>
         </Router>
         <Footer />
       </div>

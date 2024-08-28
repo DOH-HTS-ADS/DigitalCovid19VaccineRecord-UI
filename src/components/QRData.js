@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Trans, useTranslation } from "react-i18next";
 import ReactGA from 'react-ga';
 //import AppController from "../utils/AppController";
@@ -74,17 +74,12 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
   }
 
   let isVersionGood;
-  let showMessage = false;
   const userAgent = navigator.userAgent;
 
   if (apple === true && isMobile() === "A") {
     const indexOfOS = userAgent.indexOf('OS');
     const versionStr = userAgent.substring(indexOfOS + 2, indexOfOS + 5);
     isVersionGood = Number.parseInt(versionStr) >= 15;
-
-    if (navigator.userAgent.match("CriOS") || navigator.userAgent.match("FxiOS")) {
-      showMessage = true;
-    }
   }
 
   const useStyles = makeStyles({
@@ -251,8 +246,8 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           </h2> */}
           <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}><Trans i18nKey="qrpage.howtosave">To Save</Trans></p>
           <div className="save-buttons" data-html2canvas-ignore="true">
-            <Button id={'print-button'} variant="contained" startIcon={<PrintIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
-            <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon className={i18n.dir(i18n.language)=="rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={i18n.dir(i18n.language) == "rtl" ? classes.buttonRight : classes.buttonLeft}  onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
+            <Button id={'print-button'} variant="contained" startIcon={<PrintIcon className={i18n.dir(i18n.language) === "rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
+            <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon className={i18n.dir(i18n.language) === "rtl"?"buttonIconsRtl":""} />} color={"primary"} size={'large'} className={i18n.dir(i18n.language) == "rtl" ? classes.buttonRight : classes.buttonLeft}  onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
           </div>
 
           {google === true && isMobile() === "G" ? (
@@ -271,7 +266,6 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   width={"300px"}
                   src={"/imgs/google-pay-black.svg"}
                   alt={"Save to Google Pay"}
-                  aria-role={"button"}
                 />
               </ReactGA.OutboundLink>
               <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
@@ -296,7 +290,6 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   id={"android-common-health-button"}
                   src={"/imgs/AddtoCommonHealthBlack.svg"}
                   alt={"Adds to CommonHealth application or, if CommonHealth not installed, goes to Google Play so CommonHealth can be installed."}
-                  aria-role={"button"}
                 />
                 </button>
               </ReactGA.OutboundLink>
@@ -324,7 +317,6 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   id={"apple-health-button"}
                   src={"/imgs/add-to-apple-wallet-and-health.svg"}
                   alt={"Works with Apple Health and Apple Wallet"}
-                  aria-role={"button"}
                 />
                 </button>
               </ReactGA.OutboundLink>
